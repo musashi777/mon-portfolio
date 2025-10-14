@@ -1,0 +1,35 @@
+baseURL = "http://localhost:1313/"
+languageCode = "fr-fr"
+title = "Portfolio de Stéphan Uniatowitz - Expert Support Technique & Infrastructure"
+theme = "blowfish"
+
+[params]
+  description = "Portfolio technique de Stéphan Uniatowitz - Expert support N2/N3, réseaux et systèmes avec 85% de taux de résolution en environnements critiques"
+  keywords = ["support technique", "réseaux", "systèmes", "GLPI", "VPN", "infrastructure", "technicien IT"]
+  google_fonts = [
+    { family = "Lora", weights = [700] },
+    { family = "Inter", weights = [400, 600] }
+  ]
+  fontFamily = { heading = "Lora, serif", body = "Inter, sans-serif", mono = "monospace" }
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[menu.main]]
+  name = "Projets"
+  url = "/projets"
+  weight = 1
+[[menu.main]]
+  name = "Blog"
+  url = "/blog"
+  weight = 2
+[[menu.main]]
+  name = "À Propos"
+  url = "/about"
+  weight = 3
+[[menu.main]]
+  name = "Contact"
+  url = "/contact"
+  weight = 4

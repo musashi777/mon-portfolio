@@ -1,0 +1,22 @@
+{{ $featured := where site.RegularPages "Section" "projets" | first 3 }}
+<div class="not-prose grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+  {{ range $featured }}
+    {{ $page := . }}
+    <div class="flex flex-col rounded-lg shadow-lg hover:shadow-2xl hover:scale-[1.03] transition-all duration-300 bg-white dark:bg-neutral-800 overflow-hidden">
+      {{ with .Params.image }}
+        <a href="{{ $page.RelPermalink }}" class="block">
+          <img src="{{ . | relURL }}" alt="Image pour {{ $page.Title }}" class="w-full h-48 object-cover">
+        </a>
+      {{ end }}
+      <div class="p-6 flex flex-col flex-grow">
+        <h2 class="!my-0 !text-xl">
+          <a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+        </h2>
+        <p class="!my-2 flex-grow">
+          {{ $page.Summary }}
+        </p>
+        <a href="{{ $page.RelPermalink }}" class="font-semibold !no-underline mt-4 self-start">Voir le projet →</a>
+      </div>
+    </div>
+  {{ end }}
+</div>

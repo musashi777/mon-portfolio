@@ -1,0 +1,957 @@
+<!doctype html>
+<html
+  lang="fr-fr"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  
+    <meta http-equiv="content-language" content="fr-fr">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color">
+
+  
+  
+    <title>Guide Détaillé - Installation Serveur GLPI &middot; Portfolio de Stéphan Uniatowitz - Expert Support Technique & Infrastructure</title>
+    <meta name="title" content="Guide Détaillé - Installation Serveur GLPI &middot; Portfolio de Stéphan Uniatowitz - Expert Support Technique & Infrastructure">
+  
+
+  
+  
+    <meta name="description" content="Guide technique complet avec toutes les commandes pour installer et configurer GLPI sur Debian/Ubuntu">
+  
+  
+    <meta name="keywords" content="support technique,réseaux,systèmes,GLPI,VPN,infrastructure,technicien IT,">
+  
+  
+  
+  <link rel="canonical" href="http://localhost:1313/projets/installation-serveur-glpi/details/">
+  
+
+  
+  
+  
+
+  
+  <meta property="og:url" content="http://localhost:1313/projets/installation-serveur-glpi/details/">
+  <meta property="og:site_name" content="Portfolio de Stéphan Uniatowitz - Expert Support Technique & Infrastructure">
+  <meta property="og:title" content="Guide Détaillé - Installation Serveur GLPI">
+  <meta property="og:description" content="Guide technique complet avec toutes les commandes pour installer et configurer GLPI sur Debian/Ubuntu">
+  <meta property="og:locale" content="fr_fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projets">
+    <meta property="article:published_time" content="2025-10-14T15:00:00+02:00">
+    <meta property="article:modified_time" content="2025-10-14T15:00:00+02:00">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Guide Détaillé - Installation Serveur GLPI">
+  <meta name="twitter:description" content="Guide technique complet avec toutes les commandes pour installer et configurer GLPI sur Debian/Ubuntu">
+
+  
+  
+  
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.7946532fa78157bafb1b4340d4074792811f18177af35790b3a0cb90566ce1cda3edd782eb92e134849964d14b6d9185c9d4ded2a12dcf5b706cb6a275c0cce0.css"
+    integrity="sha512-eUZTL6eBV7r7G0NA1AdHkoEfGBd681eQs6DLkFZs4c2j7deC65LhNISZZNFLbZGFydTe0qEtz1twbLaidcDM4A==">
+
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/appearance.min.6f41174b3a05b680820fe08cadbfa5fb7a7ca347b76a0955cdc68b9d8aca1ce24f0547e138cea33bcc7904d551a90afcb1cc7f2d9fe8557075d501419046c08c.js"
+    integrity="sha512-b0EXSzoFtoCCD&#43;CMrb&#43;l&#43;3p8o0e3aglVzcaLnYrKHOJPBUfhOM6jO8x5BNVRqQr8scx/LZ/oVXB11QFBkEbAjA=="></script>
+  
+  
+  
+  
+  
+  
+    
+    <script src="/lib/zoom/zoom.min.umd.a527109b68c082a70f3697716dd72a9d5aa8b545cf800cecbbc7399f2ca6f6e0ce3e431f2062b48bbfa47c9ea42822714060bef309be073f49b9c0e30d318d7b.js" integrity="sha512-pScQm2jAgqcPNpdxbdcqnVqotUXPgAzsu8c5nyym9uDOPkMfIGK0i7&#43;kfJ6kKCJxQGC&#43;8wm&#43;Bz9JucDjDTGNew=="></script>
+  
+
+  
+  
+  
+    
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+    
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="/js/main.bundle.min.9df4fc14d50efcc9aa4cfc2b6f348e365f421f5ad491278f8f48c0360cf2f93f08882fda6da162d7ace8e5add57c2df4ac46bd3861306b1d4c452cd31f448d64.js"
+      integrity="sha512-nfT8FNUO/MmqTPwrbzSONl9CH1rUkSePj0jANgzy&#43;T8IiC/abaFi16zo5a3VfC30rEa9OGEwax1MRSzTH0SNZA=="
+      data-copy="Copy"
+      data-copied="Copied"></script>
+  
+
+  
+  
+
+<script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+  
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Projets",
+    "name": "Guide Détaillé - Installation Serveur GLPI",
+    "headline": "Guide Détaillé - Installation Serveur GLPI",
+    "description": "Guide technique complet avec toutes les commandes pour installer et configurer GLPI sur Debian\/Ubuntu",
+    "abstract": "\u003cdiv class=\u0022bg-gradient-to-r from-blue-50 to-indigo-100 dark:from-blue-900\/20 dark:to-indigo-900\/20 p-6 rounded-xl border border-blue-200 dark:border-blue-700 mb-8\u0022\u003e\n  \u003ch2 class=\u0022!text-2xl !mt-0 mb-4 text-blue-700 dark:text-blue-300\u0022\u003e📋 Aperçu du Projet\u003c\/h2\u003e\n  \u003cdiv class=\u0022grid grid-cols-1 md:grid-cols-3 gap-4 text-sm\u0022\u003e\n    \u003cdiv\u003e\n      \u003cstrong\u003eTechnologies :\u003c\/strong\u003e\n      \u003cul class=\u0022!my-1\u0022\u003e\n        \u003cli\u003eGLPI 10.0.15\u003c\/li\u003e\n        \u003cli\u003eDebian 12\u003c\/li\u003e\n        \u003cli\u003eApache 2.4\u003c\/li\u003e\n        \u003cli\u003eMariaDB 10.11\u003c\/li\u003e\n        \u003cli\u003ePHP 8.2\u003c\/li\u003e\n      \u003c\/ul\u003e\n    \u003c\/div\u003e\n    \u003cdiv\u003e\n      \u003cstrong\u003eDurée :\u003c\/strong\u003e\n      \u003cp class=\u0022!my-1\u0022\u003e2-3 heures\u003c\/p\u003e\n      \u003cstrong\u003eNiveau :\u003c\/strong\u003e\n      \u003cp class=\u0022!my-1\u0022\u003eIntermédiaire\u003c\/p\u003e\n    \u003c\/div\u003e\n    \u003cdiv\u003e\n      \u003cstrong\u003eRésultats :\u003c\/strong\u003e\n      \u003cul class=\u0022!my-1\u0022\u003e\n        \u003cli\u003e✅ Serveur fonctionnel\u003c\/li\u003e\n        \u003cli\u003e✅ Interface web\u003c\/li\u003e\n        \u003cli\u003e✅ Base sécurisée\u003c\/li\u003e\n      \u003c\/ul\u003e\n    \u003c\/div\u003e\n  \u003c\/div\u003e\n\u003c\/div\u003e\n\n\u003ch2 class=\u0022relative group\u0022\u003e🎯 Objectif du Projet\n    \u003cdiv id=\u0022-objectif-du-projet\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none\u0022\u003e\n        \u003ca class=\u0022text-primary-300 dark:text-neutral-700 !no-underline\u0022 href=\u0022#-objectif-du-projet\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e\n    \n\u003c\/h2\u003e\n\u003cp\u003eL\u0026rsquo;objectif de ce projet est de documenter la procédure complète pour installer et configurer un serveur GLPI, un outil open-source de gestion des services informatiques (ITSM) et de gestion des actifs (ITAM). Cette solution permet de gérer efficacement un parc informatique, le suivi des tickets d\u0026rsquo;incidents et l\u0026rsquo;inventaire matériel et logiciel.\u003c\/p\u003e",
+    "inLanguage": "fr-fr",
+    "url" : "http:\/\/localhost:1313\/projets\/installation-serveur-glpi\/details\/",
+    "author" : {
+      "@type": "Person",
+      "name": ""
+    },
+    "copyrightYear": "2025",
+    "dateCreated": "2025-10-14T15:00:00\u002b02:00",
+    "datePublished": "2025-10-14T15:00:00\u002b02:00",
+    
+    "dateModified": "2025-10-14T15:00:00\u002b02:00",
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "769"
+  }]
+  </script>
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+</head>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <body class="flex flex-col h-screen m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32 text-lg bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content">
+        <span class="font-bold text-primary-600 pe-2 dark:text-primary-400">&darr;</span>
+        Skip to main content
+      </a>
+    </div>
+    
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div
+  class="main-menu flex items-center justify-between py-6 md:justify-start gap-x-3 pt-[2px] pr-2 md:pr-4 pb-[3px] pl-0">
+  
+  
+
+  <div class="flex flex-1 items-center justify-between">
+    <nav class="flex space-x-3">
+      
+        <a href="/" class="text-base font-medium">
+          Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure
+        </a>
+      
+    </nav>
+    
+  <nav class="hidden md:flex items-center gap-x-5 md:ml-12 h-12">
+    
+      
+        
+  <a
+  href="/projets"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="Projets"
+  title="">
+  
+  
+    <p class="text-base font-medium">
+      Projets
+    </p>
+  
+</a>
+
+
+
+      
+        
+  <a
+  href="/blog"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="Blog"
+  title="">
+  
+  
+    <p class="text-base font-medium">
+      Blog
+    </p>
+  
+</a>
+
+
+
+      
+        
+  <a
+  href="/about"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="À Propos"
+  title="">
+  
+  
+    <p class="text-base font-medium">
+      À Propos
+    </p>
+  
+</a>
+
+
+
+      
+        
+  <a
+  href="/contact"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="Contact"
+  title="">
+  
+  
+    <p class="text-base font-medium">
+      Contact
+    </p>
+  
+</a>
+
+
+
+      
+    
+
+    
+
+    
+
+    
+      <button
+        id="search-button"
+        aria-label="Search"
+        class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+        title="Search (/)">
+        <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+      </button>
+    
+
+    
+      <div class=" flex items-center">
+        <button
+          id="appearance-switcher"
+          aria-label="Dark mode switcher"
+          type="button"
+          class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+          <div class="flex items-center justify-center dark:hidden">
+            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+          </div>
+          <div class="items-center justify-center hidden dark:flex">
+            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+          </div>
+        </button>
+      </div>
+    
+  </nav>
+
+    
+  <div class="flex md:hidden items-center gap-x-5 md:ml-12 h-12">
+    <span></span>
+
+    
+
+    
+
+    
+      <button
+        id="search-button-mobile"
+        aria-label="Search"
+        class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+        title="Search (/)">
+        <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+      </button>
+    
+
+    
+      <button
+        id="appearance-switcher-mobile"
+        aria-label="Dark mode switcher"
+        type="button"
+        class="text-base hover:text-primary-600 dark:hover:text-primary-400 me-1">
+        <div class="flex items-center justify-center dark:hidden">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+        </div>
+        <div class="items-center justify-center hidden dark:flex">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+        </div>
+      </button>
+    
+  </div>
+
+  </div>
+  
+  <div class="-my-2 md:hidden">
+    <div id="menu-button" class="block">
+      
+        <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+</span>
+        </div>
+        <div
+          id="menu-wrapper"
+          class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50 pt-[5px]">
+          <ul
+            class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none text-end max-w-7xl">
+            <li id="menu-close-button">
+              <span
+                class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+                <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+              </span>
+            </li>
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/projets"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="Projets"
+    title="">
+    
+    
+      <p class="text-bg font-bg">
+        Projets
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/blog"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="Blog"
+    title="">
+    
+    
+      <p class="text-bg font-bg">
+        Blog
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/about"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="À Propos"
+    title="">
+    
+    
+      <p class="text-bg font-bg">
+        À Propos
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/contact"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="Contact"
+    title="">
+    
+    
+      <p class="text-bg font-bg">
+        Contact
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+
+          </ul>
+          
+        </div>
+      
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+    
+    <div class="relative flex flex-col grow">
+      <main id="main-content" class="grow">
+        
+  <article>
+    <h1>Guide Détaillé - Installation Serveur GLPI</h1>
+    <p><em>Publié le 14 October 2025</em></p>
+    <hr>
+    <div>
+      <div class="bg-gradient-to-r from-blue-50 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20 p-6 rounded-xl border border-blue-200 dark:border-blue-700 mb-8">
+  <h2 class="!text-2xl !mt-0 mb-4 text-blue-700 dark:text-blue-300">📋 Aperçu du Projet</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+    <div>
+      <strong>Technologies :</strong>
+      <ul class="!my-1">
+        <li>GLPI 10.0.15</li>
+        <li>Debian 12</li>
+        <li>Apache 2.4</li>
+        <li>MariaDB 10.11</li>
+        <li>PHP 8.2</li>
+      </ul>
+    </div>
+    <div>
+      <strong>Durée :</strong>
+      <p class="!my-1">2-3 heures</p>
+      <strong>Niveau :</strong>
+      <p class="!my-1">Intermédiaire</p>
+    </div>
+    <div>
+      <strong>Résultats :</strong>
+      <ul class="!my-1">
+        <li>✅ Serveur fonctionnel</li>
+        <li>✅ Interface web</li>
+        <li>✅ Base sécurisée</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<h2 class="relative group">🎯 Objectif du Projet
+    <div id="-objectif-du-projet" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-objectif-du-projet" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>L&rsquo;objectif de ce projet est de documenter la procédure complète pour installer et configurer un serveur GLPI, un outil open-source de gestion des services informatiques (ITSM) et de gestion des actifs (ITAM). Cette solution permet de gérer efficacement un parc informatique, le suivi des tickets d&rsquo;incidents et l&rsquo;inventaire matériel et logiciel.</p>
+
+<h2 class="relative group">✅ Prérequis
+    <div id="-prérequis" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-pr%c3%a9requis" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Avant de commencer, assurez-vous de disposer des éléments suivants :</p>
+<ul>
+<li>Un serveur avec une installation fraîche de Debian (11 ou 12) ou Ubuntu (22.04 ou 24.04)</li>
+<li>Un accès root ou un utilisateur avec des privilèges sudo</li>
+<li>Une connaissance de base de la ligne de commande Linux</li>
+<li>Un client SSH (comme PuTTY ou le terminal de votre machine) pour vous connecter à votre serveur</li>
+</ul>
+
+<h2 class="relative group">🚀 Étapes Clés de la Réalisation
+    <div id="-étapes-clés-de-la-réalisation" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%c3%a9tapes-cl%c3%a9s-de-la-r%c3%a9alisation" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Nous allons suivre 5 étapes principales pour mettre en place notre serveur GLPI.</p>
+
+<h3 class="relative group">Étape 1 : Installation de la stack LAMP
+    <div id="étape-1--installation-de-la-stack-lamp" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%c3%a9tape-1--installation-de-la-stack-lamp" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>La première étape consiste à installer l&rsquo;environnement web nécessaire : Apache2 (le serveur web), MariaDB (le système de gestion de base de données) et PHP (le langage de programmation de GLPI).</p>
+<div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg my-4">
+  <h4 class="!text-lg !mt-0 mb-2">Commandes à exécuter :</h4>
+<p><strong>Mettez à jour la liste des paquets :</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update <span style="color:#f92672">&amp;&amp;</span> sudo apt upgrade -y
+</span></span></code></pre></div><p><strong>Installez Apache2 et MariaDB :</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install -y apache2 mariadb-server
+</span></span></code></pre></div><p><strong>Installez PHP et les extensions requises par GLPI :</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install -y php php-cli php-mysql php-xml php-gd php-curl php-mbstring php-intl php-apcu php-zip php-bz2 php-ldap php-cas php-xmlrpc
+</span></span></code></pre></div><p><strong>Sécurisez votre installation MariaDB :</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo mysql_secure_installation
+</span></span></code></pre></div></div>
+
+<h3 class="relative group">Étape 2 : Création de la Base de Données
+    <div id="étape-2--création-de-la-base-de-données" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%c3%a9tape-2--cr%c3%a9ation-de-la-base-de-donn%c3%a9es" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>GLPI a besoin de sa propre base de données et d&rsquo;un utilisateur dédié pour des raisons de sécurité et d&rsquo;organisation.</p>
+<div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg my-4">
+  <h4 class="!text-lg !mt-0 mb-2">Configuration de la base de données :</h4>
+<p><strong>Connectez-vous à MariaDB :</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo mysql -u root -p
+</span></span></code></pre></div><p><strong>Dans l&rsquo;invite MySQL, exécutez les commandes suivantes :</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">DATABASE</span> glpidb CHARACTER <span style="color:#66d9ef">SET</span> UTF8mb4 <span style="color:#66d9ef">COLLATE</span> utf8mb4_unicode_ci;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">USER</span> <span style="color:#e6db74">&#39;glpi_user&#39;</span><span style="color:#f92672">@</span><span style="color:#e6db74">&#39;localhost&#39;</span> IDENTIFIED <span style="color:#66d9ef">BY</span> <span style="color:#e6db74">&#39;votre_mot_de_passe_securise&#39;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">GRANT</span> <span style="color:#66d9ef">ALL</span> <span style="color:#66d9ef">PRIVILEGES</span> <span style="color:#66d9ef">ON</span> glpidb.<span style="color:#f92672">*</span> <span style="color:#66d9ef">TO</span> <span style="color:#e6db74">&#39;glpi_user&#39;</span><span style="color:#f92672">@</span><span style="color:#e6db74">&#39;localhost&#39;</span>;
+</span></span><span style="display:flex;"><span>FLUSH <span style="color:#66d9ef">PRIVILEGES</span>;
+</span></span><span style="display:flex;"><span>EXIT;
+</span></span></code></pre></div></div>
+
+<h3 class="relative group">Étape 3 : Téléchargement et Déploiement de GLPI
+    <div id="étape-3--téléchargement-et-déploiement-de-glpi" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%c3%a9tape-3--t%c3%a9l%c3%a9chargement-et-d%c3%a9ploiement-de-glpi" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>Nous allons maintenant télécharger la dernière version de GLPI et la placer dans le répertoire du serveur web.</p>
+<div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg my-4">
+  <h4 class="!text-lg !mt-0 mb-2">Déploiement de GLPI :</h4>
+<p><strong>Téléchargez GLPI :</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd /tmp
+</span></span><span style="display:flex;"><span>wget https://github.com/glpi-project/glpi/releases/download/10.0.15/glpi-10.0.15.tgz
+</span></span></code></pre></div><p><strong>Extrayez l&rsquo;archive :</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>tar -xzf glpi-10.0.15.tgz
+</span></span></code></pre></div><p><strong>Déplacez les fichiers vers le répertoire web :</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo mv glpi /var/www/html/glpi
+</span></span></code></pre></div></div>
+
+<h3 class="relative group">Étape 4 : Configuration des Permissions
+    <div id="étape-4--configuration-des-permissions" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%c3%a9tape-4--configuration-des-permissions" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>Il est crucial que le serveur web (qui s&rsquo;exécute avec l&rsquo;utilisateur www-data) ait les permissions d&rsquo;écrire dans certains dossiers de GLPI.</p>
+<div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg my-4">
+  <h4 class="!text-lg !mt-0 mb-2">Configuration des permissions :</h4>
+<p><strong>Changez le propriétaire du répertoire GLPI :</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo chown -R www-data:www-data /var/www/html/glpi
+</span></span></code></pre></div><p><strong>Ajustez les permissions pour plus de sécurité :</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo chmod -R <span style="color:#ae81ff">755</span> /var/www/html/glpi
+</span></span></code></pre></div><p><strong>Configuration Apache (optionnel mais recommandé) :</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo nano /etc/apache2/sites-available/glpi.conf
+</span></span></code></pre></div><p><strong>Contenu du fichier de configuration :</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-apache" data-lang="apache"><span style="display:flex;"><span><span style="color:#f92672">&lt;VirtualHost</span> <span style="color:#e6db74">*:80</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>    ServerAdmin admin@example.com
+</span></span><span style="display:flex;"><span>    DocumentRoot <span style="color:#e6db74">/var/www/html/glpi</span>
+</span></span><span style="display:flex;"><span>    ServerName glpi.votredomaine.com
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;Directory</span> <span style="color:#e6db74">/var/www/html/glpi</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>        Options FollowSymLinks
+</span></span><span style="display:flex;"><span>        AllowOverride <span style="color:#66d9ef">All</span>
+</span></span><span style="display:flex;"><span>        Require <span style="color:#66d9ef">all</span> granted
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;/Directory&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    ErrorLog ${APACHE_LOG_DIR}/glpi_error.log
+</span></span><span style="display:flex;"><span>    CustomLog ${APACHE_LOG_DIR}/glpi_access.log combined
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;/VirtualHost&gt;</span>
+</span></span></code></pre></div><p><strong>Activez le site et les modules :</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo a2ensite glpi.conf
+</span></span><span style="display:flex;"><span>sudo a2enmod rewrite
+</span></span><span style="display:flex;"><span>sudo systemctl restart apache2
+</span></span></code></pre></div></div>
+
+<h3 class="relative group">Étape 5 : Installation via l&rsquo;Interface Web
+    <div id="étape-5--installation-via-linterface-web" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%c3%a9tape-5--installation-via-linterface-web" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>La dernière étape se passe dans votre navigateur.</p>
+<div class="bg-green-50 dark:bg-green-900/20 p-4 rounded-lg my-4">
+  <h4 class="!text-lg !mt-0 mb-2">Installation via l'interface web :</h4>
+<ol>
+<li><strong>Accédez à l&rsquo;URL</strong> de votre serveur GLPI</li>
+<li><strong>Sélectionnez la langue</strong> et acceptez la licence</li>
+<li><strong>Vérifiez les prérequis</strong> - tous doivent être en vert</li>
+<li><strong>Configurez la base de données</strong> avec les informations créées précédemment</li>
+<li><strong>Sélectionnez la base de données</strong> glpidb</li>
+<li><strong>Finalisez l&rsquo;installation</strong> et notez les identifiants par défaut</li>
+</ol>
+</div>
+
+<h2 class="relative group">🏁 Résultat Obtenu et Étapes Suivantes
+    <div id="-résultat-obtenu-et-étapes-suivantes" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-r%c3%a9sultat-obtenu-et-%c3%a9tapes-suivantes" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>À l&rsquo;issue de ce projet, un serveur GLPI est pleinement fonctionnel et accessible via le réseau. La plateforme est prête à être configurée pour l&rsquo;inventaire automatique du parc, la gestion des tickets et le suivi des actifs.</p>
+
+<h3 class="relative group">⚠️ Actions post-installation (TRÈS IMPORTANT)
+    <div id="-actions-post-installation-très-important" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-actions-post-installation-tr%c3%a8s-important" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg my-4 border border-red-200 dark:border-red-700">
+  <h4 class="!text-lg !mt-0 mb-2 text-red-700 dark:text-red-300">Sécurisation du serveur :</h4>
+<p><strong>Supprimez le fichier d&rsquo;installation :</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo rm /var/www/html/glpi/install/install.php
+</span></span></code></pre></div><p><strong>Changez les mots de passe par défaut :</strong></p>
+<ul>
+<li>Connectez-vous avec l&rsquo;utilisateur <code>glpi</code> et le mot de passe <code>glpi</code></li>
+<li>Changez immédiatement tous les mots de passe par défaut dans Administration &gt; Utilisateurs</li>
+</ul>
+</div>
+
+<h2 class="relative group">📊 Compétences Développées
+    <div id="-compétences-développées" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-comp%c3%a9tences-d%c3%a9velopp%c3%a9es" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Ce projet m&rsquo;a permis de renforcer mes compétences en :</p>
+<ul>
+<li><strong>Administration Linux</strong> : Gestion des paquets, permissions, services</li>
+<li><strong>Configuration réseau</strong> : Virtual Hosts Apache, sécurité</li>
+<li><strong>Bases de données</strong> : MariaDB/MySQL, création d&rsquo;utilisateurs, privilèges</li>
+<li><strong>Sécurité</strong> : Hardening des applications web, bonnes pratiques</li>
+<li><strong>Documentation</strong> : Création de guides techniques détaillés</li>
+</ul>
+<hr>
+<div class="text-center mt-8 p-6 bg-gradient-to-r from-primary-50 to-blue-50 dark:from-primary-900/20 dark:to-blue-900/20 rounded-xl">
+  <h3 class="!text-xl !mt-0 mb-4">🚀 Prêt à déployer votre propre instance GLPI ?</h3>
+  <p class="!my-2">Ce guide vous fournit toutes les étapes nécessaires pour une installation réussie.</p>
+  <a href="/projets/installation-serveur-glpi/" class="px-6 py-3 rounded-lg bg-primary-500 text-white font-semibold hover:bg-primary-600 transition-colors inline-block mt-4">
+    ← Retour à la présentation du projet
+  </a>
+</div>
+
+    </div>
+
+    
+      <h3>Technologies utilisées</h3>
+      <ul>
+        
+          <li>GLPI</li>
+        
+          <li>Linux (Debian)</li>
+        
+          <li>Apache</li>
+        
+          <li>MariaDB (MySQL)</li>
+        
+          <li>PHP</li>
+        
+      </ul>
+    
+
+    
+
+    
+  </article>
+
+        
+
+
+
+
+
+<div
+  id="scroll-to-top"
+  class="fixed bottom-24 end-6 z-50 transform translate-y-4 opacity-0 duration-200">
+  <a
+    href="#the-top"
+    class="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top"
+    title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+
+      </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+  
+  <div class="flex items-center justify-between">
+    
+    
+      <p class="text-sm text-neutral-500 dark:text-neutral-400">
+          &copy;
+          2025
+          
+      </p>
+    
+
+    
+    
+      <p class="text-xs text-neutral-500 dark:text-neutral-400">
+        
+        
+        Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
+      </p>
+    
+  </div>
+  
+    <script>
+      mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+        margin: 24,
+        background: "rgba(0,0,0,0.5)",
+        scrollOffset: 0,
+      });
+    </script>
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js"
+    integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
+  
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
+  data-url="http://localhost:1313/">
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800">
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0">
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+    </div>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 700, 
+    once: true,    
+  });
+</script>
+  </body>
+  
+</html>

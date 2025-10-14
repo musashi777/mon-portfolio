@@ -1,0 +1,68 @@
+Watching for changes in /home/musashi/Android/MonBlog/{archetypes,content,layouts,static,themes}
+Watching for config changes in /home/musashi/Android/MonBlog/hugo.toml, /home/musashi/Android/MonBlog/themes/blowfish/config.toml, /home/musashi/Android/MonBlog/themes/blowfish/config/_default
+Start building sites … 
+hugo v0.151.0-c70ab27ceb841fc9404eab5d2c985ff7595034b7+extended linux/amd64 BuildDate=2025-10-02T13:30:36Z VendorInfo=gohugoio
+
+
+                  │ EN 
+──────────────────┼────
+ Pages            │ 12 
+ Paginator pages  │  0 
+ Non-page files   │  0 
+ Static files     │  7 
+ Processed images │  0 
+ Aliases          │  0 
+ Cleaned          │  0 
+
+Built in 21 ms
+Environment: "development"
+Serving pages from disk
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1) 
+Press Ctrl+C to stop
+
+Change detected, rebuilding site (#1).
+2025-10-14 15:36:33.434 +0200
+Source changed /projets/installation-serveur-glpi.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 21 ms
+
+Change detected, rebuilding site (#2).
+2025-10-14 15:43:16.435 +0200
+Source changed /projets/installation-serveur-glpi.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 17 ms
+
+Change detected, rebuilding site (#3).
+2025-10-14 16:00:11.434 +0200
+Source changed /projets/installation-serveur-glpi.md
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 13 ms
+
+Change of config file detected, rebuilding site (#4).
+2025-10-14 16:44:24.935 +0200
+WARN  Raw HTML omitted while rendering "/home/musashi/Android/MonBlog/content/about.md"; see https://gohugo.io/getting-started/configuration-markup/#rendererunsafe
+You can suppress this warning by adding the following to your site configuration:
+ignoreLogs = ['warning-goldmark-raw-html']
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Rebuilt in 135 ms
+adding created directory to watchlist /home/musashi/Android/MonBlog/layouts/shortcodes
+
+Change detected, rebuilding site (#5).
+2025-10-14 16:44:35.435 +0200
+Template added /shortcodes/contact-form.html
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 37 ms
+
+Change detected, rebuilding site (#6).
+2025-10-14 16:44:46.435 +0200
+Source changed /about.md
+ERROR Rebuild failed: process: "/home/musashi/Android/MonBlog/content/about.md:31:1": failed to extract shortcode: template for shortcode "contact-form" not found
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 1 ms
+
+Change detected, rebuilding site (#7).
+2025-10-14 16:45:36.934 +0200
+Source changed /about.md
+Template changed /_default/list.html
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Total in 19 ms
