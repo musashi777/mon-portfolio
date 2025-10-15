@@ -1,52 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Design on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</title>
-    <link>http://localhost:33309/tags/design/</link>
-    <description>Recent content in Design on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>© 2025 </copyright>
-    <lastBuildDate>Tue, 14 Oct 2025 20:16:01 +0200</lastBuildDate><atom:link href="http://localhost:33309/tags/design/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Mon Premier Article de Blog</title>
-      <link>http://localhost:33309/blog/mon-premier-article/</link>
-      <pubDate>Tue, 14 Oct 2025 20:16:01 +0200</pubDate>
-      
-      <guid>http://localhost:33309/blog/mon-premier-article/</guid>
-      <description>&lt;p&gt;Ceci est le résumé de mon premier article. Il apparaîtra sur la page listant tous les articles de blog, dans une carte stylisée.&lt;/p&gt;
-
-&lt;h2 class=&#34;relative group&#34;&gt;Le début d&amp;rsquo;une nouvelle section
-    &lt;div id=&#34;le-début-dune-nouvelle-section&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
-        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#le-d%c3%a9but-dune-nouvelle-section&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;
-    
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Design on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</title><link>http://localhost:1313/tags/design/</link><description>Recent content in Design on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025</copyright><lastBuildDate>Tue, 14 Oct 2025 20:16:01 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/design/index.xml" rel="self" type="application/rss+xml"/><item><title>Mon Premier Article de Blog</title><link>http://localhost:1313/blog/mon-premier-article/</link><pubDate>Tue, 14 Oct 2025 20:16:01 +0200</pubDate><guid>http://localhost:1313/blog/mon-premier-article/</guid><description>&lt;p&gt;Ceci est le résumé de mon premier article. Il apparaîtra sur la page listant tous les articles de blog, dans une carte stylisée.&lt;/p&gt;
+&lt;h2 class="relative group"&gt;Le début d&amp;rsquo;une nouvelle section
+&lt;div id="le-début-dune-nouvelle-section" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#le-d%c3%a9but-dune-nouvelle-section" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
 &lt;/h2&gt;
 &lt;p&gt;Bienvenue sur ce premier article. Il sert à démontrer le nouveau design de la section blog que nous venons de mettre en place.&lt;/p&gt;
-
-&lt;h3 class=&#34;relative group&#34;&gt;Fonctionnalités
-    &lt;div id=&#34;fonctionnalités&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
-        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#fonctionnalit%c3%a9s&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;
-    
+&lt;h3 class="relative group"&gt;Fonctionnalités
+&lt;div id="fonctionnalités" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#fonctionnalit%c3%a9s" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
 &lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Grille de cartes&lt;/strong&gt; : La page &lt;code&gt;/blog&lt;/code&gt; affiche une grille responsive.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Page de lecture optimisée&lt;/strong&gt; : Chaque article a une mise en page épurée pour une lecture agréable.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Tags et métadonnées&lt;/strong&gt; : Chaque article affiche sa date de publication, son temps de lecture et ses tags.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Les blocs de code sont automatiquement stylisés&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Bonjour le monde du blogging !&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-      
-    </item>
-    
-  </channel>
-</rss>
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Les blocs de code sont automatiquement stylisés&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;Bonjour le monde du blogging !&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item></channel></rss>
