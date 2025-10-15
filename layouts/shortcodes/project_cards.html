@@ -1,0 +1,26 @@
+{{ $projects := where site.RegularPages "Section" "projets" }}
+
+<div class="not-prose grid grid-cols-1 md:grid-cols-2 gap-8">
+  {{ range first 2 $projects }}
+    <div class="flex flex-col rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 bg-neutral-100 dark:bg-neutral-800 overflow-hidden">
+
+      {{ if .Params.image }}
+        <a href="{{ .RelPermalink }}" class="block">
+          <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="w-full h-48 object-cover">
+        </a>
+      {{ end }}
+
+      <div class="p-6 flex flex-col flex-grow">
+        <h3 class="!my-0 !text-xl font-bold">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h3>
+        <p class="!my-2 flex-grow text-sm">
+          {{ .Summary }}
+        </p>
+        <a href="{{ .RelPermalink }}" class="font-semibold !no-underline mt-4 self-start px-4 py-2 rounded-lg bg-primary-500 text-white hover:bg-primary-600 transition-colors">
+          Voir le projet
+        </a>
+      </div>
+    </div>
+  {{ end }}
+</div>

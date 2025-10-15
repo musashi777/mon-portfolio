@@ -4,51 +4,242 @@
     <title>Accueil on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</title>
     <link>http://localhost:1313/</link>
     <description>Recent content in Accueil on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</description>
-    <generator>Hugo</generator>
-    <language>fr-fr</language>
-    <lastBuildDate>Tue, 14 Oct 2025 20:16:01 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Wed, 15 Oct 2025 11:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Mon Premier Article de Blog</title>
       <link>http://localhost:1313/blog/mon-premier-article/</link>
       <pubDate>Tue, 14 Oct 2025 20:16:01 +0200</pubDate>
+      
       <guid>http://localhost:1313/blog/mon-premier-article/</guid>
-      <description>&lt;p&gt;Ceci est le résumé de mon premier article. Il apparaîtra sur la page listant tous les articles de blog, dans une carte stylisée.&lt;/p&gt;&#xA;&lt;h2 id=&#34;le-début-dune-nouvelle-section&#34;&gt;Le début d&amp;rsquo;une nouvelle section&lt;/h2&gt;&#xA;&lt;p&gt;Bienvenue sur ce premier article. Il sert à démontrer le nouveau design de la section blog que nous venons de mettre en place.&lt;/p&gt;&#xA;&lt;h3 id=&#34;fonctionnalités&#34;&gt;Fonctionnalités&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Grille de cartes&lt;/strong&gt; : La page &lt;code&gt;/blog&lt;/code&gt; affiche une grille responsive.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Page de lecture optimisée&lt;/strong&gt; : Chaque article a une mise en page épurée pour une lecture agréable.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tags et métadonnées&lt;/strong&gt; : Chaque article affiche sa date de publication, son temps de lecture et ses tags.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Les blocs de code sont automatiquement stylisés&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Bonjour le monde du blogging !&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <description>&lt;p&gt;Ceci est le résumé de mon premier article. Il apparaîtra sur la page listant tous les articles de blog, dans une carte stylisée.&lt;/p&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;Le début d&amp;rsquo;une nouvelle section
+    &lt;div id=&#34;le-début-dune-nouvelle-section&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#le-d%c3%a9but-dune-nouvelle-section&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;Bienvenue sur ce premier article. Il sert à démontrer le nouveau design de la section blog que nous venons de mettre en place.&lt;/p&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;Fonctionnalités
+    &lt;div id=&#34;fonctionnalités&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#fonctionnalit%c3%a9s&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Grille de cartes&lt;/strong&gt; : La page &lt;code&gt;/blog&lt;/code&gt; affiche une grille responsive.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Page de lecture optimisée&lt;/strong&gt; : Chaque article a une mise en page épurée pour une lecture agréable.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tags et métadonnées&lt;/strong&gt; : Chaque article affiche sa date de publication, son temps de lecture et ses tags.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Les blocs de code sont automatiquement stylisés&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Bonjour le monde du blogging !&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      
     </item>
+    
     <item>
       <title>Guide Détaillé - Installation Serveur GLPI</title>
       <link>http://localhost:1313/projets/installation-serveur-glpi/details/</link>
       <pubDate>Tue, 14 Oct 2025 15:00:00 +0200</pubDate>
+      
       <guid>http://localhost:1313/projets/installation-serveur-glpi/details/</guid>
-      <description>&lt;div class=&#34;bg-gradient-to-r from-blue-50 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20 p-6 rounded-xl border border-blue-200 dark:border-blue-700 mb-8&#34;&gt;&#xA;  &lt;h2 class=&#34;!text-2xl !mt-0 mb-4 text-blue-700 dark:text-blue-300&#34;&gt;📋 Aperçu du Projet&lt;/h2&gt;&#xA;  &lt;div class=&#34;grid grid-cols-1 md:grid-cols-3 gap-4 text-sm&#34;&gt;&#xA;    &lt;div&gt;&#xA;      &lt;strong&gt;Technologies :&lt;/strong&gt;&#xA;      &lt;ul class=&#34;!my-1&#34;&gt;&#xA;        &lt;li&gt;GLPI 10.0.15&lt;/li&gt;&#xA;        &lt;li&gt;Debian 12&lt;/li&gt;&#xA;        &lt;li&gt;Apache 2.4&lt;/li&gt;&#xA;        &lt;li&gt;MariaDB 10.11&lt;/li&gt;&#xA;        &lt;li&gt;PHP 8.2&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;strong&gt;Durée :&lt;/strong&gt;&#xA;      &lt;p class=&#34;!my-1&#34;&gt;2-3 heures&lt;/p&gt;&#xA;      &lt;strong&gt;Niveau :&lt;/strong&gt;&#xA;      &lt;p class=&#34;!my-1&#34;&gt;Intermédiaire&lt;/p&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;strong&gt;Résultats :&lt;/strong&gt;&#xA;      &lt;ul class=&#34;!my-1&#34;&gt;&#xA;        &lt;li&gt;✅ Serveur fonctionnel&lt;/li&gt;&#xA;        &lt;li&gt;✅ Interface web&lt;/li&gt;&#xA;        &lt;li&gt;✅ Base sécurisée&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;h2 id=&#34;-objectif-du-projet&#34;&gt;🎯 Objectif du Projet&lt;/h2&gt;&#xA;&lt;p&gt;L&amp;rsquo;objectif de ce projet est de documenter la procédure complète pour installer et configurer un serveur GLPI, un outil open-source de gestion des services informatiques (ITSM) et de gestion des actifs (ITAM). Cette solution permet de gérer efficacement un parc informatique, le suivi des tickets d&amp;rsquo;incidents et l&amp;rsquo;inventaire matériel et logiciel.&lt;/p&gt;</description>
+      <description>&lt;div class=&#34;bg-gradient-to-r from-blue-50 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20 p-6 rounded-xl border border-blue-200 dark:border-blue-700 mb-8&#34;&gt;
+  &lt;h2 class=&#34;!text-2xl !mt-0 mb-4 text-blue-700 dark:text-blue-300&#34;&gt;📋 Aperçu du Projet&lt;/h2&gt;
+  &lt;div class=&#34;grid grid-cols-1 md:grid-cols-3 gap-4 text-sm&#34;&gt;
+    &lt;div&gt;
+      &lt;strong&gt;Technologies :&lt;/strong&gt;
+      &lt;ul class=&#34;!my-1&#34;&gt;
+        &lt;li&gt;GLPI 10.0.15&lt;/li&gt;
+        &lt;li&gt;Debian 12&lt;/li&gt;
+        &lt;li&gt;Apache 2.4&lt;/li&gt;
+        &lt;li&gt;MariaDB 10.11&lt;/li&gt;
+        &lt;li&gt;PHP 8.2&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;strong&gt;Durée :&lt;/strong&gt;
+      &lt;p class=&#34;!my-1&#34;&gt;2-3 heures&lt;/p&gt;
+      &lt;strong&gt;Niveau :&lt;/strong&gt;
+      &lt;p class=&#34;!my-1&#34;&gt;Intermédiaire&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;strong&gt;Résultats :&lt;/strong&gt;
+      &lt;ul class=&#34;!my-1&#34;&gt;
+        &lt;li&gt;✅ Serveur fonctionnel&lt;/li&gt;
+        &lt;li&gt;✅ Interface web&lt;/li&gt;
+        &lt;li&gt;✅ Base sécurisée&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;🎯 Objectif du Projet
+    &lt;div id=&#34;-objectif-du-projet&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-objectif-du-projet&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;L&amp;rsquo;objectif de ce projet est de documenter la procédure complète pour installer et configurer un serveur GLPI, un outil open-source de gestion des services informatiques (ITSM) et de gestion des actifs (ITAM). Cette solution permet de gérer efficacement un parc informatique, le suivi des tickets d&amp;rsquo;incidents et l&amp;rsquo;inventaire matériel et logiciel.&lt;/p&gt;</description>
+      
     </item>
+    
     <item>
       <title>Configuration Détaillée - VPN Site-à-Site</title>
       <link>http://localhost:1313/projets/mise-en-place-vpn/details/</link>
       <pubDate>Tue, 14 Oct 2025 13:15:00 +0200</pubDate>
+      
       <guid>http://localhost:1313/projets/mise-en-place-vpn/details/</guid>
-      <description>&lt;div class=&#34;bg-gradient-to-r from-green-50 to-emerald-100 dark:from-green-900/20 dark:to-emerald-900/20 p-6 rounded-xl border border-green-200 dark:border-green-700 mb-8&#34;&gt;&#xA;  &lt;h2 class=&#34;!text-2xl !mt-0 mb-4 text-green-700 dark:text-green-300&#34;&gt;🌐 Aperçu du Projet VPN&lt;/h2&gt;&#xA;  &lt;div class=&#34;grid grid-cols-1 md:grid-cols-3 gap-4 text-sm&#34;&gt;&#xA;    &lt;div&gt;&#xA;      &lt;strong&gt;Technologies :&lt;/strong&gt;&#xA;      &lt;ul class=&#34;!my-1&#34;&gt;&#xA;        &lt;li&gt;IPsec (IKEv2)&lt;/li&gt;&#xA;        &lt;li&gt;Pfsense 2.7+&lt;/li&gt;&#xA;        &lt;li&gt;AES-256-GCM&lt;/li&gt;&#xA;        &lt;li&gt;SHA-256&lt;/li&gt;&#xA;        &lt;li&gt;DH Group 14&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;strong&gt;Configuration :&lt;/strong&gt;&#xA;      &lt;p class=&#34;!my-1&#34;&gt;Site-à-Site&lt;/p&gt;&#xA;      &lt;strong&gt;Chiffrement :&lt;/strong&gt;&#xA;      &lt;p class=&#34;!my-1&#34;&gt;Fort (AES-256)&lt;/p&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;strong&gt;Résultats :&lt;/strong&gt;&#xA;      &lt;ul class=&#34;!my-1&#34;&gt;&#xA;        &lt;li&gt;✅ Tunnel stable&lt;/li&gt;&#xA;        &lt;li&gt;✅ Sécurisé&lt;/li&gt;&#xA;        &lt;li&gt;✅ Performant&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;h2 id=&#34;-contexte-du-projet&#34;&gt;🎯 Contexte du Projet&lt;/h2&gt;&#xA;&lt;p&gt;L&amp;rsquo;objectif de ce projet était de relier deux réseaux locaux distants de manière sécurisée à travers Internet en utilisant des pare-feux Pfsense. Cette configuration permet aux deux sites de communiquer comme s&amp;rsquo;ils étaient sur le même réseau local, tout en garantissant la confidentialité et l&amp;rsquo;intégrité des données.&lt;/p&gt;</description>
+      <description>&lt;div class=&#34;bg-gradient-to-r from-green-50 to-emerald-100 dark:from-green-900/20 dark:to-emerald-900/20 p-6 rounded-xl border border-green-200 dark:border-green-700 mb-8&#34;&gt;
+  &lt;h2 class=&#34;!text-2xl !mt-0 mb-4 text-green-700 dark:text-green-300&#34;&gt;🌐 Aperçu du Projet VPN&lt;/h2&gt;
+  &lt;div class=&#34;grid grid-cols-1 md:grid-cols-3 gap-4 text-sm&#34;&gt;
+    &lt;div&gt;
+      &lt;strong&gt;Technologies :&lt;/strong&gt;
+      &lt;ul class=&#34;!my-1&#34;&gt;
+        &lt;li&gt;IPsec (IKEv2)&lt;/li&gt;
+        &lt;li&gt;Pfsense 2.7+&lt;/li&gt;
+        &lt;li&gt;AES-256-GCM&lt;/li&gt;
+        &lt;li&gt;SHA-256&lt;/li&gt;
+        &lt;li&gt;DH Group 14&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;strong&gt;Configuration :&lt;/strong&gt;
+      &lt;p class=&#34;!my-1&#34;&gt;Site-à-Site&lt;/p&gt;
+      &lt;strong&gt;Chiffrement :&lt;/strong&gt;
+      &lt;p class=&#34;!my-1&#34;&gt;Fort (AES-256)&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;strong&gt;Résultats :&lt;/strong&gt;
+      &lt;ul class=&#34;!my-1&#34;&gt;
+        &lt;li&gt;✅ Tunnel stable&lt;/li&gt;
+        &lt;li&gt;✅ Sécurisé&lt;/li&gt;
+        &lt;li&gt;✅ Performant&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;🎯 Contexte du Projet
+    &lt;div id=&#34;-contexte-du-projet&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-contexte-du-projet&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;L&amp;rsquo;objectif de ce projet était de relier deux réseaux locaux distants de manière sécurisée à travers Internet en utilisant des pare-feux Pfsense. Cette configuration permet aux deux sites de communiquer comme s&amp;rsquo;ils étaient sur le même réseau local, tout en garantissant la confidentialité et l&amp;rsquo;intégrité des données.&lt;/p&gt;</description>
+      
     </item>
+    
     <item>
       <title>À Propos de Moi</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Tue, 14 Oct 2025 13:05:00 +0200</pubDate>
+      
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h2 id=&#34;-technicien-supérieur-système-et-réseau&#34;&gt;👨‍💻 Technicien Supérieur Système et Réseau&lt;/h2&gt;&#xA;&lt;p&gt;Passionné par l&amp;rsquo;informatique et les nouvelles technologies, je suis spécialisé dans la gestion, la maintenance et la sécurisation des infrastructures système et réseau. Mon approche combine expertise technique et sens du service client.&lt;/p&gt;&#xA;&lt;h3 id=&#34;-compétences-clés&#34;&gt;🎯 Compétences Clés&lt;/h3&gt;&#xA;&lt;div class=&#34;grid grid-cols-1 md:grid-cols-2 gap-6 my-8&#34;&gt;&#xA;  &lt;div&gt;&#xA;    &lt;h4 class=&#34;!text-lg !mt-0 mb-3 text-primary-600 dark:text-primary-400&#34;&gt;🖥️ Systèmes&lt;/h4&gt;&#xA;    &lt;ul class=&#34;!my-0 text-sm&#34;&gt;&#xA;      &lt;li&gt;Windows Server&lt;/li&gt;&#xA;      &lt;li&gt;Linux (Debian, CentOS, Ubuntu)&lt;/li&gt;&#xA;      &lt;li&gt;Active Directory&lt;/li&gt;&#xA;      &lt;li&gt;SCCM&lt;/li&gt;&#xA;    &lt;/ul&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div&gt;&#xA;    &lt;h4 class=&#34;!text-lg !mt-0 mb-3 text-primary-600 dark:text-primary-400&#34;&gt;🌐 Réseau&lt;/h4&gt;&#xA;    &lt;ul class=&#34;!my-0 text-sm&#34;&gt;&#xA;      &lt;li&gt;TCP/IP, Routage (OSPF, BGP)&lt;/li&gt;&#xA;      &lt;li&gt;Switching, VLANs&lt;/li&gt;&#xA;      &lt;li&gt;Firewall (Pfsense, Fortinet)&lt;/li&gt;&#xA;      &lt;li&gt;VPN, Wi-Fi, Sécurité&lt;/li&gt;&#xA;    &lt;/ul&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div&gt;&#xA;    &lt;h4 class=&#34;!text-lg !mt-0 mb-3 text-primary-600 dark:text-primary-400&#34;&gt;⚙️ Virtualisation &amp; Scripting&lt;/h4&gt;&#xA;    &lt;ul class=&#34;!my-0 text-sm&#34;&gt;&#xA;      &lt;li&gt;VMware vSphere&lt;/li&gt;&#xA;      &lt;li&gt;Microsoft Hyper-V&lt;/li&gt;&#xA;      &lt;li&gt;VirtualBox&lt;/li&gt;&#xA;      &lt;li&gt;PowerShell, Bash&lt;/li&gt;&#xA;    &lt;/ul&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div&gt;&#xA;    &lt;h4 class=&#34;!text-lg !mt-0 mb-3 text-primary-600 dark:text-primary-400&#34;&gt;🛠️ Outils &amp; Méthodologies&lt;/h4&gt;&#xA;    &lt;ul class=&#34;!my-0 text-sm&#34;&gt;&#xA;      &lt;li&gt;GLPI, ServiceNow&lt;/li&gt;&#xA;      &lt;li&gt;Support N1/N2&lt;/li&gt;&#xA;      &lt;li&gt;Gestion de tickets&lt;/li&gt;&#xA;      &lt;li&gt;Environnements critiques&lt;/li&gt;&#xA;    &lt;/ul&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;h3 id=&#34;-expérience-professionnelle&#34;&gt;📊 Expérience Professionnelle&lt;/h3&gt;&#xA;&lt;div class=&#34;space-y-6 my-8&#34;&gt;&#xA;  &lt;div class=&#34;border-l-4 border-primary-500 pl-4&#34;&gt;&#xA;    &lt;h4 class=&#34;!text-lg !mt-0 mb-1&#34;&gt;Technicien Support Informatique N1+&lt;/h4&gt;&#xA;    &lt;p class=&#34;!my-0 text-sm text-neutral-600 dark:text-neutral-400&#34;&gt;Intelcia (SFR Business) | Juillet 2024 - Décembre 2024&lt;/p&gt;</description>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;👨‍💻 Technicien Supérieur Système et Réseau
+    &lt;div id=&#34;-technicien-supérieur-système-et-réseau&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-technicien-sup%c3%a9rieur-syst%c3%a8me-et-r%c3%a9seau&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;Passionné par l&amp;rsquo;informatique et les nouvelles technologies, je suis spécialisé dans la gestion, la maintenance et la sécurisation des infrastructures système et réseau. Mon approche combine expertise technique et sens du service client.&lt;/p&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;🎯 Mon Approche
+    &lt;div id=&#34;-mon-approche&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-mon-approche&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h3&gt;
+&lt;p&gt;Je privilégie une méthodologie structurée pour la résolution de problèmes techniques, alliant analyse approfondie et efficacité opérationnelle. Mon expérience en environnements critiques (télécoms, santé) m&amp;rsquo;a permis de développer une capacité d&amp;rsquo;adaptation rapide et une gestion efficace des priorités.&lt;/p&gt;</description>
+      
     </item>
+    
     <item>
       <title>Contact</title>
       <link>http://localhost:1313/contact/</link>
       <pubDate>Tue, 14 Oct 2025 13:05:00 +0200</pubDate>
+      
       <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;h2 id=&#34;-contactez-moi&#34;&gt;📞 Contactez-moi&lt;/h2&gt;&#xA;&lt;p&gt;Vous avez un projet technique ou une opportunité à discuter ? N&amp;rsquo;hésitez pas à me contacter.&lt;/p&gt;&#xA;&lt;h3 id=&#34;-informations-de-contact&#34;&gt;📧 Informations de Contact&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Email&lt;/strong&gt; : &lt;a href=&#34;mailto:votre.email@example.com&#34;&gt;votre.email@example.com&lt;/a&gt;&#xA;&lt;strong&gt;LinkedIn&lt;/strong&gt; : &lt;a href=&#34;https://www.linkedin.com/in/stephan-uniatowitz-259360101&#34;&gt;linkedin.com/in/stephan-uniatowitz-259360101&lt;/a&gt;&#xA;&lt;strong&gt;Localisation&lt;/strong&gt; : Marseille, France&lt;/p&gt;&#xA;&lt;h3 id=&#34;-domaines-dexpertise&#34;&gt;🎯 Domaines d&amp;rsquo;Expertise&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Support Technique&lt;/strong&gt; : N1/N2, GLPI, ServiceNow, gestion d&amp;rsquo;incidents&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Infrastructure&lt;/strong&gt; : Réseaux, VPN, systèmes Windows/Linux, virtualisation&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Administration&lt;/strong&gt; : Active Directory, déploiement, migration&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Environnements Critiques&lt;/strong&gt; : Télécoms, santé, corporate&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-types-de-missions-recherchées&#34;&gt;💼 Types de Missions Recherchées&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Support Technique Avancé&lt;/strong&gt; (N2/N3)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Administration Systèmes/Réseaux&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Projets d&amp;rsquo;Infrastructure&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Déploiement et Migration&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Support en Environnements Critiques&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;bg-gradient-to-r from-blue-50 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20 p-6 rounded-xl border border-blue-200 dark:border-blue-700 mt-8&#34;&gt;&#xA;  &lt;h3 class=&#34;!text-xl !mt-0 mb-4 text-blue-700 dark:text-blue-300&#34;&gt;🚀 Prêt à Collaborer ?&lt;/h3&gt;&#xA;  &lt;p class=&#34;!my-2&#34;&gt;Discutons de vos besoins techniques et de comment je peux apporter de la valeur à votre équipe.&lt;/p&gt;</description>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;📞 Contactez-moi pour vos projets techniques
+    &lt;div id=&#34;-contactez-moi-pour-vos-projets-techniques&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-contactez-moi-pour-vos-projets-techniques&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h1&gt;
+&lt;div class=&#34;relative bg-gradient-to-r from-primary-500 via-blue-600 to-indigo-700 p-12 rounded-3xl text-white text-center overflow-hidden mb-12&#34;&gt;
+  &lt;!-- Effet de particules animées --&gt;
+  &lt;div class=&#34;absolute inset-0 opacity-10&#34;&gt;
+    &lt;div class=&#34;absolute top-10 left-10 w-4 h-4 bg-white rounded-full animate-pulse&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;absolute top-20 right-20 w-6 h-6 bg-white rounded-full animate-bounce&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;absolute bottom-10 left-1/4 w-3 h-3 bg-white rounded-full animate-ping&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;h1 class=&#34;!text-5xl !font-bold !mb-6 relative z-10 animate-fade-in&#34;&gt;🚀 Expert Support &amp; Infrastructure&lt;/h1&gt;
+  &lt;p class=&#34;!text-2xl !mb-8 relative z-10 animate-fade-in-delay&#34;&gt;Spécialiste en environnements critiques avec &lt;span class=&#34;font-bold text-yellow-300&#34;&gt;85% de taux de résolution&lt;/span&gt;&lt;/p&gt;</description>
+      
     </item>
+    
     <item>
       <title>Curriculum Vitae</title>
       <link>http://localhost:1313/cv/</link>
       <pubDate>Tue, 14 Oct 2025 13:05:00 +0200</pubDate>
+      
       <guid>http://localhost:1313/cv/</guid>
-      <description>&lt;h2 id=&#34;stéphan-uniatowitz&#34;&gt;Stéphan Uniatowitz&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Technicien Support, Réseaux &amp;amp; Configuration Systèmes&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;📍 Marseille, France&#xA;📧 &lt;a href=&#34;mailto:votre.email@example.com&#34;&gt;votre.email@example.com&lt;/a&gt;&#xA;🔗 &lt;a href=&#34;https://www.linkedin.com/in/stephan-uniatowitz-259360101&#34;&gt;linkedin.com/in/stephan-uniatowitz-259360101&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-profil-professionnel&#34;&gt;🎯 Profil Professionnel&lt;/h2&gt;&#xA;&lt;p&gt;Technicien support confirmé avec plus de deux ans d&amp;rsquo;expérience acquise dans des environnements critiques et multisites, notamment chez SFR Business (Intelcia), AP-HM La Timone et Econocom. Solide maîtrise des outils de support, des systèmes Windows/Linux et des environnements réseau. Capacité éprouvée à gérer les demandes utilisateurs, résoudre rapidement les incidents et documenter les procédures.&lt;/p&gt;</description>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Stéphan Uniatowitz
+    &lt;div id=&#34;stéphan-uniatowitz&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#st%c3%a9phan-uniatowitz&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Technicien Support, Réseaux &amp;amp; Configuration Systèmes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;📍 Marseille, France
+📧 &lt;a
+  href=&#34;mailto:votre.email@example.com&#34;&gt;votre.email@example.com&lt;/a&gt;
+🔗 &lt;a
+  href=&#34;https://www.linkedin.com/in/stephan-uniatowitz-259360101&#34;
+    target=&#34;_blank&#34;
+  &gt;linkedin.com/in/stephan-uniatowitz-259360101&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;🎯 Profil Professionnel
+    &lt;div id=&#34;-profil-professionnel&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-profil-professionnel&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;Technicien support confirmé avec plus de deux ans d&amp;rsquo;expérience acquise dans des environnements critiques et multisites, notamment chez SFR Business (Intelcia), AP-HM La Timone et Econocom. Solide maîtrise des outils de support, des systèmes Windows/Linux et des environnements réseau. Capacité éprouvée à gérer les demandes utilisateurs, résoudre rapidement les incidents et documenter les procédures.&lt;/p&gt;</description>
+      
     </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,213 @@
+{{ define "main" }}
+<article class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <!-- Header -->
+    <header class="mb-16 text-center">
+        <h1 class="text-4xl md:text-5xl font-heading font-bold text-gray-900 dark:text-white mb-4">
+            {{ .Title }}
+        </h1>
+
+        {{ if .Params.description }}
+        <p class="text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
+            {{ .Params.description }}
+        </p>
+        {{ end }}
+    </header>
+
+    <!-- Main Content -->
+    <div class="prose prose-lg dark:prose-invert max-w-none mb-16">
+        {{ .Content }}
+    </div>
+
+    <!-- Skills Section -->
+    <section class="mb-16">
+        <h2 class="text-3xl font-heading font-bold text-gray-900 dark:text-white mb-8 text-center">
+            Compétences Techniques
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Technical Skills -->
+            <div class="space-y-6">
+                <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Technologies & Outils</h3>
+
+                {{ range .Params.technical_skills }}
+                <div class="skill-item">
+                    <div class="flex justify-between items-center mb-2">
+                        <span class="font-medium text-gray-700 dark:text-gray-300">{{ .name }}</span>
+                        <span class="text-sm text-gray-500 dark:text-gray-400">{{ .level }}%</span>
+                    </div>
+                    <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-3">
+                        <div class="bg-gradient-to-r from-primary-500 to-primary-600 h-3 rounded-full transition-all duration-1000 ease-out"
+                             data-level="{{ .level }}"
+                             style="width: 0%"></div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="space-y-6">
+                <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Compétences Professionnelles</h3>
+
+                {{ range .Params.soft_skills }}
+                <div class="bg-white dark:bg-gray-800 p-4 rounded-lg border border-gray-200 dark:border-gray-700 card-hover">
+                    <div class="flex items-center mb-2">
+                        <div class="w-8 h-8 bg-primary-100 dark:bg-primary-900 rounded-full flex items-center justify-center mr-3">
+                            <i class="{{ .icon }} text-primary-600 dark:text-primary-400 text-sm"></i>
+                        </div>
+                        <h4 class="font-semibold text-gray-900 dark:text-white">{{ .name }}</h4>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm">{{ .description }}</p>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="mb-16">
+        <h2 class="text-3xl font-heading font-bold text-gray-900 dark:text-white mb-8 text-center">
+            Parcours Professionnel
+        </h2>
+
+        <div class="timeline">
+            {{ range .Params.timeline }}
+            <div class="timeline-item mb-12">
+                <div class="flex flex-col md:flex-row">
+                    <div class="md:w-1/3 mb-4 md:mb-0 md:pr-8">
+                        <div class="bg-white dark:bg-gray-800 p-4 rounded-lg border border-gray-200 dark:border-gray-700">
+                            <span class="text-sm font-medium text-primary-600 dark:text-primary-400">{{ .period }}</span>
+                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white mt-1">{{ .title }}</h3>
+                            <p class="text-gray-600 dark:text-gray-400 text-sm">{{ .company }}</p>
+                        </div>
+                    </div>
+                    <div class="md:w-2/3">
+                        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700 card-hover">
+                            <p class="text-gray-700 dark:text-gray-300 mb-4">{{ .description }}</p>
+
+                            {{ if .achievements }}
+                            <div class="mt-4">
+                                <h4 class="font-semibold text-gray-900 dark:text-white mb-2">Réalisations :</h4>
+                                <ul class="list-disc list-inside space-y-1 text-gray-600 dark:text-gray-400">
+                                    {{ range .achievements }}
+                                    <li>{{ . }}</li>
+                                    {{ end }}
+                                </ul>
+                            </div>
+                            {{ end }}
+
+                            {{ if .technologies }}
+                            <div class="mt-4">
+                                <h4 class="font-semibold text-gray-900 dark:text-white mb-2">Technologies :</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    {{ range .technologies }}
+                                    <span class="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-200 px-3 py-1 rounded-full text-sm">
+                                        {{ . }}
+                                    </span>
+                                    {{ end }}
+                                </div>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    {{ if .Params.certifications }}
+    <section class="mb-16">
+        <h2 class="text-3xl font-heading font-bold text-gray-900 dark:text-white mb-8 text-center">
+            Certifications
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {{ range .Params.certifications }}
+            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700 card-hover text-center">
+                <div class="w-16 h-16 bg-primary-100 dark:bg-primary-900 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="{{ .icon }} text-primary-600 dark:text-primary-400 text-2xl"></i>
+                </div>
+                <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">{{ .name }}</h3>
+                <p class="text-gray-600 dark:text-gray-400 text-sm mb-2">{{ .issuer }}</p>
+                <span class="text-sm text-primary-600 dark:text-primary-400">{{ .date }}</span>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+    {{ end }}
+
+    <!-- Back to home -->
+    <div class="mt-12 text-center">
+        <a href="/" class="btn-primary px-6 py-3 rounded-lg text-white font-semibold shadow-lg inline-flex items-center">
+            <i class="fas fa-arrow-left mr-2"></i>Retour à l'accueil
+        </a>
+    </div>
+</article>
+
+<!-- Script for animated skill bars -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Animate skill bars
+        const skillBars = document.querySelectorAll('.skill-item');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const skillBar = entry.target.querySelector('[data-level]');
+                    const level = skillBar.getAttribute('data-level');
+                    skillBar.style.width = level + '%';
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        skillBars.forEach(skill => {
+            observer.observe(skill);
+        });
+
+        // Add timeline animations
+        const timelineItems = document.querySelectorAll('.timeline-item');
+
+        const timelineObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                    timelineObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.3 });
+
+        timelineItems.forEach((item, index) => {
+            item.style.opacity = '0';
+            item.style.transform = 'translateY(30px)';
+            item.style.transition = `all 0.6s ease ${index * 0.2}s`;
+            timelineObserver.observe(item);
+        });
+    });
+</script>
+
+<style>
+    .timeline {
+        position: relative;
+    }
+
+    .timeline::before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(to bottom, #3b82f6, #8b5cf6);
+        opacity: 0.3;
+    }
+
+    @media (max-width: 768px) {
+        .timeline::before {
+            left: 20px;
+        }
+    }
+</style>
+{{ end }}

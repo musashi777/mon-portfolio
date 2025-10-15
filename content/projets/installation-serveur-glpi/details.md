@@ -3,7 +3,7 @@ title: "Guide Détaillé - Installation Serveur GLPI"
 date: 2025-10-14T15:00:00+02:00
 draft: false
 description: "Guide technique complet avec toutes les commandes pour installer et configurer GLPI sur Debian/Ubuntu"
-image: "/images/glpi_project.png"
+image: "/images/technicien_aide_collègue.png"
 technologies: ["GLPI", "Linux (Debian)", "Apache", "MariaDB (MySQL)", "PHP"]
 ---
 

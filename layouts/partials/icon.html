@@ -1,0 +1,27 @@
+{{ $icon := . }}
+{{ if eq $icon "user-check" }}
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user-check">
+  <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+  <circle cx="8.5" cy="7" r="4"></circle>
+  <polyline points="17 11 19 13 23 9"></polyline>
+</svg>
+{{ else if eq $icon "network" }}
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe">
+  <circle cx="12" cy="12" r="10"></circle>
+  <line x1="2" y1="12" x2="22" y2="12"></line>
+  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+</svg>
+{{ else if eq $icon "server" }}
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-server">
+  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+  <line x1="6" y1="6" x2="6.01" y2="6"></line>
+  <line x1="6" y1="18" x2="6.01" y2="18"></line>
+</svg>
+{{ else }}
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-help-circle">
+  <circle cx="12" cy="12" r="10"></circle>
+  <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+  <line x1="12" y1="17" x2="12.01" y2="17"></line>
+</svg>
+{{ end }}

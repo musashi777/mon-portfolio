@@ -1,0 +1,7 @@
+{{ define "main" }}
+  <div class="container mx-auto px-4">
+    {{ partial "home/hero.html" .Params.hero }}
+    {{ partial "home/features.html" .Params.features }}
+    {{ partial "home/recent_projects.html" .Params.recent_projects }}
+  </div>
+{{ end }}

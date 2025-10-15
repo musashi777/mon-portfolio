@@ -1,45 +1,53 @@
 ---
 title: "Mise en Place d'un VPN Site-à-Site"
-date: 2025-10-14T13:15:00+02:00
-draft: false
-description: "Configuration d'un tunnel VPN IPsec entre deux sites distants pour sécuriser les communications."
-image: "/images/vpn_project.png"
-technologies: ["IPsec", "Pfsense", "Routage Statique"]
-github: "https://github.com/votre-nom/projet-vpn"
-demo: ""
-summary: "Découvrez comment j'ai configuré un tunnel VPN IPsec sécurisé entre deux réseaux locaux distants en utilisant des pare-feux Pfsense."
+date: 2025-10-15T11:00:00+02:00
+image: "/images/photo_projets_VPN.png"
+summary: "Configuration d'un tunnel VPN IPsec sécurisé entre deux réseaux distants."
 ---
 
-## 🌐 Problème Business Résolu
+## Aperçu du Projet
 
-**Contexte** : Nécessité de connecter deux sites distants de manière sécurisée pour assurer la continuité des services et protéger les communications
-**Solution** : Configuration d'un tunnel VPN IPsec site-à-site avec chiffrement fort
-**Impact** : Sécurisation complète des échanges inter-sites avec performance optimisée
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+  <div class="bg-white dark:bg-neutral-800 rounded-lg p-6 shadow-lg">
+    <h3 class="!text-xl font-bold mb-4 flex items-center">
+      <span class="mr-2">🛠️</span> Technologies
+    </h3>
+    <div class="flex flex-wrap gap-2">
+      <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">IPsec</span>
+      <span class="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-full text-sm font-medium">Pfsense</span>
+      <span class="px-3 py-1 bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-200 rounded-full text-sm font-medium">Routage statique</span>
+      <span class="px-3 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 rounded-full text-sm font-medium">AES-256</span>
+    </div>
+  </div>
 
-### 🎯 Objectifs Stratégiques
-- **Sécurisation** : Protection des données sensibles en transit
-- **Continuité** : Maintien des services critiques entre sites
-- **Performance** : Optimisation de la latence et du débit
-- **Scalabilité** : Solution adaptable à l'évolution du réseau
+  <div class="bg-white dark:bg-neutral-800 rounded-lg p-6 shadow-lg">
+    <h3 class="!text-xl font-bold mb-4 flex items-center">
+      <span class="mr-2">⏱️</span> Durée
+    </h3>
+    <p class="text-2xl font-bold text-gray-800 dark:text-gray-200">1 jour</p>
+  </div>
 
-### 🔧 Compétences Démonstrées
-- **Sécurité réseau** : Configuration IPsec avancée avec chiffrement AES-256
-- **Administration Pfsense** : Gestion complète du pare-feu et VPN
-- **Routage** : Configuration des routes statiques et règles de pare-feu
-- **Diagnostic** : Tests de performance et résolution de problèmes
-- **Documentation** : Procédures de déploiement et dépannage
+  <div class="bg-white dark:bg-neutral-800 rounded-lg p-6 shadow-lg">
+    <h3 class="!text-xl font-bold mb-4 flex items-center">
+      <span class="mr-2">📊</span> Résultats
+    </h3>
+    <p class="text-green-600 dark:text-green-400 font-semibold">Tunnel VPN fonctionnel avec chiffrement fort</p>
+  </div>
 
-### 📊 Technologies Maîtrisées
-- **IPsec IKEv2** : Protocole de sécurité VPN avancé
-- **Pfsense 2.7+** : Pare-feu open-source professionnel
-- **AES-256-GCM** : Chiffrement symétrique de niveau militaire
-- **SHA-256** : Hachage cryptographique sécurisé
-- **Routage statique** : Gestion avancée du trafic réseau
-
----
-
-<div class="text-center mt-8">
-  <a href="/projets/mise-en-place-vpn/details/" class="px-6 py-3 rounded-lg bg-primary-500 text-white font-semibold hover:bg-primary-600 transition-colors inline-block">
-    🔧 Voir la configuration technique détaillée
-  </a>
+  <div class="bg-white dark:bg-neutral-800 rounded-lg p-6 shadow-lg">
+    <h3 class="!text-xl font-bold mb-4 flex items-center">
+      <span class="mr-2">🎯</span> Compétences
+    </h3>
+    <ul class="space-y-2">
+      <li class="flex items-center">
+        <span class="mr-2">🔒</span> Sécurité réseau
+      </li>
+      <li class="flex items-center">
+        <span class="mr-2">🌐</span> Configuration VPN
+      </li>
+      <li class="flex items-center">
+        <span class="mr-2">🔄</span> Routage
+      </li>
+    </ul>
+  </div>
 </div>

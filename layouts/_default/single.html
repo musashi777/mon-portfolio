@@ -1,0 +1,49 @@
+{{ define "main" }}
+<article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <!-- Header -->
+    <header class="mb-12">
+        <h1 class="text-4xl md:text-5xl font-heading font-bold text-gray-900 dark:text-white mb-4">
+            {{ .Title }}
+        </h1>
+
+        {{ if .Date }}
+        <div class="flex items-center text-gray-600 dark:text-gray-400 mb-6">
+            <i class="fas fa-calendar mr-2"></i>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">
+                {{ .Date.Format "2 January 2006" }}
+            </time>
+        </div>
+        {{ end }}
+
+        {{ if .Params.description }}
+        <p class="text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
+            {{ .Params.description }}
+        </p>
+        {{ end }}
+    </header>
+
+    <!-- Content -->
+    <div class="prose prose-lg dark:prose-invert max-w-none">
+        {{ .Content }}
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
+        <div class="flex justify-between items-center">
+            <a href="/" class="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium">
+                <i class="fas fa-arrow-left mr-2"></i>Retour à l'accueil
+            </a>
+
+            {{ if .Params.tags }}
+            <div class="flex flex-wrap gap-2">
+                {{ range .Params.tags }}
+                <span class="bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 px-3 py-1 rounded-full text-sm">
+                    {{ . }}
+                </span>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </footer>
+</article>
+{{ end }}

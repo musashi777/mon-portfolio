@@ -1,43 +1,54 @@
 ---
-title: "Installation et Configuration d'un Serveur GLPI"
-date: 2025-10-14T15:00:00+02:00
-draft: false
-description: "Guide pas à pas pour installer et configurer un serveur GLPI sur Debian/Ubuntu"
-image: "/images/glpi_project.png"
-technologies: ["GLPI", "Linux (Debian)", "Apache", "MariaDB (MySQL)", "PHP"]
-summary: "Découvrez comment j'ai installé et configuré un serveur GLPI complet pour la gestion de parc informatique et le suivi des tickets d'incidents."
+title: "Guide Détaillé - Installation Serveur GLPI"
+date: 2025-10-15T11:00:00+02:00
+image: "/images/technicien_aide_collègue.png"
+summary: "Déploiement et configuration d'un serveur GLPI pour la gestion de tickets IT."
 ---
 
-## 🎯 Problème Business Résolu
+## Aperçu du Projet
 
-**Contexte** : Besoin d'une solution ITSM centralisée pour améliorer la gestion des incidents et optimiser le support technique
-**Solution** : Déploiement d'un serveur GLPI complet avec automatisation des processus
-**Impact** : Réduction potentielle du temps de traitement des tickets de 30% grâce à la centralisation
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+  <div class="bg-white dark:bg-neutral-800 rounded-lg p-6 shadow-lg">
+    <h3 class="!text-xl font-bold mb-4 flex items-center">
+      <span class="mr-2">🛠️</span> Technologies
+    </h3>
+    <div class="flex flex-wrap gap-2">
+      <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">GLPI</span>
+      <span class="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-full text-sm font-medium">Debian 12</span>
+      <span class="px-3 py-1 bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-200 rounded-full text-sm font-medium">Apache</span>
+      <span class="px-3 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 rounded-full text-sm font-medium">MariaDB</span>
+      <span class="px-3 py-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200 rounded-full text-sm font-medium">PHP 8.2</span>
+    </div>
+  </div>
 
-### 🎯 Objectifs Stratégiques
-- **Optimisation du support** : Centralisation de la gestion des incidents
-- **Automatisation** : Réduction des tâches manuelles répétitives
-- **Traçabilité** : Amélioration du suivi et de la documentation
-- **Sécurisation** : Protection des données sensibles du parc informatique
+  <div class="bg-white dark:bg-neutral-800 rounded-lg p-6 shadow-lg">
+    <h3 class="!text-xl font-bold mb-4 flex items-center">
+      <span class="mr-2">⏱️</span> Durée
+    </h3>
+    <p class="text-2xl font-bold text-gray-800 dark:text-gray-200">2 jours</p>
+  </div>
 
-### 🔧 Compétences Démonstrées
-- **Diagnostic** : Analyse des besoins métier et contraintes techniques
-- **Architecture** : Design de solution LAMP optimisée pour la performance
-- **Sécurité** : Hardening de l'infrastructure web et base de données
-- **Documentation** : Création de procédures reproductibles pour l'équipe
-- **Résolution de problèmes** : Gestion des dépendances et compatibilités
+  <div class="bg-white dark:bg-neutral-800 rounded-lg p-6 shadow-lg">
+    <h3 class="!text-xl font-bold mb-4 flex items-center">
+      <span class="mr-2">📊</span> Résultats
+    </h3>
+    <p class="text-green-600 dark:text-green-400 font-semibold">Serveur GLPI fonctionnel avec gestion des tickets et inventaire</p>
+  </div>
 
-### 📊 Technologies Maîtrisées
-- **GLPI 10.0.15** : Plateforme ITSM/ITAM open-source
-- **Linux Debian** : Administration système avancée
-- **Apache 2.4** : Configuration et optimisation serveur web
-- **MariaDB 10.11** : Gestion base de données sécurisée
-- **PHP 8.2** : Environnement d'exécution optimisé
-
----
-
-<div class="text-center mt-8">
-  <a href="/projets/installation-serveur-glpi/details/" class="px-6 py-3 rounded-lg bg-primary-500 text-white font-semibold hover:bg-primary-600 transition-colors inline-block">
-    📖 Voir le guide détaillé complet
-  </a>
+  <div class="bg-white dark:bg-neutral-800 rounded-lg p-6 shadow-lg">
+    <h3 class="!text-xl font-bold mb-4 flex items-center">
+      <span class="mr-2">🎯</span> Compétences
+    </h3>
+    <ul class="space-y-2">
+      <li class="flex items-center">
+        <span class="mr-2">🐧</span> Administration Linux
+      </li>
+      <li class="flex items-center">
+        <span class="mr-2">🌐</span> Configuration Web
+      </li>
+      <li class="flex items-center">
+        <span class="mr-2">🗄️</span> Base de données
+      </li>
+    </ul>
+  </div>
 </div>

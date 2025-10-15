@@ -1,0 +1,12 @@
+<div class="my-16">
+  <h2 class="text-center text-3xl font-bold mb-12">{{ .title }}</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    {{ range .features }}
+      <div class="p-6 rounded-lg shadow-lg bg-neutral-100 dark:bg-neutral-800" data-aos="fade-up" data-aos-delay="{{ mul .Weight 100 }}">
+        <i class="text-primary-500 text-3xl mb-4">{{ partial "icon.html" .icon }}</i>
+        <h3 class="!mt-0 font-bold">{{ .title }}</h3>
+        <p class="text-sm">{{ .description | markdownify }}</p>
+      </div>
+    {{ end }}
+  </div>
+</div>
