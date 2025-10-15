@@ -1,7 +1,9 @@
 <div class="my-16">
   <h2 class="text-center text-3xl font-bold mb-4">{{ .title }}</h2>
   <p class="text-center text-lg text-neutral-600 dark:text-neutral-300 mb-12">{{ .subtitle }}</p>
-  {{ partial "project_cards.html" (dict "pages" (first .numberOfPosts (where site.RegularPages "Section" "projets"))) }}
+  {{ $projects := where site.RegularPages "Section" "projets" }}
+  {{ $recentProjects := first .numberOfPosts $projects }}
+  {{ partial "project_cards.html" (dict "pages" $recentProjects) }}
   <div class="text-center mt-8">
     <a href="/projets/" class="font-semibold">Voir tous les projets →</a>
   </div>
