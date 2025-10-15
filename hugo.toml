@@ -1,16 +1,10 @@
 baseURL = "http://localhost:1313/"
 languageCode = "fr-fr"
 title = "Portfolio de Stéphan Uniatowitz - Expert Support Technique & Infrastructure"
-theme = "blowfish"
 
 [params]
   description = "Portfolio technique de Stéphan Uniatowitz - Expert support N2/N3, réseaux et systèmes avec 85% de taux de résolution en environnements critiques"
   keywords = ["support technique", "réseaux", "systèmes", "GLPI", "VPN", "infrastructure", "technicien IT"]
-  google_fonts = [
-    { family = "Lora", weights = [700] },
-    { family = "Inter", weights = [400, 600] }
-  ]
-  fontFamily = { heading = "Lora, serif", body = "Inter, sans-serif", mono = "monospace" }
 
 [markup]
   [markup.goldmark]

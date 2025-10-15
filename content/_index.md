@@ -48,7 +48,19 @@ buttons:
 Découvrez mes réalisations techniques et expérimentations en laboratoire personnel.
 
 <div class="my-8">
-  {{< featuredProjects >}}
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="bg-white dark:bg-neutral-800 rounded-lg shadow-md p-6 border border-neutral-200 dark:border-neutral-700">
+      <h3 class="!text-xl !mt-0 mb-3 text-primary-600 dark:text-primary-400">🔧 Installation Serveur GLPI</h3>
+      <p class="!my-0 text-sm text-neutral-600 dark:text-neutral-400">Déploiement et configuration d'un serveur GLPI pour la gestion de tickets IT</p>
+      <a href="/projets/installation-serveur-glpi/" class="inline-block mt-3 text-sm text-primary-600 dark:text-primary-400 hover:underline">Voir le projet →</a>
+    </div>
+
+    <div class="bg-white dark:bg-neutral-800 rounded-lg shadow-md p-6 border border-neutral-200 dark:border-neutral-700">
+      <h3 class="!text-xl !mt-0 mb-3 text-primary-600 dark:text-primary-400">🛡️ Mise en Place VPN</h3>
+      <p class="!my-0 text-sm text-neutral-600 dark:text-neutral-400">Configuration sécurisée d'un VPN pour accès distant sécurisé</p>
+      <a href="/projets/mise-en-place-vpn/" class="inline-block mt-3 text-sm text-primary-600 dark:text-primary-400 hover:underline">Voir le projet →</a>
+    </div>
+  </div>
 </div>
 
 ## 📈 Mon Parcours en Bref

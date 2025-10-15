@@ -117,4 +117,5 @@ Passionné par l'expérimentation technique, je maintiens un laboratoire virtuel
 Vous pouvez me contacter via le formulaire ci-dessous ou directement par email.
 
 ### 📝 Formulaire de Contact
-{{< contact-form >}}
+
+Pour me contacter, vous pouvez utiliser le formulaire de contact disponible sur la page [Contact](/contact) ou m'envoyer directement un email.
