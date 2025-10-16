@@ -1,13 +1,13 @@
 ---
 title: "Contact"
-date: 2025-10-15T14:00:00+02:00
+date: 2025-10-16T01:02:00+02:00
 draft: false
 ---
 
 ## 🚀 Prêt à Collaborer ?
 Discutons de vos besoins techniques et de comment je peux apporter de la valeur à votre équipe.
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-12">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-12">
     <div class="bg-white/20 p-6 rounded-2xl backdrop-blur-lg border border-white/30 group hover:bg-white/30 transition-all duration-500">
         <div class="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">📧</div>
         <h3 class="!text-xl !font-bold !mb-3">Email</h3>
@@ -36,12 +36,12 @@ Discutons de vos besoins techniques et de comment je peux apporter de la valeur 
     </div>
 </div>
 
-## Ma Méthodologie
+## 💼 Mon Processus de Travail
 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 my-12">
     <div class="text-center group">
-        <div class="text-5xl mb-4 group-hover:animate-bounce">🎯</div>
+        <div class="text-5xl mb-4 group-hover:animate-bounce">🔍</div>
         <h3 class="!text-xl !font-bold !mb-3 text-red-600 dark:text-red-400">Diagnostic</h3>
-        <p class="!my-0 text-sm">Analyse approfondie de vos besoins et de vos contraintes</p>
+        <p class="!my-0 text-sm">Analyse approfondie des besoins et contraintes techniques</p>
     </div>
 
     <div class="text-center group">
@@ -56,3 +56,6 @@ Discutons de vos besoins techniques et de comment je peux apporter de la valeur 
         <p class="!my-0 text-sm">Livraison avec documentation complète et reproductible</p>
     </div>
 </div>
+
+---
+*Réponse garantie sous 24 heures. Au plaisir d’échanger avec vous !*
