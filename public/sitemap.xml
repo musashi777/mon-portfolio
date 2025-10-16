@@ -3,7 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-10-14T20:16:01+02:00</lastmod>
+    <lastmod>2025-10-15T10:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/</loc>
+    <lastmod>2025-10-15T10:00:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-10-14T20:16:01+02:00</lastmod>
@@ -23,17 +26,11 @@
     <loc>http://localhost:1313/tags/tutoriel/</loc>
     <lastmod>2025-10-14T20:16:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projets/installation-serveur-glpi/details/</loc>
-    <lastmod>2025-10-14T15:00:00+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/projets/installation-serveur-glpi/</loc>
     <lastmod>2025-10-14T15:00:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projets/</loc>
     <lastmod>2025-10-14T15:00:00+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projets/mise-en-place-vpn/details/</loc>
-    <lastmod>2025-10-14T13:15:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projets/mise-en-place-vpn/</loc>
     <lastmod>2025-10-14T13:15:00+02:00</lastmod>
@@ -42,9 +39,6 @@
     <lastmod>2025-10-14T13:05:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
-    <lastmod>2025-10-14T13:05:00+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/cv/</loc>
     <lastmod>2025-10-14T13:05:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
