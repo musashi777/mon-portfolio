@@ -1,0 +1,294 @@
+{{ define "main" }}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Stéphan Uniatowitz - Version Imprimable</title>
+    <style>
+        @media print {
+            @page {
+                margin: 1cm;
+                size: A4;
+            }
+
+            body {
+                font-family: 'Arial', sans-serif;
+                font-size: 12px;
+                line-height: 1.4;
+                color: #000;
+                background: white;
+            }
+
+            .no-print {
+                display: none !important;
+            }
+
+            .page-break {
+                page-break-before: always;
+            }
+
+            h1, h2, h3 {
+                color: #000;
+                margin-bottom: 0.5em;
+            }
+
+            h1 {
+                font-size: 24px;
+                border-bottom: 2px solid #000;
+                padding-bottom: 0.2em;
+            }
+
+            h2 {
+                font-size: 16px;
+                border-bottom: 1px solid #666;
+                padding-bottom: 0.2em;
+                margin-top: 1em;
+            }
+
+            h3 {
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            .header-info {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 1em;
+            }
+
+            .contact-info {
+                font-size: 11px;
+                line-height: 1.3;
+            }
+
+            .section {
+                margin-bottom: 1em;
+            }
+
+            .experience-item {
+                margin-bottom: 0.8em;
+                page-break-inside: avoid;
+            }
+
+            .company-period {
+                display: flex;
+                justify-content: space-between;
+                font-weight: bold;
+                margin-bottom: 0.3em;
+            }
+
+            .skills-grid {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 0.5em;
+                margin-top: 0.5em;
+            }
+
+            .skill-category {
+                margin-bottom: 0.5em;
+            }
+
+            ul {
+                margin: 0.3em 0;
+                padding-left: 1.2em;
+            }
+
+            li {
+                margin-bottom: 0.2em;
+            }
+
+            .two-columns {
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+                gap: 1em;
+            }
+
+            .main-content {
+                grid-column: 1;
+            }
+
+            .sidebar {
+                grid-column: 2;
+            }
+        }
+
+        /* Styles pour l'écran (prévisualisation) */
+        @media screen {
+            body {
+                font-family: 'Arial', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+                color: #333;
+                background: #f5f5f5;
+                padding: 2em;
+                max-width: 210mm;
+                margin: 0 auto;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                background: white;
+            }
+
+            .print-button {
+                background: #007acc;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+                margin-bottom: 1em;
+                font-size: 14px;
+            }
+
+            .print-button:hover {
+                background: #005a9e;
+            }
+        }
+    </style>
+</head>
+<body>
+    <button class="print-button no-print" onclick="window.print()">🖨️ Imprimer cette version</button>
+
+    <div class="header-info">
+        <div>
+            <h1>Stéphan Uniatowitz</h1>
+            <p><strong>Technicien Support, Réseaux & Configuration Systèmes</strong></p>
+        </div>
+        <div class="contact-info">
+            <p>📍 Marseille, France</p>
+            <p>📧 votre.email@example.com</p>
+            <p>🔗 linkedin.com/in/stephan-uniatowitz-259360101</p>
+        </div>
+    </div>
+
+    <div class="two-columns">
+        <!-- Colonne principale -->
+        <div class="main-content">
+            <!-- Profil professionnel -->
+            <div class="section">
+                <h2>Profil Professionnel</h2>
+                <p>Technicien support confirmé avec plus de deux ans d'expérience acquise dans des environnements critiques et multisites, notamment chez SFR Business (Intelcia), AP-HM La Timone et Econocom. Solide maîtrise des outils de support, des systèmes Windows/Linux et des environnements réseau. Capacité éprouvée à gérer les demandes utilisateurs, résoudre rapidement les incidents et documenter les procédures.</p>
+            </div>
+
+            <!-- Expérience professionnelle -->
+            <div class="section">
+                <h2>Expérience Professionnelle</h2>
+
+                <div class="experience-item">
+                    <div class="company-period">
+                        <strong>Technicien Support Informatique N1+</strong>
+                        <span>Juillet 2024 - Décembre 2024</span>
+                    </div>
+                    <p><em>Intelcia (SFR Business) • Environnement télécoms critique - Support multisite</em></p>
+                    <ul>
+                        <li>Gestion de plus de 25 tickets/jour via GLPI avec un taux de résolution de 85%</li>
+                        <li>Support technique pour 200+ postes informatiques répartis sur plusieurs sites</li>
+                        <li>Maintenance des systèmes Windows/Linux et gestion Active Directory</li>
+                        <li>Diagnostic et résolution d'incidents réseau (VPN, Wi-Fi, connectivité)</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="company-period">
+                        <strong>Technicien Informatique</strong>
+                        <span>Janvier 2021 - Mai 2021</span>
+                    </div>
+                    <p><em>AP-HM La Timone • Environnement de santé critique - Support de 500+ postes</em></p>
+                    <ul>
+                        <li>Support technique dans un environnement hospitalier critique</li>
+                        <li>Configuration et maintenance de matériel médical spécialisé</li>
+                        <li>Gestion d'incidents prioritaires avec délais contraints</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="company-period">
+                        <strong>Technicien Assistant Informatique</strong>
+                        <span>Juin 2021 - Septembre 2021</span>
+                    </div>
+                    <p><em>Econocom • Projet de déploiement informatique</em></p>
+                    <ul>
+                        <li>Déploiement de 100 postes informatiques pour un client corporate</li>
+                        <li>Migration et intégration dans l'environnement Active Directory existant</li>
+                        <li>Formation des utilisateurs aux nouveaux outils et procédures</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Colonne latérale -->
+        <div class="sidebar">
+            <!-- Compétences techniques -->
+            <div class="section">
+                <h2>Compétences Techniques</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Systèmes d'Exploitation</h3>
+                        <p>Windows Server, Active Directory, Linux, Ubuntu</p>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Réseaux & Sécurité</h3>
+                        <p>TCP/IP, VPN, Pfsense, Wi-Fi</p>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Virtualisation & Cloud</h3>
+                        <p>VMware, Hyper-V, VirtualBox</p>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Outils & Scripting</h3>
+                        <p>GLPI, PowerShell, Bash, ServiceNow</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formation -->
+            <div class="section">
+                <h2>Formation</h2>
+                <div class="experience-item">
+                    <h3>Technicien Assistant Informatique (TAI)</h3>
+                    <p>École Pratique, Marseille</p>
+                    <p><em>2019 - 2020</em></p>
+                </div>
+                <div class="experience-item">
+                    <h3>POE Métiers du Numérique</h3>
+                    <p>AFPA, Marseille</p>
+                    <p><em>2018 - 2019</em></p>
+                </div>
+            </div>
+
+            <!-- Langues -->
+            <div class="section">
+                <h2>Langues</h2>
+                <p><strong>Français :</strong> Langue maternelle</p>
+                <p><strong>Anglais :</strong> Niveau professionnel (TOEFL - 400 points)</p>
+            </div>
+
+            <!-- Atouts professionnels -->
+            <div class="section">
+                <h2>Atouts Professionnels</h2>
+                <ul>
+                    <li>Autonomie et prise d'initiatives</li>
+                    <li>Rigueur et méthodologie structurée</li>
+                    <li>Gestion de la pression en environnements critiques</li>
+                    <li>Sens du service et satisfaction utilisateur</li>
+                    <li>Adaptabilité rapide aux environnements techniques</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Informations complémentaires -->
+    <div class="section no-print" style="margin-top: 2em; padding-top: 1em; border-top: 1px solid #ccc;">
+        <p><strong>Version en ligne disponible sur :</strong> https://mon-portfolio.vercel.app/cv/</p>
+        <p><em>Dernière mise à jour : Octobre 2025</em></p>
+    </div>
+
+    <script>
+        // Auto-impression si paramètre d'URL
+        if (window.location.search.includes('print=true')) {
+            window.print();
+        }
+    </script>
+</body>
+</html>
+{{ end }}
