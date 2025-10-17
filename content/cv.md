@@ -124,3 +124,4 @@ Passionné par l'expérimentation technique, je maintiens un environnement de te
 
 *Ce CV est également disponible en version PDF sur demande.*
 *Dernière mise à jour : Octobre 2025*
+<- Ajout du fichier TEST_MOBILE.md pour les tests Force deployment -->
