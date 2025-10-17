@@ -7,7 +7,53 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 </copyright>
-    <lastBuildDate>Tue, 14 Oct 2025 20:16:01 +0200</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Oct 2025 22:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ubuntu ne Démarre Plus Après une Mise à Jour Windows ? Le Guide de Réparation GRUB Ultime</title>
+      <link>http://localhost:1313/blog/reparation-grub-apres-mise-a-jour-windows/</link>
+      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/blog/reparation-grub-apres-mise-a-jour-windows/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Introduction : Le Problème de Dual Boot le Plus Fréquent
+    &lt;div id=&#34;introduction--le-problème-de-dual-boot-le-plus-fréquent&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#introduction--le-probl%c3%a8me-de-dual-boot-le-plus-fr%c3%a9quent&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;div class=&#34;flex justify-center mb-8&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/photo_dual_boot.png&#34; alt=&#34;Menu GRUB restauré avec dual boot Ubuntu/Windows&#34; class=&#34;max-w-full md:max-w-lg rounded-lg shadow-lg border border-gray-200 dark:border-gray-700&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Vous venez de faire une mise à jour de Windows, vous redémarrez votre ordinateur et&amp;hellip; surprise, plus de menu de choix.&lt;/strong&gt; Il démarre directement sur Windows, comme si Ubuntu n&amp;rsquo;avait jamais existé.&lt;/p&gt;
+&lt;p&gt;Pas de panique ! &lt;strong&gt;Vos données et votre système sont intacts.&lt;/strong&gt; Vous êtes simplement victime du problème de dual boot le plus courant, et la solution est plus simple que vous ne le pensez.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Firefox Lent sur Ubuntu 24.04 ? La Méthode Robuste pour Remplacer la Version Snap</title>
+      <link>http://localhost:1313/blog/firefox-lent-ubuntu-24-04-solution-robuste/</link>
+      <pubDate>Fri, 17 Oct 2025 21:30:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/blog/firefox-lent-ubuntu-24-04-solution-robuste/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Introduction : Un Problème Fréquent en Support Technique
+    &lt;div id=&#34;introduction--un-problème-fréquent-en-support-technique&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#introduction--un-probl%c3%a8me-fr%c3%a9quent-en-support-technique&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;div class=&#34;flex justify-center mb-8&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/images/photo_firefox_fast.png&#34; alt=&#34;Firefox rapide sur Ubuntu 24.04&#34; class=&#34;max-w-md rounded-lg shadow-lg border border-gray-200 dark:border-gray-700&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;En tant que technicien support informatique spécialisé dans la robustesse des infrastructures, je rencontre régulièrement ce problème chez les utilisateurs d&amp;rsquo;Ubuntu 24.04 : &lt;strong&gt;Firefox met plusieurs secondes à démarrer&lt;/strong&gt;, créant une frustration immédiate après l&amp;rsquo;installation du système.&lt;/p&gt;
+&lt;p&gt;Ce délai n&amp;rsquo;est pas une fatalité, mais la conséquence d&amp;rsquo;un choix technologique de Canonical : l&amp;rsquo;utilisation du format de paquet &lt;strong&gt;Snap&lt;/strong&gt;. Si cette approche offre des avantages en sécurité et maintenance, elle impacte directement la réactivité au premier lancement.&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>Mon Premier Article de Blog</title>

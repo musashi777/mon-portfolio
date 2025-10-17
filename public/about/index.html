@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=43083&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>À Propos de Moi - Portfolio Stéphan Uniatowitz</title>
-    <meta name="description" content="Technicien Support, Réseaux &amp; Configuration Systèmes passionné par l&#39;informatique et les nouvelles technologies">
+    <title>À propos - Portfolio Stéphan Uniatowitz</title>
+    <meta name="description" content="Stéphan Uniatowitz - Technicien support informatique dédié à la robustesse des infrastructures">
     <meta name="keywords" content="support technique, réseaux, systèmes, GLPI, VPN, infrastructure, technicien IT">
 
     
@@ -146,11 +146,24 @@
             opacity: 0;
             animation: fadeInUp 0.6s ease-out forwards;
         }
-        .stagger-animation > *:nth-child(1) { animation-delay: 0.1s; }
-        .stagger-animation > *:nth-child(2) { animation-delay: 0.2s; }
-        .stagger-animation > *:nth-child(3) { animation-delay: 0.3s; }
-        .stagger-animation > *:nth-child(4) { animation-delay: 0.4s; }
-        .stagger-animation > *:nth-child(5) { animation-delay: 0.5s; }
+    .stagger-animation > *:nth-child(1) { animation-delay: 0.1s; }
+    .stagger-animation > *:nth-child(2) { animation-delay: 0.2s; }
+    .stagger-animation > *:nth-child(3) { animation-delay: 0.3s; }
+    .stagger-animation > *:nth-child(4) { animation-delay: 0.4s; }
+    .stagger-animation > *:nth-child(5) { animation-delay: 0.5s; }
+
+     
+    pre {
+        overflow-x: auto;
+        max-width: 100%;
+    }
+
+     
+    @media (max-width: 768px) {
+        pre {
+            font-size: 0.875rem;
+        }
+    }
     </style>
 </head>
 <body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
@@ -230,543 +243,195 @@
     
     <main class="flex-grow">
         
-<article class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-    
-    <header class="mb-16 text-center">
-        <h1 class="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-gray-900 dark:text-white mb-4">
-            À Propos de Moi
-        </h1>
-
-        
-        <p class="text-lg sm:text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
-            Technicien Support, Réseaux &amp; Configuration Systèmes passionné par l&#39;informatique et les nouvelles technologies
+<div class="max-w-4xl mx-auto px-4 py-12">
+  
+  <div class="flex flex-col md:flex-row items-center gap-8 mb-12">
+    <div class="w-80 h-60 rounded-lg overflow-hidden border-4 border-primary-200 shadow-lg">
+      <img src="/images/photos_a_propos.png" alt="Stéphan Uniatowitz" class="w-full h-full object-contain">
+    </div>
+    <div class="flex-1 text-center md:text-left">
+      <h1 class="text-4xl font-heading font-bold text-gray-900 dark:text-white mb-4">
+        Stéphan Uniatowitz
+      </h1>
+      <p class="text-xl text-gray-600 dark:text-gray-300 font-medium mb-6">
+        Technicien support informatique focalisé sur la fiabilité et la sécurité des infrastructures
+      </p>
+      <p class="text-lg text-gray-700 dark:text-gray-200 mb-4">
+        Ma priorité est d'assurer la continuité des services par des solutions claires, testées et documentées.
+      </p>
+      <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4 border border-blue-200 dark:border-blue-700">
+        <p class="text-blue-800 dark:text-blue-200 text-sm italic">
+          <strong>Ma philosophie de travail :</strong> J'aborde chaque incident avec calme et méthode : observation, diagnostic, test, correction et documentation. Je privilégie la clarté dans la communication technique et l'amélioration continue pour réduire les récidives. Mon objectif : rendre les systèmes stables, sécurisables et faciles à exploiter.
         </p>
-        
-    </header>
+      </div>
+    </div>
+  </div>
+
+
+  <section class="mb-12">
+    <h2 class="text-3xl font-heading font-bold text-gray-900 dark:text-white mb-6">Mon parcours</h2>
+    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
+      <p class="text-gray-700 dark:text-gray-200 text-lg leading-relaxed">
+        Formé aux systèmes et réseaux, j'ai développé une expérience opérationnelle en support N1/N2 sur environnements hétérogènes et critiques. J'interviens sur la maintenance des infrastructures, la configuration de VPN site-à-site, la virtualisation et les premières couches de cybersécurité. J'applique des procédures reproductibles et je transmets des bonnes pratiques aux équipes utilisatrices.
+      </p>
 
     
-    <div class="prose prose-lg dark:prose-invert max-w-none mb-16">
-        
-<h2 class="relative group">👨‍💻 Technicien Supérieur Système et Réseau
-    <div id="-technicien-supérieur-système-et-réseau" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-technicien-sup%c3%a9rieur-syst%c3%a8me-et-r%c3%a9seau" aria-label="Anchor">#</a>
-    </span>
-    
-</h2>
-<p>Passionné par l&rsquo;informatique et les nouvelles technologies, je suis spécialisé dans la gestion, la maintenance et la sécurisation des infrastructures système et réseau. Mon approche combine expertise technique et sens du service client.</p>
+    <div class="mt-6 p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-200 dark:border-blue-700">
+      <h3 class="text-lg font-semibold text-blue-800 dark:text-blue-300 mb-2">2019 – 2021 — Formation et projets personnels en cybersécurité</h3>
+      <p class="text-blue-700 dark:text-blue-200 text-sm">
+        Période consacrée à la préparation du diplôme d'Administrateur en Infrastructures Sécurisées à Simplon Marseille, dans le cadre d'une formation en alternance. N'ayant pas trouvé d'entreprise d'accueil, j'ai poursuivi ma montée en compétences de manière autonome.
+      </p>
+      <p class="text-blue-700 dark:text-blue-200 text-sm mt-2">
+        J'ai mis en place un laboratoire virtualisé (Proxmox / VirtualBox) pour pratiquer le hardening Linux, l'automatisation (Ansible), la gestion des vulnérabilités (OpenVAS) et la détection réseau (Suricata + ELK). En parallèle, j'ai effectué plusieurs missions d'intérim en restauration, ce qui m'a permis de conserver une activité professionnelle tout en développant mes compétences techniques et mon autonomie.
+      </p>
+    </div>
+  </div>
+</section>
 
-<h3 class="relative group">🎯 Mon Approche
-    <div id="-mon-approche" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-mon-approche" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
-<p>Je privilégie une méthodologie structurée pour la résolution de problèmes techniques, alliant analyse approfondie et efficacité opérationnelle. Mon expérience en environnements critiques (télécoms, santé) m&rsquo;a permis de développer une capacité d&rsquo;adaptation rapide et une gestion efficace des priorités.</p>
 
-<h3 class="relative group">🌍 Langues
-    <div id="-langues" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-langues" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
-<ul>
-<li><strong>Français</strong> : Natif</li>
-<li><strong>Anglais</strong> : Professionnel (TOEFL - 400 points)</li>
-</ul>
-
-<h3 class="relative group">🔬 Laboratoire Personnel
-    <div id="-laboratoire-personnel" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-laboratoire-personnel" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
-<p>Passionné par l&rsquo;expérimentation technique, je maintiens un laboratoire virtuel dédié aux tests d&rsquo;infrastructure :</p>
-<ul>
-<li>Tests d&rsquo;infrastructure réseau et systèmes en environnement virtualisé (VirtualBox)</li>
-<li>Configuration de serveurs et rôles (DHCP, DNS, Active Directory) sous Windows Server</li>
-<li>Déploiement de machines Linux Ubuntu pour expérimenter scripts, sécurité et supervision</li>
-</ul>
-
-<h3 class="relative group">💡 Valeurs Professionnelles
-    <div id="-valeurs-professionnelles" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-valeurs-professionnelles" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
-<ul>
-<li><strong>Fiabilité</strong> : Engagement sur les délais et qualité du service</li>
-<li><strong>Innovation</strong> : Veille technologique constante et amélioration continue</li>
-<li><strong>Collaboration</strong> : Travail d&rsquo;équipe et partage de connaissances</li>
-<li><strong>Adaptabilité</strong> : Capacité à évoluer dans des environnements techniques variés</li>
-</ul>
-
-<h3 class="relative group">🎓 Formation Continue
-    <div id="-formation-continue" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-formation-continue" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
-<p>Je me forme continuellement aux nouvelles technologies et méthodologies pour rester à la pointe des évolutions du secteur informatique. Mes domaines d&rsquo;intérêt actuels incluent la cybersécurité, l&rsquo;automatisation et le cloud computing.</p>
-<hr>
-<p><em>&ldquo;La technologie n&rsquo;est rien. Ce qui compte, c&rsquo;est d&rsquo;avoir confiance en ses collaborateurs, de savoir qu&rsquo;ils sont compétents et qu&rsquo;ils feront du bon travail.&rdquo;</em> - Steve Jobs</p>
-
+<section class="mb-12">
+  <h2 class="text-3xl font-heading font-bold text-gray-900 dark:text-white mb-6">Compétences clés</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
+      <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Support & Diagnostic</h3>
+      <ul class="space-y-2 text-gray-700 dark:text-gray-200">
+        <li class="flex items-center">
+          <i class="fas fa-check text-green-500 mr-3"></i>
+          Support N1/N2, diagnostic incident
+        </li>
+        <li class="flex items-center">
+          <i class="fas fa-check text-green-500 mr-3"></i>
+          Résolution de problèmes complexes
+        </li>
+        <li class="flex items-center">
+          <i class="fas fa-check text-green-500 mr-3"></i>
+          Gestion des tickets et priorisation
+        </li>
+      </ul>
     </div>
 
-    
-    <section class="mb-16">
-        <h2 class="text-2xl sm:text-3xl font-heading font-bold text-gray-900 dark:text-white mb-6 sm:mb-8 text-center">
-            Compétences Techniques
-        </h2>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            
-            <div class="space-y-6">
-                <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Technologies & Outils</h3>
-
-                
-                <div class="skill-item">
-                    <div class="flex justify-between items-center mb-2">
-                        <span class="font-medium text-gray-700 dark:text-gray-300">Windows Server</span>
-                        <span class="text-sm text-gray-500 dark:text-gray-400">85%</span>
-                    </div>
-                    <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-3">
-                        <div class="bg-gradient-to-r from-primary-500 to-primary-600 h-3 rounded-full transition-all duration-1000 ease-out"
-                             data-level="85"
-                             style="width: 0%"></div>
-                    </div>
-                </div>
-                
-                <div class="skill-item">
-                    <div class="flex justify-between items-center mb-2">
-                        <span class="font-medium text-gray-700 dark:text-gray-300">Linux (Debian/CentOS/Ubuntu)</span>
-                        <span class="text-sm text-gray-500 dark:text-gray-400">80%</span>
-                    </div>
-                    <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-3">
-                        <div class="bg-gradient-to-r from-primary-500 to-primary-600 h-3 rounded-full transition-all duration-1000 ease-out"
-                             data-level="80"
-                             style="width: 0%"></div>
-                    </div>
-                </div>
-                
-                <div class="skill-item">
-                    <div class="flex justify-between items-center mb-2">
-                        <span class="font-medium text-gray-700 dark:text-gray-300">Active Directory</span>
-                        <span class="text-sm text-gray-500 dark:text-gray-400">90%</span>
-                    </div>
-                    <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-3">
-                        <div class="bg-gradient-to-r from-primary-500 to-primary-600 h-3 rounded-full transition-all duration-1000 ease-out"
-                             data-level="90"
-                             style="width: 0%"></div>
-                    </div>
-                </div>
-                
-                <div class="skill-item">
-                    <div class="flex justify-between items-center mb-2">
-                        <span class="font-medium text-gray-700 dark:text-gray-300">VMware vSphere</span>
-                        <span class="text-sm text-gray-500 dark:text-gray-400">75%</span>
-                    </div>
-                    <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-3">
-                        <div class="bg-gradient-to-r from-primary-500 to-primary-600 h-3 rounded-full transition-all duration-1000 ease-out"
-                             data-level="75"
-                             style="width: 0%"></div>
-                    </div>
-                </div>
-                
-                <div class="skill-item">
-                    <div class="flex justify-between items-center mb-2">
-                        <span class="font-medium text-gray-700 dark:text-gray-300">Réseaux TCP/IP</span>
-                        <span class="text-sm text-gray-500 dark:text-gray-400">85%</span>
-                    </div>
-                    <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-3">
-                        <div class="bg-gradient-to-r from-primary-500 to-primary-600 h-3 rounded-full transition-all duration-1000 ease-out"
-                             data-level="85"
-                             style="width: 0%"></div>
-                    </div>
-                </div>
-                
-                <div class="skill-item">
-                    <div class="flex justify-between items-center mb-2">
-                        <span class="font-medium text-gray-700 dark:text-gray-300">Firewall (Pfsense/Fortinet)</span>
-                        <span class="text-sm text-gray-500 dark:text-gray-400">80%</span>
-                    </div>
-                    <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-3">
-                        <div class="bg-gradient-to-r from-primary-500 to-primary-600 h-3 rounded-full transition-all duration-1000 ease-out"
-                             data-level="80"
-                             style="width: 0%"></div>
-                    </div>
-                </div>
-                
-                <div class="skill-item">
-                    <div class="flex justify-between items-center mb-2">
-                        <span class="font-medium text-gray-700 dark:text-gray-300">PowerShell/Bash</span>
-                        <span class="text-sm text-gray-500 dark:text-gray-400">75%</span>
-                    </div>
-                    <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-3">
-                        <div class="bg-gradient-to-r from-primary-500 to-primary-600 h-3 rounded-full transition-all duration-1000 ease-out"
-                             data-level="75"
-                             style="width: 0%"></div>
-                    </div>
-                </div>
-                
-                <div class="skill-item">
-                    <div class="flex justify-between items-center mb-2">
-                        <span class="font-medium text-gray-700 dark:text-gray-300">GLPI/ServiceNow</span>
-                        <span class="text-sm text-gray-500 dark:text-gray-400">90%</span>
-                    </div>
-                    <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-3">
-                        <div class="bg-gradient-to-r from-primary-500 to-primary-600 h-3 rounded-full transition-all duration-1000 ease-out"
-                             data-level="90"
-                             style="width: 0%"></div>
-                    </div>
-                </div>
-                
-            </div>
-
-            
-            <div class="space-y-6">
-                <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Compétences Professionnelles</h3>
-
-                
-                <div class="bg-white dark:bg-gray-800 p-4 rounded-lg border border-gray-200 dark:border-gray-700 card-hover">
-                    <div class="flex items-center mb-2">
-                        <div class="w-8 h-8 bg-primary-100 dark:bg-primary-900 rounded-full flex items-center justify-center mr-3">
-                            <i class="fas fa-headset text-primary-600 dark:text-primary-400 text-sm"></i>
-                        </div>
-                        <h4 class="font-semibold text-gray-900 dark:text-white">Support Technique</h4>
-                    </div>
-                    <p class="text-gray-600 dark:text-gray-400 text-sm">Résolution d&#39;incidents avec 85% de taux de résolution en environnements critiques</p>
-                </div>
-                
-                <div class="bg-white dark:bg-gray-800 p-4 rounded-lg border border-gray-200 dark:border-gray-700 card-hover">
-                    <div class="flex items-center mb-2">
-                        <div class="w-8 h-8 bg-primary-100 dark:bg-primary-900 rounded-full flex items-center justify-center mr-3">
-                            <i class="fas fa-tasks text-primary-600 dark:text-primary-400 text-sm"></i>
-                        </div>
-                        <h4 class="font-semibold text-gray-900 dark:text-white">Gestion de Projets</h4>
-                    </div>
-                    <p class="text-gray-600 dark:text-gray-400 text-sm">Planification et déploiement d&#39;infrastructures systèmes et réseaux</p>
-                </div>
-                
-                <div class="bg-white dark:bg-gray-800 p-4 rounded-lg border border-gray-200 dark:border-gray-700 card-hover">
-                    <div class="flex items-center mb-2">
-                        <div class="w-8 h-8 bg-primary-100 dark:bg-primary-900 rounded-full flex items-center justify-center mr-3">
-                            <i class="fas fa-comments text-primary-600 dark:text-primary-400 text-sm"></i>
-                        </div>
-                        <h4 class="font-semibold text-gray-900 dark:text-white">Communication</h4>
-                    </div>
-                    <p class="text-gray-600 dark:text-gray-400 text-sm">Formation utilisateur et support client en environnements multisites</p>
-                </div>
-                
-                <div class="bg-white dark:bg-gray-800 p-4 rounded-lg border border-gray-200 dark:border-gray-700 card-hover">
-                    <div class="flex items-center mb-2">
-                        <div class="w-8 h-8 bg-primary-100 dark:bg-primary-900 rounded-full flex items-center justify-center mr-3">
-                            <i class="fas fa-lightbulb text-primary-600 dark:text-primary-400 text-sm"></i>
-                        </div>
-                        <h4 class="font-semibold text-gray-900 dark:text-white">Résolution de Problèmes</h4>
-                    </div>
-                    <p class="text-gray-600 dark:text-gray-400 text-sm">Diagnostic et correction d&#39;incidents techniques complexes</p>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-
-    
-    <section class="mb-16">
-        <h2 class="text-2xl sm:text-3xl font-heading font-bold text-gray-900 dark:text-white mb-6 sm:mb-8 text-center">
-            Parcours Professionnel
-        </h2>
-
-        <div class="timeline">
-            
-            <div class="timeline-item mb-12">
-                <div class="flex flex-col md:flex-row">
-                    <div class="md:w-1/3 mb-4 md:mb-0 md:pr-8">
-                        <div class="bg-white dark:bg-gray-800 p-4 rounded-lg border border-gray-200 dark:border-gray-700">
-                            <span class="text-sm font-medium text-primary-600 dark:text-primary-400">Juillet 2024 - Décembre 2024</span>
-                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white mt-1">Technicien Support Informatique N1&#43;</h3>
-                            <p class="text-gray-600 dark:text-gray-400 text-sm">Intelcia (SFR Business)</p>
-                        </div>
-                    </div>
-                    <div class="md:w-2/3">
-                        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700 card-hover">
-                            <p class="text-gray-700 dark:text-gray-300 mb-4">Support multisite pour plus de 200 postes dans un environnement télécoms critique</p>
-
-                            
-                            <div class="mt-4">
-                                <h4 class="font-semibold text-gray-900 dark:text-white mb-2">Réalisations :</h4>
-                                <ul class="list-disc list-inside space-y-1 text-gray-600 dark:text-gray-400">
-                                    
-                                    <li>Gestion de plus de 25 tickets/jour via GLPI avec taux de résolution de 85%</li>
-                                    
-                                    <li>Maintenance et support AD, réseau VPN, Wi-Fi</li>
-                                    
-                                    <li>Environnement télécoms critique</li>
-                                    
-                                </ul>
-                            </div>
-                            
-
-                            
-                            <div class="mt-4">
-                                <h4 class="font-semibold text-gray-900 dark:text-white mb-2">Technologies :</h4>
-                                <div class="flex flex-wrap gap-2">
-                                    
-                                    <span class="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-200 px-3 py-1 rounded-full text-sm">
-                                        GLPI
-                                    </span>
-                                    
-                                    <span class="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-200 px-3 py-1 rounded-full text-sm">
-                                        Active Directory
-                                    </span>
-                                    
-                                    <span class="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-200 px-3 py-1 rounded-full text-sm">
-                                        VPN
-                                    </span>
-                                    
-                                    <span class="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-200 px-3 py-1 rounded-full text-sm">
-                                        Wi-Fi
-                                    </span>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="timeline-item mb-12">
-                <div class="flex flex-col md:flex-row">
-                    <div class="md:w-1/3 mb-4 md:mb-0 md:pr-8">
-                        <div class="bg-white dark:bg-gray-800 p-4 rounded-lg border border-gray-200 dark:border-gray-700">
-                            <span class="text-sm font-medium text-primary-600 dark:text-primary-400">Janvier 2021 - Mai 2021</span>
-                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white mt-1">Technicien Informatique</h3>
-                            <p class="text-gray-600 dark:text-gray-400 text-sm">AP-HM La Timone</p>
-                        </div>
-                    </div>
-                    <div class="md:w-2/3">
-                        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700 card-hover">
-                            <p class="text-gray-700 dark:text-gray-300 mb-4">Support de 500&#43; postes dans un environnement de santé critique</p>
-
-                            
-                            <div class="mt-4">
-                                <h4 class="font-semibold text-gray-900 dark:text-white mb-2">Réalisations :</h4>
-                                <ul class="list-disc list-inside space-y-1 text-gray-600 dark:text-gray-400">
-                                    
-                                    <li>Configuration de matériel médical spécialisé</li>
-                                    
-                                    <li>Gestion d&#39;incidents prioritaires</li>
-                                    
-                                    <li>Support utilisateurs en environnement hospitalier</li>
-                                    
-                                </ul>
-                            </div>
-                            
-
-                            
-                            <div class="mt-4">
-                                <h4 class="font-semibold text-gray-900 dark:text-white mb-2">Technologies :</h4>
-                                <div class="flex flex-wrap gap-2">
-                                    
-                                    <span class="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-200 px-3 py-1 rounded-full text-sm">
-                                        Windows 10
-                                    </span>
-                                    
-                                    <span class="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-200 px-3 py-1 rounded-full text-sm">
-                                        Matériel médical
-                                    </span>
-                                    
-                                    <span class="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-200 px-3 py-1 rounded-full text-sm">
-                                        Support prioritaire
-                                    </span>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="timeline-item mb-12">
-                <div class="flex flex-col md:flex-row">
-                    <div class="md:w-1/3 mb-4 md:mb-0 md:pr-8">
-                        <div class="bg-white dark:bg-gray-800 p-4 rounded-lg border border-gray-200 dark:border-gray-700">
-                            <span class="text-sm font-medium text-primary-600 dark:text-primary-400">Juin 2021 - Septembre 2021</span>
-                            <h3 class="text-lg font-semibold text-gray-900 dark:text-white mt-1">Technicien Assistant Informatique</h3>
-                            <p class="text-gray-600 dark:text-gray-400 text-sm">Econocom</p>
-                        </div>
-                    </div>
-                    <div class="md:w-2/3">
-                        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700 card-hover">
-                            <p class="text-gray-700 dark:text-gray-300 mb-4">Déploiement et migration d&#39;infrastructures informatiques</p>
-
-                            
-                            <div class="mt-4">
-                                <h4 class="font-semibold text-gray-900 dark:text-white mb-2">Réalisations :</h4>
-                                <ul class="list-disc list-inside space-y-1 text-gray-600 dark:text-gray-400">
-                                    
-                                    <li>Déploiement de 100 postes informatiques</li>
-                                    
-                                    <li>Migration et intégration Active Directory</li>
-                                    
-                                    <li>Formation utilisateur</li>
-                                    
-                                </ul>
-                            </div>
-                            
-
-                            
-                            <div class="mt-4">
-                                <h4 class="font-semibold text-gray-900 dark:text-white mb-2">Technologies :</h4>
-                                <div class="flex flex-wrap gap-2">
-                                    
-                                    <span class="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-200 px-3 py-1 rounded-full text-sm">
-                                        Active Directory
-                                    </span>
-                                    
-                                    <span class="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-200 px-3 py-1 rounded-full text-sm">
-                                        Déploiement
-                                    </span>
-                                    
-                                    <span class="bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-200 px-3 py-1 rounded-full text-sm">
-                                        Formation
-                                    </span>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </section>
-
-    
-    
-    <section class="mb-16">
-        <h2 class="text-2xl sm:text-3xl font-heading font-bold text-gray-900 dark:text-white mb-6 sm:mb-8 text-center">
-            Certifications
-        </h2>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            
-            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700 card-hover text-center">
-                <div class="w-16 h-16 bg-primary-100 dark:bg-primary-900 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <i class="fas fa-graduation-cap text-primary-600 dark:text-primary-400 text-2xl"></i>
-                </div>
-                <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Technicien Assistant Informatique</h3>
-                <p class="text-gray-600 dark:text-gray-400 text-sm mb-2">École Pratique, Marseille</p>
-                <span class="text-sm text-primary-600 dark:text-primary-400">2020</span>
-            </div>
-            
-            <div class="bg-white dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700 card-hover text-center">
-                <div class="w-16 h-16 bg-primary-100 dark:bg-primary-900 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <i class="fas fa-certificate text-primary-600 dark:text-primary-400 text-2xl"></i>
-                </div>
-                <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">POE Métiers du Numérique</h3>
-                <p class="text-gray-600 dark:text-gray-400 text-sm mb-2">AFPA, Marseille</p>
-                <span class="text-sm text-primary-600 dark:text-primary-400">2019</span>
-            </div>
-            
-        </div>
-    </section>
-    
-
-    
-    <div class="mt-12 text-center">
-        <a href="/" class="btn-primary px-6 py-3 rounded-lg text-white font-semibold shadow-lg inline-flex items-center">
-            <i class="fas fa-arrow-left mr-2"></i>Retour à l'accueil
-        </a>
+    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
+      <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Réseaux & Sécurité</h3>
+      <ul class="space-y-2 text-gray-700 dark:text-gray-200">
+        <li class="flex items-center">
+          <i class="fas fa-check text-green-500 mr-3"></i>
+          Réseaux et VPN site-à-site
+        </li>
+        <li class="flex items-center">
+          <i class="fas fa-check text-green-500 mr-3"></i>
+          Bonnes pratiques de sécurité opérationnelle
+        </li>
+        <li class="flex items-center">
+          <i class="fas fa-check text-green-500 mr-3"></i>
+          Configuration pare-feu
+        </li>
+      </ul>
     </div>
-</article>
+
+    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
+      <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Infrastructure & Virtualisation</h3>
+      <ul class="space-y-2 text-gray-700 dark:text-gray-200">
+        <li class="flex items-center">
+          <i class="fas fa-check text-green-500 mr-3"></i>
+          Virtualisation et gestion de services
+        </li>
+        <li class="flex items-center">
+          <i class="fas fa-check text-green-500 mr-3"></i>
+          Gestion VM et conteneurs
+        </li>
+        <li class="flex items-center">
+          <i class="fas fa-check text-green-500 mr-3"></i>
+          Administration systèmes Linux/Windows
+        </li>
+      </ul>
+    </div>
+
+    <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
+      <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Documentation & Formation</h3>
+      <ul class="space-y-2 text-gray-700 dark:text-gray-200">
+        <li class="flex items-center">
+          <i class="fas fa-check text-green-500 mr-3"></i>
+          Rédaction de procédures
+        </li>
+        <li class="flex items-center">
+          <i class="fas fa-check text-green-500 mr-3"></i>
+          Transfert de compétences
+        </li>
+        <li class="flex items-center">
+          <i class="fas fa-check text-green-500 mr-3"></i>
+          Documentation technique
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
 
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        
-        const skillBars = document.querySelectorAll('.skill-item');
+<section class="mb-12">
+  <h2 class="text-3xl font-heading font-bold text-gray-900 dark:text-white mb-6">Approche et soft skills</h2>
+  <div class="bg-gradient-to-r from-primary-50 to-blue-50 dark:from-primary-900/20 dark:to-blue-900/20 rounded-xl p-8 border border-primary-200 dark:border-primary-700">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div>
+        <h3 class="text-xl font-semibold text-primary-700 dark:text-primary-300 mb-4">Ma démarche</h3>
+        <ul class="space-y-3 text-gray-700 dark:text-gray-200">
+          <li class="flex items-start">
+            <i class="fas fa-search text-primary-500 mt-1 mr-3"></i>
+            <span>Je privilégie une démarche factuelle et analytique</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-brain text-primary-500 mt-1 mr-3"></i>
+            <span>J'agis avec calme, méthode et pédagogie</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-comments text-primary-500 mt-1 mr-3"></i>
+            <span>Je communique les solutions en langage métier</span>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold text-primary-700 dark:text-primary-300 mb-4">Mon orientation</h3>
+        <ul class="space-y-3 text-gray-700 dark:text-gray-200">
+          <li class="flex items-start">
+            <i class="fas fa-cogs text-primary-500 mt-1 mr-3"></i>
+            <span>Je construis des procédures pour réduire la récurrence des incidents</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-shield-alt text-primary-500 mt-1 mr-3"></i>
+            <span>Rendre les systèmes plus fiables et sécurisés</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-tools text-primary-500 mt-1 mr-3"></i>
+            <span>Faciliter l'exploitation des infrastructures</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const skillBar = entry.target.querySelector('[data-level]');
-                    const level = skillBar.getAttribute('data-level');
-                    skillBar.style.width = level + '%';
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.5 });
 
-        skillBars.forEach(skill => {
-            observer.observe(skill);
-        });
+<section class="text-center">
+  <div class="bg-white dark:bg-gray-800 rounded-xl p-8 shadow-lg border border-gray-200 dark:border-gray-700">
+    <h2 class="text-2xl font-heading font-bold text-gray-900 dark:text-white mb-4">
+      Prêt à renforcer votre infrastructure ?
+    </h2>
+    <p class="text-lg text-gray-600 dark:text-gray-300 mb-6 max-w-2xl mx-auto">
+      Contactez-moi pour évaluer la résilience de votre infrastructure ou pour réduire vos temps d'incident.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="/contact" class="px-8 py-3 bg-primary-500 hover:bg-primary-600 text-white font-semibold rounded-lg transition-colors duration-300 inline-flex items-center justify-center">
+        <i class="fas fa-envelope mr-2"></i>
+        Discutons de votre besoin
+      </a>
+      <a href="/projets" class="px-8 py-3 border border-primary-500 text-primary-500 hover:bg-primary-50 dark:hover:bg-primary-900/20 font-semibold rounded-lg transition-colors duration-300 inline-flex items-center justify-center">
+        <i class="fas fa-folder-open mr-2"></i>
+        Voir mes projets
+      </a>
+    </div>
+  </div>
+</section>
 
-        
-        const timelineItems = document.querySelectorAll('.timeline-item');
 
-        const timelineObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                    timelineObserver.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.3 });
-
-        timelineItems.forEach((item, index) => {
-            item.style.opacity = '0';
-            item.style.transform = 'translateY(30px)';
-            item.style.transition = `all 0.6s ease ${index * 0.2}s`;
-            timelineObserver.observe(item);
-        });
-    });
-</script>
-
-<style>
-    .timeline {
-        position: relative;
-    }
-
-    .timeline::before {
-        content: '';
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 2px;
-        height: 100%;
-        background: linear-gradient(to bottom, #3b82f6, #8b5cf6);
-        opacity: 0.3;
-    }
-
-    @media (max-width: 768px) {
-        .timeline::before {
-            left: 20px;
-        }
-    }
-</style>
 
     </main>
 
@@ -832,8 +497,15 @@
                         </a>
                         <a href="https://www.linkedin.com/in/stephan-uniatowitz-259360101"
                            target="_blank"
+                           rel="noopener noreferrer"
                            class="block text-gray-300 hover:text-white transition-colors">
                             <i class="fab fa-linkedin mr-2"></i>LinkedIn
+                        </a>
+                        <a href="https://github.com/stephan-uniatowitz"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="block text-gray-300 hover:text-white transition-colors">
+                            <i class="fab fa-github mr-2"></i>GitHub
                         </a>
                     </div>
                 </div>

@@ -3,74 +3,86 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:43083/</loc>
+    <lastmod>2025-10-17T22:00:00+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:43083/blog/</loc>
+    <lastmod>2025-10-17T22:00:00+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:43083/blog/reparation-grub-apres-mise-a-jour-windows/</loc>
+    <lastmod>2025-10-17T22:00:00+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:43083/blog/firefox-lent-ubuntu-24-04-solution-robuste/</loc>
+    <lastmod>2025-10-17T21:30:00+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:43083/certifications/</loc>
     <lastmod>2025-10-17T12:40:00+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/certifications/</loc>
-    <lastmod>2025-10-17T12:40:00+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/projets/installation-serveur-glpi/</loc>
+    <loc>http://localhost:43083/projets/installation-serveur-glpi/</loc>
     <lastmod>2025-10-15T11:00:00+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projets/mise-en-place-vpn/</loc>
+    <loc>http://localhost:43083/projets/mise-en-place-vpn/</loc>
     <lastmod>2025-10-15T11:00:00+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projets/</loc>
+    <loc>http://localhost:43083/projets/</loc>
     <lastmod>2025-10-15T11:00:00+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>http://localhost:43083/blog/mon-premier-article/</loc>
     <lastmod>2025-10-14T20:16:01+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/blog/mon-premier-article/</loc>
-    <lastmod>2025-10-14T20:16:01+02:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/projets/installation-serveur-glpi/details/</loc>
+    <loc>http://localhost:43083/projets/installation-serveur-glpi/details/</loc>
     <lastmod>2025-10-14T15:00:00+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/projets/mise-en-place-vpn/details/</loc>
+    <loc>http://localhost:43083/projets/mise-en-place-vpn/details/</loc>
     <lastmod>2025-10-14T13:15:00+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:43083/contact/</loc>
     <lastmod>2025-10-14T13:05:00+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:43083/cv/</loc>
     <lastmod>2025-10-14T13:05:00+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/cv/</loc>
-    <lastmod>2025-10-14T13:05:00+02:00</lastmod>
+    <loc>http://localhost:43083/about/</loc>
+    <lastmod>2025-10-14T10:00:00+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

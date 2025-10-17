@@ -146,11 +146,24 @@
             opacity: 0;
             animation: fadeInUp 0.6s ease-out forwards;
         }
-        .stagger-animation > *:nth-child(1) { animation-delay: 0.1s; }
-        .stagger-animation > *:nth-child(2) { animation-delay: 0.2s; }
-        .stagger-animation > *:nth-child(3) { animation-delay: 0.3s; }
-        .stagger-animation > *:nth-child(4) { animation-delay: 0.4s; }
-        .stagger-animation > *:nth-child(5) { animation-delay: 0.5s; }
+    .stagger-animation > *:nth-child(1) { animation-delay: 0.1s; }
+    .stagger-animation > *:nth-child(2) { animation-delay: 0.2s; }
+    .stagger-animation > *:nth-child(3) { animation-delay: 0.3s; }
+    .stagger-animation > *:nth-child(4) { animation-delay: 0.4s; }
+    .stagger-animation > *:nth-child(5) { animation-delay: 0.5s; }
+
+     
+    pre {
+        overflow-x: auto;
+        max-width: 100%;
+    }
+
+     
+    @media (max-width: 768px) {
+        pre {
+            font-size: 0.875rem;
+        }
+    }
     </style>
 </head>
 <body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
@@ -242,6 +255,64 @@
 
     
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <article class="bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 overflow-hidden card-hover">
+            <div class="p-6">
+                <h2 class="text-xl font-heading font-bold text-gray-900 dark:text-white mb-3">
+                    <a href="/blog/reparation-grub-apres-mise-a-jour-windows/" class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                        Ubuntu ne Démarre Plus Après une Mise à Jour Windows ? Le Guide de Réparation GRUB Ultime
+                    </a>
+                </h2>
+
+                
+                <p class="text-gray-600 dark:text-gray-400 mb-4 line-clamp-3">
+                    Guide complet pour réparer GRUB et restaurer le dual boot Ubuntu/Windows après une mise à jour Windows. Solution simple avec Boot-Repair, étapes détaillées et explications techniques.
+                </p>
+                
+
+                
+                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
+                    <i class="fas fa-calendar mr-2"></i>
+                    <time datetime="2025-10-17">
+                        17 Oct 2025
+                    </time>
+                </div>
+                
+
+                <a href="/blog/reparation-grub-apres-mise-a-jour-windows/" class="inline-block mt-4 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium">
+                    Lire la suite →
+                </a>
+            </div>
+        </article>
+        
+        <article class="bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 overflow-hidden card-hover">
+            <div class="p-6">
+                <h2 class="text-xl font-heading font-bold text-gray-900 dark:text-white mb-3">
+                    <a href="/blog/firefox-lent-ubuntu-24-04-solution-robuste/" class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                        Firefox Lent sur Ubuntu 24.04 ? La Méthode Robuste pour Remplacer la Version Snap
+                    </a>
+                </h2>
+
+                
+                <p class="text-gray-600 dark:text-gray-400 mb-4 line-clamp-3">
+                    Guide technique complet pour résoudre la lenteur de Firefox sur Ubuntu 24.04 en remplaçant la version Snap par la version DEB de Mozilla. Solution robuste avec plan de secours inclus.
+                </p>
+                
+
+                
+                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
+                    <i class="fas fa-calendar mr-2"></i>
+                    <time datetime="2025-10-17">
+                        17 Oct 2025
+                    </time>
+                </div>
+                
+
+                <a href="/blog/firefox-lent-ubuntu-24-04-solution-robuste/" class="inline-block mt-4 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium">
+                    Lire la suite →
+                </a>
+            </div>
+        </article>
         
         <article class="bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 overflow-hidden card-hover">
             <div class="p-6">
@@ -346,8 +417,15 @@
                         </a>
                         <a href="https://www.linkedin.com/in/stephan-uniatowitz-259360101"
                            target="_blank"
+                           rel="noopener noreferrer"
                            class="block text-gray-300 hover:text-white transition-colors">
                             <i class="fab fa-linkedin mr-2"></i>LinkedIn
+                        </a>
+                        <a href="https://github.com/stephan-uniatowitz"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="block text-gray-300 hover:text-white transition-colors">
+                            <i class="fab fa-github mr-2"></i>GitHub
                         </a>
                     </div>
                 </div>

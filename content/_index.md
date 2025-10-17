@@ -10,7 +10,7 @@ hero:
     - text: "Découvrir mes projets"
       url: "/projets/"
       color: "primary"
-    - text: "Me contacter"
+    - text: "Discutons de votre besoin"
       url: "/about/#contact"
       color: "neutral"
 

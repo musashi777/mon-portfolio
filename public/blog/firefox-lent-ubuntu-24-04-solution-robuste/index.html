@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=43083&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firefox Lent sur Ubuntu 24.04 ? La Méthode Robuste pour Remplacer la Version Snap - Portfolio Stéphan Uniatowitz</title>
+    <meta name="description" content="Guide technique complet pour résoudre la lenteur de Firefox sur Ubuntu 24.04 en remplaçant la version Snap par la version DEB de Mozilla. Solution robuste avec plan de secours inclus.">
+    <meta name="keywords" content="support technique, réseaux, systèmes, GLPI, VPN, infrastructure, technicien IT">
+
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            200: '#bfdbfe',
+                            300: '#93c5fd',
+                            400: '#60a5fa',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            800: '#1e40af',
+                            900: '#1e3a8a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .font-heading {
+            font-family: 'Playfair Display', serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        .gradient-bg::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, transparent 50%);
+            animation: shimmer 8s ease-in-out infinite;
+        }
+        @keyframes shimmer {
+            0%, 100% { transform: translateX(-100%); }
+            50% { transform: translateX(100%); }
+        }
+        .card-hover {
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            overflow: hidden;
+        }
+        .card-hover:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+        .card-hover::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+            transition: left 0.6s;
+        }
+        .card-hover:hover::before {
+            left: 100%;
+        }
+        .nav-link {
+            position: relative;
+            transition: color 0.3s ease;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
+        }
+        .btn-primary::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.6s;
+        }
+        .btn-primary:hover::before {
+            left: 100%;
+        }
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out;
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .stagger-animation > * {
+            opacity: 0;
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+    .stagger-animation > *:nth-child(1) { animation-delay: 0.1s; }
+    .stagger-animation > *:nth-child(2) { animation-delay: 0.2s; }
+    .stagger-animation > *:nth-child(3) { animation-delay: 0.3s; }
+    .stagger-animation > *:nth-child(4) { animation-delay: 0.4s; }
+    .stagger-animation > *:nth-child(5) { animation-delay: 0.5s; }
+
+     
+    pre {
+        overflow-x: auto;
+        max-width: 100%;
+    }
+
+     
+    @media (max-width: 768px) {
+        pre {
+            font-size: 0.875rem;
+        }
+    }
+    </style>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
+    
+    <nav class="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                
+                <div class="flex items-center">
+                    <a href="/" class="text-xl font-heading font-bold text-primary-600 dark:text-primary-400">
+                        Stéphan Uniatowitz
+                    </a>
+                </div>
+
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    
+                    <a href="/projets" class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
+                        Projets
+                    </a>
+                    
+                    <a href="/blog" class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
+                        Blog
+                    </a>
+                    
+                    <a href="/certifications" class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
+                        Certifications
+                    </a>
+                    
+                    <a href="/about" class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
+                        À Propos
+                    </a>
+                    
+                    <a href="/contact" class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
+                        Contact
+                    </a>
+                    
+                </div>
+
+                
+                <div class="md:hidden">
+                    <button type="button" class="text-gray-500 dark:text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 mobile-menu-button">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+
+                    
+                    <div class="mobile-menu hidden absolute top-16 left-0 right-0 bg-white dark:bg-gray-800 shadow-lg border-t border-gray-200 dark:border-gray-700 z-50">
+                        <div class="px-4 py-4 space-y-4">
+                            
+                            <a href="/projets" class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700">
+                                Projets
+                            </a>
+                            
+                            <a href="/blog" class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700">
+                                Blog
+                            </a>
+                            
+                            <a href="/certifications" class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700">
+                                Certifications
+                            </a>
+                            
+                            <a href="/about" class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700">
+                                À Propos
+                            </a>
+                            
+                            <a href="/contact" class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700">
+                                Contact
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    
+    <main class="flex-grow">
+        
+<article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    
+    <header class="mb-12">
+        <h1 class="text-4xl md:text-5xl font-heading font-bold text-gray-900 dark:text-white mb-4">
+            Firefox Lent sur Ubuntu 24.04 ? La Méthode Robuste pour Remplacer la Version Snap
+        </h1>
+
+        
+        <div class="flex items-center text-gray-600 dark:text-gray-400 mb-6">
+            <i class="fas fa-calendar mr-2"></i>
+            <time datetime="2025-10-17">
+                17 October 2025
+            </time>
+        </div>
+        
+
+        
+        <p class="text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
+            Guide technique complet pour résoudre la lenteur de Firefox sur Ubuntu 24.04 en remplaçant la version Snap par la version DEB de Mozilla. Solution robuste avec plan de secours inclus.
+        </p>
+        
+    </header>
+
+    
+    <div class="prose prose-lg dark:prose-invert max-w-none">
+        
+<h2 class="relative group">Introduction : Un Problème Fréquent en Support Technique
+    <div id="introduction--un-problème-fréquent-en-support-technique" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#introduction--un-probl%c3%a8me-fr%c3%a9quent-en-support-technique" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<div class="flex justify-center mb-8">
+  <img src="/images/photo_firefox_fast.png" alt="Firefox rapide sur Ubuntu 24.04" class="max-w-md rounded-lg shadow-lg border border-gray-200 dark:border-gray-700">
+</div>
+<p>En tant que technicien support informatique spécialisé dans la robustesse des infrastructures, je rencontre régulièrement ce problème chez les utilisateurs d&rsquo;Ubuntu 24.04 : <strong>Firefox met plusieurs secondes à démarrer</strong>, créant une frustration immédiate après l&rsquo;installation du système.</p>
+<p>Ce délai n&rsquo;est pas une fatalité, mais la conséquence d&rsquo;un choix technologique de Canonical : l&rsquo;utilisation du format de paquet <strong>Snap</strong>. Si cette approche offre des avantages en sécurité et maintenance, elle impacte directement la réactivité au premier lancement.</p>
+<p>Dans cet article, je vous propose une <strong>solution experte, fiable et pérenne</strong> pour retrouver un Firefox instantané, en appliquant la même méthodologie que j&rsquo;utilise en support technique : diagnostic précis, solution robuste, et plan de secours.</p>
+
+<h2 class="relative group">Diagnostic : Confirmation du Problème
+    <div id="diagnostic--confirmation-du-problème" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#diagnostic--confirmation-du-probl%c3%a8me" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Avant toute intervention, vérifions que vous utilisez bien la version Snap. Ouvrez un terminal (<code>Ctrl+Alt+T</code>) et exécutez :</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">snap list <span class="p">|</span> grep firefox
+</span></span></code></pre></div><p>Si une ligne contenant <code>firefox</code> apparaît, ce guide est fait pour vous. Dans le cas contraire, la source de votre problème est ailleurs.</p>
+
+<h2 class="relative group">La Solution Robuste (Étape par Étape)
+    <div id="la-solution-robuste-étape-par-étape" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#la-solution-robuste-%c3%a9tape-par-%c3%a9tape" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<div class="bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 p-4 mb-6 rounded-r-lg">
+  <div class="flex items-start">
+    <div class="flex-shrink-0">
+      <i class="fas fa-exclamation-triangle text-blue-500 text-lg mt-1"></i>
+    </div>
+    <div class="ml-3">
+      <p class="text-blue-800 dark:text-blue-200 font-medium">⚠️ Point de Prudence Technique</p>
+      <p class="text-blue-700 dark:text-blue-300 text-sm mt-1">Bien que cette procédure soit sûre, je recommande toujours de sauvegarder vos données importantes. Pour Firefox, exportez vos marque-pages via <code>Marque-pages > Gérer les marque-pages > Importation et sauvegarde > Exporter les marque-pages au format HTML...</code></p>
+    </div>
+  </div>
+</div>
+
+<h3 class="relative group">Étape 1 : Suppression Propre de la Version Snap
+    <div id="étape-1--suppression-propre-de-la-version-snap" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%c3%a9tape-1--suppression-propre-de-la-version-snap" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>Commençons par désinstaller proprement le paquet existant :</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo snap remove firefox
+</span></span></code></pre></div>
+<h3 class="relative group">Étape 2 : Ajout du Dépôt Officiel Mozilla
+    <div id="étape-2--ajout-du-dépôt-officiel-mozilla" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%c3%a9tape-2--ajout-du-d%c3%a9p%c3%b4t-officiel-mozilla" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>Nous indiquons au système où trouver la version DEB de Firefox en ajoutant le dépôt maintenu par Mozilla :</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo add-apt-repository ppa:mozillateam/ppa
+</span></span></code></pre></div><p>Appuyez sur <code>Entrée</code> pour confirmer.</p>
+
+<h3 class="relative group">Étape 3 : Configuration de la Priorité (Méthode Anti-Erreur)
+    <div id="étape-3--configuration-de-la-priorité-méthode-anti-erreur" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%c3%a9tape-3--configuration-de-la-priorit%c3%a9-m%c3%a9thode-anti-erreur" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>C&rsquo;est l&rsquo;étape cruciale. Au lieu d&rsquo;utiliser un éditeur de texte (source d&rsquo;erreurs potentielles), nous utilisons une commande unique pour créer le fichier de configuration :</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">Package: *
+</span></span></span><span class="line"><span class="cl"><span class="s1">Pin: release o=LP-PPA-mozillateam
+</span></span></span><span class="line"><span class="cl"><span class="s1">Pin-Priority: 1001
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;</span> <span class="p">|</span> sudo tee /etc/apt/preferences.d/mozilla-firefox
+</span></span></code></pre></div><p>Cette approche non-interactive élimine 99% du risque d&rsquo;erreur humaine et garantit que votre système préférera toujours la version de Mozilla, même lors des futures mises à jour.</p>
+
+<h3 class="relative group">Étape 4 : Installation de Firefox depuis le PPA
+    <div id="étape-4--installation-de-firefox-depuis-le-ppa" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%c3%a9tape-4--installation-de-firefox-depuis-le-ppa" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>Maintenant que tout est configuré, mettons à jour et installons :</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt update
+</span></span><span class="line"><span class="cl">sudo apt install firefox
+</span></span></code></pre></div><div class="bg-green-50 dark:bg-green-900/20 border-l-4 border-green-500 p-4 my-6 rounded-r-lg">
+  <div class="flex items-start">
+    <div class="flex-shrink-0">
+      <i class="fas fa-check-circle text-green-500 text-lg mt-1"></i>
+    </div>
+    <div class="ml-3">
+      <p class="text-green-800 dark:text-green-200 font-medium">✅ Résultat</p>
+      <p class="text-green-700 dark:text-green-300 text-sm mt-1">Firefox démarre maintenant instantanément !</p>
+    </div>
+  </div>
+</div>
+
+<h2 class="relative group">Plan de Secours : Comment Revenir en Arrière
+    <div id="plan-de-secours--comment-revenir-en-arrière" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#plan-de-secours--comment-revenir-en-arri%c3%a8re" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Un bon technicien anticipe toujours les retours en arrière. Voici la procédure complète si vous souhaitez revenir à la version Snap :</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 1. Supprimer la version PPA</span>
+</span></span><span class="line"><span class="cl">sudo apt remove firefox
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2. Retirer le fichier de priorité</span>
+</span></span><span class="line"><span class="cl">sudo rm /etc/apt/preferences.d/mozilla-firefox
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 3. Supprimer le PPA (optionnel mais recommandé)</span>
+</span></span><span class="line"><span class="cl">sudo add-apt-repository --remove ppa:mozillateam/ppa
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 4. Réinstaller la version Snap</span>
+</span></span><span class="line"><span class="cl">sudo snap install firefox
+</span></span></code></pre></div>
+<h2 class="relative group">Analyse Technique : Pourquoi ce Problème Existe ?
+    <div id="analyse-technique--pourquoi-ce-problème-existe-" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#analyse-technique--pourquoi-ce-probl%c3%a8me-existe-" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+
+<h3 class="relative group">La Vision Canonical des Snaps
+    <div id="la-vision-canonical-des-snaps" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#la-vision-canonical-des-snaps" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>Le choix d&rsquo;imposer Firefox en Snap s&rsquo;inscrit dans une stratégie d&rsquo;unification de la distribution logicielle. Les Snaps offrent :</p>
+<ul>
+<li><strong>Environnement sandbox</strong> : Renforce la sécurité en isolant les applications</li>
+<li><strong>Gestion simplifiée</strong> : Résout les problèmes de dépendances pour les développeurs</li>
+<li><strong>Mises à jour automatiques</strong> : Assure que tous les utilisateurs ont la même version</li>
+</ul>
+
+<h3 class="relative group">Le Compromis Performance vs Sécurité
+    <div id="le-compromis-performance-vs-sécurité" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#le-compromis-performance-vs-s%c3%a9curit%c3%a9" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>Le délai au premier lancement s&rsquo;explique techniquement :</p>
+<ul>
+<li><strong>Version Snap</strong> : Doit monter un système de fichiers virtuel et configurer son environnement isolé</li>
+<li><strong>Version DEB</strong> : S&rsquo;intègre nativement au système, partageant des bibliothèques déjà chargées</li>
+</ul>
+<p>Ce guide vous permet de faire un <strong>arbitrage conscient</strong> en faveur de la performance, tout en comprenant les compromis techniques.</p>
+
+<h2 class="relative group">FAQ Technique
+    <div id="faq-technique" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#faq-technique" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+
+<h3 class="relative group">🔍 Cette solution est-elle sûre à long terme ?
+    <div id="-cette-solution-est-elle-sûre-à-long-terme-" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-cette-solution-est-elle-s%c3%bbre-%c3%a0-long-terme-" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p><strong>Oui</strong>. Le PPA de Mozilla est officiel et maintenu. La configuration de priorité garantit que les mises à jour automatiques continueront de fonctionner correctement.</p>
+
+<h3 class="relative group">⚡ Quels sont les gains de performance réels ?
+    <div id="-quels-sont-les-gains-de-performance-réels-" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-quels-sont-les-gains-de-performance-r%c3%a9els-" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<ul>
+<li><strong>Démarrage initial</strong> : Réduction de 3-5 secondes à &lt;1 seconde</li>
+<li><strong>Consommation mémoire</strong> : Légèrement inférieure (moins d&rsquo;overhead Snap)</li>
+<li><strong>Intégration système</strong> : Meilleure avec les thèmes GTK et les applications natives</li>
+</ul>
+
+<h3 class="relative group">🔄 Dois-je répéter cette procédure après une mise à jour majeure d&rsquo;Ubuntu ?
+    <div id="-dois-je-répéter-cette-procédure-après-une-mise-à-jour-majeure-dubuntu-" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-dois-je-r%c3%a9p%c3%a9ter-cette-proc%c3%a9dure-apr%c3%a8s-une-mise-%c3%a0-jour-majeure-dubuntu-" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p><strong>Non</strong>. La configuration est persistante et survivra aux mises à jour majeures du système.</p>
+
+<h2 class="relative group">Conclusion : Une Solution de Support Professionnelle
+    <div id="conclusion--une-solution-de-support-professionnelle" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#conclusion--une-solution-de-support-professionnelle" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<div class="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 border border-blue-200 dark:border-blue-700 rounded-xl p-6 mb-6">
+  <div class="flex items-start">
+    <div class="flex-shrink-0">
+      <i class="fas fa-tools text-blue-500 text-xl mt-1"></i>
+    </div>
+    <div class="ml-4">
+      <h3 class="text-blue-800 dark:text-blue-200 font-bold text-lg mb-3">Méthodologie Professionnelle Appliquée</h3>
+      <p class="text-blue-700 dark:text-blue-300 mb-4">Vous avez non seulement résolu le problème de lenteur de Firefox, mais vous l'avez fait en appliquant une <strong>méthodologie professionnelle</strong> :</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+        <div class="flex items-center">
+          <i class="fas fa-search text-green-500 mr-2"></i>
+          <span class="text-blue-700 dark:text-blue-300 text-sm">Diagnostic précis avant intervention</span>
+        </div>
+        <div class="flex items-center">
+          <i class="fas fa-shield-alt text-green-500 mr-2"></i>
+          <span class="text-blue-700 dark:text-blue-300 text-sm">Solution robuste anti-erreur</span>
+        </div>
+        <div class="flex items-center">
+          <i class="fas fa-undo text-green-500 mr-2"></i>
+          <span class="text-blue-700 dark:text-blue-300 text-sm">Plan de secours complet</span>
+        </div>
+        <div class="flex items-center">
+          <i class="fas fa-brain text-green-500 mr-2"></i>
+          <span class="text-blue-700 dark:text-blue-300 text-sm">Compréhension technique approfondie</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<p>Cette approche reflète exactement la philosophie que j&rsquo;applique dans mon travail de technicien support : des solutions claires, testées et documentées qui assurent la stabilité à long terme.</p>
+<hr>
+<p><strong>💡 Besoin d&rsquo;aide sur d&rsquo;autres problèmes techniques ?</strong> N&rsquo;hésitez pas à <a
+  href="/contact">me contacter</a> pour des solutions personnalisées adaptées à votre environnement.</p>
+<p><em>Article écrit par Stéphan Uniatowitz - Technicien support informatique spécialisé en infrastructures robustes et sécurisées.</em></p>
+
+    </div>
+
+    
+    <footer class="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
+        <div class="flex justify-between items-center">
+            <a href="/" class="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium">
+                <i class="fas fa-arrow-left mr-2"></i>Retour à l'accueil
+            </a>
+
+            
+            <div class="flex flex-wrap gap-2">
+                
+                <span class="bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 px-3 py-1 rounded-full text-sm">
+                    Ubuntu
+                </span>
+                
+                <span class="bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 px-3 py-1 rounded-full text-sm">
+                    Firefox
+                </span>
+                
+                <span class="bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 px-3 py-1 rounded-full text-sm">
+                    Linux
+                </span>
+                
+                <span class="bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 px-3 py-1 rounded-full text-sm">
+                    Performance
+                </span>
+                
+                <span class="bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 px-3 py-1 rounded-full text-sm">
+                    Snap
+                </span>
+                
+                <span class="bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 px-3 py-1 rounded-full text-sm">
+                    Support Technique
+                </span>
+                
+                <span class="bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 px-3 py-1 rounded-full text-sm">
+                    Résolution de Problèmes
+                </span>
+                
+            </div>
+            
+        </div>
+    </footer>
+</article>
+
+    </main>
+
+    
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div>
+                    <h3 class="text-xl font-heading font-bold mb-4">Stéphan Uniatowitz</h3>
+                    <p class="text-gray-300 mb-4">
+                        Technicien Support, Réseaux & Configuration Systèmes
+                    </p>
+                    <p class="text-gray-400 text-sm">
+                        Passionné par l'informatique et les nouvelles technologies
+                    </p>
+                </div>
+
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Navigation</h4>
+                    <ul class="space-y-2">
+                        
+                        <li>
+                            <a href="/projets" class="text-gray-300 hover:text-white transition-colors">
+                                Projets
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/blog" class="text-gray-300 hover:text-white transition-colors">
+                                Blog
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/certifications" class="text-gray-300 hover:text-white transition-colors">
+                                Certifications
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/about" class="text-gray-300 hover:text-white transition-colors">
+                                À Propos
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/contact" class="text-gray-300 hover:text-white transition-colors">
+                                Contact
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                    <div class="space-y-2">
+                        <a href="/contact" class="block text-gray-300 hover:text-white transition-colors">
+                            <i class="fas fa-envelope mr-2"></i>Formulaire de contact
+                        </a>
+                        <a href="https://www.linkedin.com/in/stephan-uniatowitz-259360101"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="block text-gray-300 hover:text-white transition-colors">
+                            <i class="fab fa-linkedin mr-2"></i>LinkedIn
+                        </a>
+                        <a href="https://github.com/stephan-uniatowitz"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="block text-gray-300 hover:text-white transition-colors">
+                            <i class="fab fa-github mr-2"></i>GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400 text-sm">
+                    &copy; 2025 Stéphan Uniatowitz. Tous droits réservés.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script>
+        
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark')
+        } else {
+            document.documentElement.classList.remove('dark')
+        }
+
+        
+        const mobileMenuButton = document.querySelector('.mobile-menu-button');
+        if (mobileMenuButton) {
+            mobileMenuButton.addEventListener('click', function() {
+                const mobileMenu = document.querySelector('.mobile-menu');
+                if (mobileMenu) {
+                    mobileMenu.classList.toggle('hidden');
+                    
+                    const icon = this.querySelector('i');
+                    if (icon.classList.contains('fa-bars')) {
+                        icon.classList.remove('fa-bars');
+                        icon.classList.add('fa-times');
+                    } else {
+                        icon.classList.remove('fa-times');
+                        icon.classList.add('fa-bars');
+                    }
+                }
+            });
+        }
+
+        
+        const internalLinks = document.querySelectorAll('a[href^="#"]');
+        if (internalLinks.length > 0) {
+            internalLinks.forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        }
+
+        
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        if (sections.length > 0 && navLinks.length > 0) {
+            function updateActiveSection() {
+                let current = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop - 100;
+                    const sectionHeight = section.clientHeight;
+                    if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('active');
+                    }
+                });
+            }
+
+            window.addEventListener('scroll', updateActiveSection);
+            window.addEventListener('load', updateActiveSection);
+        }
+
+        
+        const buttons = document.querySelectorAll('.btn-primary, .btn-secondary');
+        if (buttons.length > 0) {
+            buttons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    if (!this.href || this.href.startsWith('#')) return;
+
+                    const originalText = this.innerHTML;
+                    this.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i>Chargement...';
+                    this.disabled = true;
+
+                    setTimeout(() => {
+                        this.innerHTML = originalText;
+                        this.disabled = false;
+                    }, 2000);
+                });
+            });
+        }
+
+        
+        const cards = document.querySelectorAll('.card-hover');
+        if (cards.length > 0) {
+            cards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-8px) scale(1.02)';
+                });
+
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0) scale(1)';
+                });
+            });
+        }
+
+        
+        const backToTop = document.createElement('button');
+        backToTop.innerHTML = '<i class="fas fa-chevron-up"></i>';
+        backToTop.className = 'fixed bottom-8 right-8 bg-primary-600 hover:bg-primary-700 text-white p-3 rounded-full shadow-lg transition-all duration-300 opacity-0 transform translate-y-10 z-40 back-to-top';
+        backToTop.style.transition = 'all 0.3s ease';
+        document.body.appendChild(backToTop);
+
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTop.style.opacity = '1';
+                backToTop.style.transform = 'translateY(0)';
+            } else {
+                backToTop.style.opacity = '0';
+                backToTop.style.transform = 'translateY(10px)';
+            }
+        });
+    </script>
+</body>
+</html>

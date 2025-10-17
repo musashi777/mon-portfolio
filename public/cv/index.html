@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=43083&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae - Portfolio Stéphan Uniatowitz</title>
@@ -146,11 +146,24 @@
             opacity: 0;
             animation: fadeInUp 0.6s ease-out forwards;
         }
-        .stagger-animation > *:nth-child(1) { animation-delay: 0.1s; }
-        .stagger-animation > *:nth-child(2) { animation-delay: 0.2s; }
-        .stagger-animation > *:nth-child(3) { animation-delay: 0.3s; }
-        .stagger-animation > *:nth-child(4) { animation-delay: 0.4s; }
-        .stagger-animation > *:nth-child(5) { animation-delay: 0.5s; }
+    .stagger-animation > *:nth-child(1) { animation-delay: 0.1s; }
+    .stagger-animation > *:nth-child(2) { animation-delay: 0.2s; }
+    .stagger-animation > *:nth-child(3) { animation-delay: 0.3s; }
+    .stagger-animation > *:nth-child(4) { animation-delay: 0.4s; }
+    .stagger-animation > *:nth-child(5) { animation-delay: 0.5s; }
+
+     
+    pre {
+        overflow-x: auto;
+        max-width: 100%;
+    }
+
+     
+    @media (max-width: 768px) {
+        pre {
+            font-size: 0.875rem;
+        }
+    }
     </style>
 </head>
 <body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
@@ -602,8 +615,15 @@
                         </a>
                         <a href="https://www.linkedin.com/in/stephan-uniatowitz-259360101"
                            target="_blank"
+                           rel="noopener noreferrer"
                            class="block text-gray-300 hover:text-white transition-colors">
                             <i class="fab fa-linkedin mr-2"></i>LinkedIn
+                        </a>
+                        <a href="https://github.com/stephan-uniatowitz"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="block text-gray-300 hover:text-white transition-colors">
+                            <i class="fab fa-github mr-2"></i>GitHub
                         </a>
                     </div>
                 </div>
