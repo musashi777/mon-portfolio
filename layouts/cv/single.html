@@ -1,0 +1,385 @@
+{{ define "main" }}
+<div class="min-h-screen bg-gray-50 dark:bg-gray-900 py-12">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Header avec design professionnel -->
+        <header class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 mb-8 border border-gray-200 dark:border-gray-700">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+                <div class="flex-1">
+                    <h1 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-2">
+                        Stéphan Uniatowitz
+                    </h1>
+                    <p class="text-xl text-primary-600 dark:text-primary-400 font-semibold mb-4">
+                        Technicien Support, Réseaux & Configuration Systèmes
+                    </p>
+                    <div class="flex flex-wrap gap-4 text-gray-600 dark:text-gray-400">
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2 text-primary-500"></i>
+                            <span>Marseille, France</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope mr-2 text-primary-500"></i>
+                            <a href="mailto:votre.email@example.com" class="hover:text-primary-600 dark:hover:text-primary-300">
+                                votre.email@example.com
+                            </a>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fab fa-linkedin mr-2 text-primary-500"></i>
+                            <a href="https://www.linkedin.com/in/stephan-uniatowitz-259360101"
+                               target="_blank"
+                               class="hover:text-primary-600 dark:hover:text-primary-300">
+                                LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4 md:mt-0 md:ml-6">
+                    <div class="bg-primary-50 dark:bg-primary-900/20 rounded-lg p-4 border border-primary-200 dark:border-primary-800">
+                        <p class="text-sm text-primary-700 dark:text-primary-300">
+                            <i class="fas fa-download mr-1"></i>
+                            <a href="/CV_final.pdf" download class="font-medium hover:underline">
+                                Télécharger le CV PDF
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Contenu principal en deux colonnes -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Colonne principale (2/3) -->
+            <div class="lg:col-span-2 space-y-8">
+                <!-- Profil professionnel -->
+                <section class="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-200 dark:border-gray-700">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary-100 dark:bg-primary-900/30 p-2 rounded-lg mr-3">
+                            <i class="fas fa-bullseye text-primary-600 dark:text-primary-400 text-lg"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-900 dark:text-white">Profil Professionnel</h2>
+                    </div>
+                    <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                        Technicien support confirmé avec plus de deux ans d'expérience acquise dans des environnements critiques et multisites, notamment chez SFR Business (Intelcia), AP-HM La Timone et Econocom. Solide maîtrise des outils de support, des systèmes Windows/Linux et des environnements réseau. Capacité éprouvée à gérer les demandes utilisateurs, résoudre rapidement les incidents et documenter les procédures.
+                    </p>
+                </section>
+
+                <!-- Expérience professionnelle -->
+                <section class="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-200 dark:border-gray-700">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-primary-100 dark:bg-primary-900/30 p-2 rounded-lg mr-3">
+                            <i class="fas fa-briefcase text-primary-600 dark:text-primary-400 text-lg"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-900 dark:text-white">Expérience Professionnelle</h2>
+                    </div>
+
+                    <div class="space-y-6">
+                        <!-- Intelcia -->
+                        <div class="border-l-4 border-primary-500 pl-4">
+                            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
+                                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+                                    Technicien Support Informatique N1+
+                                </h3>
+                                <span class="text-primary-600 dark:text-primary-400 font-medium bg-primary-50 dark:bg-primary-900/20 px-3 py-1 rounded-full text-sm mt-1 sm:mt-0">
+                                    Juillet 2024 - Décembre 2024
+                                </span>
+                            </div>
+                            <p class="text-gray-600 dark:text-gray-400 font-medium mb-3">
+                                Intelcia (SFR Business) • Environnement télécoms critique - Support multisite
+                            </p>
+                            <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                                    <span>Gestion de plus de 25 tickets/jour via GLPI avec un taux de résolution de 85%</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                                    <span>Support technique pour 200+ postes informatiques répartis sur plusieurs sites</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                                    <span>Maintenance des systèmes Windows/Linux et gestion Active Directory</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                                    <span>Diagnostic et résolution d'incidents réseau (VPN, Wi-Fi, connectivité)</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- AP-HM -->
+                        <div class="border-l-4 border-primary-500 pl-4">
+                            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
+                                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+                                    Technicien Informatique
+                                </h3>
+                                <span class="text-primary-600 dark:text-primary-400 font-medium bg-primary-50 dark:bg-primary-900/20 px-3 py-1 rounded-full text-sm mt-1 sm:mt-0">
+                                    Janvier 2021 - Mai 2021
+                                </span>
+                            </div>
+                            <p class="text-gray-600 dark:text-gray-400 font-medium mb-3">
+                                AP-HM La Timone • Environnement de santé critique - Support de 500+ postes
+                            </p>
+                            <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                                    <span>Support technique dans un environnement hospitalier critique</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                                    <span>Configuration et maintenance de matériel médical spécialisé</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                                    <span>Gestion d'incidents prioritaires avec délais contraints</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Econocom -->
+                        <div class="border-l-4 border-primary-500 pl-4">
+                            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-2">
+                                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+                                    Technicien Assistant Informatique
+                                </h3>
+                                <span class="text-primary-600 dark:text-primary-400 font-medium bg-primary-50 dark:bg-primary-900/20 px-3 py-1 rounded-full text-sm mt-1 sm:mt-0">
+                                    Juin 2021 - Septembre 2021
+                                </span>
+                            </div>
+                            <p class="text-gray-600 dark:text-gray-400 font-medium mb-3">
+                                Econocom • Projet de déploiement informatique
+                            </p>
+                            <ul class="space-y-2 text-gray-700 dark:text-gray-300">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                                    <span>Déploiement de 100 postes informatiques pour un client corporate</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                                    <span>Migration et intégration dans l'environnement Active Directory existant</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                                    <span>Formation des utilisateurs aux nouveaux outils et procédures</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Colonne latérale (1/3) -->
+            <div class="space-y-8">
+                <!-- Compétences techniques -->
+                <section class="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-200 dark:border-gray-700">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary-100 dark:bg-primary-900/30 p-2 rounded-lg mr-3">
+                            <i class="fas fa-tools text-primary-600 dark:text-primary-400 text-lg"></i>
+                        </div>
+                        <h2 class="text-xl font-bold text-gray-900 dark:text-white">Compétences Techniques</h2>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Systèmes d'Exploitation</h3>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 px-3 py-1 rounded-full text-sm">Windows Server</span>
+                                <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 px-3 py-1 rounded-full text-sm">Active Directory</span>
+                                <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 px-3 py-1 rounded-full text-sm">Linux</span>
+                                <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 px-3 py-1 rounded-full text-sm">Ubuntu</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Réseaux & Sécurité</h3>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 px-3 py-1 rounded-full text-sm">TCP/IP</span>
+                                <span class="bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 px-3 py-1 rounded-full text-sm">VPN</span>
+                                <span class="bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 px-3 py-1 rounded-full text-sm">Pfsense</span>
+                                <span class="bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 px-3 py-1 rounded-full text-sm">Wi-Fi</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Virtualisation & Cloud</h3>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 px-3 py-1 rounded-full text-sm">VMware</span>
+                                <span class="bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 px-3 py-1 rounded-full text-sm">Hyper-V</span>
+                                <span class="bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 px-3 py-1 rounded-full text-sm">VirtualBox</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Outils & Scripting</h3>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-300 px-3 py-1 rounded-full text-sm">GLPI</span>
+                                <span class="bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-300 px-3 py-1 rounded-full text-sm">PowerShell</span>
+                                <span class="bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-300 px-3 py-1 rounded-full text-sm">Bash</span>
+                                <span class="bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-300 px-3 py-1 rounded-full text-sm">ServiceNow</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Formation -->
+                <section class="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-200 dark:border-gray-700">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary-100 dark:bg-primary-900/30 p-2 rounded-lg mr-3">
+                            <i class="fas fa-graduation-cap text-primary-600 dark:text-primary-400 text-lg"></i>
+                        </div>
+                        <h2 class="text-xl font-bold text-gray-900 dark:text-white">Formation</h2>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div>
+                            <h3 class="font-semibold text-gray-900 dark:text-white">Technicien Assistant Informatique (TAI)</h3>
+                            <p class="text-gray-600 dark:text-gray-400 text-sm">École Pratique, Marseille</p>
+                            <p class="text-gray-500 dark:text-gray-500 text-sm">2019 - 2020</p>
+                        </div>
+
+                        <div>
+                            <h3 class="font-semibold text-gray-900 dark:text-white">POE Métiers du Numérique</h3>
+                            <p class="text-gray-600 dark:text-gray-400 text-sm">AFPA, Marseille</p>
+                            <p class="text-gray-500 dark:text-gray-500 text-sm">2018 - 2019</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Langues -->
+                <section class="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-200 dark:border-gray-700">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary-100 dark:bg-primary-900/30 p-2 rounded-lg mr-3">
+                            <i class="fas fa-language text-primary-600 dark:text-primary-400 text-lg"></i>
+                        </div>
+                        <h2 class="text-xl font-bold text-gray-900 dark:text-white">Langues</h2>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium text-gray-900 dark:text-white">Français</span>
+                                <span class="text-sm text-gray-600 dark:text-gray-400">Langue maternelle</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                                <div class="bg-green-500 h-2 rounded-full" style="width: 100%"></div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="font-medium text-gray-900 dark:text-white">Anglais</span>
+                                <span class="text-sm text-gray-600 dark:text-gray-400">Niveau professionnel</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                                <div class="bg-blue-500 h-2 rounded-full" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Laboratoire personnel -->
+                <section class="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-200 dark:border-gray-700">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary-100 dark:bg-primary-900/30 p-2 rounded-lg mr-3">
+                            <i class="fas fa-flask text-primary-600 dark:text-primary-400 text-lg"></i>
+                        </div>
+                        <h2 class="text-xl font-bold text-gray-900 dark:text-white">Laboratoire Personnel</h2>
+                    </div>
+                    <p class="text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
+                        Passionné par l'expérimentation technique, je maintiens un environnement de test virtuel pour :
+                    </p>
+                    <ul class="mt-3 space-y-2 text-gray-700 dark:text-gray-300 text-sm">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-2 mt-0.5 flex-shrink-0"></i>
+                            <span>Tests d'infrastructure réseau et systèmes en environnement virtualisé</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-2 mt-0.5 flex-shrink-0"></i>
+                            <span>Configuration de serveurs et rôles (DHCP, DNS, Active Directory)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-2 mt-0.5 flex-shrink-0"></i>
+                            <span>Déploiement de machines Linux Ubuntu pour expérimenter scripts et sécurité</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-2 mt-0.5 flex-shrink-0"></i>
+                            <span>Mise en place et test de solutions VPN et de sécurité réseau</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Atouts professionnels -->
+                <section class="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-200 dark:border-gray-700">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-primary-100 dark:bg-primary-900/30 p-2 rounded-lg mr-3">
+                            <i class="fas fa-star text-primary-600 dark:text-primary-400 text-lg"></i>
+                        </div>
+                        <h2 class="text-xl font-bold text-gray-900 dark:text-white">Atouts Professionnels</h2>
+                    </div>
+                    <div class="grid grid-cols-1 gap-3">
+                        <div class="flex items-center">
+                            <i class="fas fa-user-check text-green-500 mr-3"></i>
+                            <span class="text-gray-700 dark:text-gray-300 text-sm">Autonomie et prise d'initiatives</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-tasks text-blue-500 mr-3"></i>
+                            <span class="text-gray-700 dark:text-gray-300 text-sm">Rigueur et méthodologie structurée</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-clock text-orange-500 mr-3"></i>
+                            <span class="text-gray-700 dark:text-gray-300 text-sm">Gestion de la pression en environnements critiques</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-users text-purple-500 mr-3"></i>
+                            <span class="text-gray-700 dark:text-gray-300 text-sm">Sens du service et satisfaction utilisateur</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-sync-alt text-teal-500 mr-3"></i>
+                            <span class="text-gray-700 dark:text-gray-300 text-sm">Adaptabilité rapide aux environnements techniques</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- Footer avec informations complémentaires -->
+        <footer class="mt-12 bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 border border-gray-200 dark:border-gray-700">
+            <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-6">
+                <div class="flex-1">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-3">Informations Complémentaires</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-gray-700 dark:text-gray-300">
+                        <div class="flex items-center">
+                            <i class="fas fa-id-card text-primary-500 mr-2"></i>
+                            <span>Permis B en cours</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marked-alt text-primary-500 mr-2"></i>
+                            <span>Mobilité nationale</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-calendar-check text-primary-500 mr-2"></i>
+                            <span>Disponibilité immédiate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center md:text-right">
+                    <p class="text-sm text-gray-500 dark:text-gray-400">
+                        <i class="fas fa-file-pdf mr-1"></i>
+                        <a href="/CV_final.pdf" download class="text-primary-600 dark:text-primary-400 hover:underline font-medium">
+                            Télécharger le CV complet en PDF
+                        </a>
+                    </p>
+                    <p class="text-xs text-gray-400 dark:text-gray-500 mt-2">
+                        Dernière mise à jour : Octobre 2025
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bouton retour -->
+        <div class="mt-8 text-center">
+            <a href="/" class="inline-flex items-center text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium">
+                <i class="fas fa-arrow-left mr-2"></i>Retour à l'accueil
+            </a>
+        </div>
+    </div>
+</div>
+{{ end }}
