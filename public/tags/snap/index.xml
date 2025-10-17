@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Snap on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</title>
-    <link>http://localhost:43083/tags/snap/</link>
+    <link>http://localhost:39511/tags/snap/</link>
     <description>Recent content in Snap on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 </copyright>
-    <lastBuildDate>Fri, 17 Oct 2025 21:30:00 +0200</lastBuildDate><atom:link href="http://localhost:43083/tags/snap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Oct 2025 21:30:00 +0200</lastBuildDate><atom:link href="http://localhost:39511/tags/snap/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Firefox Lent sur Ubuntu 24.04 ? La Méthode Robuste pour Remplacer la Version Snap</title>
-      <link>http://localhost:43083/blog/firefox-lent-ubuntu-24-04-solution-robuste/</link>
+      <link>http://localhost:39511/blog/firefox-lent-ubuntu-24-04-solution-robuste/</link>
       <pubDate>Fri, 17 Oct 2025 21:30:00 +0200</pubDate>
       
-      <guid>http://localhost:43083/blog/firefox-lent-ubuntu-24-04-solution-robuste/</guid>
+      <guid>http://localhost:39511/blog/firefox-lent-ubuntu-24-04-solution-robuste/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;Introduction : Un Problème Fréquent en Support Technique
     &lt;div id=&#34;introduction--un-problème-fréquent-en-support-technique&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -25,7 +25,7 @@
     
 &lt;/h2&gt;
 &lt;div class=&#34;flex justify-center mb-8&#34;&gt;
-  &lt;img src=&#34;http://localhost:43083/images/photo_firefox_fast.png&#34; alt=&#34;Firefox rapide sur Ubuntu 24.04&#34; class=&#34;max-w-md rounded-lg shadow-lg border border-gray-200 dark:border-gray-700&#34;&gt;
+  &lt;img src=&#34;http://localhost:39511/images/photo_firefox_fast.png&#34; alt=&#34;Firefox rapide sur Ubuntu 24.04&#34; class=&#34;max-w-md rounded-lg shadow-lg border border-gray-200 dark:border-gray-700&#34;&gt;
 &lt;/div&gt;
 &lt;p&gt;En tant que technicien support informatique spécialisé dans la robustesse des infrastructures, je rencontre régulièrement ce problème chez les utilisateurs d&amp;rsquo;Ubuntu 24.04 : &lt;strong&gt;Firefox met plusieurs secondes à démarrer&lt;/strong&gt;, créant une frustration immédiate après l&amp;rsquo;installation du système.&lt;/p&gt;
 &lt;p&gt;Ce délai n&amp;rsquo;est pas une fatalité, mais la conséquence d&amp;rsquo;un choix technologique de Canonical : l&amp;rsquo;utilisation du format de paquet &lt;strong&gt;Snap&lt;/strong&gt;. Si cette approche offre des avantages en sécurité et maintenance, elle impacte directement la réactivité au premier lancement.&lt;/p&gt;</description>

@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</title>
-    <link>http://localhost:43083/categories/</link>
+    <link>http://localhost:39511/categories/</link>
     <description>Recent content in Categories on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 </copyright>
-    <lastBuildDate>Fri, 17 Oct 2025 22:00:00 +0200</lastBuildDate><atom:link href="http://localhost:43083/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Oct 2025 22:00:00 +0200</lastBuildDate><atom:link href="http://localhost:39511/categories/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Linux</title>
-      <link>http://localhost:43083/categories/linux/</link>
+      <link>http://localhost:39511/categories/linux/</link>
       <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
       
-      <guid>http://localhost:43083/categories/linux/</guid>
+      <guid>http://localhost:39511/categories/linux/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Résolution De Problèmes</title>
-      <link>http://localhost:43083/categories/r%C3%A9solution-de-probl%C3%A8mes/</link>
+      <link>http://localhost:39511/categories/r%C3%A9solution-de-probl%C3%A8mes/</link>
       <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
       
-      <guid>http://localhost:43083/categories/r%C3%A9solution-de-probl%C3%A8mes/</guid>
+      <guid>http://localhost:39511/categories/r%C3%A9solution-de-probl%C3%A8mes/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Support Informatique</title>
-      <link>http://localhost:43083/categories/support-informatique/</link>
+      <link>http://localhost:39511/categories/support-informatique/</link>
       <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
       
-      <guid>http://localhost:43083/categories/support-informatique/</guid>
+      <guid>http://localhost:39511/categories/support-informatique/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Optimisation</title>
-      <link>http://localhost:43083/categories/optimisation/</link>
+      <link>http://localhost:39511/categories/optimisation/</link>
       <pubDate>Fri, 17 Oct 2025 21:30:00 +0200</pubDate>
       
-      <guid>http://localhost:43083/categories/optimisation/</guid>
+      <guid>http://localhost:39511/categories/optimisation/</guid>
       <description></description>
       
     </item>
