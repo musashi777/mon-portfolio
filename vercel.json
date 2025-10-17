@@ -1,5 +1,5 @@
 {
-  "buildCommand": "hugo --gc --minify",
+"buildCommand": "hugo --gc --minify && bash scripts/copy-pdf.sh",
   "outputDirectory": "public",
   "installCommand": "curl -L https://github.com/gohugoio/hugo/releases/download/v0.151.0/hugo_extended_0.151.0_linux-amd64.tar.gz | tar -xz && mv hugo /usr/local/bin/"
 }
