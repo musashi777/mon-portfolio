@@ -1,7 +1,7 @@
 ---
 title: "Mise en Place d'un VPN Site-à-Site"
 date: 2025-10-15T11:00:00+02:00
-image: "/images/photo_projets_VPN.png"
+image: "/images/photo_projets_VPN.png?v=2"
 summary: "Configuration d'un tunnel VPN IPsec sécurisé entre deux réseaux distants."
 ---
 

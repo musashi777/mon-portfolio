@@ -1,37 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guide Détaillé - Installation Serveur GLPI on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</title><link>http://localhost:1313/projets/installation-serveur-glpi/</link><description>Recent content in Guide Détaillé - Installation Serveur GLPI on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025</copyright><lastBuildDate>Wed, 15 Oct 2025 11:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/projets/installation-serveur-glpi/index.xml" rel="self" type="application/rss+xml"/><item><title>Guide Détaillé - Installation Serveur GLPI</title><link>http://localhost:1313/projets/installation-serveur-glpi/details/</link><pubDate>Tue, 14 Oct 2025 15:00:00 +0200</pubDate><guid>http://localhost:1313/projets/installation-serveur-glpi/details/</guid><description>&lt;div class="bg-gradient-to-r from-blue-50 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20 p-6 rounded-xl border border-blue-200 dark:border-blue-700 mb-8"&gt;
-&lt;h2 class="!text-2xl !mt-0 mb-4 text-blue-700 dark:text-blue-300"&gt;📋 Aperçu du Projet&lt;/h2&gt;
-&lt;div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm"&gt;
-&lt;div&gt;
-&lt;strong&gt;Technologies :&lt;/strong&gt;
-&lt;ul class="!my-1"&gt;
-&lt;li&gt;GLPI 10.0.15&lt;/li&gt;
-&lt;li&gt;Debian 12&lt;/li&gt;
-&lt;li&gt;Apache 2.4&lt;/li&gt;
-&lt;li&gt;MariaDB 10.11&lt;/li&gt;
-&lt;li&gt;PHP 8.2&lt;/li&gt;
-&lt;/ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guide Détaillé - Installation Serveur GLPI on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</title>
+    <link>http://localhost:1313/projets/installation-serveur-glpi/</link>
+    <description>Recent content in Guide Détaillé - Installation Serveur GLPI on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Wed, 15 Oct 2025 11:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/projets/installation-serveur-glpi/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Guide Détaillé - Installation Serveur GLPI</title>
+      <link>http://localhost:1313/projets/installation-serveur-glpi/details/</link>
+      <pubDate>Tue, 14 Oct 2025 15:00:00 +0200</pubDate>
+      
+      <guid>http://localhost:1313/projets/installation-serveur-glpi/details/</guid>
+      <description>&lt;div class=&#34;bg-gradient-to-r from-blue-50 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20 p-6 rounded-xl border border-blue-200 dark:border-blue-700 mb-8&#34;&gt;
+  &lt;h2 class=&#34;!text-2xl !mt-0 mb-4 text-blue-700 dark:text-blue-300&#34;&gt;📋 Aperçu du Projet&lt;/h2&gt;
+  &lt;div class=&#34;grid grid-cols-1 md:grid-cols-3 gap-4 text-sm&#34;&gt;
+    &lt;div&gt;
+      &lt;strong&gt;Technologies :&lt;/strong&gt;
+      &lt;ul class=&#34;!my-1&#34;&gt;
+        &lt;li&gt;GLPI 10.0.15&lt;/li&gt;
+        &lt;li&gt;Debian 12&lt;/li&gt;
+        &lt;li&gt;Apache 2.4&lt;/li&gt;
+        &lt;li&gt;MariaDB 10.11&lt;/li&gt;
+        &lt;li&gt;PHP 8.2&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;strong&gt;Durée :&lt;/strong&gt;
+      &lt;p class=&#34;!my-1&#34;&gt;2-3 heures&lt;/p&gt;
+      &lt;strong&gt;Niveau :&lt;/strong&gt;
+      &lt;p class=&#34;!my-1&#34;&gt;Intermédiaire&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;strong&gt;Résultats :&lt;/strong&gt;
+      &lt;ul class=&#34;!my-1&#34;&gt;
+        &lt;li&gt;✅ Serveur fonctionnel&lt;/li&gt;
+        &lt;li&gt;✅ Interface web&lt;/li&gt;
+        &lt;li&gt;✅ Base sécurisée&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
-&lt;div&gt;
-&lt;strong&gt;Durée :&lt;/strong&gt;
-&lt;p class="!my-1"&gt;2-3 heures&lt;/p&gt;
-&lt;strong&gt;Niveau :&lt;/strong&gt;
-&lt;p class="!my-1"&gt;Intermédiaire&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;strong&gt;Résultats :&lt;/strong&gt;
-&lt;ul class="!my-1"&gt;
-&lt;li&gt;✅ Serveur fonctionnel&lt;/li&gt;
-&lt;li&gt;✅ Interface web&lt;/li&gt;
-&lt;li&gt;✅ Base sécurisée&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h2 class="relative group"&gt;🎯 Objectif du Projet
-&lt;div id="-objectif-du-projet" class="anchor"&gt;&lt;/div&gt;
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
-&lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-objectif-du-projet" aria-label="Anchor"&gt;#&lt;/a&gt;
-&lt;/span&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;🎯 Objectif du Projet
+    &lt;div id=&#34;-objectif-du-projet&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-objectif-du-projet&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
 &lt;/h2&gt;
-&lt;p&gt;L&amp;rsquo;objectif de ce projet est de documenter la procédure complète pour installer et configurer un serveur GLPI, un outil open-source de gestion des services informatiques (ITSM) et de gestion des actifs (ITAM). Cette solution permet de gérer efficacement un parc informatique, le suivi des tickets d&amp;rsquo;incidents et l&amp;rsquo;inventaire matériel et logiciel.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;L&amp;rsquo;objectif de ce projet est de documenter la procédure complète pour installer et configurer un serveur GLPI, un outil open-source de gestion des services informatiques (ITSM) et de gestion des actifs (ITAM). Cette solution permet de gérer efficacement un parc informatique, le suivi des tickets d&amp;rsquo;incidents et l&amp;rsquo;inventaire matériel et logiciel.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

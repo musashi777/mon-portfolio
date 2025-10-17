@@ -2,6 +2,7 @@ baseURL = "http://localhost:1313/"
 languageCode = "fr-fr"
 title = "Portfolio de Stéphan Uniatowitz - Expert Support Technique & Infrastructure"
 theme = "blowfish"
+ignoreLogs = ['warning-goldmark-raw-html']
 
 [params]
   description = "Portfolio technique de Stéphan Uniatowitz - Expert support N2/N3, réseaux et systèmes avec 85% de taux de résolution en environnements critiques"
@@ -21,10 +22,14 @@ theme = "blowfish"
   url = "/blog"
   weight = 2
 [[menu.main]]
+  name = "Certifications"
+  url = "/certifications"
+  weight = 3
+[[menu.main]]
   name = "À Propos"
   url = "/about"
-  weight = 3
+  weight = 4
 [[menu.main]]
   name = "Contact"
   url = "/contact"
-  weight = 4
+  weight = 5

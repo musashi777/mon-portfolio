@@ -1,0 +1,7 @@
+{
+  "site": {
+    "title": "{{ .Site.Title }}",
+    "description": "{{ .Site.Params.description }}",
+    "url": "{{ .Permalink }}"
+  }
+}

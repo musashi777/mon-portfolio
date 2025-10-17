@@ -3,7 +3,7 @@ title: "Configuration Détaillée - VPN Site-à-Site"
 date: 2025-10-14T13:15:00+02:00
 draft: false
 description: "Guide technique complet pour configurer un tunnel VPN IPsec entre deux sites avec Pfsense"
-image: "/images/photo_projets_VPN.png"
+image: "/images/photo_projets_VPN.png?v=2"
 technologies: ["IPsec", "Pfsense", "Routage Statique", "AES-256", "SHA-256"]
 ---
 
