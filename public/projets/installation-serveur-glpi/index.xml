@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projet : Installation et Configuration d&#39;un Serveur GLPI on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</title>
-    <link>http://localhost:1313/projets/installation-serveur-glpi/</link>
+    <link>/projets/installation-serveur-glpi/</link>
     <description>Recent content in Projet : Installation et Configuration d&#39;un Serveur GLPI on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/projets/installation-serveur-glpi/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Tue, 14 Oct 2025 15:00:00 +0200</lastBuildDate><atom:link href="/projets/installation-serveur-glpi/index.xml" rel="self" type="application/rss+xml" />
+
   </channel>
 </rss>

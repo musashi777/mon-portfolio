@@ -1,10 +1,19 @@
-baseURL = "http://localhost:1313/"
+baseURL = "/"
 languageCode = "fr-fr"
 title = "Portfolio de Stéphan Uniatowitz - Expert Support Technique & Infrastructure"
+theme = "blowfish"
+relativeURLs = true
 
 [params]
   description = "Portfolio technique de Stéphan Uniatowitz - Expert support N2/N3, réseaux et systèmes avec 85% de taux de résolution en environnements critiques"
   keywords = ["support technique", "réseaux", "systèmes", "GLPI", "VPN", "infrastructure", "technicien IT"]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
 
 [markup]
   [markup.goldmark]

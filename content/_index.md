@@ -10,12 +10,12 @@ buttons:
     url: "/projets/"
     class: "px-6 py-3 rounded-lg bg-primary-500 text-white font-semibold hover:bg-primary-600 transition-colors"
     external: false
-  - text: "📄 Consulter le CV"
-    url: "/about/"
+  - text: "📄 Voir mon CV détaillé"
+    url: "/cv/"
     class: "px-6 py-3 rounded-lg border border-neutral-300 dark:border-neutral-600 font-semibold hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
     external: false
-  - text: "Me Contacter"
-    url: "/contact/"
+  - text: "💬 Discuter de votre projet"
+    url: "#contact"
     class: "px-6 py-3 rounded-lg bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors"
     external: false
   - text: "🔗 LinkedIn"

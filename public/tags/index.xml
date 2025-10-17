@@ -2,32 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Tue, 14 Oct 2025 20:16:01 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Tue, 14 Oct 2025 20:16:01 +0200</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+
     <item>
       <title>Design</title>
-      <link>http://localhost:1313/tags/design/</link>
+      <link>/tags/design/</link>
       <pubDate>Tue, 14 Oct 2025 20:16:01 +0200</pubDate>
-      <guid>http://localhost:1313/tags/design/</guid>
+
+      <guid>/tags/design/</guid>
       <description></description>
+
     </item>
+
     <item>
       <title>Hugo</title>
-      <link>http://localhost:1313/tags/hugo/</link>
+      <link>/tags/hugo/</link>
       <pubDate>Tue, 14 Oct 2025 20:16:01 +0200</pubDate>
-      <guid>http://localhost:1313/tags/hugo/</guid>
+
+      <guid>/tags/hugo/</guid>
       <description></description>
+
     </item>
+
     <item>
       <title>Tutoriel</title>
-      <link>http://localhost:1313/tags/tutoriel/</link>
+      <link>/tags/tutoriel/</link>
       <pubDate>Tue, 14 Oct 2025 20:16:01 +0200</pubDate>
-      <guid>http://localhost:1313/tags/tutoriel/</guid>
+
+      <guid>/tags/tutoriel/</guid>
       <description></description>
+
     </item>
+
   </channel>
 </rss>

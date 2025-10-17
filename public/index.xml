@@ -1,40 +1,273 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Accueil on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Accueil on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</description>
-    <generator>Hugo</generator>
+    <title>Welcome to Blowfish! :tada: on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</title>
+    <link>/</link>
+    <description>Recent content in Welcome to Blowfish! :tada: on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Wed, 15 Oct 2025 10:00:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Mes Compétences Techniques</title>
-      <link>http://localhost:1313/skills/</link>
-      <pubDate>Wed, 15 Oct 2025 10:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/skills/</guid>
-      <description>&lt;h2 id=&#34;-vue-densemble-de-mon-expertise&#34;&gt;🚀 Vue d&amp;rsquo;Ensemble de Mon Expertise&lt;/h2&gt;&#xA;&lt;p&gt;Cette page détaille les technologies, outils et méthodologies que je maîtrise. Mon expérience en environnements critiques m&amp;rsquo;a permis de développer une expertise solide dans les domaines suivants.&lt;/p&gt;&#xA;&lt;h3 id=&#34;-systèmes-dexploitation&#34;&gt;🖥️ Systèmes d&amp;rsquo;Exploitation&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Windows Server :&lt;/strong&gt; Administration, Active Directory, GPO, DNS, DHCP.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Windows Client :&lt;/strong&gt; Déploiement et support de Windows 10/11 en entreprise.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Linux :&lt;/strong&gt; Administration des distributions Debian, Ubuntu et CentOS.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-réseau-et-sécurité&#34;&gt;🌐 Réseau et Sécurité&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Protocoles :&lt;/strong&gt; TCP/IP, Routage (OSPF, BGP), Switching (VLANs).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sécurité :&lt;/strong&gt; Configuration de Firewall (Pfsense, Fortinet), VPN (IPsec, OpenVPN).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Services Réseau :&lt;/strong&gt; DNS, DHCP, Wi-Fi sécurisé.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-virtualisation-et-scripting&#34;&gt;⚙️ Virtualisation et Scripting&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Virtualisation :&lt;/strong&gt; VMware vSphere, Microsoft Hyper-V, VirtualBox.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Scripting :&lt;/strong&gt; Automatisation avec PowerShell et Bash pour les tâches d&amp;rsquo;administration.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-outils-de-support-et-méthodologies&#34;&gt;🛠️ Outils de Support et Méthodologies&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;ITSM :&lt;/strong&gt; GLPI, ServiceNow pour la gestion des tickets et des incidents.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Support :&lt;/strong&gt; Méthodologies de support N1/N2 en environnements critiques.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Documentation :&lt;/strong&gt; Rédaction de procédures techniques et de guides utilisateurs.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Mon Premier Article de Blog</title>
-      <link>http://localhost:1313/blog/mon-premier-article/</link>
-      <pubDate>Tue, 14 Oct 2025 20:16:01 +0200</pubDate>
-      <guid>http://localhost:1313/blog/mon-premier-article/</guid>
-      <description>&lt;p&gt;Ceci est le résumé de mon premier article. Il apparaîtra sur la page listant tous les articles de blog, dans une carte stylisée.&lt;/p&gt;&#xA;&lt;h2 id=&#34;le-début-dune-nouvelle-section&#34;&gt;Le début d&amp;rsquo;une nouvelle section&lt;/h2&gt;&#xA;&lt;p&gt;Bienvenue sur ce premier article. Il sert à démontrer le nouveau design de la section blog que nous venons de mettre en place.&lt;/p&gt;&#xA;&lt;h3 id=&#34;fonctionnalités&#34;&gt;Fonctionnalités&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Grille de cartes&lt;/strong&gt; : La page &lt;code&gt;/blog&lt;/code&gt; affiche une grille responsive.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Page de lecture optimisée&lt;/strong&gt; : Chaque article a une mise en page épurée pour une lecture agréable.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tags et métadonnées&lt;/strong&gt; : Chaque article affiche sa date de publication, son temps de lecture et ses tags.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Les blocs de code sont automatiquement stylisés&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Bonjour le monde du blogging !&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>À Propos de Moi</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Tue, 14 Oct 2025 13:05:00 +0200</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h2 id=&#34;-technicien-supérieur-système-et-réseau&#34;&gt;👨‍💻 Technicien Supérieur Système et Réseau&lt;/h2&gt;&#xA;&lt;p&gt;Passionné par l&amp;rsquo;informatique et les nouvelles technologies, je suis spécialisé dans la gestion, la maintenance et la sécurisation des infrastructures système et réseau. Mon approche combine expertise technique et sens du service client.&lt;/p&gt;&#xA;&lt;h3 id=&#34;-compétences-clés&#34;&gt;🎯 Compétences Clés&lt;/h3&gt;&#xA;&lt;div class=&#34;grid grid-cols-1 md:grid-cols-2 gap-6 my-8&#34;&gt;&#xA;  &lt;div&gt;&#xA;    &lt;h4 class=&#34;!text-lg !mt-0 mb-3 text-primary-600 dark:text-primary-400&#34;&gt;🖥️ Systèmes&lt;/h4&gt;&#xA;    &lt;ul class=&#34;!my-0 text-sm&#34;&gt;&#xA;      &lt;li&gt;Windows Server&lt;/li&gt;&#xA;      &lt;li&gt;Linux (Debian, CentOS, Ubuntu)&lt;/li&gt;&#xA;      &lt;li&gt;Active Directory&lt;/li&gt;&#xA;      &lt;li&gt;SCCM&lt;/li&gt;&#xA;    &lt;/ul&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div&gt;&#xA;    &lt;h4 class=&#34;!text-lg !mt-0 mb-3 text-primary-600 dark:text-primary-400&#34;&gt;🌐 Réseau&lt;/h4&gt;&#xA;    &lt;ul class=&#34;!my-0 text-sm&#34;&gt;&#xA;      &lt;li&gt;TCP/IP, Routage (OSPF, BGP)&lt;/li&gt;&#xA;      &lt;li&gt;Switching, VLANs&lt;/li&gt;&#xA;      &lt;li&gt;Firewall (Pfsense, Fortinet)&lt;/li&gt;&#xA;      &lt;li&gt;VPN, Wi-Fi, Sécurité&lt;/li&gt;&#xA;    &lt;/ul&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div&gt;&#xA;    &lt;h4 class=&#34;!text-lg !mt-0 mb-3 text-primary-600 dark:text-primary-400&#34;&gt;⚙️ Virtualisation &amp; Scripting&lt;/h4&gt;&#xA;    &lt;ul class=&#34;!my-0 text-sm&#34;&gt;&#xA;      &lt;li&gt;VMware vSphere&lt;/li&gt;&#xA;      &lt;li&gt;Microsoft Hyper-V&lt;/li&gt;&#xA;      &lt;li&gt;VirtualBox&lt;/li&gt;&#xA;      &lt;li&gt;PowerShell, Bash&lt;/li&gt;&#xA;    &lt;/ul&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div&gt;&#xA;    &lt;h4 class=&#34;!text-lg !mt-0 mb-3 text-primary-600 dark:text-primary-400&#34;&gt;🛠️ Outils &amp; Méthodologies&lt;/h4&gt;&#xA;    &lt;ul class=&#34;!my-0 text-sm&#34;&gt;&#xA;      &lt;li&gt;GLPI, ServiceNow&lt;/li&gt;&#xA;      &lt;li&gt;Support N1/N2&lt;/li&gt;&#xA;      &lt;li&gt;Gestion de tickets&lt;/li&gt;&#xA;      &lt;li&gt;Environnements critiques&lt;/li&gt;&#xA;    &lt;/ul&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;h3 id=&#34;-expérience-professionnelle&#34;&gt;📊 Expérience Professionnelle&lt;/h3&gt;&#xA;&lt;div class=&#34;space-y-6 my-8&#34;&gt;&#xA;  &lt;div class=&#34;border-l-4 border-primary-500 pl-4&#34;&gt;&#xA;    &lt;h4 class=&#34;!text-lg !mt-0 mb-1&#34;&gt;Technicien Support Informatique N1+&lt;/h4&gt;&#xA;    &lt;p class=&#34;!my-0 text-sm text-neutral-600 dark:text-neutral-400&#34;&gt;Intelcia (SFR Business) | Juillet 2024 - Décembre 2024&lt;/p&gt;</description>
-    </item>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Thu, 16 Oct 2025 01:02:00 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Tue, 14 Oct 2025 13:05:00 +0200</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description>&lt;h2 id=&#34;-contactez-moi&#34;&gt;📞 Contactez-moi&lt;/h2&gt;&#xA;&lt;p&gt;Vous avez un projet technique ou une opportunité à discuter ? N&amp;rsquo;hésitez pas à me contacter.&lt;/p&gt;&#xA;&lt;h3 id=&#34;-informations-de-contact&#34;&gt;📧 Informations de Contact&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Email&lt;/strong&gt; : &lt;a href=&#34;mailto:votre.email@example.com&#34;&gt;votre.email@example.com&lt;/a&gt;&#xA;&lt;strong&gt;LinkedIn&lt;/strong&gt; : &lt;a href=&#34;https://www.linkedin.com/in/stephan-uniatowitz-259360101&#34;&gt;linkedin.com/in/stephan-uniatowitz-259360101&lt;/a&gt;&#xA;&lt;strong&gt;Localisation&lt;/strong&gt; : Marseille, France&lt;/p&gt;&#xA;&lt;h3 id=&#34;-domaines-dexpertise&#34;&gt;🎯 Domaines d&amp;rsquo;Expertise&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Support Technique&lt;/strong&gt; : N1/N2, GLPI, ServiceNow, gestion d&amp;rsquo;incidents&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Infrastructure&lt;/strong&gt; : Réseaux, VPN, systèmes Windows/Linux, virtualisation&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Administration&lt;/strong&gt; : Active Directory, déploiement, migration&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Environnements Critiques&lt;/strong&gt; : Télécoms, santé, corporate&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-types-de-missions-recherchées&#34;&gt;💼 Types de Missions Recherchées&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Support Technique Avancé&lt;/strong&gt; (N2/N3)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Administration Systèmes/Réseaux&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Projets d&amp;rsquo;Infrastructure&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Déploiement et Migration&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Support en Environnements Critiques&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;bg-gradient-to-r from-blue-50 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20 p-6 rounded-xl border border-blue-200 dark:border-blue-700 mt-8&#34;&gt;&#xA;  &lt;h3 class=&#34;!text-xl !mt-0 mb-4 text-blue-700 dark:text-blue-300&#34;&gt;🚀 Prêt à Collaborer ?&lt;/h3&gt;&#xA;  &lt;p class=&#34;!my-2&#34;&gt;Discutons de vos besoins techniques et de comment je peux apporter de la valeur à votre équipe.&lt;/p&gt;</description>
+      <link>/contact/</link>
+      <pubDate>Thu, 16 Oct 2025 01:02:00 +0200</pubDate>
+
+      <guid>/contact/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;🚀 Prêt à Collaborer ?
+    &lt;div id=&#34;-prêt-à-collaborer-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-pr%c3%aat-%c3%a0-collaborer-&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+
+&lt;/h2&gt;
+&lt;p&gt;Discutons de vos besoins techniques et de comment je peux apporter de la valeur à votre équipe.&lt;/p&gt;
+&lt;div class=&#34;grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-12&#34;&gt;
+    &lt;div class=&#34;bg-white/20 p-6 rounded-2xl backdrop-blur-lg border border-white/30 group hover:bg-white/30 transition-all duration-500&#34;&gt;
+        &lt;div class=&#34;text-4xl mb-4 group-hover:scale-110 transition-transform duration-300&#34;&gt;📧&lt;/div&gt;
+        &lt;h3 class=&#34;!text-xl !font-bold !mb-3&#34;&gt;Email&lt;/h3&gt;
+        &lt;p class=&#34;!my-0 text-lg font-semibold&#34;&gt;votre.email@example.com&lt;/p&gt;
+        &lt;a href=&#34;mailto:votre.email@example.com&#34; class=&#34;inline-block mt-4 px-6 py-3 bg-white text-primary-600 rounded-xl font-bold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105&#34;&gt;
+            Envoyer un message
+        &lt;/a&gt;
+    &lt;/div&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;bg-white/20 p-6 rounded-2xl backdrop-blur-lg border border-white/30 group hover:bg-white/30 transition-all duration-500&amp;quot;&amp;gt;
+    &amp;lt;div class=&amp;quot;text-4xl mb-4 group-hover:scale-110 transition-transform duration-300&amp;quot;&amp;gt;🔗&amp;lt;/div&amp;gt;
+    &amp;lt;h3 class=&amp;quot;!text-xl !font-bold !mb-3&amp;quot;&amp;gt;LinkedIn&amp;lt;/h3&amp;gt;
+    &amp;lt;p class=&amp;quot;!my-0 text-lg font-semibold&amp;quot;&amp;gt;Stéphan Uniatowitz&amp;lt;/p&amp;gt;
+    &amp;lt;a href=&amp;quot;https://www.linkedin.com/in/stephan-uniatowitz-259360101&amp;quot; target=&amp;quot;_blank&amp;quot; class=&amp;quot;inline-block mt-4 px-6 py-3 bg-white text-primary-600 rounded-xl font-bold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105&amp;quot;&amp;gt;
+        Visiter mon profil
+    &amp;lt;/a&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;bg-white/20 p-6 rounded-2xl backdrop-blur-lg border border-white/30 group hover:bg-white/30 transition-all duration-500&amp;quot;&amp;gt;
+    &amp;lt;div class=&amp;quot;text-4xl mb-4 group-hover:scale-110 transition-transform duration-300&amp;quot;&amp;gt;📍&amp;lt;/div&amp;gt;
+    &amp;lt;h3 class=&amp;quot;!text-xl !font-bold !mb-3&amp;quot;&amp;gt;Localisation&amp;lt;/h3&amp;gt;
+    &amp;lt;p class=&amp;quot;!my-0 text-lg font-semibold&amp;quot;&amp;gt;Marseille, France&amp;lt;/p&amp;gt;
+    &amp;lt;div class=&amp;quot;mt-4 px-6 py-3 bg-white/30 rounded-xl font-bold&amp;quot;&amp;gt;
+        Disponible en remote
+    &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;💼 Mon Processus de Travail
+    &lt;div id=&#34;-mon-processus-de-travail&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-mon-processus-de-travail&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+
+&lt;/h2&gt;
+&lt;div class=&#34;grid grid-cols-1 md:grid-cols-3 gap-8 my-12&#34;&gt;
+    &lt;div class=&#34;text-center group&#34;&gt;
+        &lt;div class=&#34;text-5xl mb-4 group-hover:animate-bounce&#34;&gt;🔍&lt;/div&gt;
+        &lt;h3 class=&#34;!text-xl !font-bold !mb-3 text-red-600 dark:text-red-400&#34;&gt;Diagnostic&lt;/h3&gt;
+        &lt;p class=&#34;!my-0 text-sm&#34;&gt;Analyse approfondie des besoins et contraintes techniques&lt;/p&gt;</description>
+
     </item>
+
+    <item>
+      <title>Mes Compétences Techniques</title>
+      <link>/skills/</link>
+      <pubDate>Wed, 15 Oct 2025 10:00:00 +0200</pubDate>
+
+      <guid>/skills/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;🚀 Vue d&amp;rsquo;Ensemble de Mon Expertise
+    &lt;div id=&#34;-vue-densemble-de-mon-expertise&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-vue-densemble-de-mon-expertise&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+
+&lt;/h2&gt;
+&lt;p&gt;Cette page détaille les technologies, outils et méthodologies que je maîtrise. Mon expérience en environnements critiques m&amp;rsquo;a permis de développer une expertise solide dans les domaines suivants.&lt;/p&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;🖥️ Systèmes d&amp;rsquo;Exploitation
+    &lt;div id=&#34;-systèmes-dexploitation&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-syst%c3%a8mes-dexploitation&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Windows Server :&lt;/strong&gt; Administration, Active Directory, GPO, DNS, DHCP.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Windows Client :&lt;/strong&gt; Déploiement et support de Windows 10/11 en entreprise.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Linux :&lt;/strong&gt; Administration des distributions Debian, Ubuntu et CentOS.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;🌐 Réseau et Sécurité
+    &lt;div id=&#34;-réseau-et-sécurité&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-r%c3%a9seau-et-s%c3%a9curit%c3%a9&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Protocoles :&lt;/strong&gt; TCP/IP, Routage (OSPF, BGP), Switching (VLANs).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sécurité :&lt;/strong&gt; Configuration de Firewall (Pfsense, Fortinet), VPN (IPsec, OpenVPN).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Services Réseau :&lt;/strong&gt; DNS, DHCP, Wi-Fi sécurisé.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;⚙️ Virtualisation et Scripting
+    &lt;div id=&#34;-virtualisation-et-scripting&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-virtualisation-et-scripting&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Virtualisation :&lt;/strong&gt; VMware vSphere, Microsoft Hyper-V, VirtualBox.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scripting :&lt;/strong&gt; Automatisation avec PowerShell et Bash pour les tâches d&amp;rsquo;administration.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;🛠️ Outils de Support et Méthodologies
+    &lt;div id=&#34;-outils-de-support-et-méthodologies&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-outils-de-support-et-m%c3%a9thodologies&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ITSM :&lt;/strong&gt; GLPI, ServiceNow pour la gestion des tickets et des incidents.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Support :&lt;/strong&gt; Méthodologies de support N1/N2 en environnements critiques.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Documentation :&lt;/strong&gt; Rédaction de procédures techniques et de guides utilisateurs.&lt;/li&gt;
+&lt;/ul&gt;</description>
+
+    </item>
+
+    <item>
+      <title>Mon Premier Article de Blog</title>
+      <link>/blog/mon-premier-article/</link>
+      <pubDate>Tue, 14 Oct 2025 20:16:01 +0200</pubDate>
+
+      <guid>/blog/mon-premier-article/</guid>
+      <description>&lt;p&gt;Ceci est le résumé de mon premier article. Il apparaîtra sur la page listant tous les articles de blog, dans une carte stylisée.&lt;/p&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;Le début d&amp;rsquo;une nouvelle section
+    &lt;div id=&#34;le-début-dune-nouvelle-section&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#le-d%c3%a9but-dune-nouvelle-section&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+
+&lt;/h2&gt;
+&lt;p&gt;Bienvenue sur ce premier article. Il sert à démontrer le nouveau design de la section blog que nous venons de mettre en place.&lt;/p&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;Fonctionnalités
+    &lt;div id=&#34;fonctionnalités&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#fonctionnalit%c3%a9s&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+
+&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Grille de cartes&lt;/strong&gt; : La page &lt;code&gt;/blog&lt;/code&gt; affiche une grille responsive.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Page de lecture optimisée&lt;/strong&gt; : Chaque article a une mise en page épurée pour une lecture agréable.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tags et métadonnées&lt;/strong&gt; : Chaque article affiche sa date de publication, son temps de lecture et ses tags.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Les blocs de code sont automatiquement stylisés&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Bonjour le monde du blogging !&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+
+    </item>
+
+    <item>
+      <title>À Propos de Moi</title>
+      <link>/about/</link>
+      <pubDate>Tue, 14 Oct 2025 13:05:00 +0200</pubDate>
+
+      <guid>/about/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;👨‍💻 Technicien Supérieur Système et Réseau
+    &lt;div id=&#34;-technicien-supérieur-système-et-réseau&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-technicien-sup%c3%a9rieur-syst%c3%a8me-et-r%c3%a9seau&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+
+&lt;/h2&gt;
+&lt;p&gt;Passionné par l&amp;rsquo;informatique et les nouvelles technologies, je suis spécialisé dans la gestion, la maintenance et la sécurisation des infrastructures système et réseau. Mon approche combine expertise technique et sens du service client.&lt;/p&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;🎯 Compétences Clés
+    &lt;div id=&#34;-compétences-clés&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-comp%c3%a9tences-cl%c3%a9s&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+
+&lt;/h3&gt;
+&lt;div class=&#34;grid grid-cols-1 md:grid-cols-2 gap-6 my-8&#34;&gt;
+  &lt;div&gt;
+    &lt;h4 class=&#34;!text-lg !mt-0 mb-3 text-primary-600 dark:text-primary-400&#34;&gt;🖥️ Systèmes&lt;/h4&gt;
+    &lt;ul class=&#34;!my-0 text-sm&#34;&gt;
+      &lt;li&gt;Windows Server&lt;/li&gt;
+      &lt;li&gt;Linux (Debian, CentOS, Ubuntu)&lt;/li&gt;
+      &lt;li&gt;Active Directory&lt;/li&gt;
+      &lt;li&gt;SCCM&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4 class=&#34;!text-lg !mt-0 mb-3 text-primary-600 dark:text-primary-400&#34;&gt;🌐 Réseau&lt;/h4&gt;
+    &lt;ul class=&#34;!my-0 text-sm&#34;&gt;
+      &lt;li&gt;TCP/IP, Routage (OSPF, BGP)&lt;/li&gt;
+      &lt;li&gt;Switching, VLANs&lt;/li&gt;
+      &lt;li&gt;Firewall (Pfsense, Fortinet)&lt;/li&gt;
+      &lt;li&gt;VPN, Wi-Fi, Sécurité&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4 class=&#34;!text-lg !mt-0 mb-3 text-primary-600 dark:text-primary-400&#34;&gt;⚙️ Virtualisation &amp; Scripting&lt;/h4&gt;
+    &lt;ul class=&#34;!my-0 text-sm&#34;&gt;
+      &lt;li&gt;VMware vSphere&lt;/li&gt;
+      &lt;li&gt;Microsoft Hyper-V&lt;/li&gt;
+      &lt;li&gt;VirtualBox&lt;/li&gt;
+      &lt;li&gt;PowerShell, Bash&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h4 class=&#34;!text-lg !mt-0 mb-3 text-primary-600 dark:text-primary-400&#34;&gt;🛠️ Outils &amp; Méthodologies&lt;/h4&gt;
+    &lt;ul class=&#34;!my-0 text-sm&#34;&gt;
+      &lt;li&gt;GLPI, ServiceNow&lt;/li&gt;
+      &lt;li&gt;Support N1/N2&lt;/li&gt;
+      &lt;li&gt;Gestion de tickets&lt;/li&gt;
+      &lt;li&gt;Environnements critiques&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 class=&#34;relative group&#34;&gt;📊 Expérience Professionnelle
+    &lt;div id=&#34;-expérience-professionnelle&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-exp%c3%a9rience-professionnelle&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+
+&lt;/h3&gt;
+&lt;div class=&#34;space-y-6 my-8&#34;&gt;
+  &lt;div class=&#34;border-l-4 border-primary-500 pl-4&#34;&gt;
+    &lt;h4 class=&#34;!text-lg !mt-0 mb-1&#34;&gt;Technicien Support Informatique N1+&lt;/h4&gt;
+    &lt;p class=&#34;!my-0 text-sm text-neutral-600 dark:text-neutral-400&#34;&gt;Intelcia (SFR Business) | Juillet 2024 - Décembre 2024&lt;/p&gt;</description>
+
+    </item>
+
   </channel>
 </rss>
