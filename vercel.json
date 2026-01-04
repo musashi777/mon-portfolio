@@ -2,13 +2,5 @@
   "framework": null,
   "buildCommand": "npm run build",
   "outputDirectory": "public",
-  "installCommand": "npm install",
-  "cleanUrls": true,
-  "trailingSlash": true,
-  "i18n": {
-    "locales": [
-      "fr-fr"
-    ],
-    "defaultLocale": "fr-fr"
-  }
+  "installCommand": "npm install"
 }
