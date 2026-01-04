@@ -2,5 +2,18 @@
   "framework": null,
   "buildCommand": "npm run build",
   "outputDirectory": "public",
-  "installCommand": "npm install"
+  "installCommand": "npm install",
+  "routes": [
+    {
+      "src": "/google69561a23493acde5.html",
+      "dest": "/google69561a23493acde5.html"
+    },
+    {
+      "src": "/BingSiteAuth.xml",
+      "dest": "/BingSiteAuth.xml"
+    },
+    {
+      "handle": "filesystem"
+    }
+  ]
 }
