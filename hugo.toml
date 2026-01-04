@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "/"
 languageCode = "fr-fr"
 title = "Portfolio de Stéphan Uniatowitz - Expert Support Technique & Infrastructure"
 theme = "blowfish"
