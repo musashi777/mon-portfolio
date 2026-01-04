@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://mon-portfolio-jdajs35e8-musashi777s-projects.vercel.app/"
 languageCode = "fr-fr"
 title = "Portfolio de Stéphan Uniatowitz - Expert Support Technique & Infrastructure"
 theme = "blowfish"
