@@ -1,8 +1,7 @@
 {{ if and (eq .Section "depannage") (.IsPage) }}
 {{ $desc := .Params.description | default .Summary }}
 {{ $diagText := `Identifier la cause précise du problème informatique en suivant les tests décrits dans l'article.` }}
-{{ $step1 := (dict "@type" "HowToStep" "name" "Diagnostic" "text" $diagText "url" (printf "%s#diagnostic" .Permalink))
-}}
+{{ $step1 := (dict "@type" "HowToStep" "name" "Diagnostic" "text" $diagText "url" (printf "%s#diagnostic" .Permalink)) }}
 {{ $analText := `Vérifier les composants matériels et les journaux système (logs) pour confirmer la panne.` }}
 {{ $step2 := (dict "@type" "HowToStep" "name" "Analyse" "text" $analText "url" (printf "%s#analyse" .Permalink)) }}
 {{ $resText := `Appliquer la solution technique étape par étape pour rétablir le fonctionnement normal.` }}
@@ -12,8 +11,7 @@
 {{ $image := dict "@type" "ImageObject" "url" $imgUrl }}
 {{ $cost := dict "@type" "MonetaryAmount" "currency" "EUR" "value" "0" }}
 {{ $time := printf "PT%dM" .ReadingTime }}
-{{ $schema := dict "@context" "https://schema.org" "@type" "HowTo" "name" .Title "description" $desc "image" $image
-"totalTime" $time "estimatedCost" $cost "step" $steps }}
+{{ $schema := dict "@context" "https://schema.org" "@type" "HowTo" "name" .Title "description" $desc "image" $image "totalTime" $time "estimatedCost" $cost "step" $steps }}
 <script type="application/ld+json">
     {{ $schema | jsonify | safeJS }}
   </script>
