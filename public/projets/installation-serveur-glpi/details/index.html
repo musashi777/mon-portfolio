@@ -1,11 +1,93 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=39511&amp;path=livereload" data-no-instant defer></script>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guide Détaillé - Installation Serveur GLPI - Portfolio Stéphan Uniatowitz</title>
-    <meta name="description" content="Guide technique complet avec toutes les commandes pour installer et configurer GLPI sur Debian/Ubuntu">
-    <meta name="keywords" content="support technique, réseaux, systèmes, GLPI, VPN, infrastructure, technicien IT">
+    <title>Guide Détaillé - Installation Serveur GLPI -
+        Portfolio Stéphan Uniatowitz</title>
+    <meta name="description"
+        content="Guide technique complet avec toutes les commandes pour installer et configurer GLPI sur Debian/Ubuntu">
+    <meta name="keywords"
+        content="dépannage informatique, assistance informatique, réparation PC, suppression virus, optimisation système, technicien informatique, Marseille, support technique, réseaux, systèmes">
+
+    
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://localhost:1313/projets/installation-serveur-glpi/details/">
+    <meta property="og:title"
+        content="Guide Détaillé - Installation Serveur GLPI - Portfolio Stéphan Uniatowitz">
+    <meta property="og:description"
+        content="Guide technique complet avec toutes les commandes pour installer et configurer GLPI sur Debian/Ubuntu">
+    <meta property="og:image" content="http://localhost:1313/images/technicien-aide-collegue.png">
+    <meta property="og:site_name" content="Portfolio Stéphan Uniatowitz">
+    <meta property="og:locale" content="fr_FR">
+
+    
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="http://localhost:1313/projets/installation-serveur-glpi/details/">
+    <meta property="twitter:title"
+        content="Guide Détaillé - Installation Serveur GLPI - Portfolio Stéphan Uniatowitz">
+    <meta property="twitter:description"
+        content="Guide technique complet avec toutes les commandes pour installer et configurer GLPI sur Debian/Ubuntu">
+    <meta property="twitter:image"
+        content="http://localhost:1313/images/technicien-aide-collegue.png">
+    <meta property="twitter:site" content="@stephan_uniatowitz">
+    <meta property="twitter:creator" content="@stephan_uniatowitz">
+
+    
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="http://localhost:1313/projets/installation-serveur-glpi/details/">
+
+    
+    <meta name="geo.region" content="FR-13">
+    <meta name="geo.placename" content="Marseille">
+    <meta name="geo.position" content="43.296482;5.36978">
+    <meta name="ICBM" content="43.296482, 5.36978">
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"http://localhost:1313/","name":"Accueil","position":1},{"@type":"ListItem","item":"http://localhost:1313/projets/","name":"Projets","position":2},{"@type":"ListItem","item":"http://localhost:1313/projets/installation-serveur-glpi/details/","name":"Guide Détaillé - Installation Serveur GLPI","position":3}]}
+  </script>
+
+    
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Article","articleSection":"projets","author":{"@type":"Person","jobTitle":"Technicien IT\n\u0026 Expert Support Technique","name":"Stéphan Uniatowitz","url":"http://localhost:1313/"},"dateModified":"2025-10-14T15:00:00+02:00","datePublished":"2025-10-14T15:00:00+02:00","description":"Guide technique complet avec toutes les commandes pour installer et configurer GLPI sur Debian/Ubuntu","headline":"Guide Détaillé - Installation Serveur GLPI","image":"http://localhost:1313/images/technicien-aide-collegue.png","inLanguage":"fr-FR","mainEntityOfPage":{"@id":"http://localhost:1313/projets/installation-serveur-glpi/details/","@type":"WebPage"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:1313/images/logo.png"},"name":"Stéphan Uniatowitz - Technicien IT Marseille"}}
+  </script>
+
+    
+    
+    
 
     
     <script src="https://cdn.tailwindcss.com"></script>
@@ -39,20 +121,25 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <style>
         body {
             font-family: 'Inter', sans-serif;
         }
+
         .font-heading {
             font-family: 'Playfair Display', serif;
         }
+
         .gradient-bg {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             position: relative;
             overflow: hidden;
         }
+
         .gradient-bg::before {
             content: '';
             position: absolute;
@@ -60,22 +147,33 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, transparent 50%);
+            background: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
             animation: shimmer 8s ease-in-out infinite;
         }
+
         @keyframes shimmer {
-            0%, 100% { transform: translateX(-100%); }
-            50% { transform: translateX(100%); }
+
+            0%,
+            100% {
+                transform: translateX(-100%);
+            }
+
+            50% {
+                transform: translateX(100%);
+            }
         }
+
         .card-hover {
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             position: relative;
             overflow: hidden;
         }
+
         .card-hover:hover {
             transform: translateY(-8px) scale(1.02);
             box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
         }
+
         .card-hover::before {
             content: '';
             position: absolute;
@@ -83,16 +181,19 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
             transition: left 0.6s;
         }
+
         .card-hover:hover::before {
             left: 100%;
         }
+
         .nav-link {
             position: relative;
             transition: color 0.3s ease;
         }
+
         .nav-link::after {
             content: '';
             position: absolute;
@@ -103,19 +204,23 @@
             background: linear-gradient(90deg, #3b82f6, #8b5cf6);
             transition: width 0.3s ease;
         }
+
         .nav-link:hover::after {
             width: 100%;
         }
+
         .btn-primary {
             background: linear-gradient(135deg, #3b82f6, #8b5cf6);
             transition: all 0.3s ease;
             position: relative;
             overflow: hidden;
         }
+
         .btn-primary:hover {
             transform: translateY(-2px);
             box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
         }
+
         .btn-primary::before {
             content: '';
             position: absolute;
@@ -123,122 +228,178 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
             transition: left 0.6s;
         }
+
         .btn-primary:hover::before {
             left: 100%;
         }
+
         .fade-in-up {
             animation: fadeInUp 0.8s ease-out;
         }
+
         @keyframes fadeInUp {
             from {
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
-        .stagger-animation > * {
+
+        .stagger-animation>* {
             opacity: 0;
             animation: fadeInUp 0.6s ease-out forwards;
         }
-    .stagger-animation > *:nth-child(1) { animation-delay: 0.1s; }
-    .stagger-animation > *:nth-child(2) { animation-delay: 0.2s; }
-    .stagger-animation > *:nth-child(3) { animation-delay: 0.3s; }
-    .stagger-animation > *:nth-child(4) { animation-delay: 0.4s; }
-    .stagger-animation > *:nth-child(5) { animation-delay: 0.5s; }
 
-     
-    pre {
-        overflow-x: auto;
-        max-width: 100%;
-    }
-
-     
-    @media (max-width: 768px) {
-        pre {
-            font-size: 0.875rem;
+        .stagger-animation>*:nth-child(1) {
+            animation-delay: 0.1s;
         }
-    }
+
+        .stagger-animation>*:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .stagger-animation>*:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+
+        .stagger-animation>*:nth-child(4) {
+            animation-delay: 0.4s;
+        }
+
+        .stagger-animation>*:nth-child(5) {
+            animation-delay: 0.5s;
+        }
+
+         
+        pre {
+            overflow-x: auto;
+            max-width: 100%;
+        }
+
+         
+        @media (max-width: 768px) {
+            pre {
+                font-size: 0.875rem;
+            }
+        }
+
+         
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
     </style>
 </head>
+
 <body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
     
-    <nav class="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-16">
-                
-                <div class="flex items-center">
-                    <a href="/" class="text-xl font-heading font-bold text-primary-600 dark:text-primary-400">
-                        Stéphan Uniatowitz
-                    </a>
-                </div>
-
-                
-                <div class="hidden md:flex items-center space-x-8">
+    <header>
+        <nav class="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50"
+            aria-label="Navigation principale">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between items-center h-16">
                     
-                    <a href="/projets" class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
-                        Projets
-                    </a>
-                    
-                    <a href="/blog" class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
-                        Blog
-                    </a>
-                    
-                    <a href="/certifications" class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
-                        Certifications
-                    </a>
-                    
-                    <a href="/about" class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
-                        À Propos
-                    </a>
-                    
-                    <a href="/contact" class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
-                        Contact
-                    </a>
-                    
-                </div>
-
-                
-                <div class="md:hidden">
-                    <button type="button" class="text-gray-500 dark:text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 mobile-menu-button">
-                        <i class="fas fa-bars text-xl"></i>
-                    </button>
+                    <div class="flex items-center">
+                        <a href="/" class="text-xl font-heading font-bold text-primary-600 dark:text-primary-400">
+                            Stéphan Uniatowitz
+                        </a>
+                    </div>
 
                     
-                    <div class="mobile-menu hidden absolute top-16 left-0 right-0 bg-white dark:bg-gray-800 shadow-lg border-t border-gray-200 dark:border-gray-700 z-50">
-                        <div class="px-4 py-4 space-y-4">
-                            
-                            <a href="/projets" class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700">
-                                Projets
-                            </a>
-                            
-                            <a href="/blog" class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700">
-                                Blog
-                            </a>
-                            
-                            <a href="/certifications" class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700">
-                                Certifications
-                            </a>
-                            
-                            <a href="/about" class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700">
-                                À Propos
-                            </a>
-                            
-                            <a href="/contact" class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700">
-                                Contact
-                            </a>
-                            
+                    <div class="hidden md:flex items-center space-x-8">
+                        
+                        <a href="/projets"
+                            class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
+                            Projets
+                        </a>
+                        
+                        <a href="/blog"
+                            class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
+                            Blog
+                        </a>
+                        
+                        <a href="/certifications"
+                            class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
+                            Certifications
+                        </a>
+                        
+                        <a href="/about"
+                            class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
+                            À Propos
+                        </a>
+                        
+                        <a href="/contact"
+                            class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
+                            Contact
+                        </a>
+                        
+                    </div>
+
+                    
+                    <div class="md:hidden">
+                        <button type="button"
+                            class="text-gray-500 dark:text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 mobile-menu-button"
+                            aria-label="Menu mobile" aria-expanded="false" aria-controls="mobile-menu">
+                            <i class="fas fa-bars text-xl"></i>
+                        </button>
+
+                        
+                        <div id="mobile-menu"
+                            class="mobile-menu hidden absolute top-16 left-0 right-0 bg-white dark:bg-gray-800 shadow-lg border-t border-gray-200 dark:border-gray-700 z-50"
+                            role="menu">
+                            <div class="px-4 py-4 space-y-4">
+                                
+                                <a href="/projets"
+                                    class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700"
+                                    role="menuitem">
+                                    Projets
+                                </a>
+                                
+                                <a href="/blog"
+                                    class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700"
+                                    role="menuitem">
+                                    Blog
+                                </a>
+                                
+                                <a href="/certifications"
+                                    class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700"
+                                    role="menuitem">
+                                    Certifications
+                                </a>
+                                
+                                <a href="/about"
+                                    class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700"
+                                    role="menuitem">
+                                    À Propos
+                                </a>
+                                
+                                <a href="/contact"
+                                    class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700"
+                                    role="menuitem">
+                                    Contact
+                                </a>
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     
     <main class="flex-grow">
@@ -306,27 +467,9 @@
     </div>
   </div>
 </div>
-
-<h2 class="relative group">🎯 Objectif du Projet
-    <div id="-objectif-du-projet" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-objectif-du-projet" aria-label="Anchor">#</a>
-    </span>
-    
-</h2>
+<h2 id="-objectif-du-projet">🎯 Objectif du Projet</h2>
 <p>L&rsquo;objectif de ce projet est de documenter la procédure complète pour installer et configurer un serveur GLPI, un outil open-source de gestion des services informatiques (ITSM) et de gestion des actifs (ITAM). Cette solution permet de gérer efficacement un parc informatique, le suivi des tickets d&rsquo;incidents et l&rsquo;inventaire matériel et logiciel.</p>
-
-<h2 class="relative group">✅ Prérequis
-    <div id="-prérequis" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-pr%c3%a9requis" aria-label="Anchor">#</a>
-    </span>
-    
-</h2>
+<h2 id="-prérequis">✅ Prérequis</h2>
 <p>Avant de commencer, assurez-vous de disposer des éléments suivants :</p>
 <ul>
 <li>Un serveur avec une installation fraîche de Debian (11 ou 12) ou Ubuntu (22.04 ou 24.04)</li>
@@ -334,27 +477,9 @@
 <li>Une connaissance de base de la ligne de commande Linux</li>
 <li>Un client SSH (comme PuTTY ou le terminal de votre machine) pour vous connecter à votre serveur</li>
 </ul>
-
-<h2 class="relative group">🚀 Étapes Clés de la Réalisation
-    <div id="-étapes-clés-de-la-réalisation" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%c3%a9tapes-cl%c3%a9s-de-la-r%c3%a9alisation" aria-label="Anchor">#</a>
-    </span>
-    
-</h2>
+<h2 id="-étapes-clés-de-la-réalisation">🚀 Étapes Clés de la Réalisation</h2>
 <p>Nous allons suivre 5 étapes principales pour mettre en place notre serveur GLPI.</p>
-
-<h3 class="relative group">Étape 1 : Installation de la stack LAMP
-    <div id="étape-1--installation-de-la-stack-lamp" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%c3%a9tape-1--installation-de-la-stack-lamp" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
+<h3 id="étape-1--installation-de-la-stack-lamp">Étape 1 : Installation de la stack LAMP</h3>
 <p>La première étape consiste à installer l&rsquo;environnement web nécessaire : Apache2 (le serveur web), MariaDB (le système de gestion de base de données) et PHP (le langage de programmation de GLPI).</p>
 <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg my-4">
   <h4 class="!text-lg !mt-0 mb-2">Commandes à exécuter :</h4>
@@ -367,16 +492,7 @@
 </span></span></code></pre></div><p><strong>Sécurisez votre installation MariaDB :</strong></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo mysql_secure_installation
 </span></span></code></pre></div></div>
-
-<h3 class="relative group">Étape 2 : Création de la Base de Données
-    <div id="étape-2--création-de-la-base-de-données" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%c3%a9tape-2--cr%c3%a9ation-de-la-base-de-donn%c3%a9es" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
+<h3 id="étape-2--création-de-la-base-de-données">Étape 2 : Création de la Base de Données</h3>
 <p>GLPI a besoin de sa propre base de données et d&rsquo;un utilisateur dédié pour des raisons de sécurité et d&rsquo;organisation.</p>
 <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg my-4">
   <h4 class="!text-lg !mt-0 mb-2">Configuration de la base de données :</h4>
@@ -389,16 +505,7 @@
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">FLUSH</span><span class="w"> </span><span class="k">PRIVILEGES</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">EXIT</span><span class="p">;</span><span class="w">
 </span></span></span></code></pre></div></div>
-
-<h3 class="relative group">Étape 3 : Téléchargement et Déploiement de GLPI
-    <div id="étape-3--téléchargement-et-déploiement-de-glpi" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%c3%a9tape-3--t%c3%a9l%c3%a9chargement-et-d%c3%a9ploiement-de-glpi" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
+<h3 id="étape-3--téléchargement-et-déploiement-de-glpi">Étape 3 : Téléchargement et Déploiement de GLPI</h3>
 <p>Nous allons maintenant télécharger la dernière version de GLPI et la placer dans le répertoire du serveur web.</p>
 <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg my-4">
   <h4 class="!text-lg !mt-0 mb-2">Déploiement de GLPI :</h4>
@@ -410,16 +517,7 @@
 </span></span></code></pre></div><p><strong>Déplacez les fichiers vers le répertoire web :</strong></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo mv glpi /var/www/html/glpi
 </span></span></code></pre></div></div>
-
-<h3 class="relative group">Étape 4 : Configuration des Permissions
-    <div id="étape-4--configuration-des-permissions" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%c3%a9tape-4--configuration-des-permissions" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
+<h3 id="étape-4--configuration-des-permissions">Étape 4 : Configuration des Permissions</h3>
 <p>Il est crucial que le serveur web (qui s&rsquo;exécute avec l&rsquo;utilisateur www-data) ait les permissions d&rsquo;écrire dans certains dossiers de GLPI.</p>
 <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg my-4">
   <h4 class="!text-lg !mt-0 mb-2">Configuration des permissions :</h4>
@@ -449,16 +547,7 @@
 </span></span><span class="line"><span class="cl">sudo a2enmod rewrite
 </span></span><span class="line"><span class="cl">sudo systemctl restart apache2
 </span></span></code></pre></div></div>
-
-<h3 class="relative group">Étape 5 : Installation via l&rsquo;Interface Web
-    <div id="étape-5--installation-via-linterface-web" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%c3%a9tape-5--installation-via-linterface-web" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
+<h3 id="étape-5--installation-via-linterface-web">Étape 5 : Installation via l&rsquo;Interface Web</h3>
 <p>La dernière étape se passe dans votre navigateur.</p>
 <div class="bg-green-50 dark:bg-green-900/20 p-4 rounded-lg my-4">
   <h4 class="!text-lg !mt-0 mb-2">Installation via l'interface web :</h4>
@@ -471,27 +560,9 @@
 <li><strong>Finalisez l&rsquo;installation</strong> et notez les identifiants par défaut</li>
 </ol>
 </div>
-
-<h2 class="relative group">🏁 Résultat Obtenu et Étapes Suivantes
-    <div id="-résultat-obtenu-et-étapes-suivantes" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-r%c3%a9sultat-obtenu-et-%c3%a9tapes-suivantes" aria-label="Anchor">#</a>
-    </span>
-    
-</h2>
+<h2 id="-résultat-obtenu-et-étapes-suivantes">🏁 Résultat Obtenu et Étapes Suivantes</h2>
 <p>À l&rsquo;issue de ce projet, un serveur GLPI est pleinement fonctionnel et accessible via le réseau. La plateforme est prête à être configurée pour l&rsquo;inventaire automatique du parc, la gestion des tickets et le suivi des actifs.</p>
-
-<h3 class="relative group">⚠️ Actions post-installation (TRÈS IMPORTANT)
-    <div id="-actions-post-installation-très-important" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-actions-post-installation-tr%c3%a8s-important" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
+<h3 id="-actions-post-installation-très-important">⚠️ Actions post-installation (TRÈS IMPORTANT)</h3>
 <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-lg my-4 border border-red-200 dark:border-red-700">
   <h4 class="!text-lg !mt-0 mb-2 text-red-700 dark:text-red-300">Sécurisation du serveur :</h4>
 <p><strong>Supprimez le fichier d&rsquo;installation :</strong></p>
@@ -502,16 +573,7 @@
 <li>Changez immédiatement tous les mots de passe par défaut dans Administration &gt; Utilisateurs</li>
 </ul>
 </div>
-
-<h2 class="relative group">📊 Compétences Développées
-    <div id="-compétences-développées" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-comp%c3%a9tences-d%c3%a9velopp%c3%a9es" aria-label="Anchor">#</a>
-    </span>
-    
-</h2>
+<h2 id="-compétences-développées">📊 Compétences Développées</h2>
 <p>Ce projet m&rsquo;a permis de renforcer mes compétences en :</p>
 <ul>
 <li><strong>Administration Linux</strong> : Gestion des paquets, permissions, services</li>
@@ -546,23 +608,23 @@
     </main>
 
     
-    <footer class="bg-gray-800 text-white py-12">
+    <footer class="bg-gray-800 text-white py-12" role="contentinfo">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 
-                <div>
-                    <h3 class="text-xl font-heading font-bold mb-4">Stéphan Uniatowitz</h3>
+                <section aria-labelledby="footer-about">
+                    <h3 id="footer-about" class="text-xl font-heading font-bold mb-4">Stéphan Uniatowitz</h3>
                     <p class="text-gray-300 mb-4">
                         Technicien Support, Réseaux & Configuration Systèmes
                     </p>
                     <p class="text-gray-400 text-sm">
                         Passionné par l'informatique et les nouvelles technologies
                     </p>
-                </div>
+                </section>
 
                 
-                <div>
-                    <h4 class="text-lg font-semibold mb-4">Navigation</h4>
+                <section aria-labelledby="footer-navigation">
+                    <h4 id="footer-navigation" class="text-lg font-semibold mb-4">Navigation</h4>
                     <ul class="space-y-2">
                         
                         <li>
@@ -596,29 +658,25 @@
                         </li>
                         
                     </ul>
-                </div>
+                </section>
 
                 
-                <div>
-                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                <section aria-labelledby="footer-contact">
+                    <h4 id="footer-contact" class="text-lg font-semibold mb-4">Contact</h4>
                     <div class="space-y-2">
                         <a href="/contact" class="block text-gray-300 hover:text-white transition-colors">
-                            <i class="fas fa-envelope mr-2"></i>Formulaire de contact
+                            <i class="fas fa-envelope mr-2" aria-hidden="true"></i>Formulaire de contact
                         </a>
-                        <a href="https://www.linkedin.com/in/stephan-uniatowitz-259360101"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           class="block text-gray-300 hover:text-white transition-colors">
-                            <i class="fab fa-linkedin mr-2"></i>LinkedIn
+                        <a href="https://www.linkedin.com/in/stephan-uniatowitz-259360101" target="_blank"
+                            rel="noopener noreferrer" class="block text-gray-300 hover:text-white transition-colors">
+                            <i class="fab fa-linkedin mr-2" aria-hidden="true"></i>LinkedIn
                         </a>
-                        <a href="https://github.com/stephan-uniatowitz"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           class="block text-gray-300 hover:text-white transition-colors">
-                            <i class="fab fa-github mr-2"></i>GitHub
+                        <a href="https://github.com/stephan-uniatowitz" target="_blank" rel="noopener noreferrer"
+                            class="block text-gray-300 hover:text-white transition-colors">
+                            <i class="fab fa-github mr-2" aria-hidden="true"></i>GitHub
                         </a>
                     </div>
-                </div>
+                </section>
             </div>
 
             
@@ -642,7 +700,7 @@
         
         const mobileMenuButton = document.querySelector('.mobile-menu-button');
         if (mobileMenuButton) {
-            mobileMenuButton.addEventListener('click', function() {
+            mobileMenuButton.addEventListener('click', function () {
                 const mobileMenu = document.querySelector('.mobile-menu');
                 if (mobileMenu) {
                     mobileMenu.classList.toggle('hidden');
@@ -707,7 +765,7 @@
         const buttons = document.querySelectorAll('.btn-primary, .btn-secondary');
         if (buttons.length > 0) {
             buttons.forEach(button => {
-                button.addEventListener('click', function(e) {
+                button.addEventListener('click', function (e) {
                     if (!this.href || this.href.startsWith('#')) return;
 
                     const originalText = this.innerHTML;
@@ -726,11 +784,11 @@
         const cards = document.querySelectorAll('.card-hover');
         if (cards.length > 0) {
             cards.forEach(card => {
-                card.addEventListener('mouseenter', function() {
+                card.addEventListener('mouseenter', function () {
                     this.style.transform = 'translateY(-8px) scale(1.02)';
                 });
 
-                card.addEventListener('mouseleave', function() {
+                card.addEventListener('mouseleave', function () {
                     this.style.transform = 'translateY(0) scale(1)';
                 });
             });
@@ -738,8 +796,9 @@
 
         
         const backToTop = document.createElement('button');
-        backToTop.innerHTML = '<i class="fas fa-chevron-up"></i>';
+        backToTop.innerHTML = '<i class="fas fa-chevron-up" aria-hidden="true"></i><span class="sr-only">Retour en haut de page</span>';
         backToTop.className = 'fixed bottom-8 right-8 bg-primary-600 hover:bg-primary-700 text-white p-3 rounded-full shadow-lg transition-all duration-300 opacity-0 transform translate-y-10 z-40 back-to-top';
+        backToTop.setAttribute('aria-label', 'Retour en haut de page');
         backToTop.style.transition = 'all 0.3s ease';
         document.body.appendChild(backToTop);
 
@@ -761,4 +820,5 @@
         });
     </script>
 </body>
+
 </html>

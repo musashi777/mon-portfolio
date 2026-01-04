@@ -2,354 +2,270 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Accueil on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</title>
-    <link>http://localhost:39511/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Accueil on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>© 2025 </copyright>
-    <lastBuildDate>Fri, 17 Oct 2025 22:00:00 +0200</lastBuildDate><atom:link href="http://localhost:39511/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sat, 03 Jan 2026 09:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inquiétudes sur la sécurité des données : solutions concrètes pour se protéger</title>
+      <link>http://localhost:1313/blog/inqui%C3%A9tudes-sur-la-s%C3%A9curit%C3%A9-des-donn%C3%A9es-solutions-concr%C3%A8tes-pour-se-prot%C3%A9ger/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/inqui%C3%A9tudes-sur-la-s%C3%A9curit%C3%A9-des-donn%C3%A9es-solutions-concr%C3%A8tes-pour-se-prot%C3%A9ger/</guid>
+      <description>&lt;h1 id=&#34;inquiétudes-sur-la-sécurité-des-données--solutions-pour-une-protection-complète&#34;&gt;Inquiétudes sur la sécurité des données : solutions pour une protection complète&lt;/h1&gt;&#xA;&lt;p&gt;Face aux titres alarmistes sur les &lt;strong&gt;ransomwares&lt;/strong&gt; et le &lt;strong&gt;phishing&lt;/strong&gt;, il est normal de s&amp;rsquo;inquiéter pour ses données. Mais la peur est mauvaise conseillère.&lt;/p&gt;&#xA;&lt;div class=&#34;flex justify-center mb-8&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/images/securite_intro_hu_1fa8c16e0f349fa5.webp&#34; alt=&#34;Data Privacy&#34; class=&#34;max-w-full md:max-w-lg rounded-lg shadow-lg border border-gray-200 dark:border-gray-700&#34; width=&#34;1200&#34;&#xA;      height=&#34;655&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 p-4 mb-6 rounded-r-lg&#34;&gt;&#xA;  &lt;div class=&#34;flex items-start&#34;&gt;&#xA;    &lt;div class=&#34;flex-shrink-0&#34;&gt;&#xA;      &lt;i class=&#34;fas fa-user-shield text-blue-500 text-lg mt-1&#34;&gt;&lt;/i&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;ml-3&#34;&gt;&#xA;      &lt;p class=&#34;text-blue-800 dark:text-blue-200 font-medium&#34;&gt;Reprenez le contrôle&lt;/p&gt;&#xA;      &lt;p class=&#34;text-blue-700 dark:text-blue-300 text-sm mt-1&#34;&gt;Cet article vous donne des outils concrets pour protéger votre intimité numérique (webcam, documents sensibles) et dormir sur vos deux oreilles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pare-feu : configuration, blocage et optimisation pour la sécurité PC</title>
+      <link>http://localhost:1313/blog/pare-feu-configuration-blocage-et-optimisation-pour-la-s%C3%A9curit%C3%A9-pc/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/pare-feu-configuration-blocage-et-optimisation-pour-la-s%C3%A9curit%C3%A9-pc/</guid>
+      <description>&lt;h1 id=&#34;pare-feu--configuration-blocage-et-optimisation-pour-la-sécurité-pc&#34;&gt;Pare-feu : configuration, blocage et optimisation pour la sécurité PC&lt;/h1&gt;&#xA;&lt;p&gt;Dans un environnement numérique où les menaces comme les &lt;strong&gt;ransomwares&lt;/strong&gt;, les &lt;strong&gt;virus&lt;/strong&gt; et le &lt;strong&gt;phishing&lt;/strong&gt; sont omniprésents, le pare-feu constitue votre première ligne de défense.&lt;/p&gt;&#xA;&lt;div class=&#34;flex justify-center mb-8&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/images/securite_intro_hu_1fa8c16e0f349fa5.webp&#34; alt=&#34;Firewall Security Concept&#34; class=&#34;max-w-full md:max-w-lg rounded-lg shadow-lg border border-gray-200 dark:border-gray-700&#34; width=&#34;1200&#34;&#xA;      height=&#34;655&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 p-4 mb-6 rounded-r-lg&#34;&gt;&#xA;  &lt;div class=&#34;flex items-start&#34;&gt;&#xA;    &lt;div class=&#34;flex-shrink-0&#34;&gt;&#xA;      &lt;i class=&#34;fas fa-shield-virus text-blue-500 text-lg mt-1&#34;&gt;&lt;/i&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;ml-3&#34;&gt;&#xA;      &lt;p class=&#34;text-blue-800 dark:text-blue-200 font-medium&#34;&gt;Le Gardien du Temple&lt;/p&gt;&#xA;      &lt;p class=&#34;text-blue-700 dark:text-blue-300 text-sm mt-1&#34;&gt;Un pare-feu agit comme un filtre intelligent qui surveille tout ce qui entre et sort de votre ordinateur, bloquant les tentatives d&#39;intrusion et les fuites de données.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Phishing : identifier les arnaques et protéger ses données</title>
+      <link>http://localhost:1313/blog/phishing-identifier-les-arnaques-et-prot%C3%A9ger-ses-donn%C3%A9es/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/phishing-identifier-les-arnaques-et-prot%C3%A9ger-ses-donn%C3%A9es/</guid>
+      <description>&lt;h1 id=&#34;phishing--identifier-les-arnaques-et-protéger-ses-données&#34;&gt;Phishing : identifier les arnaques et protéger ses données&lt;/h1&gt;&#xA;&lt;div class=&#34;flex justify-center mb-8&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/images/securite_phishing_hu_7168d607d00bf049.webp&#34; alt=&#34;Phishing Alert&#34; class=&#34;max-w-full md:max-w-lg rounded-lg shadow-lg border border-gray-200 dark:border-gray-700&#34; width=&#34;1200&#34;&#xA;      height=&#34;655&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Le phishing (hameçonnage) est l&amp;rsquo;art de la tromperie numérique. L&amp;rsquo;objectif ? Vous faire croire que vous parlez à votre banque, La Poste ou Netflix pour vous voler vos mots de passe.&lt;/p&gt;&#xA;&lt;div class=&#34;bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 p-4 mb-6 rounded-r-lg&#34;&gt;&#xA;  &lt;div class=&#34;flex items-start&#34;&gt;&#xA;    &lt;div class=&#34;flex-shrink-0&#34;&gt;&#xA;      &lt;i class=&#34;fas fa-mask text-blue-500 text-lg mt-1&#34;&gt;&lt;/i&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;ml-3&#34;&gt;&#xA;      &lt;p class=&#34;text-blue-800 dark:text-blue-200 font-medium&#34;&gt;Le mécanisme du piège&lt;/p&gt;&#xA;      &lt;ol class=&#34;list-decimal list-inside text-blue-700 dark:text-blue-300 text-sm mt-1&#34;&gt;&#xA;        &lt;li&gt;&lt;strong&gt;L&#39;appât&lt;/strong&gt; : Un mail urgent (Colis bloqué, Facture impayée).&lt;/li&gt;&#xA;        &lt;li&gt;&lt;strong&gt;L&#39;action&lt;/strong&gt; : Vous cliquez sur un lien.&lt;/li&gt;&#xA;        &lt;li&gt;&lt;strong&gt;La copie&lt;/strong&gt; : Vous arrivez sur un fausse site (copie parfaite de l&#39;officiel).&lt;/li&gt;&#xA;        &lt;li&gt;&lt;strong&gt;Le vol&lt;/strong&gt; : Vous tapez votre mot de passe, les pirates le récupèrent.&lt;/li&gt;&#xA;      &lt;/ol&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;h2 id=&#34;exemples-courants-darnaques&#34;&gt;Exemples courants d&amp;rsquo;arnaques&lt;/h2&gt;&#xA;&lt;div class=&#34;bg-yellow-50 dark:bg-yellow-900/20 border-l-4 border-yellow-500 p-4 mb-6 rounded-r-lg&#34;&gt;&#xA;  &lt;div class=&#34;flex items-start&#34;&gt;&#xA;    &lt;div class=&#34;flex-shrink-0&#34;&gt;&#xA;      &lt;i class=&#34;fas fa-exclamation-triangle text-yellow-500 text-lg mt-1&#34;&gt;&lt;/i&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;ml-3&#34;&gt;&#xA;      &lt;p class=&#34;text-yellow-800 dark:text-yellow-200 font-medium&#34;&gt;Méfiez-vous si...&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ransomware : comment se protéger et réagir en cas d&#39;attaque</title>
+      <link>http://localhost:1313/blog/ransomware-comment-se-prot%C3%A9ger-et-r%C3%A9agir-en-cas-dattaque/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/ransomware-comment-se-prot%C3%A9ger-et-r%C3%A9agir-en-cas-dattaque/</guid>
+      <description>&lt;h1 id=&#34;ransomware--comment-se-protéger-et-réagir-en-cas-dattaque&#34;&gt;Ransomware : comment se protéger et réagir en cas d&amp;rsquo;attaque&lt;/h1&gt;&#xA;&lt;div class=&#34;flex justify-center mb-8&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/images/securite_ransomware_hu_ded2ee7830909ae8.webp&#34; alt=&#34;Ransomware Attack Concept&#34; class=&#34;max-w-full md:max-w-lg rounded-lg shadow-lg border border-gray-200 dark:border-gray-700&#34; width=&#34;1200&#34;&#xA;      height=&#34;655&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;La menace des &lt;strong&gt;ransomwares&lt;/strong&gt; (ou rançongiciels) est l&amp;rsquo;une des plus préoccupantes en cybersécurité. Ces logiciels malveillants prennent en otage vos données personnelles ou professionnelles en les chiffrant, puis exigent une rançon pour vous restituer l&amp;rsquo;accès.&lt;/p&gt;&#xA;&lt;div class=&#34;bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 p-4 mb-6 rounded-r-lg&#34;&gt;&#xA;  &lt;div class=&#34;flex items-start&#34;&gt;&#xA;    &lt;div class=&#34;flex-shrink-0&#34;&gt;&#xA;      &lt;i class=&#34;fas fa-info-circle text-blue-500 text-lg mt-1&#34;&gt;&lt;/i&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;ml-3&#34;&gt;&#xA;      &lt;p class=&#34;text-blue-800 dark:text-blue-200 font-medium&#34;&gt;Définition&lt;/p&gt;&#xA;      &lt;p class=&#34;text-blue-700 dark:text-blue-300 text-sm mt-1&#34;&gt;Un ransomware est un programme qui chiffre vos fichiers. Sans la clé (détenue par les pirates), vos fichiers sont techniquement irrécupérables... sauf si vous avez une sauvegarde.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sécurité des données en entreprise : guide pour PME et Indépendants</title>
+      <link>http://localhost:1313/blog/s%C3%A9curit%C3%A9-des-donn%C3%A9es-en-entreprise-guide-pour-pme-et-ind%C3%A9pendants/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/s%C3%A9curit%C3%A9-des-donn%C3%A9es-en-entreprise-guide-pour-pme-et-ind%C3%A9pendants/</guid>
+      <description>&lt;h1 id=&#34;sécurité-des-données-en-entreprise--stratégies-essentielles-pour-pme-et-indépendants&#34;&gt;Sécurité des données en entreprise : stratégies essentielles pour PME et indépendants&lt;/h1&gt;&#xA;&lt;p&gt;Pour les PME et les travailleurs indépendants, la sécurité des données n&amp;rsquo;est pas un luxe, c&amp;rsquo;est une nécessité vitale. Une cyberattaque peut signifier l&amp;rsquo;arrêt de votre activité.&lt;/p&gt;&#xA;&lt;div class=&#34;flex justify-center mb-8&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/images/securite_intro_hu_1fa8c16e0f349fa5.webp&#34; alt=&#34;Enterprise Security&#34; class=&#34;max-w-full md:max-w-lg rounded-lg shadow-lg border border-gray-200 dark:border-gray-700&#34; width=&#34;1200&#34;&#xA;      height=&#34;655&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;bg-red-50 dark:bg-red-900/20 border-l-4 border-red-500 p-4 mb-6 rounded-r-lg&#34;&gt;&#xA;  &lt;div class=&#34;flex items-start&#34;&gt;&#xA;    &lt;div class=&#34;flex-shrink-0&#34;&gt;&#xA;      &lt;i class=&#34;fas fa-chart-line text-red-500 text-lg mt-1&#34;&gt;&lt;/i&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;ml-3&#34;&gt;&#xA;      &lt;p class=&#34;text-red-800 dark:text-red-200 font-medium&#34;&gt;La menace est réelle&lt;/p&gt;&#xA;      &lt;p class=&#34;text-red-700 dark:text-red-300 text-sm mt-1&#34;&gt;Les pirates ciblent souvent les petites structures car elles sont moins protégées que les grandes multinationales. Un ransomware peut bloquer votre facturation pendant des semaines.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sécurité informatique pour les débutants : le guide pas à pas</title>
+      <link>http://localhost:1313/blog/s%C3%A9curit%C3%A9-informatique-pour-les-d%C3%A9butants-le-guide-pas-%C3%A0-pas/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/s%C3%A9curit%C3%A9-informatique-pour-les-d%C3%A9butants-le-guide-pas-%C3%A0-pas/</guid>
+      <description>&lt;h1 id=&#34;sécurité-pour-les-débutants--guide-pas-à-pas&#34;&gt;Sécurité pour les débutants : Guide pas à pas&lt;/h1&gt;&#xA;&lt;div class=&#34;flex justify-center mb-8&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/images/securite_intro_hu_1fa8c16e0f349fa5.webp&#34; alt=&#34;Security Basics&#34; class=&#34;max-w-full md:max-w-lg rounded-lg shadow-lg border border-gray-200 dark:border-gray-700&#34; width=&#34;1200&#34;&#xA;      height=&#34;655&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;L&amp;rsquo;informatique peut faire peur, surtout quand on entend parler de pirates et de virus. Mais pas de panique ! La sécurité, c&amp;rsquo;est comme fermer sa porte à clé : des gestes simples suffisent pour éviter 99% des problèmes.&lt;/p&gt;&#xA;&lt;div class=&#34;bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 p-4 mb-6 rounded-r-lg&#34;&gt;&#xA;  &lt;div class=&#34;flex items-start&#34;&gt;&#xA;    &lt;div class=&#34;flex-shrink-0&#34;&gt;&#xA;      &lt;i class=&#34;fas fa-graduation-cap text-blue-500 text-lg mt-1&#34;&gt;&lt;/i&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;ml-3&#34;&gt;&#xA;      &lt;p class=&#34;text-blue-800 dark:text-blue-200 font-medium&#34;&gt;Pour qui est ce guide ?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Virus informatique : détection, nettoyage et meilleurs antivirus</title>
+      <link>http://localhost:1313/blog/virus-informatique-d%C3%A9tection-nettoyage-et-meilleurs-antivirus/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/virus-informatique-d%C3%A9tection-nettoyage-et-meilleurs-antivirus/</guid>
+      <description>&lt;h1 id=&#34;virus-informatique--guide-complet-pour-la-détection-le-nettoyage-et-le-choix-dun-antivirus&#34;&gt;Virus informatique : guide complet pour la détection, le nettoyage et le choix d&amp;rsquo;un antivirus&lt;/h1&gt;&#xA;&lt;p&gt;Un &amp;ldquo;virus&amp;rdquo; est souvent un terme générique pour désigner tout logiciel malveillant. Leur impact peut aller de la simple nuisance à la catastrophe financière.&lt;/p&gt;&#xA;&lt;div class=&#34;flex justify-center mb-8&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/images/securite_intro_hu_1fa8c16e0f349fa5.webp&#34; alt=&#34;Computer Virus Concept&#34; class=&#34;max-w-full md:max-w-lg rounded-lg shadow-lg border border-gray-200 dark:border-gray-700&#34; width=&#34;1200&#34;&#xA;      height=&#34;655&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 p-4 mb-6 rounded-r-lg&#34;&gt;&#xA;  &lt;div class=&#34;flex items-start&#34;&gt;&#xA;    &lt;div class=&#34;flex-shrink-0&#34;&gt;&#xA;      &lt;i class=&#34;fas fa-bug text-blue-500 text-lg mt-1&#34;&gt;&lt;/i&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;ml-3&#34;&gt;&#xA;      &lt;p class=&#34;text-blue-800 dark:text-blue-200 font-medium&#34;&gt;Connaître l&#39;ennemi&lt;/p&gt;&#xA;      &lt;ul class=&#34;list-disc list-inside text-blue-700 dark:text-blue-300 text-sm mt-1&#34;&gt;&#xA;        &lt;li&gt;&lt;strong&gt;Ransomware&lt;/strong&gt; : Preneur d&#39;otage (chiffre vos fichiers).&lt;/li&gt;&#xA;        &lt;li&gt;&lt;strong&gt;Cheval de Troie&lt;/strong&gt; : Ouvre une porte aux pirates.&lt;/li&gt;&#xA;        &lt;li&gt;&lt;strong&gt;Spyware&lt;/strong&gt; : Espionne vos mots de passe.&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;h2 id=&#34;comment-détecter-et-supprimer-un-virus&#34;&gt;Comment détecter et supprimer un virus&lt;/h2&gt;&#xA;&lt;div class=&#34;bg-yellow-50 dark:bg-yellow-900/20 border-l-4 border-yellow-500 p-4 mb-6 rounded-r-lg&#34;&gt;&#xA;  &lt;div class=&#34;flex items-start&#34;&gt;&#xA;    &lt;div class=&#34;flex-shrink-0&#34;&gt;&#xA;      &lt;i class=&#34;fas fa-stethoscope text-yellow-500 text-lg mt-1&#34;&gt;&lt;/i&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;ml-3&#34;&gt;&#xA;      &lt;p class=&#34;text-yellow-800 dark:text-yellow-200 font-medium&#34;&gt;Symptômes d&#39;infection&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Automatisation des Emails pour un Cabinet Médical : -15h par Semaine</title>
+      <link>http://localhost:1313/automation/automatisation-des-emails-pour-un-cabinet-m%C3%A9dical-15h-par-semaine/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/automation/automatisation-des-emails-pour-un-cabinet-m%C3%A9dical-15h-par-semaine/</guid>
+      <description>&lt;h2 id=&#34;-le-contexte&#34;&gt;🎯 Le Contexte&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Dr. Sophie L.&lt;/strong&gt; (nom anonymisé), médecin généraliste à Marseille 13006, gère un cabinet avec 2 autres praticiens. Comme beaucoup de professionnels de santé, elle croule sous les &lt;strong&gt;emails administratifs&lt;/strong&gt; qui n&amp;rsquo;ont rien à voir avec le médical.&lt;/p&gt;&#xA;&lt;h3 id=&#34;la-problématique-initiale&#34;&gt;La Problématique Initiale&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;J&amp;rsquo;ai créé mon cabinet il y a 3 ans. Au début, 20 emails par jour, gérable. Maintenant, c&amp;rsquo;est 150 emails quotidiens : demandes de RDV, résultats de labo, confirmations pharmacie, factures, spam&amp;hellip; Je passe 3 heures par jour juste à trier mes mails. C&amp;rsquo;est du temps que je ne consacre pas aux patients.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Comment j&#39;ai Automatisé la Facturation d&#39;un Plombier Marseillais avec Python</title>
+      <link>http://localhost:1313/automation/comment-jai-automatis%C3%A9-la-facturation-dun-plombier-marseillais-avec-python/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/automation/comment-jai-automatis%C3%A9-la-facturation-dun-plombier-marseillais-avec-python/</guid>
+      <description>&lt;h2 id=&#34;-le-contexte&#34;&gt;🎯 Le Contexte&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Marc&lt;/strong&gt; (prénom modifié), plombier indépendant à Marseille 13008, me contacte en septembre 2025. Il a une bonne clientèle, beaucoup d&amp;rsquo;interventions, mais un problème récurrent : &lt;strong&gt;la facturation lui prend un temps fou&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;la-problématique-initiale&#34;&gt;La Problématique Initiale&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Je passe mes soirées à faire mes factures. J&amp;rsquo;ouvre Word, je remplis le template, je sauvegarde en PDF, j&amp;rsquo;envoie par mail&amp;hellip; Pour 40 factures par mois, ça me bouffe 8 heures ! Et je fais régulièrement des erreurs de calcul.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Écran Bleu Windows (BSOD) : Diagnostic et Résolution en 8 Étapes</title>
+      <link>http://localhost:1313/depannage/%C3%A9cran-bleu-windows-bsod-diagnostic-et-r%C3%A9solution-en-8-%C3%A9tapes/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/depannage/%C3%A9cran-bleu-windows-bsod-diagnostic-et-r%C3%A9solution-en-8-%C3%A9tapes/</guid>
+      <description>&lt;h2 id=&#34;-le-problème&#34;&gt;🔍 Le Problème&lt;/h2&gt;&#xA;&lt;p&gt;L&amp;rsquo;&lt;strong&gt;écran bleu de la mort&lt;/strong&gt; (BSOD - Blue Screen of Death) est le cauchemar de tout utilisateur Windows. Votre PC plante brutalement, affiche un écran bleu avec un code d&amp;rsquo;erreur cryptique, et redémarre. Parfois ça arrive une fois par mois, parfois 10 fois par jour.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Symptômes typiques&lt;/strong&gt; :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Écran bleu soudain avec message &amp;ldquo;Votre PC a rencontré un problème&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;Code d&amp;rsquo;erreur du type : &lt;code&gt;CRITICAL_PROCESS_DIED&lt;/code&gt;, &lt;code&gt;MEMORY_MANAGEMENT&lt;/code&gt;, &lt;code&gt;DRIVER_IRQL_NOT_LESS_OR_EQUAL&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Redémarrage automatique (parfois trop rapide pour lire le message)&lt;/li&gt;&#xA;&lt;li&gt;Peut survenir : au démarrage, en utilisation normale, pendant un jeu, aléatoirement&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;-diagnostic--identifier-la-cause&#34;&gt;⚙️ Diagnostic : Identifier la Cause&lt;/h2&gt;&#xA;&lt;p&gt;Les écrans bleus ont &lt;strong&gt;toujours&lt;/strong&gt; une cause précise. Il faut la trouver.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fibre Optique Marseille 13008 : Test de Débit par Quartier (Janvier 2026)</title>
+      <link>http://localhost:1313/marseille/fibre-optique-marseille-13008-test-de-d%C3%A9bit-par-quartier-janvier-2026/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marseille/fibre-optique-marseille-13008-test-de-d%C3%A9bit-par-quartier-janvier-2026/</guid>
+      <description>&lt;h2 id=&#34;-la-situation&#34;&gt;📍 La Situation&lt;/h2&gt;&#xA;&lt;p&gt;En tant que technicien IT basé à Marseille, j&amp;rsquo;interviens régulièrement pour des problèmes de connectivité. J&amp;rsquo;ai remarqué des &lt;strong&gt;disparités énormes&lt;/strong&gt; selon les quartiers du 8ème arrondissement concernant la qualité de la fibre optique.&lt;/p&gt;&#xA;&lt;p&gt;J&amp;rsquo;ai donc décidé de faire &lt;strong&gt;des tests de débit réels&lt;/strong&gt; chez mes clients et dans des lieux publics (avec leur accord) pour créer une carte objective de la couverture fibre dans le 13008.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Quartiers testés&lt;/strong&gt; : Bonneveine, Plage du Prado, Sainte-Anne, Pointe Rouge, Montredon, Vieille Chapelle, Parc Borély, Rond-Point du Prado&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Les Meilleurs Espaces de Coworking Tech à Marseille (Tests de Débit 2026)</title>
+      <link>http://localhost:1313/marseille/les-meilleurs-espaces-de-coworking-tech-%C3%A0-marseille-tests-de-d%C3%A9bit-2026/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marseille/les-meilleurs-espaces-de-coworking-tech-%C3%A0-marseille-tests-de-d%C3%A9bit-2026/</guid>
+      <description>&lt;h2 id=&#34;-la-situation&#34;&gt;📍 La Situation&lt;/h2&gt;&#xA;&lt;p&gt;En tant que technicien IT freelance à Marseille, je travaille régulièrement dans différents &lt;strong&gt;espaces de coworking&lt;/strong&gt;. Après 2 ans d&amp;rsquo;expérience et des dizaines de visites, j&amp;rsquo;ai décidé de créer &lt;strong&gt;le guide objectif&lt;/strong&gt; des coworking marseillais orientés tech.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Critères testés&lt;/strong&gt; (par ordre d&amp;rsquo;importance pour un dev/tech) :&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Débit WiFi&lt;/strong&gt; (speedtest réel)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Stabilité connexion&lt;/strong&gt; (coupures, ping)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Prises électriques&lt;/strong&gt; (accessibilité, nombre)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Confort&lt;/strong&gt; (bruit, lumière, ergonomie)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Prix&lt;/strong&gt; (rapport qualité/prix)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Localisation&lt;/strong&gt; (métro, parking)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Accès&lt;/strong&gt; (horaires, 24/7)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Méthodologie&lt;/strong&gt; :&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PC Lent au Démarrage Windows 11 : 7 Solutions Efficaces</title>
+      <link>http://localhost:1313/depannage/pc-lent-au-d%C3%A9marrage-windows-11-7-solutions-efficaces/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/depannage/pc-lent-au-d%C3%A9marrage-windows-11-7-solutions-efficaces/</guid>
+      <description>&lt;h2 id=&#34;-le-problème&#34;&gt;🔍 Le Problème&lt;/h2&gt;&#xA;&lt;p&gt;Votre PC Windows 11 prend &lt;strong&gt;plusieurs minutes à démarrer&lt;/strong&gt; ? L&amp;rsquo;écran reste noir longtemps, puis Windows charge lentement avant d&amp;rsquo;être enfin utilisable ? Ce problème touche de nombreux utilisateurs, mais il existe des solutions concrètes.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Symptômes typiques&lt;/strong&gt; :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Démarrage qui prend plus de 2 minutes&lt;/li&gt;&#xA;&lt;li&gt;Écran noir prolongé après l&amp;rsquo;affichage du logo Windows&lt;/li&gt;&#xA;&lt;li&gt;Bureau qui s&amp;rsquo;affiche mais reste figé plusieurs secondes&lt;/li&gt;&#xA;&lt;li&gt;Applications qui ne répondent pas juste après le démarrage&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;-diagnostic&#34;&gt;⚙️ Diagnostic&lt;/h2&gt;&#xA;&lt;p&gt;Avant de commencer, vérifions le temps de démarrage actuel :&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Script de Sauvegarde Automatique pour TPE : Ne Perdez Plus Jamais Vos Données</title>
+      <link>http://localhost:1313/automation/script-de-sauvegarde-automatique-pour-tpe-ne-perdez-plus-jamais-vos-donn%C3%A9es/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/automation/script-de-sauvegarde-automatique-pour-tpe-ne-perdez-plus-jamais-vos-donn%C3%A9es/</guid>
+      <description>&lt;h2 id=&#34;-le-contexte&#34;&gt;🎯 Le Contexte&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Julien&lt;/strong&gt;, gérant d&amp;rsquo;une agence de communication de 5 personnes à Marseille (Vieux-Port), me contacte après un &lt;strong&gt;incident grave&lt;/strong&gt; : un disque dur a lâché, emportant 3 mois de travail client. Heureusement, ils ont pu récupérer 80% via un service de data recovery&amp;hellip; facturé &lt;strong&gt;2 800€&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;la-problématique-initiale&#34;&gt;La Problématique Initiale&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;On savait qu&amp;rsquo;il fallait faire des sauvegardes. On se disait toujours &amp;lsquo;on le fera demain&amp;rsquo;. Et puis un jour, pouf, le disque dur rend l&amp;rsquo;âme. Trois mois de créations graphiques parties. Le client a failli nous poursuivre. On ne veut plus jamais vivre ça.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WiFi Lent ou Instable : 9 Solutions pour Booster Votre Connexion</title>
+      <link>http://localhost:1313/depannage/wifi-lent-ou-instable-9-solutions-pour-booster-votre-connexion/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/depannage/wifi-lent-ou-instable-9-solutions-pour-booster-votre-connexion/</guid>
+      <description>&lt;h2 id=&#34;-le-problème&#34;&gt;🔍 Le Problème&lt;/h2&gt;&#xA;&lt;p&gt;Votre WiFi est &lt;strong&gt;insupportablement lent&lt;/strong&gt; ? Les vidéos buffent, les visios coupent, et vous devez coller votre ordinateur à la box pour avoir du débit ? Ce problème touche 60% des foyers français, mais il existe des solutions concrètes.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Symptômes typiques&lt;/strong&gt; :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Débit WiFi 10x inférieur au débit fibre annoncé&lt;/li&gt;&#xA;&lt;li&gt;Déconnexions fréquentes (surtout le soir)&lt;/li&gt;&#xA;&lt;li&gt;Signal fort mais débit faible&lt;/li&gt;&#xA;&lt;li&gt;Pièces &amp;ldquo;mortes&amp;rdquo; où le WiFi ne passe pas&lt;/li&gt;&#xA;&lt;li&gt;Latence élevée (lag dans les jeux, visios saccadées)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;-diagnostic&#34;&gt;⚙️ Diagnostic&lt;/h2&gt;&#xA;&lt;p&gt;Avant de commencer, mesurons le problème :&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Compte verrouillé : causes et procédures de déverrouillage étape par étape</title>
+      <link>http://localhost:1313/blog/compte-verrouill%C3%A9-causes-et-proc%C3%A9dures-de-d%C3%A9verrouillage-%C3%A9tape-par-%C3%A9tape/</link>
+      <pubDate>Fri, 02 Jan 2026 12:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/compte-verrouill%C3%A9-causes-et-proc%C3%A9dures-de-d%C3%A9verrouillage-%C3%A9tape-par-%C3%A9tape/</guid>
+      <description>&lt;h1 id=&#34;compte-verrouillé--causes-et-solutions-pour-retrouver-laccès&#34;&gt;Compte verrouillé : causes et solutions pour retrouver l&amp;rsquo;accès&lt;/h1&gt;&#xA;&lt;p&gt;Un compte verrouillé est une situation frustrante qui peut bloquer l&amp;rsquo;accès à vos données, vos applications ou votre système d&amp;rsquo;exploitation. Ce mécanisme de sécurité, bien que contraignant, est essentiel pour protéger vos informations contre les accès non autorisés. Cet article détaille les raisons courantes d&amp;rsquo;un tel blocage et vous guide, étape par étape, pour déverrouiller votre compte sur les principales plateformes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Erreur &#39;Mot de passe incorrect&#39; persistante : solutions techniques et dépannage</title>
+      <link>http://localhost:1313/blog/erreur-mot-de-passe-incorrect-persistante-solutions-techniques-et-d%C3%A9pannage/</link>
+      <pubDate>Fri, 02 Jan 2026 12:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/erreur-mot-de-passe-incorrect-persistante-solutions-techniques-et-d%C3%A9pannage/</guid>
+      <description>&lt;h1 id=&#34;erreur-mot-de-passe-incorrect-persistante--solutions-techniques-et-dépannage&#34;&gt;Erreur &amp;lsquo;Mot de passe incorrect&amp;rsquo; persistante : solutions techniques et dépannage&lt;/h1&gt;&#xA;&lt;p&gt;Vous êtes certain de votre mot de passe, mais le message d&amp;rsquo;erreur &amp;ldquo;Mot de passe incorrect&amp;rdquo; ou &amp;ldquo;Identifiant ou mot de passe incorrect&amp;rdquo; s&amp;rsquo;obstine à apparaître ? Cette situation, à la fois frustrante et inquiétante, est souvent liée à un problème technique plutôt qu&amp;rsquo;à un oubli. Cet article vous guide à travers les vérifications et solutions techniques pour rétablir votre accès.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mot de passe oublié : comment réinitialiser son accès sur Windows, Mac et comptes en ligne</title>
+      <link>http://localhost:1313/blog/mot-de-passe-oubli%C3%A9-comment-r%C3%A9initialiser-son-acc%C3%A8s-sur-windows-mac-et-comptes-en-ligne/</link>
+      <pubDate>Fri, 02 Jan 2026 12:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/mot-de-passe-oubli%C3%A9-comment-r%C3%A9initialiser-son-acc%C3%A8s-sur-windows-mac-et-comptes-en-ligne/</guid>
+      <description>&lt;h1 id=&#34;mot-de-passe-oublié--comment-réinitialiser-son-accès-sur-windows-mac-et-comptes-en-ligne&#34;&gt;Mot de passe oublié : comment réinitialiser son accès sur Windows, Mac et comptes en ligne&lt;/h1&gt;&#xA;&lt;p&gt;Un mot de passe oublié est une situation frustrante, mais extrêmement courante. Que ce soit pour votre ordinateur, votre compte de messagerie ou un service en ligne, la perte d&amp;rsquo;accès peut paralyser votre activité. Ne paniquez pas. Ce guide professionnel détaille les procédures officielles et les solutions alternatives pour récupérer l&amp;rsquo;accès à vos systèmes et comptes sur les principales plateformes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zones d&#39;Intervention - Dépannage Informatique Marseille</title>
+      <link>http://localhost:1313/zones-intervention/</link>
+      <pubDate>Fri, 02 Jan 2026 12:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/zones-intervention/</guid>
+      <description>&lt;h1 id=&#34;intervention-sur-marseille-et-alentours&#34;&gt;Intervention sur Marseille et alentours&lt;/h1&gt;&#xA;&lt;p&gt;Je me déplace rapidement à votre domicile ou entreprise pour tout dépannage informatique.&lt;/p&gt;&#xA;&lt;h2 id=&#34;arrondissements-de-marseille&#34;&gt;Arrondissements de Marseille&lt;/h2&gt;&#xA;&lt;p&gt;J&amp;rsquo;interviens dans tous les arrondissements, avec une priorité sur les zones suivantes pour des interventions en moins de 30 minutes :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;13008&lt;/strong&gt; - Perier / Prado / Pointe Rouge / Mazargues&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;13007&lt;/strong&gt; - Endoume / Saint-Victor&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;13006&lt;/strong&gt; - Castellane / Préfecture&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;13009&lt;/strong&gt; - Mazargues / Sainte-Marguerite&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;13001&lt;/strong&gt; - Centre-ville / Opéra&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;villes-limitrophes&#34;&gt;Villes limitrophes&lt;/h2&gt;&#xA;&lt;p&gt;J&amp;rsquo;interviens également dans les communes voisines (frais de déplacement possibles) :&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Autopsie des grandes pannes 2025 : DNS, Cloud et la fragilité systémique</title>
+      <link>http://localhost:1313/blog/autopsie-des-grandes-pannes-2025-dns-cloud-et-la-fragilit%C3%A9-syst%C3%A9mique/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/autopsie-des-grandes-pannes-2025-dns-cloud-et-la-fragilit%C3%A9-syst%C3%A9mique/</guid>
+      <description>&lt;h1 id=&#34;fragilité-systémique--les-leçons-de-2025&#34;&gt;Fragilité Systémique : Les leçons de 2025&lt;/h1&gt;&#xA;&lt;p&gt;L&amp;rsquo;année 2025 restera gravée comme l&amp;rsquo;année où la complexité de nos systèmes a dépassé notre capacité à les gérer manuellement. Les pannes globales qui ont touché le DNS et les hyper-scalers ne sont pas des accidents isolés, mais des symptômes d&amp;rsquo;une architecture mondiale sous tension.&lt;/p&gt;&#xA;&lt;h2 id=&#34;cas-n1--la-méga-panne-dns-du-15-mars&#34;&gt;Cas n°1 : La Méga-Panne DNS du 15 Mars&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;L&amp;rsquo;incident&lt;/strong&gt; : Une boucle de requêtes récursives malformées a entraîné un DDoS involontaire sur l&amp;rsquo;infrastructure racine.&#xA;&lt;strong&gt;L&amp;rsquo;impact&lt;/strong&gt; : 14 heures d&amp;rsquo;instabilité mondiale.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Conformité IT 2025 : Décrypter DORA et les enjeux Green IT</title>
+      <link>http://localhost:1313/blog/conformit%C3%A9-it-2025-d%C3%A9crypter-dora-et-les-enjeux-green-it/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/conformit%C3%A9-it-2025-d%C3%A9crypter-dora-et-les-enjeux-green-it/</guid>
+      <description>&lt;h1 id=&#34;le-défi-de-la-double-conformité--numérique-et-environnementale&#34;&gt;Le défi de la double conformité : Numérique et Environnementale&lt;/h1&gt;&#xA;&lt;p&gt;En 2025, le DSI n&amp;rsquo;est plus seulement un fournisseur de technologie, il est le garant de la conformité légale de l&amp;rsquo;entreprise. Deux directives majeures redessinent le paysage.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-dora-digital-operational-resilience-act&#34;&gt;1. DORA (Digital Operational Resilience Act)&lt;/h2&gt;&#xA;&lt;p&gt;Pour le secteur financier et ses partenaires critiques, DORA impose une résilience opérationnelle démontrée.&lt;/p&gt;&#xA;&lt;div class=&#34;bg-purple-50 dark:bg-purple-900/20 border-l-4 border-purple-500 p-6 mb-8 rounded-r-lg&#34;&gt;&#xA;  &lt;div class=&#34;flex items-start&#34;&gt;&#xA;    &lt;div class=&#34;flex-shrink-0&#34;&gt;&#xA;      &lt;i class=&#34;fas fa-balance-scale text-purple-600 text-2xl mt-1&#34;&gt;&lt;/i&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;ml-4&#34;&gt;&#xA;      &lt;h3 class=&#34;text-purple-900 dark:text-purple-100 font-bold text-lg mb-2&#34;&gt;Les 5 Piliers de DORA&lt;/h3&gt;&#xA;      &lt;ul class=&#34;list-disc list-inside text-purple-800 dark:text-purple-200&#34;&gt;&#xA;        &lt;li&gt;Gouvernance et organisation des risques TIC.&lt;/li&gt;&#xA;        &lt;li&gt;Gestion des incidents majeurs (Reporting standardisé).&lt;/li&gt;&#xA;        &lt;li&gt;Tests de résilience opérationnelle numérique.&lt;/li&gt;&#xA;        &lt;li&gt;Gestion du risque Tiers (Fournisseurs Cloud/SaaS).&lt;/li&gt;&#xA;        &lt;li&gt;Partage d&#39;informations sur les menaces.&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;&lt;strong&gt;L&amp;rsquo;impact PME&lt;/strong&gt; : Même si vous n&amp;rsquo;êtes pas une banque, si vous êtes fournisseur d&amp;rsquo;une entité régulée, vous tombez dans le périmètre par ricochet (Supply Chain Risk).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cybermenaces 2025 : L&#39;ère de l&#39;IA Offensive et la réponse Zero Trust</title>
+      <link>http://localhost:1313/blog/cybermenaces-2025-l%C3%A8re-de-lia-offensive-et-la-r%C3%A9ponse-zero-trust/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/cybermenaces-2025-l%C3%A8re-de-lia-offensive-et-la-r%C3%A9ponse-zero-trust/</guid>
+      <description>&lt;h1 id=&#34;cybermenaces-2025-et-paradigme-zero-trust&#34;&gt;Cybermenaces 2025 et Paradigme Zero Trust&lt;/h1&gt;&#xA;&lt;div class=&#34;bg-slate-100 dark:bg-slate-800 border-l-4 border-slate-500 p-4 mb-8 italic text-slate-700 dark:text-slate-300&#34;&gt;&#xA;  &#34;La sécurité périmétrique est une relique. En 2025, l&#39;identité est le nouveau périmètre.&#34;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;L&amp;rsquo;année 2025 a vu l&amp;rsquo;émergence d&amp;rsquo;une menace asymétrique : l&amp;rsquo;utilisation malveillante de l&amp;rsquo;IA générative. Face à des attaques capables de cloner des voix ou de générer du code malveillant polymorphe, les défenses traditionnelles cèdent.&lt;/p&gt;&#xA;&lt;h2 id=&#34;lia-offensive--une-nouvelle-classe-de-risques&#34;&gt;L&amp;rsquo;IA Offensive : Une nouvelle classe de risques&lt;/h2&gt;&#xA;&lt;div class=&#34;grid grid-cols-1 md:grid-cols-2 gap-4 mb-6&#34;&gt;&#xA;  &lt;div class=&#34;bg-red-50 dark:bg-red-900/10 p-4 rounded border border-red-100 dark:border-red-900&#34;&gt;&#xA;    &lt;h3 class=&#34;font-bold text-red-700 dark:text-red-400 mb-2&#34;&gt;&lt;i class=&#34;fas fa-robot mr-2&#34;&gt;&lt;/i&gt;Deepfakes en temps réel&lt;/h3&gt;&#xA;    &lt;p class=&#34;text-sm&#34;&gt;Utilisation de la synthèse vocale pour contourner les procédures de validation téléphonique (fraude au président).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Panne Fibre Orange Quartiers Nord Marseille : Causes et Solutions (Déc 2025)</title>
+      <link>http://localhost:1313/marseille/panne-fibre-orange-quartiers-nord-marseille-causes-et-solutions-d%C3%A9c-2025/</link>
+      <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/marseille/panne-fibre-orange-quartiers-nord-marseille-causes-et-solutions-d%C3%A9c-2025/</guid>
+      <description>&lt;h2 id=&#34;-la-situation&#34;&gt;📍 La Situation&lt;/h2&gt;&#xA;&lt;p&gt;Le &lt;strong&gt;27 décembre 2025 à 14h30&lt;/strong&gt;, une &lt;strong&gt;panne massive de fibre optique Orange&lt;/strong&gt; a touché les quartiers Nord de Marseille : 13013 (La Rose, Saint-Jérôme), 13014 (Sainte-Marthe), 13015 (Saint-Antoine) et 13016 (L&amp;rsquo;Estaque, Saint-Henri).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Impact&lt;/strong&gt; :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;12 000 foyers et entreprises&lt;/strong&gt; privés d&amp;rsquo;Internet&lt;/li&gt;&#xA;&lt;li&gt;Durée initiale : 6 heures (rétabli à 70% le 28/12 à 8h)&lt;/li&gt;&#xA;&lt;li&gt;Rétablissement total : 29/12 à 18h&lt;/li&gt;&#xA;&lt;li&gt;Cause : Câble de fibre &lt;strong&gt;sectionné lors de travaux&lt;/strong&gt; Rue de Lyon (13015)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Période&lt;/strong&gt; : 27 au 29 décembre 2025&lt;br&gt;&#xA;&lt;strong&gt;Opérateur concerné&lt;/strong&gt; : Orange uniquement (Free, SFR, Bouygues non affectés)&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ubuntu ne Démarre Plus Après une Mise à Jour Windows ? Le Guide de Réparation GRUB Ultime</title>
-      <link>http://localhost:39511/blog/reparation-grub-apres-mise-a-jour-windows/</link>
+      <link>http://localhost:1313/blog/ubuntu-ne-d%C3%A9marre-plus-apr%C3%A8s-une-mise-%C3%A0-jour-windows-le-guide-de-r%C3%A9paration-grub-ultime/</link>
       <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/blog/reparation-grub-apres-mise-a-jour-windows/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;Introduction : Le Problème de Dual Boot le Plus Fréquent
-    &lt;div id=&#34;introduction--le-problème-de-dual-boot-le-plus-fréquent&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
-        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#introduction--le-probl%c3%a8me-de-dual-boot-le-plus-fr%c3%a9quent&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;
-    
-&lt;/h2&gt;
-&lt;div class=&#34;flex justify-center mb-8&#34;&gt;
-  &lt;img src=&#34;http://localhost:39511/images/photo_dual_boot.png&#34; alt=&#34;Menu GRUB restauré avec dual boot Ubuntu/Windows&#34; class=&#34;max-w-full md:max-w-lg rounded-lg shadow-lg border border-gray-200 dark:border-gray-700&#34;&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Vous venez de faire une mise à jour de Windows, vous redémarrez votre ordinateur et&amp;hellip; surprise, plus de menu de choix.&lt;/strong&gt; Il démarre directement sur Windows, comme si Ubuntu n&amp;rsquo;avait jamais existé.&lt;/p&gt;
-&lt;p&gt;Pas de panique ! &lt;strong&gt;Vos données et votre système sont intacts.&lt;/strong&gt; Vous êtes simplement victime du problème de dual boot le plus courant, et la solution est plus simple que vous ne le pensez.&lt;/p&gt;</description>
-      
+      <guid>http://localhost:1313/blog/ubuntu-ne-d%C3%A9marre-plus-apr%C3%A8s-une-mise-%C3%A0-jour-windows-le-guide-de-r%C3%A9paration-grub-ultime/</guid>
+      <description>&lt;h2 id=&#34;introduction--le-problème-de-dual-boot-le-plus-fréquent&#34;&gt;Introduction : Le Problème de Dual Boot le Plus Fréquent&lt;/h2&gt;&#xA;&lt;div class=&#34;flex justify-center mb-8&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/images/photo_dual_boot_hu_1b571cad8f9d4453.webp&#34; alt=&#34;Menu GRUB restauré avec dual boot Ubuntu/Windows&#34; class=&#34;max-w-full md:max-w-lg rounded-lg shadow-lg border border-gray-200 dark:border-gray-700&#34; width=&#34;1200&#34;&#xA;      height=&#34;1200&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;&lt;strong&gt;Vous venez de faire une mise à jour de Windows, vous redémarrez votre ordinateur et&amp;hellip; surprise, plus de menu de choix.&lt;/strong&gt; Il démarre directement sur Windows, comme si Ubuntu n&amp;rsquo;avait jamais existé.&lt;/p&gt;&#xA;&lt;p&gt;Pas de panique ! &lt;strong&gt;Vos données et votre système sont intacts.&lt;/strong&gt; Vous êtes simplement victime du problème de dual boot le plus courant, et la solution est plus simple que vous ne le pensez.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Ubuntu ne Démarre Plus Après une Mise à Jour Windows ? Le Guide de Réparation GRUB Ultime</title>
+      <link>http://localhost:1313/blog/ubuntu-ne-d%C3%A9marre-plus-apr%C3%A8s-une-mise-%C3%A0-jour-windows-le-guide-de-r%C3%A9paration-grub-ultime/</link>
+      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/blog/ubuntu-ne-d%C3%A9marre-plus-apr%C3%A8s-une-mise-%C3%A0-jour-windows-le-guide-de-r%C3%A9paration-grub-ultime/</guid>
+      <description>&lt;h2 id=&#34;introduction--le-problème-de-dual-boot-le-plus-fréquent&#34;&gt;Introduction : Le Problème de Dual Boot le Plus Fréquent&lt;/h2&gt;&#xA;&lt;div class=&#34;flex justify-center mb-8&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/images/photo_dual_boot_hu_1b571cad8f9d4453.webp&#34; alt=&#34;Menu GRUB restauré avec dual boot Ubuntu/Windows&#34; class=&#34;max-w-full md:max-w-lg rounded-lg shadow-lg border border-gray-200 dark:border-gray-700&#34; width=&#34;1200&#34;&#xA;      height=&#34;1200&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;&lt;strong&gt;Vous venez de faire une mise à jour de Windows, vous redémarrez votre ordinateur et&amp;hellip; surprise, plus de menu de choix.&lt;/strong&gt; Il démarre directement sur Windows, comme si Ubuntu n&amp;rsquo;avait jamais existé.&lt;/p&gt;&#xA;&lt;p&gt;Pas de panique ! &lt;strong&gt;Vos données et votre système sont intacts.&lt;/strong&gt; Vous êtes simplement victime du problème de dual boot le plus courant, et la solution est plus simple que vous ne le pensez.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Firefox Lent sur Ubuntu 24.04 ? La Méthode Robuste pour Remplacer la Version Snap</title>
-      <link>http://localhost:39511/blog/firefox-lent-ubuntu-24-04-solution-robuste/</link>
+      <link>http://localhost:1313/blog/firefox-lent-sur-ubuntu-24.04-la-m%C3%A9thode-robuste-pour-remplacer-la-version-snap/</link>
       <pubDate>Fri, 17 Oct 2025 21:30:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/blog/firefox-lent-ubuntu-24-04-solution-robuste/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;Introduction : Un Problème Fréquent en Support Technique
-    &lt;div id=&#34;introduction--un-problème-fréquent-en-support-technique&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
-        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#introduction--un-probl%c3%a8me-fr%c3%a9quent-en-support-technique&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;
-    
-&lt;/h2&gt;
-&lt;div class=&#34;flex justify-center mb-8&#34;&gt;
-  &lt;img src=&#34;http://localhost:39511/images/photo_firefox_fast.png&#34; alt=&#34;Firefox rapide sur Ubuntu 24.04&#34; class=&#34;max-w-md rounded-lg shadow-lg border border-gray-200 dark:border-gray-700&#34;&gt;
-&lt;/div&gt;
-&lt;p&gt;En tant que technicien support informatique spécialisé dans la robustesse des infrastructures, je rencontre régulièrement ce problème chez les utilisateurs d&amp;rsquo;Ubuntu 24.04 : &lt;strong&gt;Firefox met plusieurs secondes à démarrer&lt;/strong&gt;, créant une frustration immédiate après l&amp;rsquo;installation du système.&lt;/p&gt;
-&lt;p&gt;Ce délai n&amp;rsquo;est pas une fatalité, mais la conséquence d&amp;rsquo;un choix technologique de Canonical : l&amp;rsquo;utilisation du format de paquet &lt;strong&gt;Snap&lt;/strong&gt;. Si cette approche offre des avantages en sécurité et maintenance, elle impacte directement la réactivité au premier lancement.&lt;/p&gt;</description>
-      
+      <guid>http://localhost:1313/blog/firefox-lent-sur-ubuntu-24.04-la-m%C3%A9thode-robuste-pour-remplacer-la-version-snap/</guid>
+      <description>&lt;h2 id=&#34;introduction--un-problème-fréquent-en-support-technique&#34;&gt;Introduction : Un Problème Fréquent en Support Technique&lt;/h2&gt;&#xA;&lt;div class=&#34;flex justify-center mb-8&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/images/photo_firefox_fast_hu_184341866c2cbed4.webp&#34; alt=&#34;Firefox rapide sur Ubuntu 24.04&#34; class=&#34;max-w-md rounded-lg shadow-lg border border-gray-200 dark:border-gray-700&#34; width=&#34;1200&#34;&#xA;      height=&#34;1200&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;En tant que technicien support informatique spécialisé dans la robustesse des infrastructures, je rencontre régulièrement ce problème chez les utilisateurs d&amp;rsquo;Ubuntu 24.04 : &lt;strong&gt;Firefox met plusieurs secondes à démarrer&lt;/strong&gt;, créant une frustration immédiate après l&amp;rsquo;installation du système.&lt;/p&gt;&#xA;&lt;p&gt;Ce délai n&amp;rsquo;est pas une fatalité, mais la conséquence d&amp;rsquo;un choix technologique de Canonical : l&amp;rsquo;utilisation du format de paquet &lt;strong&gt;Snap&lt;/strong&gt;. Si cette approche offre des avantages en sécurité et maintenance, elle impacte directement la réactivité au premier lancement.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Firefox Lent sur Ubuntu 24.04 ? La Méthode Robuste pour Remplacer la Version Snap</title>
+      <link>http://localhost:1313/blog/firefox-lent-sur-ubuntu-24.04-la-m%C3%A9thode-robuste-pour-remplacer-la-version-snap/</link>
+      <pubDate>Fri, 17 Oct 2025 21:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/blog/firefox-lent-sur-ubuntu-24.04-la-m%C3%A9thode-robuste-pour-remplacer-la-version-snap/</guid>
+      <description>&lt;h2 id=&#34;introduction--un-problème-fréquent-en-support-technique&#34;&gt;Introduction : Un Problème Fréquent en Support Technique&lt;/h2&gt;&#xA;&lt;div class=&#34;flex justify-center mb-8&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/images/photo_firefox_fast_hu_184341866c2cbed4.webp&#34; alt=&#34;Firefox rapide sur Ubuntu 24.04&#34; class=&#34;max-w-md rounded-lg shadow-lg border border-gray-200 dark:border-gray-700&#34; width=&#34;1200&#34;&#xA;      height=&#34;1200&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;En tant que technicien support informatique spécialisé dans la robustesse des infrastructures, je rencontre régulièrement ce problème chez les utilisateurs d&amp;rsquo;Ubuntu 24.04 : &lt;strong&gt;Firefox met plusieurs secondes à démarrer&lt;/strong&gt;, créant une frustration immédiate après l&amp;rsquo;installation du système.&lt;/p&gt;&#xA;&lt;p&gt;Ce délai n&amp;rsquo;est pas une fatalité, mais la conséquence d&amp;rsquo;un choix technologique de Canonical : l&amp;rsquo;utilisation du format de paquet &lt;strong&gt;Snap&lt;/strong&gt;. Si cette approche offre des avantages en sécurité et maintenance, elle impacte directement la réactivité au premier lancement.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Certifications &amp; Compétences</title>
-      <link>http://localhost:39511/certifications/</link>
+      <link>http://localhost:1313/certifications/</link>
       <pubDate>Fri, 17 Oct 2025 12:40:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/certifications/</guid>
-      <description>&lt;h1 class=&#34;relative group&#34;&gt;🏆 Mes Certifications &amp;amp; Compétences Techniques
-    &lt;div id=&#34;-mes-certifications--compétences-techniques&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
-        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-mes-certifications--comp%c3%a9tences-techniques&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;
-    
-&lt;/h1&gt;
-&lt;p&gt;Découvrez l&amp;rsquo;ensemble de mes certifications et compétences techniques qui renforcent mon expertise en cyber-renseignement et administration des systèmes.&lt;/p&gt;
-
-&lt;h2 class=&#34;relative group&#34;&gt;🎯 Certifications de Haute Pertinence
-    &lt;div id=&#34;-certifications-de-haute-pertinence&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
-        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-certifications-de-haute-pertinence&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;
-    
-&lt;/h2&gt;
-
-&lt;h3 class=&#34;relative group&#34;&gt;🔒 Sécurité Réseau &amp;amp; Applications
-    &lt;div id=&#34;-sécurité-réseau--applications&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
-        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-s%c3%a9curit%c3%a9-r%c3%a9seau--applications&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;
-    
-&lt;/h3&gt;
-&lt;div class=&#34;grid grid-cols-1 md:grid-cols-2 gap-6 mb-8&#34;&gt;
-  &lt;div class=&#34;bg-gradient-to-r from-blue-50 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20 p-6 rounded-2xl border-2 border-blue-200 dark:border-blue-700&#34;&gt;
-    &lt;div class=&#34;flex items-center mb-4&#34;&gt;
-      &lt;div class=&#34;text-3xl mr-4&#34;&gt;🛡️&lt;/div&gt;
-      &lt;div&gt;
-        &lt;h3 class=&#34;!text-xl !font-bold !mb-1&#34;&gt;Sécurité des applications et des protocoles réseau&lt;/h3&gt;
-        &lt;p class=&#34;!text-sm !text-gray-600 dark:!text-gray-400&#34;&gt;LinkedIn Learning&lt;/p&gt;</description>
-      
+      <guid>http://localhost:1313/certifications/</guid>
+      <description>&lt;h1 id=&#34;-mes-certifications--compétences-techniques&#34;&gt;🏆 Mes Certifications &amp;amp; Compétences Techniques&lt;/h1&gt;&#xA;&lt;p&gt;Découvrez l&amp;rsquo;ensemble de mes certifications et compétences techniques qui renforcent mon expertise en cyber-renseignement et administration des systèmes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-certifications-de-haute-pertinence&#34;&gt;🎯 Certifications de Haute Pertinence&lt;/h2&gt;&#xA;&lt;h3 id=&#34;-sécurité-réseau--applications&#34;&gt;🔒 Sécurité Réseau &amp;amp; Applications&lt;/h3&gt;&#xA;&lt;div class=&#34;grid grid-cols-1 md:grid-cols-2 gap-6 mb-8&#34;&gt;&#xA;  &lt;div class=&#34;bg-gradient-to-r from-blue-50 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20 p-6 rounded-2xl border-2 border-blue-200 dark:border-blue-700&#34;&gt;&#xA;    &lt;div class=&#34;flex items-center mb-4&#34;&gt;&#xA;      &lt;div class=&#34;text-3xl mr-4&#34;&gt;🛡️&lt;/div&gt;&#xA;      &lt;div&gt;&#xA;        &lt;h3 class=&#34;!text-xl !font-bold !mb-1&#34;&gt;Sécurité des applications et des protocoles réseau&lt;/h3&gt;&#xA;        &lt;p class=&#34;!text-sm !text-gray-600 dark:!text-gray-400&#34;&gt;LinkedIn Learning&lt;/p&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;p class=&#34;!text-sm !mb-4&#34;&gt;Compréhension essentielle des vecteurs d&#39;attaques et mécanismes de défense au niveau des réseaux et applications.&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Mon Premier Article de Blog</title>
-      <link>http://localhost:39511/blog/mon-premier-article/</link>
-      <pubDate>Tue, 14 Oct 2025 20:16:01 +0200</pubDate>
-      
-      <guid>http://localhost:39511/blog/mon-premier-article/</guid>
-      <description>&lt;p&gt;Ceci est le résumé de mon premier article. Il apparaîtra sur la page listant tous les articles de blog, dans une carte stylisée.&lt;/p&gt;
-
-&lt;h2 class=&#34;relative group&#34;&gt;Le début d&amp;rsquo;une nouvelle section
-    &lt;div id=&#34;le-début-dune-nouvelle-section&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
-        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#le-d%c3%a9but-dune-nouvelle-section&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;
-    
-&lt;/h2&gt;
-&lt;p&gt;Bienvenue sur ce premier article. Il sert à démontrer le nouveau design de la section blog que nous venons de mettre en place.&lt;/p&gt;
-
-&lt;h3 class=&#34;relative group&#34;&gt;Fonctionnalités
-    &lt;div id=&#34;fonctionnalités&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
-        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#fonctionnalit%c3%a9s&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;
-    
-&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Grille de cartes&lt;/strong&gt; : La page &lt;code&gt;/blog&lt;/code&gt; affiche une grille responsive.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Page de lecture optimisée&lt;/strong&gt; : Chaque article a une mise en page épurée pour une lecture agréable.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tags et métadonnées&lt;/strong&gt; : Chaque article affiche sa date de publication, son temps de lecture et ses tags.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Les blocs de code sont automatiquement stylisés&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Bonjour le monde du blogging !&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-      
-    </item>
-    
     <item>
       <title>Guide Détaillé - Installation Serveur GLPI</title>
-      <link>http://localhost:39511/projets/installation-serveur-glpi/details/</link>
+      <link>http://localhost:1313/projets/installation-serveur-glpi/details/</link>
       <pubDate>Tue, 14 Oct 2025 15:00:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/projets/installation-serveur-glpi/details/</guid>
-      <description>&lt;div class=&#34;bg-gradient-to-r from-blue-50 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20 p-6 rounded-xl border border-blue-200 dark:border-blue-700 mb-8&#34;&gt;
-  &lt;h2 class=&#34;!text-2xl !mt-0 mb-4 text-blue-700 dark:text-blue-300&#34;&gt;📋 Aperçu du Projet&lt;/h2&gt;
-  &lt;div class=&#34;grid grid-cols-1 md:grid-cols-4 gap-4 text-sm&#34;&gt;
-    &lt;div&gt;
-      &lt;strong&gt;Technologies :&lt;/strong&gt;
-      &lt;ul class=&#34;!my-1&#34;&gt;
-        &lt;li&gt;GLPI 10.0.15&lt;/li&gt;
-        &lt;li&gt;Debian 12&lt;/li&gt;
-        &lt;li&gt;Apache 2.4&lt;/li&gt;
-        &lt;li&gt;MariaDB 10.11&lt;/li&gt;
-        &lt;li&gt;PHP 8.2&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/div&gt;
-    &lt;div&gt;
-      &lt;strong&gt;Durée :&lt;/strong&gt;
-      &lt;p class=&#34;!my-1&#34;&gt;2-3 heures&lt;/p&gt;
-      &lt;strong&gt;Niveau :&lt;/strong&gt;
-      &lt;p class=&#34;!my-1&#34;&gt;Intermédiaire&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div&gt;
-      &lt;strong&gt;Résultats :&lt;/strong&gt;
-      &lt;ul class=&#34;!my-1&#34;&gt;
-        &lt;li&gt;✅ Serveur fonctionnel&lt;/li&gt;
-        &lt;li&gt;✅ Interface web&lt;/li&gt;
-        &lt;li&gt;✅ Base sécurisée&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/div&gt;
-    &lt;div&gt;
-      &lt;strong&gt;Impact Business :&lt;/strong&gt;
-      &lt;ul class=&#34;!my-1&#34;&gt;
-        &lt;li&gt;📈 Gestion centralisée de 50+ utilisateurs&lt;/li&gt;
-        &lt;li&gt;⏱️ Réduction de 25% du temps de résolution&lt;/li&gt;
-        &lt;li&gt;💰 Solution open-source (économie de licence)&lt;/li&gt;
-        &lt;li&gt;🔧 Automatisation des processus IT&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 class=&#34;relative group&#34;&gt;🎯 Objectif du Projet
-    &lt;div id=&#34;-objectif-du-projet&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
-        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-objectif-du-projet&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;
-    
-&lt;/h2&gt;
-&lt;p&gt;L&amp;rsquo;objectif de ce projet est de documenter la procédure complète pour installer et configurer un serveur GLPI, un outil open-source de gestion des services informatiques (ITSM) et de gestion des actifs (ITAM). Cette solution permet de gérer efficacement un parc informatique, le suivi des tickets d&amp;rsquo;incidents et l&amp;rsquo;inventaire matériel et logiciel.&lt;/p&gt;</description>
-      
+      <guid>http://localhost:1313/projets/installation-serveur-glpi/details/</guid>
+      <description>&lt;div class=&#34;bg-gradient-to-r from-blue-50 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20 p-6 rounded-xl border border-blue-200 dark:border-blue-700 mb-8&#34;&gt;&#xA;  &lt;h2 class=&#34;!text-2xl !mt-0 mb-4 text-blue-700 dark:text-blue-300&#34;&gt;📋 Aperçu du Projet&lt;/h2&gt;&#xA;  &lt;div class=&#34;grid grid-cols-1 md:grid-cols-4 gap-4 text-sm&#34;&gt;&#xA;    &lt;div&gt;&#xA;      &lt;strong&gt;Technologies :&lt;/strong&gt;&#xA;      &lt;ul class=&#34;!my-1&#34;&gt;&#xA;        &lt;li&gt;GLPI 10.0.15&lt;/li&gt;&#xA;        &lt;li&gt;Debian 12&lt;/li&gt;&#xA;        &lt;li&gt;Apache 2.4&lt;/li&gt;&#xA;        &lt;li&gt;MariaDB 10.11&lt;/li&gt;&#xA;        &lt;li&gt;PHP 8.2&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;strong&gt;Durée :&lt;/strong&gt;&#xA;      &lt;p class=&#34;!my-1&#34;&gt;2-3 heures&lt;/p&gt;&#xA;      &lt;strong&gt;Niveau :&lt;/strong&gt;&#xA;      &lt;p class=&#34;!my-1&#34;&gt;Intermédiaire&lt;/p&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;strong&gt;Résultats :&lt;/strong&gt;&#xA;      &lt;ul class=&#34;!my-1&#34;&gt;&#xA;        &lt;li&gt;✅ Serveur fonctionnel&lt;/li&gt;&#xA;        &lt;li&gt;✅ Interface web&lt;/li&gt;&#xA;        &lt;li&gt;✅ Base sécurisée&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;strong&gt;Impact Business :&lt;/strong&gt;&#xA;      &lt;ul class=&#34;!my-1&#34;&gt;&#xA;        &lt;li&gt;📈 Gestion centralisée de 50+ utilisateurs&lt;/li&gt;&#xA;        &lt;li&gt;⏱️ Réduction de 25% du temps de résolution&lt;/li&gt;&#xA;        &lt;li&gt;💰 Solution open-source (économie de licence)&lt;/li&gt;&#xA;        &lt;li&gt;🔧 Automatisation des processus IT&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;h2 id=&#34;-objectif-du-projet&#34;&gt;🎯 Objectif du Projet&lt;/h2&gt;&#xA;&lt;p&gt;L&amp;rsquo;objectif de ce projet est de documenter la procédure complète pour installer et configurer un serveur GLPI, un outil open-source de gestion des services informatiques (ITSM) et de gestion des actifs (ITAM). Cette solution permet de gérer efficacement un parc informatique, le suivi des tickets d&amp;rsquo;incidents et l&amp;rsquo;inventaire matériel et logiciel.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Configuration Détaillée - VPN Site-à-Site</title>
-      <link>http://localhost:39511/projets/mise-en-place-vpn/details/</link>
+      <link>http://localhost:1313/projets/mise-en-place-vpn/details/</link>
       <pubDate>Tue, 14 Oct 2025 13:15:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/projets/mise-en-place-vpn/details/</guid>
-      <description>&lt;div class=&#34;bg-gradient-to-r from-green-50 to-emerald-100 dark:from-green-900/20 dark:to-emerald-900/20 p-6 rounded-xl border border-green-200 dark:border-green-700 mb-8&#34;&gt;
-  &lt;h2 class=&#34;!text-2xl !mt-0 mb-4 text-green-700 dark:text-green-300&#34;&gt;🌐 Aperçu du Projet VPN&lt;/h2&gt;
-  &lt;div class=&#34;grid grid-cols-1 md:grid-cols-4 gap-4 text-sm&#34;&gt;
-    &lt;div&gt;
-      &lt;strong&gt;Technologies :&lt;/strong&gt;
-      &lt;ul class=&#34;!my-1&#34;&gt;
-        &lt;li&gt;IPsec (IKEv2)&lt;/li&gt;
-        &lt;li&gt;Pfsense 2.7+&lt;/li&gt;
-        &lt;li&gt;AES-256-GCM&lt;/li&gt;
-        &lt;li&gt;SHA-256&lt;/li&gt;
-        &lt;li&gt;DH Group 14&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/div&gt;
-    &lt;div&gt;
-      &lt;strong&gt;Configuration :&lt;/strong&gt;
-      &lt;p class=&#34;!my-1&#34;&gt;Site-à-Site&lt;/p&gt;
-      &lt;strong&gt;Chiffrement :&lt;/strong&gt;
-      &lt;p class=&#34;!my-1&#34;&gt;Fort (AES-256)&lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div&gt;
-      &lt;strong&gt;Résultats :&lt;/strong&gt;
-      &lt;ul class=&#34;!my-1&#34;&gt;
-        &lt;li&gt;✅ Tunnel stable&lt;/li&gt;
-        &lt;li&gt;✅ Sécurisé&lt;/li&gt;
-        &lt;li&gt;✅ Performant&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/div&gt;
-    &lt;div&gt;
-      &lt;strong&gt;Impact Business :&lt;/strong&gt;
-      &lt;ul class=&#34;!my-1&#34;&gt;
-        &lt;li&gt;🌍 Connectivité sécurisée 2 sites&lt;/li&gt;
-        &lt;li&gt;💸 Économie de 80% vs solutions cloud&lt;/li&gt;
-        &lt;li&gt;⚡ Latence &lt; 50ms (performance optimale)&lt;/li&gt;
-        &lt;li&gt;🔒 Conformité RGPD &amp; sécurité&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 class=&#34;relative group&#34;&gt;🎯 Contexte du Projet
-    &lt;div id=&#34;-contexte-du-projet&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
-        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-contexte-du-projet&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;
-    
-&lt;/h2&gt;
-&lt;p&gt;L&amp;rsquo;objectif de ce projet était de relier deux réseaux locaux distants de manière sécurisée à travers Internet en utilisant des pare-feux Pfsense. Cette configuration permet aux deux sites de communiquer comme s&amp;rsquo;ils étaient sur le même réseau local, tout en garantissant la confidentialité et l&amp;rsquo;intégrité des données.&lt;/p&gt;</description>
-      
+      <guid>http://localhost:1313/projets/mise-en-place-vpn/details/</guid>
+      <description>&lt;div class=&#34;bg-gradient-to-r from-green-50 to-emerald-100 dark:from-green-900/20 dark:to-emerald-900/20 p-6 rounded-xl border border-green-200 dark:border-green-700 mb-8&#34;&gt;&#xA;  &lt;h2 class=&#34;!text-2xl !mt-0 mb-4 text-green-700 dark:text-green-300&#34;&gt;🌐 Aperçu du Projet VPN&lt;/h2&gt;&#xA;  &lt;div class=&#34;grid grid-cols-1 md:grid-cols-4 gap-4 text-sm&#34;&gt;&#xA;    &lt;div&gt;&#xA;      &lt;strong&gt;Technologies :&lt;/strong&gt;&#xA;      &lt;ul class=&#34;!my-1&#34;&gt;&#xA;        &lt;li&gt;IPsec (IKEv2)&lt;/li&gt;&#xA;        &lt;li&gt;Pfsense 2.7+&lt;/li&gt;&#xA;        &lt;li&gt;AES-256-GCM&lt;/li&gt;&#xA;        &lt;li&gt;SHA-256&lt;/li&gt;&#xA;        &lt;li&gt;DH Group 14&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;strong&gt;Configuration :&lt;/strong&gt;&#xA;      &lt;p class=&#34;!my-1&#34;&gt;Site-à-Site&lt;/p&gt;&#xA;      &lt;strong&gt;Chiffrement :&lt;/strong&gt;&#xA;      &lt;p class=&#34;!my-1&#34;&gt;Fort (AES-256)&lt;/p&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;strong&gt;Résultats :&lt;/strong&gt;&#xA;      &lt;ul class=&#34;!my-1&#34;&gt;&#xA;        &lt;li&gt;✅ Tunnel stable&lt;/li&gt;&#xA;        &lt;li&gt;✅ Sécurisé&lt;/li&gt;&#xA;        &lt;li&gt;✅ Performant&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;strong&gt;Impact Business :&lt;/strong&gt;&#xA;      &lt;ul class=&#34;!my-1&#34;&gt;&#xA;        &lt;li&gt;🌍 Connectivité sécurisée 2 sites&lt;/li&gt;&#xA;        &lt;li&gt;💸 Économie de 80% vs solutions cloud&lt;/li&gt;&#xA;        &lt;li&gt;⚡ Latence &lt; 50ms (performance optimale)&lt;/li&gt;&#xA;        &lt;li&gt;🔒 Conformité RGPD &amp; sécurité&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;h2 id=&#34;-contexte-du-projet&#34;&gt;🎯 Contexte du Projet&lt;/h2&gt;&#xA;&lt;p&gt;L&amp;rsquo;objectif de ce projet était de relier deux réseaux locaux distants de manière sécurisée à travers Internet en utilisant des pare-feux Pfsense. Cette configuration permet aux deux sites de communiquer comme s&amp;rsquo;ils étaient sur le même réseau local, tout en garantissant la confidentialité et l&amp;rsquo;intégrité des données.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Contact</title>
-      <link>http://localhost:39511/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Tue, 14 Oct 2025 13:05:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/contact/</guid>
-      <description>&lt;h1 class=&#34;relative group&#34;&gt;📞 Contactez-moi pour vos projets techniques
-    &lt;div id=&#34;-contactez-moi-pour-vos-projets-techniques&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
-        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-contactez-moi-pour-vos-projets-techniques&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;
-    
-&lt;/h1&gt;
-&lt;div class=&#34;relative bg-gradient-to-r from-primary-500 via-blue-600 to-indigo-700 p-12 rounded-3xl text-white text-center overflow-hidden mb-12&#34;&gt;
-  
-  &lt;div class=&#34;absolute inset-0 opacity-10&#34;&gt;
-    &lt;div class=&#34;absolute top-10 left-10 w-4 h-4 bg-white rounded-full animate-pulse&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;absolute top-20 right-20 w-6 h-6 bg-white rounded-full animate-bounce&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;absolute bottom-10 left-1/4 w-3 h-3 bg-white rounded-full animate-ping&#34;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-
-  &lt;h1 class=&#34;!text-5xl !font-bold !mb-6 relative z-10 animate-fade-in&#34;&gt;🚀 Expert Support &amp; Infrastructure&lt;/h1&gt;
-  &lt;p class=&#34;!text-2xl !mb-8 relative z-10 animate-fade-in-delay&#34;&gt;Spécialiste en environnements critiques avec &lt;span class=&#34;font-bold text-yellow-300&#34;&gt;85% de taux de résolution&lt;/span&gt;&lt;/p&gt;</description>
-      
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;h1 id=&#34;-contactez-moi-pour-vos-projets-techniques&#34;&gt;📞 Contactez-moi pour vos projets techniques&lt;/h1&gt;&#xA;&lt;div class=&#34;relative bg-gradient-to-r from-primary-500 via-blue-600 to-indigo-700 p-12 rounded-3xl text-white text-center overflow-hidden mb-12&#34;&gt;&#xA;  &#xA;  &lt;div class=&#34;absolute inset-0 opacity-10&#34;&gt;&#xA;    &lt;div class=&#34;absolute top-10 left-10 w-4 h-4 bg-white rounded-full animate-pulse&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;absolute top-20 right-20 w-6 h-6 bg-white rounded-full animate-bounce&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;absolute bottom-10 left-1/4 w-3 h-3 bg-white rounded-full animate-ping&#34;&gt;&lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&#xA;  &lt;h1 class=&#34;!text-5xl !font-bold !mb-6 relative z-10 animate-fade-in&#34;&gt;🚀 Expert Support &amp; Infrastructure&lt;/h1&gt;&#xA;  &lt;p class=&#34;!text-2xl !mb-8 relative z-10 animate-fade-in-delay&#34;&gt;Spécialiste en environnements critiques avec &lt;span class=&#34;font-bold text-yellow-300&#34;&gt;85% de taux de résolution&lt;/span&gt;&lt;/p&gt;&#xA;&#xA;  &lt;div class=&#34;flex flex-wrap justify-center gap-6 relative z-10&#34;&gt;&#xA;    &lt;a href=&#34;#contact&#34; class=&#34;px-10 py-5 rounded-2xl bg-white text-primary-600 font-bold hover:bg-gray-100 transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-3xl animate-bounce-slow&#34;&gt;&#xA;      📧 Contact Immédiat&#xA;    &lt;/a&gt;&#xA;    &lt;a href=&#34;http://localhost:1313/cv/&#34; class=&#34;px-10 py-5 rounded-2xl border-2 border-white text-white font-bold hover:bg-white/20 transition-all duration-500 transform hover:scale-105 backdrop-blur-sm&#34;&gt;&#xA;      📄 Voir mon CV&#xA;    &lt;/a&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;-mes-domaines-dexpertise&#34;&gt;🎯 Mes Domaines d&amp;rsquo;Expertise&lt;/h2&gt;&#xA;&lt;div class=&#34;grid grid-cols-1 md:grid-cols-2 gap-8 mb-16&#34;&gt;&#xA;  &lt;div class=&#34;group bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20 p-8 rounded-2xl border-2 border-blue-200 dark:border-blue-700 shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-2 hover:scale-105&#34;&gt;&#xA;    &lt;div class=&#34;text-4xl mb-6 group-hover:scale-110 transition-transform duration-300&#34;&gt;🛠️&lt;/div&gt;&#xA;    &lt;h3 class=&#34;!text-2xl !font-bold !mb-4 text-blue-700 dark:text-blue-300&#34;&gt;Support Technique&lt;/h3&gt;&#xA;    &lt;p class=&#34;!my-0 text-base&#34;&gt;N1/N2, GLPI, ServiceNow, gestion d&#39;incidents&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Curriculum Vitae</title>
-      <link>http://localhost:39511/cv/</link>
+      <link>http://localhost:1313/cv/</link>
       <pubDate>Tue, 14 Oct 2025 13:05:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/cv/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;Stéphan Uniatowitz
-    &lt;div id=&#34;stéphan-uniatowitz&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
-        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#st%c3%a9phan-uniatowitz&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;
-    
-&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Technicien Support, Réseaux &amp;amp; Configuration Systèmes&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;📍 Marseille, France
-📧 &lt;a
-  href=&#34;mailto:votre.email@example.com&#34;&gt;votre.email@example.com&lt;/a&gt;
-🔗 &lt;a
-  href=&#34;https://www.linkedin.com/in/stephan-uniatowitz-259360101&#34;
-    target=&#34;_blank&#34;
-  &gt;linkedin.com/in/stephan-uniatowitz-259360101&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-
-&lt;h2 class=&#34;relative group&#34;&gt;🎯 Profil Professionnel
-    &lt;div id=&#34;-profil-professionnel&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
-        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-profil-professionnel&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;
-    
-&lt;/h2&gt;
-&lt;p&gt;Technicien support confirmé avec plus de deux ans d&amp;rsquo;expérience acquise dans des environnements critiques et multisites, notamment chez SFR Business (Intelcia), AP-HM La Timone et Econocom. Solide maîtrise des outils de support, des systèmes Windows/Linux et des environnements réseau. Capacité éprouvée à gérer les demandes utilisateurs, résoudre rapidement les incidents et documenter les procédures.&lt;/p&gt;</description>
-      
+      <guid>http://localhost:1313/cv/</guid>
+      <description>&lt;h2 id=&#34;stéphan-uniatowitz&#34;&gt;Stéphan Uniatowitz&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Technicien Support, Réseaux &amp;amp; Configuration Systèmes&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;📍 Marseille, France&#xA;📧 &lt;a href=&#34;mailto:votre.email@example.com&#34;&gt;votre.email@example.com&lt;/a&gt;&#xA;🔗 &lt;a href=&#34;https://www.linkedin.com/in/stephan-uniatowitz-259360101&#34;&gt;linkedin.com/in/stephan-uniatowitz-259360101&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-profil-professionnel&#34;&gt;🎯 Profil Professionnel&lt;/h2&gt;&#xA;&lt;p&gt;Technicien support confirmé avec plus de deux ans d&amp;rsquo;expérience acquise dans des environnements critiques et multisites, notamment chez SFR Business (Intelcia), AP-HM La Timone et Econocom. Solide maîtrise des outils de support, des systèmes Windows/Linux et des environnements réseau. Capacité éprouvée à gérer les demandes utilisateurs, résoudre rapidement les incidents et documenter les procédures.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>À propos</title>
-      <link>http://localhost:39511/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Tue, 14 Oct 2025 10:00:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/about/</guid>
-      <description>&lt;div class=&#34;max-w-4xl mx-auto px-4 py-12&#34;&gt;
-  
-  &lt;div class=&#34;flex flex-col md:flex-row items-center gap-8 mb-12&#34;&gt;
-    &lt;div class=&#34;w-80 h-60 rounded-lg overflow-hidden border-4 border-primary-200 shadow-lg&#34;&gt;
-      &lt;img src=&#34;http://localhost:39511/images/photos_a_propos.png&#34; alt=&#34;Stéphan Uniatowitz&#34; class=&#34;w-full h-full object-contain&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;flex-1 text-center md:text-left&#34;&gt;
-      &lt;h1 class=&#34;text-4xl font-heading font-bold text-gray-900 dark:text-white mb-4&#34;&gt;
-        Stéphan Uniatowitz
-      &lt;/h1&gt;
-      &lt;p class=&#34;text-xl text-gray-600 dark:text-gray-300 font-medium mb-6&#34;&gt;
-        Technicien support informatique focalisé sur la fiabilité et la sécurité des infrastructures
-      &lt;/p&gt;
-      &lt;p class=&#34;text-lg text-gray-700 dark:text-gray-200 mb-4&#34;&gt;
-        Ma priorité est d&#39;assurer la continuité des services par des solutions claires, testées et documentées.
-      &lt;/p&gt;
-      &lt;div class=&#34;bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4 border border-blue-200 dark:border-blue-700&#34;&gt;
-        &lt;p class=&#34;text-blue-800 dark:text-blue-200 text-sm italic&#34;&gt;
-          &lt;strong&gt;Ma philosophie de travail :&lt;/strong&gt; J&#39;aborde chaque incident avec calme et méthode : observation, diagnostic, test, correction et documentation. Je privilégie la clarté dans la communication technique et l&#39;amélioration continue pour réduire les récidives. Mon objectif : rendre les systèmes stables, sécurisables et faciles à exploiter.
-        &lt;/p&gt;</description>
-      
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;div class=&#34;max-w-4xl mx-auto px-4 py-12&#34;&gt;&#xA;  &#xA;  &lt;div class=&#34;flex flex-col md:flex-row items-center gap-8 mb-12&#34;&gt;&#xA;    &lt;div class=&#34;w-80 h-60 rounded-lg overflow-hidden border-4 border-primary-200 shadow-lg&#34;&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/images/photos_a_propos.png&#34; alt=&#34;Stéphan Uniatowitz&#34; class=&#34;w-full h-full object-contain&#34;&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;flex-1 text-center md:text-left&#34;&gt;&#xA;      &lt;h1 class=&#34;text-4xl font-heading font-bold text-gray-900 dark:text-white mb-4&#34;&gt;&#xA;        Stéphan Uniatowitz&#xA;      &lt;/h1&gt;&#xA;      &lt;p class=&#34;text-xl text-gray-600 dark:text-gray-300 font-medium mb-6&#34;&gt;&#xA;        Technicien support informatique focalisé sur la fiabilité et la sécurité des infrastructures&#xA;      &lt;/p&gt;&#xA;      &lt;p class=&#34;text-lg text-gray-700 dark:text-gray-200 mb-4&#34;&gt;&#xA;        Ma priorité est d&#39;assurer la continuité des services par des solutions claires, testées et documentées.&#xA;      &lt;/p&gt;&#xA;      &lt;div class=&#34;bg-blue-50 dark:bg-blue-900/20 rounded-lg p-4 border border-blue-200 dark:border-blue-700&#34;&gt;&#xA;        &lt;p class=&#34;text-blue-800 dark:text-blue-200 text-sm italic&#34;&gt;&#xA;          &lt;strong&gt;Ma philosophie de travail :&lt;/strong&gt; J&#39;aborde chaque incident avec calme et méthode : observation, diagnostic, test, correction et documentation. Je privilégie la clarté dans la communication technique et l&#39;amélioration continue pour réduire les récidives. Mon objectif : rendre les systèmes stables, sécurisables et faciles à exploiter.&#xA;        &lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Comment Supprimer Définitivement Virus et Malwares : La Procédure Opérationnelle Complète (V2.0)</title>
+      <link>http://localhost:1313/blog/comment-supprimer-d%C3%A9finitivement-virus-et-malwares-la-proc%C3%A9dure-op%C3%A9rationnelle-compl%C3%A8te-v2.0/</link>
+      <pubDate>Sat, 18 Jan 2025 14:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/blog/comment-supprimer-d%C3%A9finitivement-virus-et-malwares-la-proc%C3%A9dure-op%C3%A9rationnelle-compl%C3%A8te-v2.0/</guid>
+      <description>&lt;h2 id=&#34;introduction--une-seule-procédure-adaptée-à-tous&#34;&gt;Introduction : Une Seule Procédure, Adaptée à Tous&lt;/h2&gt;&#xA;&lt;div class=&#34;flex justify-center mb-8&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/images/technicien-aide-collegue_hu_9cdc436cb176c207.webp&#34; alt=&#34;Technicien support aidant à la résolution de problèmes de sécurité&#34; class=&#34;max-w-full md:max-w-lg rounded-lg shadow-lg border border-gray-200 dark:border-gray-700&#34; width=&#34;1200&#34;&#xA;      height=&#34;1200&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Face à une infection, il n&amp;rsquo;y a pas de solution &amp;ldquo;débutant&amp;rdquo; ou &amp;ldquo;expert&amp;rdquo;, il y a une &lt;strong&gt;procédure efficace&lt;/strong&gt;. En tant que technicien support spécialisé en sécurité informatique, j&amp;rsquo;ai développé cette méthodologie en 7 étapes qui garantit des résultats durables.&lt;/p&gt;&#xA;&lt;p&gt;Ce guide vous présente cette procédure éprouvée, adaptée à tous les niveaux techniques. Chaque étape est expliquée, justifiée et sécurisée.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Comment Supprimer Définitivement Virus et Malwares : La Procédure Opérationnelle Complète (V2.0)</title>
+      <link>http://localhost:1313/blog/comment-supprimer-d%C3%A9finitivement-virus-et-malwares-la-proc%C3%A9dure-op%C3%A9rationnelle-compl%C3%A8te-v2.0/</link>
+      <pubDate>Sat, 18 Jan 2025 14:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/blog/comment-supprimer-d%C3%A9finitivement-virus-et-malwares-la-proc%C3%A9dure-op%C3%A9rationnelle-compl%C3%A8te-v2.0/</guid>
+      <description>&lt;h2 id=&#34;introduction--une-seule-procédure-adaptée-à-tous&#34;&gt;Introduction : Une Seule Procédure, Adaptée à Tous&lt;/h2&gt;&#xA;&lt;div class=&#34;flex justify-center mb-8&#34;&gt;&#xA;  &lt;img src=&#34;http://localhost:1313/images/technicien-aide-collegue_hu_9cdc436cb176c207.webp&#34; alt=&#34;Technicien support aidant à la résolution de problèmes de sécurité&#34; class=&#34;max-w-full md:max-w-lg rounded-lg shadow-lg border border-gray-200 dark:border-gray-700&#34; width=&#34;1200&#34;&#xA;      height=&#34;1200&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Face à une infection, il n&amp;rsquo;y a pas de solution &amp;ldquo;débutant&amp;rdquo; ou &amp;ldquo;expert&amp;rdquo;, il y a une &lt;strong&gt;procédure efficace&lt;/strong&gt;. En tant que technicien support spécialisé en sécurité informatique, j&amp;rsquo;ai développé cette méthodologie en 7 étapes qui garantit des résultats durables.&lt;/p&gt;&#xA;&lt;p&gt;Ce guide vous présente cette procédure éprouvée, adaptée à tous les niveaux techniques. Chaque étape est expliquée, justifiée et sécurisée.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Windows 11 24H2 : Les impacts pour le support IT</title>
+      <link>http://localhost:1313/veille-pro/windows-11-24h2-impacts/</link>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/veille-pro/windows-11-24h2-impacts/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;La mise à jour Windows 11 24H2 n&amp;rsquo;est pas qu&amp;rsquo;une simple mise à jour de fonctionnalités (&amp;ldquo;Feature Update&amp;rdquo;), c&amp;rsquo;est un véritable changement de plateforme (OS Swap) basé sur la branche &amp;ldquo;Germanium&amp;rdquo;. Pour les équipes de support et les administrateurs système, cela implique plusieurs points de vigilance.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-exigences-matérielles-renforcées-popcnt&#34;&gt;1. Exigences Matérielles Renforcées (POPCNT)&lt;/h2&gt;&#xA;&lt;p&gt;Contrairement aux versions précédentes où le contournement des prérequis TPM 2.0 était relativement simple via des clés de registre (type Rufux/Ventoy), la version 24H2 impose strictement l&amp;rsquo;instruction CPU &lt;strong&gt;POPCNT&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Diagnostic PC Gratuit en 4h - Technicien IT Marseille</title>
+      <link>http://localhost:1313/diagnostic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/diagnostic/</guid>
+      <description>&lt;h1 id=&#34;-diagnostic-technique-gratuit&#34;&gt;🔧 Diagnostic Technique Gratuit&lt;/h1&gt;&#xA;&lt;p&gt;Vous avez un problème informatique ? &lt;strong&gt;Je vous aide gratuitement !&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Remplissez le formulaire ci-dessous en décrivant votre problème. Vous pouvez même joindre des photos (captures d&amp;rsquo;écran, messages d&amp;rsquo;erreur, etc.).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Mon engagement :&lt;/strong&gt; Une première analyse et mes recommandations sous 4 heures ouvrées.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;comment-ça-marche-&#34;&gt;Comment ça marche ?&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Décrivez&lt;/strong&gt; votre appareil et le problème rencontré&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Ajoutez&lt;/strong&gt; des photos si possible (écran bleu, message d&amp;rsquo;erreur, etc.)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Recevez&lt;/strong&gt; mon diagnostic et mes conseils par email sous 4h&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Décidez&lt;/strong&gt; si vous souhaitez aller plus loin (intervention sur site à Marseille ou assistance à distance)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;diagnostic-form-container&#34;&gt;&#xA;&lt;!-- Le formulaire Tally.so sera intégré ici --&gt;&#xA;&lt;iframe &#xA;  src=&#34;https://tally.so/embed/YOUR_FORM_ID?alignLeft=1&amp;hideTitle=1&amp;transparentBackground=1&#34; &#xA;  width=&#34;100%&#34; &#xA;  height=&#34;1200&#34; &#xA;  frameborder=&#34;0&#34; &#xA;  marginheight=&#34;0&#34; &#xA;  marginwidth=&#34;0&#34; &#xA;  title=&#34;Diagnostic Technique Gratuit&#34;&#xA;  style=&#34;border: none;&#34;&gt;&#xA;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;pourquoi-cest-gratuit-&#34;&gt;Pourquoi c&amp;rsquo;est gratuit ?&lt;/h2&gt;&#xA;&lt;p&gt;Simple : &lt;strong&gt;je construis ma réputation&lt;/strong&gt;. En vous aidant gratuitement aujourd&amp;rsquo;hui, je vous montre ce que je sais faire. Si un jour vous avez besoin d&amp;rsquo;une intervention payante, vous saurez à qui faire appel.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

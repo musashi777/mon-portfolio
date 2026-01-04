@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: {{ .Site.BaseURL }}sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 0
+
+# Priorités
+User-agent: Googlebot
+Allow: /depannage/
+Allow: /automation/
+Allow: /marseille/
+Allow: /diagnostic/
+
+# Bloquer dossiers temporaires
+Disallow: /tmp/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Bloquer pages de test (si existantes)
+Disallow: /test/
+Disallow: /draft/

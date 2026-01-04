@@ -2,172 +2,599 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</title>
-    <link>http://localhost:39511/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Portfolio de Stéphan Uniatowitz - Expert Support Technique &amp; Infrastructure</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <copyright>© 2025 </copyright>
-    <lastBuildDate>Fri, 17 Oct 2025 22:00:00 +0200</lastBuildDate><atom:link href="http://localhost:39511/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sat, 03 Jan 2026 09:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>BIOS</title>
-      <link>http://localhost:39511/tags/bios/</link>
-      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/tags/bios/</guid>
+      <title>Antivirus</title>
+      <link>http://localhost:1313/tags/antivirus/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/antivirus/</guid>
       <description></description>
-      
     </item>
-    
     <item>
-      <title>Boot-Repair</title>
-      <link>http://localhost:39511/tags/boot-repair/</link>
-      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/tags/boot-repair/</guid>
+      <title>Arnaque</title>
+      <link>http://localhost:1313/tags/arnaque/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/arnaque/</guid>
       <description></description>
-      
     </item>
-    
     <item>
-      <title>Dual Boot</title>
-      <link>http://localhost:39511/tags/dual-boot/</link>
-      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/tags/dual-boot/</guid>
+      <title>Bases</title>
+      <link>http://localhost:1313/tags/bases/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/bases/</guid>
       <description></description>
-      
     </item>
-    
     <item>
-      <title>GRUB</title>
-      <link>http://localhost:39511/tags/grub/</link>
-      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/tags/grub/</guid>
+      <title>Chiffrement</title>
+      <link>http://localhost:1313/tags/chiffrement/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/chiffrement/</guid>
       <description></description>
-      
     </item>
-    
     <item>
-      <title>Linux</title>
-      <link>http://localhost:39511/tags/linux/</link>
-      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/tags/linux/</guid>
+      <title>Confidentialité</title>
+      <link>http://localhost:1313/tags/confidentialit%C3%A9/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/confidentialit%C3%A9/</guid>
       <description></description>
-      
     </item>
-    
     <item>
-      <title>Résolution De Problèmes</title>
-      <link>http://localhost:39511/tags/r%C3%A9solution-de-probl%C3%A8mes/</link>
-      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/tags/r%C3%A9solution-de-probl%C3%A8mes/</guid>
+      <title>Configuration</title>
+      <link>http://localhost:1313/tags/configuration/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/configuration/</guid>
       <description></description>
-      
     </item>
-    
     <item>
-      <title>Support Technique</title>
-      <link>http://localhost:39511/tags/support-technique/</link>
-      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/tags/support-technique/</guid>
+      <title>Débutant</title>
+      <link>http://localhost:1313/tags/d%C3%A9butant/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/d%C3%A9butant/</guid>
       <description></description>
-      
     </item>
-    
     <item>
-      <title>Ubuntu</title>
-      <link>http://localhost:39511/tags/ubuntu/</link>
-      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/tags/ubuntu/</guid>
+      <title>Données</title>
+      <link>http://localhost:1313/tags/donn%C3%A9es/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/donn%C3%A9es/</guid>
       <description></description>
-      
     </item>
-    
     <item>
-      <title>UEFI</title>
-      <link>http://localhost:39511/tags/uefi/</link>
-      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/tags/uefi/</guid>
+      <title>Entreprise</title>
+      <link>http://localhost:1313/tags/entreprise/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/entreprise/</guid>
       <description></description>
-      
     </item>
-    
+    <item>
+      <title>Espionnage</title>
+      <link>http://localhost:1313/tags/espionnage/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/espionnage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fuite De Données</title>
+      <link>http://localhost:1313/tags/fuite-de-donn%C3%A9es/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/fuite-de-donn%C3%A9es/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gratuit</title>
+      <link>http://localhost:1313/tags/gratuit/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/gratuit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guide</title>
+      <link>http://localhost:1313/tags/guide/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hameçonnage</title>
+      <link>http://localhost:1313/tags/hame%C3%A7onnage/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/hame%C3%A7onnage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mail</title>
+      <link>http://localhost:1313/tags/mail/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/mail/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Malware</title>
+      <link>http://localhost:1313/tags/malware/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/malware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nettoyage</title>
+      <link>http://localhost:1313/tags/nettoyage/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/nettoyage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pare-Feu</title>
+      <link>http://localhost:1313/tags/pare-feu/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/pare-feu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phishing</title>
+      <link>http://localhost:1313/tags/phishing/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/phishing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PME</title>
+      <link>http://localhost:1313/tags/pme/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/pme/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pro</title>
+      <link>http://localhost:1313/tags/pro/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/pro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Protection Données</title>
+      <link>http://localhost:1313/tags/protection-donn%C3%A9es/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/protection-donn%C3%A9es/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rançon</title>
+      <link>http://localhost:1313/tags/ran%C3%A7on/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/ran%C3%A7on/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ransomware</title>
+      <link>http://localhost:1313/tags/ransomware/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/ransomware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Réseau</title>
+      <link>http://localhost:1313/tags/r%C3%A9seau/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/r%C3%A9seau/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RGPD</title>
+      <link>http://localhost:1313/tags/rgpd/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/rgpd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sauvegarde</title>
+      <link>http://localhost:1313/tags/sauvegarde/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/sauvegarde/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sécurité</title>
+      <link>http://localhost:1313/tags/s%C3%A9curit%C3%A9/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/s%C3%A9curit%C3%A9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Urgence</title>
+      <link>http://localhost:1313/tags/urgence/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/urgence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Virus</title>
+      <link>http://localhost:1313/tags/virus/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/virus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vol De Données</title>
+      <link>http://localhost:1313/tags/vol-de-donn%C3%A9es/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/vol-de-donn%C3%A9es/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Webcam</title>
+      <link>http://localhost:1313/tags/webcam/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/webcam/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Windows</title>
-      <link>http://localhost:39511/tags/windows/</link>
-      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/tags/windows/</guid>
+      <link>http://localhost:1313/tags/windows/</link>
+      <pubDate>Sat, 03 Jan 2026 09:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/windows/</guid>
       <description></description>
-      
     </item>
-    
     <item>
-      <title>Firefox</title>
-      <link>http://localhost:39511/tags/firefox/</link>
-      <pubDate>Fri, 17 Oct 2025 21:30:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/tags/firefox/</guid>
+      <title>Blue Screen</title>
+      <link>http://localhost:1313/tags/blue-screen/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/blue-screen/</guid>
       <description></description>
-      
     </item>
-    
+    <item>
+      <title>Box</title>
+      <link>http://localhost:1313/tags/box/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/box/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BSOD</title>
+      <link>http://localhost:1313/tags/bsod/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bsod/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crash</title>
+      <link>http://localhost:1313/tags/crash/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/crash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Démarrage</title>
+      <link>http://localhost:1313/tags/d%C3%A9marrage/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/d%C3%A9marrage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Écran Bleu</title>
+      <link>http://localhost:1313/tags/%C3%A9cran-bleu/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%C3%A9cran-bleu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Internet</title>
+      <link>http://localhost:1313/tags/internet/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/internet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Optimisation</title>
+      <link>http://localhost:1313/tags/optimisation/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/optimisation/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Performance</title>
-      <link>http://localhost:39511/tags/performance/</link>
-      <pubDate>Fri, 17 Oct 2025 21:30:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/tags/performance/</guid>
+      <link>http://localhost:1313/tags/performance/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/performance/</guid>
       <description></description>
-      
     </item>
-    
+    <item>
+      <title>WiFi</title>
+      <link>http://localhost:1313/tags/wifi/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/wifi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows 11</title>
+      <link>http://localhost:1313/tags/windows-11/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/windows-11/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Accès</title>
+      <link>http://localhost:1313/tags/acc%C3%A8s/</link>
+      <pubDate>Fri, 02 Jan 2026 12:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/acc%C3%A8s/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Clavier</title>
+      <link>http://localhost:1313/tags/clavier/</link>
+      <pubDate>Fri, 02 Jan 2026 12:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/clavier/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Compte Verrouillé</title>
+      <link>http://localhost:1313/tags/compte-verrouill%C3%A9/</link>
+      <pubDate>Fri, 02 Jan 2026 12:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/compte-verrouill%C3%A9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dépannage</title>
+      <link>http://localhost:1313/tags/d%C3%A9pannage/</link>
+      <pubDate>Fri, 02 Jan 2026 12:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/d%C3%A9pannage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google</title>
+      <link>http://localhost:1313/tags/google/</link>
+      <pubDate>Fri, 02 Jan 2026 12:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/google/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mac</title>
+      <link>http://localhost:1313/tags/mac/</link>
+      <pubDate>Fri, 02 Jan 2026 12:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/mac/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microsoft</title>
+      <link>http://localhost:1313/tags/microsoft/</link>
+      <pubDate>Fri, 02 Jan 2026 12:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/microsoft/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mot De Passe</title>
+      <link>http://localhost:1313/tags/mot-de-passe/</link>
+      <pubDate>Fri, 02 Jan 2026 12:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/mot-de-passe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mot De Passe Incorrect</title>
+      <link>http://localhost:1313/tags/mot-de-passe-incorrect/</link>
+      <pubDate>Fri, 02 Jan 2026 12:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/mot-de-passe-incorrect/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Récupération</title>
+      <link>http://localhost:1313/tags/r%C3%A9cup%C3%A9ration/</link>
+      <pubDate>Fri, 02 Jan 2026 12:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/r%C3%A9cup%C3%A9ration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2025</title>
+      <link>http://localhost:1313/tags/2025/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/2025/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CISO</title>
+      <link>http://localhost:1313/tags/ciso/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/ciso/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud</title>
+      <link>http://localhost:1313/tags/cloud/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deepfake</title>
+      <link>http://localhost:1313/tags/deepfake/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/deepfake/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DNS</title>
+      <link>http://localhost:1313/tags/dns/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/dns/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DORA</title>
+      <link>http://localhost:1313/tags/dora/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/dora/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DSI</title>
+      <link>http://localhost:1313/tags/dsi/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/dsi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gouvernance</title>
+      <link>http://localhost:1313/tags/gouvernance/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/gouvernance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Green IT</title>
+      <link>http://localhost:1313/tags/green-it/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/green-it/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IA</title>
+      <link>http://localhost:1313/tags/ia/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/ia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infrastructure</title>
+      <link>http://localhost:1313/tags/infrastructure/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/infrastructure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Post-Mortem</title>
+      <link>http://localhost:1313/tags/post-mortem/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/post-mortem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Régulation</title>
+      <link>http://localhost:1313/tags/r%C3%A9gulation/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/r%C3%A9gulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resilience</title>
+      <link>http://localhost:1313/tags/resilience/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/resilience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RSE</title>
+      <link>http://localhost:1313/tags/rse/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/rse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stratégie</title>
+      <link>http://localhost:1313/tags/strat%C3%A9gie/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/strat%C3%A9gie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zero Trust</title>
+      <link>http://localhost:1313/tags/zero-trust/</link>
+      <pubDate>Fri, 02 Jan 2026 10:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/tags/zero-trust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BIOS</title>
+      <link>http://localhost:1313/tags/bios/</link>
+      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/bios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Boot-Repair</title>
+      <link>http://localhost:1313/tags/boot-repair/</link>
+      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/boot-repair/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dual Boot</title>
+      <link>http://localhost:1313/tags/dual-boot/</link>
+      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/dual-boot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GRUB</title>
+      <link>http://localhost:1313/tags/grub/</link>
+      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/grub/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Résolution De Problèmes</title>
+      <link>http://localhost:1313/tags/r%C3%A9solution-de-probl%C3%A8mes/</link>
+      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/r%C3%A9solution-de-probl%C3%A8mes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Support Technique</title>
+      <link>http://localhost:1313/tags/support-technique/</link>
+      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/support-technique/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ubuntu</title>
+      <link>http://localhost:1313/tags/ubuntu/</link>
+      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UEFI</title>
+      <link>http://localhost:1313/tags/uefi/</link>
+      <pubDate>Fri, 17 Oct 2025 22:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/uefi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Firefox</title>
+      <link>http://localhost:1313/tags/firefox/</link>
+      <pubDate>Fri, 17 Oct 2025 21:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/firefox/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Snap</title>
-      <link>http://localhost:39511/tags/snap/</link>
+      <link>http://localhost:1313/tags/snap/</link>
       <pubDate>Fri, 17 Oct 2025 21:30:00 +0200</pubDate>
-      
-      <guid>http://localhost:39511/tags/snap/</guid>
+      <guid>http://localhost:1313/tags/snap/</guid>
       <description></description>
-      
     </item>
-    
     <item>
-      <title>Design</title>
-      <link>http://localhost:39511/tags/design/</link>
-      <pubDate>Tue, 14 Oct 2025 20:16:01 +0200</pubDate>
-      
-      <guid>http://localhost:39511/tags/design/</guid>
+      <title>SysAdmin</title>
+      <link>http://localhost:1313/tags/sysadmin/</link>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/sysadmin/</guid>
       <description></description>
-      
     </item>
-    
     <item>
-      <title>Hugo</title>
-      <link>http://localhost:39511/tags/hugo/</link>
-      <pubDate>Tue, 14 Oct 2025 20:16:01 +0200</pubDate>
-      
-      <guid>http://localhost:39511/tags/hugo/</guid>
+      <title>Veille</title>
+      <link>http://localhost:1313/tags/veille/</link>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/veille/</guid>
       <description></description>
-      
     </item>
-    
-    <item>
-      <title>Tutoriel</title>
-      <link>http://localhost:39511/tags/tutoriel/</link>
-      <pubDate>Tue, 14 Oct 2025 20:16:01 +0200</pubDate>
-      
-      <guid>http://localhost:39511/tags/tutoriel/</guid>
-      <description></description>
-      
-    </item>
-    
   </channel>
 </rss>

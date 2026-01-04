@@ -1,7 +1,7 @@
 ---
 title: "Guide Détaillé - Installation Serveur GLPI"
 date: 2025-10-15T11:00:00+02:00
-image: "/images/technicien_aide_collègue.png"
+image: "/images/technicien-aide-collegue.png"
 summary: "Déploiement et configuration d'un serveur GLPI pour la gestion de tickets IT."
 ---
 

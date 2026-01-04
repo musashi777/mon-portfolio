@@ -12,7 +12,7 @@ readingTime: 10
 ## Introduction : Le Problème de Dual Boot le Plus Fréquent
 
 <div class="flex justify-center mb-8">
-  <img src="/images/photo_dual_boot.png" alt="Menu GRUB restauré avec dual boot Ubuntu/Windows" class="max-w-full md:max-w-lg rounded-lg shadow-lg border border-gray-200 dark:border-gray-700">
+  {{< img src="/images/photo_dual_boot.png" alt="Menu GRUB restauré avec dual boot Ubuntu/Windows" class="max-w-full md:max-w-lg rounded-lg shadow-lg border border-gray-200 dark:border-gray-700" >}}
 </div>
 
 **Vous venez de faire une mise à jour de Windows, vous redémarrez votre ordinateur et... surprise, plus de menu de choix.** Il démarre directement sur Windows, comme si Ubuntu n'avait jamais existé.

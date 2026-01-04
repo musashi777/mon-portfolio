@@ -1,11 +1,81 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=39511&amp;path=livereload" data-no-instant defer></script>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linux - Portfolio Stéphan Uniatowitz</title>
-    <meta name="description" content="Portfolio technique de Stéphan Uniatowitz - Expert support N2/N3, réseaux et systèmes">
-    <meta name="keywords" content="support technique, réseaux, systèmes, GLPI, VPN, infrastructure, technicien IT">
+    <title>Linux -
+        Portfolio Stéphan Uniatowitz</title>
+    <meta name="description"
+        content="Expert en dépannage et assistance informatique à Marseille. Réparation PC/Mac, suppression de virus, optimisation système et formation pour particuliers et professionnels.">
+    <meta name="keywords"
+        content="dépannage informatique, assistance informatique, réparation PC, suppression virus, optimisation système, technicien informatique, Marseille, support technique, réseaux, systèmes">
+
+    
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://localhost:1313/tags/linux/">
+    <meta property="og:title"
+        content="Linux - Portfolio Stéphan Uniatowitz">
+    <meta property="og:description"
+        content="Expert en dépannage et assistance informatique à Marseille. Réparation PC/Mac, suppression de virus, optimisation système et formation pour particuliers et professionnels.">
+    <meta property="og:image" content="http://localhost:1313/images/steph_profile_optimized.jpg">
+    <meta property="og:site_name" content="Portfolio Stéphan Uniatowitz">
+    <meta property="og:locale" content="fr_FR">
+
+    
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="http://localhost:1313/tags/linux/">
+    <meta property="twitter:title"
+        content="Linux - Portfolio Stéphan Uniatowitz">
+    <meta property="twitter:description"
+        content="Expert en dépannage et assistance informatique à Marseille. Réparation PC/Mac, suppression de virus, optimisation système et formation pour particuliers et professionnels.">
+    <meta property="twitter:image"
+        content="http://localhost:1313/images/steph_profile_optimized.jpg">
+    <meta property="twitter:site" content="@stephan_uniatowitz">
+    <meta property="twitter:creator" content="@stephan_uniatowitz">
+
+    
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="http://localhost:1313/tags/linux/">
+
+    
+    <meta name="geo.region" content="FR-13">
+    <meta name="geo.placename" content="Marseille">
+    <meta name="geo.position" content="43.296482;5.36978">
+    <meta name="ICBM" content="43.296482, 5.36978">
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"http://localhost:1313/","name":"Accueil","position":1},{"@type":"ListItem","item":"http://localhost:1313/tags/","name":"Tags","position":2},{"@type":"ListItem","item":"http://localhost:1313/tags/linux/","name":"Linux","position":3}]}
+  </script>
+
+    
+    
+    
+    
 
     
     <script src="https://cdn.tailwindcss.com"></script>
@@ -39,20 +109,25 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <style>
         body {
             font-family: 'Inter', sans-serif;
         }
+
         .font-heading {
             font-family: 'Playfair Display', serif;
         }
+
         .gradient-bg {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             position: relative;
             overflow: hidden;
         }
+
         .gradient-bg::before {
             content: '';
             position: absolute;
@@ -60,22 +135,33 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, transparent 50%);
+            background: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
             animation: shimmer 8s ease-in-out infinite;
         }
+
         @keyframes shimmer {
-            0%, 100% { transform: translateX(-100%); }
-            50% { transform: translateX(100%); }
+
+            0%,
+            100% {
+                transform: translateX(-100%);
+            }
+
+            50% {
+                transform: translateX(100%);
+            }
         }
+
         .card-hover {
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             position: relative;
             overflow: hidden;
         }
+
         .card-hover:hover {
             transform: translateY(-8px) scale(1.02);
             box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
         }
+
         .card-hover::before {
             content: '';
             position: absolute;
@@ -83,16 +169,19 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
             transition: left 0.6s;
         }
+
         .card-hover:hover::before {
             left: 100%;
         }
+
         .nav-link {
             position: relative;
             transition: color 0.3s ease;
         }
+
         .nav-link::after {
             content: '';
             position: absolute;
@@ -103,19 +192,23 @@
             background: linear-gradient(90deg, #3b82f6, #8b5cf6);
             transition: width 0.3s ease;
         }
+
         .nav-link:hover::after {
             width: 100%;
         }
+
         .btn-primary {
             background: linear-gradient(135deg, #3b82f6, #8b5cf6);
             transition: all 0.3s ease;
             position: relative;
             overflow: hidden;
         }
+
         .btn-primary:hover {
             transform: translateY(-2px);
             box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
         }
+
         .btn-primary::before {
             content: '';
             position: absolute;
@@ -123,484 +216,341 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
             transition: left 0.6s;
         }
+
         .btn-primary:hover::before {
             left: 100%;
         }
+
         .fade-in-up {
             animation: fadeInUp 0.8s ease-out;
         }
+
         @keyframes fadeInUp {
             from {
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
-        .stagger-animation > * {
+
+        .stagger-animation>* {
             opacity: 0;
             animation: fadeInUp 0.6s ease-out forwards;
         }
-    .stagger-animation > *:nth-child(1) { animation-delay: 0.1s; }
-    .stagger-animation > *:nth-child(2) { animation-delay: 0.2s; }
-    .stagger-animation > *:nth-child(3) { animation-delay: 0.3s; }
-    .stagger-animation > *:nth-child(4) { animation-delay: 0.4s; }
-    .stagger-animation > *:nth-child(5) { animation-delay: 0.5s; }
 
-     
-    pre {
-        overflow-x: auto;
-        max-width: 100%;
-    }
-
-     
-    @media (max-width: 768px) {
-        pre {
-            font-size: 0.875rem;
+        .stagger-animation>*:nth-child(1) {
+            animation-delay: 0.1s;
         }
-    }
+
+        .stagger-animation>*:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .stagger-animation>*:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+
+        .stagger-animation>*:nth-child(4) {
+            animation-delay: 0.4s;
+        }
+
+        .stagger-animation>*:nth-child(5) {
+            animation-delay: 0.5s;
+        }
+
+         
+        pre {
+            overflow-x: auto;
+            max-width: 100%;
+        }
+
+         
+        @media (max-width: 768px) {
+            pre {
+                font-size: 0.875rem;
+            }
+        }
+
+         
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
     </style>
 </head>
+
 <body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
     
-    <nav class="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-16">
-                
-                <div class="flex items-center">
-                    <a href="/" class="text-xl font-heading font-bold text-primary-600 dark:text-primary-400">
-                        Stéphan Uniatowitz
-                    </a>
-                </div>
-
-                
-                <div class="hidden md:flex items-center space-x-8">
+    <header>
+        <nav class="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50"
+            aria-label="Navigation principale">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between items-center h-16">
                     
-                    <a href="/projets" class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
-                        Projets
-                    </a>
-                    
-                    <a href="/blog" class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
-                        Blog
-                    </a>
-                    
-                    <a href="/certifications" class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
-                        Certifications
-                    </a>
-                    
-                    <a href="/about" class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
-                        À Propos
-                    </a>
-                    
-                    <a href="/contact" class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
-                        Contact
-                    </a>
-                    
-                </div>
-
-                
-                <div class="md:hidden">
-                    <button type="button" class="text-gray-500 dark:text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 mobile-menu-button">
-                        <i class="fas fa-bars text-xl"></i>
-                    </button>
+                    <div class="flex items-center">
+                        <a href="/" class="text-xl font-heading font-bold text-primary-600 dark:text-primary-400">
+                            Stéphan Uniatowitz
+                        </a>
+                    </div>
 
                     
-                    <div class="mobile-menu hidden absolute top-16 left-0 right-0 bg-white dark:bg-gray-800 shadow-lg border-t border-gray-200 dark:border-gray-700 z-50">
-                        <div class="px-4 py-4 space-y-4">
-                            
-                            <a href="/projets" class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700">
-                                Projets
-                            </a>
-                            
-                            <a href="/blog" class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700">
-                                Blog
-                            </a>
-                            
-                            <a href="/certifications" class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700">
-                                Certifications
-                            </a>
-                            
-                            <a href="/about" class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700">
-                                À Propos
-                            </a>
-                            
-                            <a href="/contact" class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700">
-                                Contact
-                            </a>
-                            
+                    <div class="hidden md:flex items-center space-x-8">
+                        
+                        <a href="/projets"
+                            class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
+                            Projets
+                        </a>
+                        
+                        <a href="/blog"
+                            class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
+                            Blog
+                        </a>
+                        
+                        <a href="/certifications"
+                            class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
+                            Certifications
+                        </a>
+                        
+                        <a href="/about"
+                            class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
+                            À Propos
+                        </a>
+                        
+                        <a href="/contact"
+                            class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
+                            Contact
+                        </a>
+                        
+                    </div>
+
+                    
+                    <div class="md:hidden">
+                        <button type="button"
+                            class="text-gray-500 dark:text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 mobile-menu-button"
+                            aria-label="Menu mobile" aria-expanded="false" aria-controls="mobile-menu">
+                            <i class="fas fa-bars text-xl"></i>
+                        </button>
+
+                        
+                        <div id="mobile-menu"
+                            class="mobile-menu hidden absolute top-16 left-0 right-0 bg-white dark:bg-gray-800 shadow-lg border-t border-gray-200 dark:border-gray-700 z-50"
+                            role="menu">
+                            <div class="px-4 py-4 space-y-4">
+                                
+                                <a href="/projets"
+                                    class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700"
+                                    role="menuitem">
+                                    Projets
+                                </a>
+                                
+                                <a href="/blog"
+                                    class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700"
+                                    role="menuitem">
+                                    Blog
+                                </a>
+                                
+                                <a href="/certifications"
+                                    class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700"
+                                    role="menuitem">
+                                    Certifications
+                                </a>
+                                
+                                <a href="/about"
+                                    class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700"
+                                    role="menuitem">
+                                    À Propos
+                                </a>
+                                
+                                <a href="/contact"
+                                    class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700"
+                                    role="menuitem">
+                                    Contact
+                                </a>
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     
     <main class="flex-grow">
         
-  
-  
-  <header class="mt-5">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
     
-    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Linux</h1>
-    <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
-      
+    <header class="mb-12 text-center">
+        <h1 class="text-4xl md:text-5xl font-heading font-bold text-gray-900 dark:text-white mb-4">
+            Linux
+        </h1>
 
-
-
-
-
-  
-  
-
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-  </div>
-
-
-    </div>
-  </header>
-
-  <section class="flex flex-col max-w-full mt-0 mb-5 prose dark:prose-invert lg:flex-row">
-    
-  </section>
-
-  
-    
-    
-    
-
-    
-
-      <section class="space-y-10 w-full">
         
-          
-          
-            
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-  
-  
-    
-
-    
-    
-      
-      
-        
-      
-        
-      
-        
-      
-    
-
-    
-    
-      
-      
-    
-
-    
-    
-      
-    
-  
-
-
-
-<article class="flex flex-col md:flex-row relative">
-  
-  <div class=" mt-3 md:mt-0">
-    <header class="items-center text-start text-xl font-semibold">
-      <a
-        
-          href="/blog/reparation-grub-apres-mise-a-jour-windows/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          Ubuntu ne Démarre Plus Après une Mise à Jour Windows ? Le Guide de Réparation GRUB Ultime
-          
-        </h2>
-      </a>
-      
-      
     </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-
-  
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2025-10-17T22:00:00&#43;02:00">17 October 2025</time><span class="px-2 text-primary-500">&middot;</span><span>898 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
-    
 
     
-    
-  </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <article class="bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 overflow-hidden card-hover">
+            <div class="p-6">
+                <h2 class="text-xl font-heading font-bold text-gray-900 dark:text-white mb-3">
+                    <a href="/blog/ubuntu-ne-d%C3%A9marre-plus-apr%C3%A8s-une-mise-%C3%A0-jour-windows-le-guide-de-r%C3%A9paration-grub-ultime/" class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                        Ubuntu ne Démarre Plus Après une Mise à Jour Windows ? Le Guide de Réparation GRUB Ultime
+                    </a>
+                </h2>
 
-  
+                
+                <p class="text-gray-600 dark:text-gray-400 mb-4 line-clamp-3">
+                    Guide complet pour réparer GRUB et restaurer le dual boot Ubuntu/Windows après une mise à jour Windows. Solution simple avec Boot-Repair, étapes détaillées et explications techniques.
+                </p>
+                
 
-  
-  
+                
+                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
+                    <i class="fas fa-calendar mr-2"></i>
+                    <time datetime="2025-10-17">
+                        17 Oct 2025
+                    </time>
+                </div>
+                
 
-  
-  
+                <a href="/blog/ubuntu-ne-d%C3%A9marre-plus-apr%C3%A8s-une-mise-%C3%A0-jour-windows-le-guide-de-r%C3%A9paration-grub-ultime/" class="inline-block mt-4 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium">
+                    Lire la suite →
+                </a>
+            </div>
+        </article>
+        
+        <article class="bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 overflow-hidden card-hover">
+            <div class="p-6">
+                <h2 class="text-xl font-heading font-bold text-gray-900 dark:text-white mb-3">
+                    <a href="/blog/ubuntu-ne-d%C3%A9marre-plus-apr%C3%A8s-une-mise-%C3%A0-jour-windows-le-guide-de-r%C3%A9paration-grub-ultime/" class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                        Ubuntu ne Démarre Plus Après une Mise à Jour Windows ? Le Guide de Réparation GRUB Ultime
+                    </a>
+                </h2>
 
+                
+                <p class="text-gray-600 dark:text-gray-400 mb-4 line-clamp-3">
+                    Guide complet pour réparer GRUB et restaurer le dual boot Ubuntu/Windows après une mise à jour Windows. Solution simple avec Boot-Repair, étapes détaillées et explications techniques.
+                </p>
+                
 
+                
+                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
+                    <i class="fas fa-calendar mr-2"></i>
+                    <time datetime="2025-10-17">
+                        17 Oct 2025
+                    </time>
+                </div>
+                
 
+                <a href="/blog/ubuntu-ne-d%C3%A9marre-plus-apr%C3%A8s-une-mise-%C3%A0-jour-windows-le-guide-de-r%C3%A9paration-grub-ultime/" class="inline-block mt-4 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium">
+                    Lire la suite →
+                </a>
+            </div>
+        </article>
+        
+        <article class="bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 overflow-hidden card-hover">
+            <div class="p-6">
+                <h2 class="text-xl font-heading font-bold text-gray-900 dark:text-white mb-3">
+                    <a href="/blog/firefox-lent-sur-ubuntu-24.04-la-m%C3%A9thode-robuste-pour-remplacer-la-version-snap/" class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                        Firefox Lent sur Ubuntu 24.04 ? La Méthode Robuste pour Remplacer la Version Snap
+                    </a>
+                </h2>
+
+                
+                <p class="text-gray-600 dark:text-gray-400 mb-4 line-clamp-3">
+                    Guide technique complet pour résoudre la lenteur de Firefox sur Ubuntu 24.04 en remplaçant la version Snap par la version DEB de Mozilla. Solution robuste avec plan de secours inclus.
+                </p>
+                
+
+                
+                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
+                    <i class="fas fa-calendar mr-2"></i>
+                    <time datetime="2025-10-17">
+                        17 Oct 2025
+                    </time>
+                </div>
+                
+
+                <a href="/blog/firefox-lent-sur-ubuntu-24.04-la-m%C3%A9thode-robuste-pour-remplacer-la-version-snap/" class="inline-block mt-4 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium">
+                    Lire la suite →
+                </a>
+            </div>
+        </article>
+        
+        <article class="bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 overflow-hidden card-hover">
+            <div class="p-6">
+                <h2 class="text-xl font-heading font-bold text-gray-900 dark:text-white mb-3">
+                    <a href="/blog/firefox-lent-sur-ubuntu-24.04-la-m%C3%A9thode-robuste-pour-remplacer-la-version-snap/" class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                        Firefox Lent sur Ubuntu 24.04 ? La Méthode Robuste pour Remplacer la Version Snap
+                    </a>
+                </h2>
+
+                
+                <p class="text-gray-600 dark:text-gray-400 mb-4 line-clamp-3">
+                    Guide technique complet pour résoudre la lenteur de Firefox sur Ubuntu 24.04 en remplaçant la version Snap par la version DEB de Mozilla. Solution robuste avec plan de secours inclus.
+                </p>
+                
+
+                
+                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
+                    <i class="fas fa-calendar mr-2"></i>
+                    <time datetime="2025-10-17">
+                        17 Oct 2025
+                    </time>
+                </div>
+                
+
+                <a href="/blog/firefox-lent-sur-ubuntu-24.04-la-m%C3%A9thode-robuste-pour-remplacer-la-version-snap/" class="inline-block mt-4 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium">
+                    Lire la suite →
+                </a>
+            </div>
+        </article>
+        
     </div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-          
-            
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-  
-  
-    
 
     
-    
-      
-      
-        
-      
-        
-      
-        
-      
-    
-
-    
-    
-      
-      
-    
-
-    
-    
-      
-    
-  
-
-
-
-<article class="flex flex-col md:flex-row relative">
-  
-  <div class=" mt-3 md:mt-0">
-    <header class="items-center text-start text-xl font-semibold">
-      <a
-        
-          href="/blog/firefox-lent-ubuntu-24-04-solution-robuste/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          Firefox Lent sur Ubuntu 24.04 ? La Méthode Robuste pour Remplacer la Version Snap
-          
-        </h2>
-      </a>
-      
-      
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-
-  
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2025-10-17T21:30:00&#43;02:00">17 October 2025</time><span class="px-2 text-primary-500">&middot;</span><span>808 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-
-  
-  
-
-
-
+    <div class="mt-12 text-center">
+        <a href="/" class="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium">
+            <i class="fas fa-arrow-left mr-2"></i>Retour à l'accueil
+        </a>
     </div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-          
-        
-      </section>
-    
-
-  
-
-  
+</div>
 
     </main>
 
     
-    <footer class="bg-gray-800 text-white py-12">
+    <footer class="bg-gray-800 text-white py-12" role="contentinfo">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 
-                <div>
-                    <h3 class="text-xl font-heading font-bold mb-4">Stéphan Uniatowitz</h3>
+                <section aria-labelledby="footer-about">
+                    <h3 id="footer-about" class="text-xl font-heading font-bold mb-4">Stéphan Uniatowitz</h3>
                     <p class="text-gray-300 mb-4">
                         Technicien Support, Réseaux & Configuration Systèmes
                     </p>
                     <p class="text-gray-400 text-sm">
                         Passionné par l'informatique et les nouvelles technologies
                     </p>
-                </div>
+                </section>
 
                 
-                <div>
-                    <h4 class="text-lg font-semibold mb-4">Navigation</h4>
+                <section aria-labelledby="footer-navigation">
+                    <h4 id="footer-navigation" class="text-lg font-semibold mb-4">Navigation</h4>
                     <ul class="space-y-2">
                         
                         <li>
@@ -634,29 +584,25 @@
                         </li>
                         
                     </ul>
-                </div>
+                </section>
 
                 
-                <div>
-                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                <section aria-labelledby="footer-contact">
+                    <h4 id="footer-contact" class="text-lg font-semibold mb-4">Contact</h4>
                     <div class="space-y-2">
                         <a href="/contact" class="block text-gray-300 hover:text-white transition-colors">
-                            <i class="fas fa-envelope mr-2"></i>Formulaire de contact
+                            <i class="fas fa-envelope mr-2" aria-hidden="true"></i>Formulaire de contact
                         </a>
-                        <a href="https://www.linkedin.com/in/stephan-uniatowitz-259360101"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           class="block text-gray-300 hover:text-white transition-colors">
-                            <i class="fab fa-linkedin mr-2"></i>LinkedIn
+                        <a href="https://www.linkedin.com/in/stephan-uniatowitz-259360101" target="_blank"
+                            rel="noopener noreferrer" class="block text-gray-300 hover:text-white transition-colors">
+                            <i class="fab fa-linkedin mr-2" aria-hidden="true"></i>LinkedIn
                         </a>
-                        <a href="https://github.com/stephan-uniatowitz"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           class="block text-gray-300 hover:text-white transition-colors">
-                            <i class="fab fa-github mr-2"></i>GitHub
+                        <a href="https://github.com/stephan-uniatowitz" target="_blank" rel="noopener noreferrer"
+                            class="block text-gray-300 hover:text-white transition-colors">
+                            <i class="fab fa-github mr-2" aria-hidden="true"></i>GitHub
                         </a>
                     </div>
-                </div>
+                </section>
             </div>
 
             
@@ -680,7 +626,7 @@
         
         const mobileMenuButton = document.querySelector('.mobile-menu-button');
         if (mobileMenuButton) {
-            mobileMenuButton.addEventListener('click', function() {
+            mobileMenuButton.addEventListener('click', function () {
                 const mobileMenu = document.querySelector('.mobile-menu');
                 if (mobileMenu) {
                     mobileMenu.classList.toggle('hidden');
@@ -745,7 +691,7 @@
         const buttons = document.querySelectorAll('.btn-primary, .btn-secondary');
         if (buttons.length > 0) {
             buttons.forEach(button => {
-                button.addEventListener('click', function(e) {
+                button.addEventListener('click', function (e) {
                     if (!this.href || this.href.startsWith('#')) return;
 
                     const originalText = this.innerHTML;
@@ -764,11 +710,11 @@
         const cards = document.querySelectorAll('.card-hover');
         if (cards.length > 0) {
             cards.forEach(card => {
-                card.addEventListener('mouseenter', function() {
+                card.addEventListener('mouseenter', function () {
                     this.style.transform = 'translateY(-8px) scale(1.02)';
                 });
 
-                card.addEventListener('mouseleave', function() {
+                card.addEventListener('mouseleave', function () {
                     this.style.transform = 'translateY(0) scale(1)';
                 });
             });
@@ -776,8 +722,9 @@
 
         
         const backToTop = document.createElement('button');
-        backToTop.innerHTML = '<i class="fas fa-chevron-up"></i>';
+        backToTop.innerHTML = '<i class="fas fa-chevron-up" aria-hidden="true"></i><span class="sr-only">Retour en haut de page</span>';
         backToTop.className = 'fixed bottom-8 right-8 bg-primary-600 hover:bg-primary-700 text-white p-3 rounded-full shadow-lg transition-all duration-300 opacity-0 transform translate-y-10 z-40 back-to-top';
+        backToTop.setAttribute('aria-label', 'Retour en haut de page');
         backToTop.style.transition = 'all 0.3s ease';
         document.body.appendChild(backToTop);
 
@@ -799,4 +746,5 @@
         });
     </script>
 </body>
+
 </html>

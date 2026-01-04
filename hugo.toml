@@ -4,9 +4,60 @@ title = "Portfolio de Stéphan Uniatowitz - Expert Support Technique & Infrastru
 theme = "blowfish"
 ignoreLogs = ['warning-goldmark-raw-html']
 
+
 [params]
-  description = "Portfolio technique de Stéphan Uniatowitz - Expert support N2/N3, réseaux et systèmes avec 85% de taux de résolution en environnements critiques"
-  keywords = ["support technique", "réseaux", "systèmes", "GLPI", "VPN", "infrastructure", "technicien IT"]
+  description = "Expert dépannage informatique Marseille : PC, Mac, réseaux, automation. Support technique N2/N3 pour particuliers et professionnels. Intervention rapide."
+  keywords = ["dépannage informatique marseille", "technicien it marseille", "réparation pc marseille", "support technique", "automatisation", "réseaux"]
+  author = "Stéphan Uniatowitz"
+  
+  # SEO Local
+  city = "Marseille"
+  region = "Bouches-du-Rhône"
+  country = "France"
+  
+  # Social
+  linkedin = "https://www.linkedin.com/in/stephan-uniatowitz-259360101"
+  github = "https://github.com/stephan-uniatowitz"
+
+# Sitemap Configuration
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+# Taxonomies
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  quartier = "quartiers"
+
+# Permalinks
+[permalinks]
+  depannage = "/depannage/:slug/"
+  automation = "/automation/:slug/"
+  marseille = "/marseille/:slug/"
+  blog = "/blog/:slug/"
+
+# Related Content
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = false
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "categories"
+    weight = 80
+
+# Minify Output (Production)
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
 
 [markup]
   [markup.goldmark]
@@ -18,18 +69,34 @@ ignoreLogs = ['warning-goldmark-raw-html']
   url = "/projets"
   weight = 1
 [[menu.main]]
+  name = "Dépannage"
+  url = "/depannage"
+  weight = 2
+[[menu.main]]
+  name = "Automation"
+  url = "/automation"
+  weight = 3
+[[menu.main]]
+  name = "Marseille"
+  url = "/marseille"
+  weight = 4
+[[menu.main]]
   name = "Blog"
   url = "/blog"
-  weight = 2
+  weight = 5
 [[menu.main]]
   name = "Certifications"
   url = "/certifications"
-  weight = 3
+  weight = 6
 [[menu.main]]
   name = "À Propos"
   url = "/about"
-  weight = 4
+  weight = 7
 [[menu.main]]
   name = "Contact"
   url = "/contact"
-  weight = 5
+  weight = 8
+[[menu.main]]
+  name = "🔧 Diagnostic Gratuit"
+  url = "/diagnostic"
+  weight = 9

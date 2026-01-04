@@ -1,0 +1,15 @@
+{{- $image := resources.Get (printf "images/%s" .Destination) -}}
+{{- if $image -}}
+{{- $webp := $image.Resize "1200x webp q80" -}}
+<figure class="my-8">
+    <img src="{{ $webp.RelPermalink }}" width="{{ $webp.Width }}" height="{{ $webp.Height }}" alt="{{ .Text }}"
+        title="{{ .Title | default .Text }}" loading="lazy" decoding="async"
+        class="rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 mx-auto">
+    {{- if .Title -}}
+    <figcaption class="text-center text-sm text-gray-500 mt-2">{{ .Title }}</figcaption>
+    {{- end -}}
+</figure>
+{{- else -}}
+<!-- Image non trouvée dans assets, on utilise le chemin classique -->
+<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" loading="lazy" class="rounded-2xl mx-auto">
+{{- end -}}

@@ -1,0 +1,16 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $class := .Get "class" | default "max-w-full h-auto rounded-lg shadow-lg" -}}
+{{- $width := .Get "width" -}}
+
+{{- /* Extraction du nom de fichier sans le préfixe /images/ */ -}}
+{{- $img_name := path.Base $src -}}
+{{- $image := resources.Get (printf "images/%s" $img_name) -}}
+
+{{- if $image -}}
+{{- $optimized := $image.Resize (printf "%sx webp q80" (default "1200" $width)) -}}
+<img src="{{ $optimized.Permalink }}" alt="{{ $alt }}" class="{{ $class }}" width="{{ $optimized.Width }}"
+    height="{{ $optimized.Height }}" loading="lazy" decoding="async">
+{{- else -}}
+<img src="{{ $src | absURL }}" alt="{{ $alt }}" class="{{ $class }}" loading="lazy">
+{{- end -}}

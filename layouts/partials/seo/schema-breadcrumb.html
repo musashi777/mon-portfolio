@@ -1,0 +1,34 @@
+{{ if not .IsHome }}
+{{ $itemListElement := slice }}
+
+{{/* Accueil */}}
+{{ $itemListElement = $itemListElement | append (dict "@type" "ListItem" "position" 1 "name" "Accueil" "item"
+(.Site.BaseURL | absURL)) }}
+
+{{ $pos := 2 }}
+
+{{/* Section (si elle existe) */}}
+{{ if .Section }}
+{{ $sectionTitle := .Section | humanize | title }}
+{{ if eq .Section "depannage" }}{{ $sectionTitle = "Dépannage" }}{{ end }}
+{{ $itemListElement = $itemListElement | append (dict "@type" "ListItem" "position" $pos "name" $sectionTitle "item"
+(printf "%s%s/" .Site.BaseURL .Section | absURL)) }}
+{{ $pos = add $pos 1 }}
+{{ end }}
+
+{{/* Page actuelle (si ce n'est pas une page de section) */}}
+{{ if not .IsSection }}
+{{ $itemListElement = $itemListElement | append (dict "@type" "ListItem" "position" $pos "name" .Title "item"
+.Permalink) }}
+{{ end }}
+
+{{ $schema := dict
+"@context" "https://schema.org"
+"@type" "BreadcrumbList"
+"itemListElement" $itemListElement
+}}
+
+<script type="application/ld+json">
+    {{ $schema | jsonify | safeJS }}
+  </script>
+{{ end }}

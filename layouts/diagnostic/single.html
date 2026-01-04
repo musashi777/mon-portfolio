@@ -1,0 +1,139 @@
+{{ define "main" }}
+<div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <!-- Header -->
+    <header class="text-center mb-12">
+        <div
+            class="inline-block bg-gradient-to-r from-green-100 to-teal-100 dark:from-green-900 dark:to-teal-900 text-green-800 dark:text-green-200 px-6 py-3 rounded-full text-sm font-semibold mb-6">
+            <i class="fas fa-heartbeat mr-2"></i>Diagnostic Gratuit - Réponse sous 4h
+        </div>
+
+        <h1 class="text-5xl md:text-6xl font-heading font-bold text-gray-900 dark:text-white mb-6">
+            {{ .Title }}
+        </h1>
+
+        {{ if .Params.description }}
+        <p class="text-2xl text-gray-700 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto">
+            {{ .Params.description }}
+        </p>
+        {{ end }}
+    </header>
+
+    <!-- Social Proof Mini-Bar -->
+    <div class="flex flex-wrap justify-center gap-4 md:gap-12 mb-12 py-6 border-y border-gray-100 dark:border-gray-800">
+        <div class="flex items-center space-x-2 text-gray-600 dark:text-gray-400">
+            <i class="fas fa-star text-yellow-400"></i>
+            <span class="font-bold">4.9/5 sur Google</span>
+        </div>
+        <div class="flex items-center space-x-2 text-gray-600 dark:text-gray-400">
+            <i class="fas fa-tools text-primary-600"></i>
+            <span class="font-bold">+500 dépannages</span>
+        </div>
+        <div class="flex items-center space-x-2 text-gray-600 dark:text-gray-400">
+            <i class="fas fa-check-circle text-green-500"></i>
+            <span class="font-bold">Expert local Marseille</span>
+        </div>
+    </div>
+
+    <!-- Content with iframe full-width -->
+    <div class="diagnostic-content">
+        {{ .Content }}
+    </div>
+
+    <!-- Reassurance -->
+    <div
+        class="mt-16 bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 p-8 rounded-2xl border border-blue-200 dark:border-blue-800">
+        <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-6 text-center">
+            <i class="fas fa-shield-check text-blue-600 mr-3"></i>
+            Pourquoi me faire confiance ?
+        </h2>
+
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="text-center">
+                <div class="text-4xl mb-3">🎓</div>
+                <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Expert Certifié</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Certifications Microsoft, Cisco, CompTIA</p>
+            </div>
+            <div class="text-center">
+                <div class="text-4xl mb-3">⚡</div>
+                <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Intervention Rapide</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Basé à Marseille - Disponible 7j/7</p>
+            </div>
+            <div class="text-center">
+                <div class="text-4xl mb-3">💯</div>
+                <h3 class="font-semibold text-gray-900 dark:text-white mb-2">Taux de Résolution</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400">85% de problèmes résolus au premier contact</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ rapide -->
+    <div class="mt-12 max-w-3xl mx-auto">
+        <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">Questions Fréquentes</h2>
+
+        <div class="space-y-4">
+            <details
+                class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
+                <summary class="font-semibold text-gray-900 dark:text-white cursor-pointer">
+                    C'est vraiment gratuit ?
+                </summary>
+                <p class="mt-4 text-gray-600 dark:text-gray-400">
+                    Oui ! Le diagnostic et mes conseils sont 100% gratuits. Si vous souhaitez ensuite une intervention
+                    payante (dépannage sur site, assistance à distance prolongée), on en discutera, mais aucune
+                    obligation.
+                </p>
+            </details>
+
+            <details
+                class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
+                <summary class="font-semibold text-gray-900 dark:text-white cursor-pointer">
+                    Quels types de problèmes traitez-vous ?
+                </summary>
+                <p class="mt-4 text-gray-600 dark:text-gray-400">
+                    PC/Mac lents, virus, écrans bleus, problèmes réseau/WiFi, sauvegardes, installations logicielles,
+                    migrations de données, et bien plus. Si c'est informatique, je peux vous aider !
+                </p>
+            </details>
+
+            <details
+                class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
+                <summary class="font-semibold text-gray-900 dark:text-white cursor-pointer">
+                    Vraiment sous 4 heures ?
+                </summary>
+                <p class="mt-4 text-gray-600 dark:text-gray-400">
+                    En heures ouvrées (9h-19h), oui ! Je consulte les demandes plusieurs fois par jour. Si vous envoyez
+                    votre diagnostic le soir ou le week-end, comptez le lendemain matin.
+                </p>
+            </details>
+        </div>
+    </div>
+</div>
+
+<style>
+    .diagnostic-form-container iframe {
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    details summary {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    details summary::-webkit-details-marker {
+        display: none;
+    }
+
+    details summary::after {
+        content: "\f078";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        transition: transform 0.3s ease;
+    }
+
+    details[open] summary::after {
+        transform: rotate(180deg);
+    }
+</style>
+{{ end }}

@@ -12,7 +12,7 @@ readingTime: 8
 ## Introduction : Un Problème Fréquent en Support Technique
 
 <div class="flex justify-center mb-8">
-  <img src="/images/photo_firefox_fast.png" alt="Firefox rapide sur Ubuntu 24.04" class="max-w-md rounded-lg shadow-lg border border-gray-200 dark:border-gray-700">
+  {{< img src="/images/photo_firefox_fast.png" alt="Firefox rapide sur Ubuntu 24.04" class="max-w-md rounded-lg shadow-lg border border-gray-200 dark:border-gray-700" >}}
 </div>
 
 En tant que technicien support informatique spécialisé dans la robustesse des infrastructures, je rencontre régulièrement ce problème chez les utilisateurs d'Ubuntu 24.04 : **Firefox met plusieurs secondes à démarrer**, créant une frustration immédiate après l'installation du système.

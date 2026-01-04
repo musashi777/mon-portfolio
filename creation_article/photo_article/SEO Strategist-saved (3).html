@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Strategy Dashboard: Full Cloud Migration & Troubleshooting (2026)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'bg-dark': 'hsl(220, 10%, 8%)',
+                        'primary-dark-blue': 'hsl(210, 60%, 15%)',
+                        'card-bg': 'hsl(210, 40%, 12%)',
+                        'accent-teal': 'hsl(160, 70%, 50%)',
+                        'text-light-gray': 'hsl(210, 20%, 80%)',
+                        'text-muted': 'hsl(210, 15%, 55%)',
+                        'border-subtle': 'hsl(210, 30%, 25%)',
+                    },
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif'],
+                        inter: ['Inter', 'sans-serif'],
+                    },
+                    animation: {
+                        'gradient-pulse': 'gradientPulse 3s ease infinite',
+                        'float-subtle': 'floatSubtle 3s ease-in-out infinite',
+                        'slide-in-right': 'slideInRight 0.5s ease-out forwards',
+                        'slide-in-left': 'slideInLeft 0.5s ease-out forwards',
+                    },
+                    keyframes: {
+                        gradientPulse: {
+                            '0%, 100%': { backgroundPosition: '0% 50%' },
+                            '50%': { backgroundPosition: '100% 50%' },
+                        },
+                        floatSubtle: {
+                            '0%, 100%': { transform: 'translateY(0px)' },
+                            '50%': { transform: 'translateY(-5px)' },
+                        },
+                        slideInRight: {
+                            '0%': { transform: 'translateX(20px)', opacity: '0' },
+                            '100%': { transform: 'translateX(0)', opacity: '1' },
+                        },
+                        slideInLeft: {
+                            '0%': { transform: 'translateX(-20px)', opacity: '0' },
+                            '100%': { transform: 'translateX(0)', opacity: '1' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-light-gray);
+            background-color: var(--bg-dark);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            overflow-x: hidden; /* Prevent horizontal scroll from subtle animations */
+        }
+        h1, h2, h3 {
+            font-family: 'Poppins', sans-serif;
+            color: var(--text-light-gray);
+        }
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: linear-gradient_to_r_from_accent-teal_to_primary-dark-blue; /* Tailwind handles this */
+            margin-top: 1rem;
+            border-radius: 2px;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, hsl(160, 70%, 50%) 0%, hsl(210, 20%, 80%) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+        .card-glass {
+            background: rgba(255, 255, 255, 0.04);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease-in-out;
+        }
+        .card-glass:hover {
+            border-color: var(--accent-teal);
+            transform: translateY(-3px) scale(1.005);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.15);
+        }
+        .link-hover-glow:hover {
+            color: var(--accent-teal);
+            text-shadow: 0 0 8px rgba(var(--accent-teal-rgb-values), 0.7);
+        }
+    </style>
+</head>
+<body class="bg-bg-dark text-text-light-gray min-h-screen">
+    <div class="relative min-h-screen overflow-hidden">
+        <!-- Background Gradients / Animations -->
+        <div class="absolute inset-0 z-0 opacity-20">
+            <div class="absolute top-0 left-1/4 w-96 h-96 bg-accent-teal rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-float-subtle"></div>
+            <div class="absolute bottom-1/4 right-1/4 w-80 h-80 bg-primary-dark-blue rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-float-subtle animation-delay-2000"></div>
+            <div class="absolute top-1/2 left-0 w-72 h-72 bg-card-bg rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-float-subtle animation-delay-1000"></div>
+        </div>
+
+        <div class="relative z-10 container mx-auto px-4 py-16 md:py-20 lg:py-24 max-w-7xl space-y-24">
+
+            <!-- Header Section -->
+            <header class="text-center mb-16 px-4">
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4 leading-tight animate-slide-in-right">
+                    <span class="gradient-text">Migration et Troubleshooting 'Full Cloud'</span>
+                    <br class="hidden md:inline"/>
+                    <span class="text-text-light-gray"> (Azure/Microsoft 365) pour Techniciens N1/N2 en 2026</span>
+                </h1>
+                <p class="text-xl sm:text-2xl text-text-muted font-light animate-slide-in-left">
+                    Stratégie SEO : Rapport d'Analyse Approfondie
+                </p>
+            </header>
+
+            <!-- Deep Research Report Section -->
+            <section id="deep-research" class="space-y-8 animate-fade-in">
+                <h2 class="text-3xl lg:text-4xl font-bold section-title mb-6 px-4">Deep Research Report</h2>
+                <div class="card-glass p-6 md:p-8 lg:p-10">
+                    <h3 class="text-2xl font-semibold mb-4 text-accent-teal">Synthèse des Problématiques Courantes pour N1/N2 en 2026</h3>
+                    <p class="mb-6 leading-relaxed text-text-muted">
+                        Ce rapport détaille les défis récurrents de migration et de dépannage pour les techniciens N1/N2 dans les environnements Azure et Microsoft 365, avec une projection spécifique pour l'année 2026.
+                    </p>
+                    <ul class="list-disc list-inside space-y-3 pl-4 text-text-light-gray">
+                        <li><strong class="text-accent-teal">Planification et Évaluation:</strong> Manque de préparation suffisante avant la migration.</li>
+                        <li><strong class="text-accent-teal">Gestion des Identités et Authentification:</strong> Problèmes liés à Azure AD/Entra ID, y compris les soucis de synchronisation, l'authentification multifacteur (MFA), et le contrôle d'accès basé sur les rôles (RBAC).</li>
+                        <li><strong class="text-accent-teal">Connectivité Réseau et DNS:</strong> Difficultés persistantes avec la configuration réseau et la résolution DNS dans le cloud.</li>
+                        <li><strong class="text-accent-teal">Licences et Accès aux Applications M365:</strong> Gestion complexe des licences Microsoft 365 et problèmes d'accès aux applications.</li>
+                        <li><strong class="text-accent-teal">Performance et Coûts Azure:</strong> Défis dans l'optimisation des performances et la maîtrise des coûts Azure.</li>
+                        <li><strong class="text-accent-teal">Surveillance de l'Intégrité des Services:</strong> Difficultés à interpréter et réagir aux alertes de santé des services.</li>
+                        <li><strong class="text-accent-teal">Défis de Migration de Données:</strong> Problèmes spécifiques à la migration d'Exchange, SharePoint et OneDrive.</li>
+                    </ul>
+                </div>
+
+                <div class="mt-12 px-4">
+                    <h3 class="text-2xl font-semibold mb-6 text-accent-teal">Top 5 Articles & Ressources Essentielles</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <a href="https://i-techsolutions.ca/reussir-une-migration-vers-microsoft-azure-conseils-pour-un-passage-reussi-vers-linfonuagique/" target="_blank" rel="noopener noreferrer" class="card-glass p-5 group block cursor-pointer">
+                            <p class="text-sm text-text-muted mb-2">ITech Solutions</p>
+                            <h4 class="text-lg font-semibold mb-2 group-hover:text-accent-teal transition-colors">Réussir une Migration vers Microsoft Azure : Conseils pour un passage réussi vers l'infonuagique!</h4>
+                            <p class="text-text-muted text-sm">Focus: 6 clés d'une migration réussie, outil Azure Migrate.</p>
+                        </a>
+                        <a href="https://ion247.com/blog/microsoft-365-migration-mistakes-how-to-prevent-them/" target="_blank" rel="noopener noreferrer" class="card-glass p-5 group block cursor-pointer">
+                            <p class="text-sm text-text-muted mb-2">ION247</p>
+                            <h4 class="text-lg font-semibold mb-2 group-hover:text-accent-teal transition-colors">10 Microsoft 365 Migration Mistakes (and How to Prevent Them)</h4>
+                            <p class="text-text-muted text-sm">Focus: Erreurs courantes et prévention lors des migrations M365.</p>
+                        </a>
+                        <a href="https://learn.microsoft.com/fr-fr/microsoft-365/troubleshoot/troubleshooting-overview" target="_blank" rel="noopener noreferrer" class="card-glass p-5 group block cursor-pointer">
+                            <p class="text-sm text-text-muted mb-2">Microsoft Learn</p>
+                            <h4 class="text-lg font-semibold mb-2 group-hover:text-accent-teal transition-colors">Résolution des problèmes Microsoft 365 pour les administrateurs et les professionnels de l'informatique</h4>
+                            <p class="text-text-muted text-sm">Focus: Guide centralisé de dépannage pour les services M365.</p>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank" rel="noopener noreferrer" class="card-glass p-5 group block cursor-pointer">
+                            <p class="text-sm text-text-muted mb-2">Technophilia, Inc. (YouTube)</p>
+                            <h4 class="text-lg font-semibold mb-2 group-hover:text-accent-teal transition-colors">Troubleshooting Office 365 Issues | Fix Licensing, Connectivity & Update Problems</h4>
+                            <p class="text-text-muted text-sm">Focus: Guide visuel pour licences, connectivité, mises à jour, avec Support and Recovery Assistant.</p>
+                        </a>
+                        <a href="https://learn.microsoft.com/fr-fr/microsoft-365/enterprise/view-service-health" target="_blank" rel="noopener noreferrer" class="card-glass p-5 group block cursor-pointer">
+                            <p class="text-sm text-text-muted mb-2">Microsoft Learn</p>
+                            <h4 class="text-lg font-semibold mb-2 group-hover:text-accent-teal transition-colors">Comment vérifier l'intégrité du service Microsoft 365</h4>
+                            <p class="text-text-muted text-sm">Focus: Accès et interprétation du statut des services M365.</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Analysis and Gap Findings Section -->
+            <section id="analysis-gaps" class="space-y-8 mt-24 animate-fade-in">
+                <h2 class="text-3xl lg:text-4xl font-bold section-title mb-6 px-4">Analyse et Lacunes Identifiées</h2>
+                <div class="card-glass p-6 md:p-8 lg:p-10 grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4 text-accent-teal">Titres Clés Extraits</h3>
+                        <p class="text-text-muted mb-4">Identification des sujets principaux et secondaires dans la recherche.</p>
+                        <ul class="list-disc list-inside space-y-2 pl-4 text-text-light-gray">
+                            <li><strong class="text-accent-teal">H1:</strong> Migration et Troubleshooting 'Full Cloud' (Azure/Microsoft 365) pour Techniciens N1/N2 en 2026</li>
+                            <li><strong class="text-accent-teal">H2s Inféres:</strong> Planification, Gestion des Identités, Réseau, Services M365, Gestion des Coûts, Outils Spécifiques.</li>
+                        </ul>
+
+                        <h3 class="text-2xl font-semibold mb-4 mt-8 text-accent-teal">Mots-clés Secondaires Pertinents</h3>
+                        <div class="flex flex-wrap gap-2 text-sm">
+                            <span class="bg-primary-dark-blue px-3 py-1 rounded-full text-text-light-gray border border-border-subtle">Migration Azure N1/N2</span>
+                            <span class="bg-primary-dark-blue px-3 py-1 rounded-full text-text-light-gray border border-border-subtle">Troubleshooting Microsoft 365 N1/N2</span>
+                            <span class="bg-primary-dark-blue px-3 py-1 rounded-full text-text-light-gray border border-border-subtle">Problèmes Full Cloud 2026</span>
+                            <span class="bg-primary-dark-blue px-3 py-1 rounded-full text-text-light-gray border border-border-subtle">Gestion identités Azure AD</span>
+                            <span class="bg-primary-dark-blue px-3 py-1 rounded-full text-text-light-gray border border-border-subtle">Connectivité réseau Cloud</span>
+                            <span class="bg-primary-dark-blue px-3 py-1 rounded-full text-text-light-gray border border-border-subtle">Optimisation Azure</span>
+                            <span class="bg-primary-dark-blue px-3 py-1 rounded-full text-text-light-gray border border-border-subtle">Licences M365 dépannage</span>
+                            <span class="bg-primary-dark-blue px-3 py-1 rounded-full text-text-light-gray border border-border-subtle">Service Health M365</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4 text-accent-teal">Questions Fréquemment Posées (FAQs)</h3>
+                        <div class="space-y-4 text-text-light-gray">
+                            <p><strong>Q:</strong> Quels sont les problèmes récurrents pour les techniciens N1/N2 en migration Azure/M365 Full Cloud en 2026?</p>
+                            <p><strong>Q:</strong> Comment améliorer la planification et l'évaluation des projets de migration cloud pour N1/N2?</p>
+                            <p><strong>Q:</strong> Quels sont les défis clés de gestion des identités (Azure AD/Entra ID) pour N1/N2?</p>
+                            <p><strong>Q:</strong> Comment dépanner la connectivité réseau et les problèmes DNS dans un environnement cloud?</p>
+                            <p><strong>Q:</strong> Que doivent savoir les techniciens N1/N2 sur les licences Microsoft 365 et les problèmes d'accès aux applications?</p>
+                            <p><strong>Q:</strong> Comment les N1/N2 peuvent-ils aborder les problèmes de performance et de gestion des coûts dans Azure?</p>
+                            <p><strong>Q:</strong> Quelles sont les meilleures pratiques pour les N1/N2 pour surveiller l'intégrité des services dans Microsoft 365?</p>
+                            <p><strong>Q:</strong> Quels sont les défis typiques de migration de données (Exchange, SharePoint, OneDrive) pour les N1/N2?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-12 px-4">
+                    <h3 class="text-2xl font-semibold mb-6 text-accent-teal">Analyse des Lacunes et Opportunités</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div class="card-glass p-5">
+                            <h4 class="text-lg font-semibold mb-2 text-text-light-gray">Routines Proactives</h4>
+                            <p class="text-text-muted text-sm">Développer des routines de dépannage et maintenance proactives.</p>
+                        </div>
+                        <div class="card-glass p-5">
+                            <h4 class="text-lg font-semibold mb-2 text-text-light-gray">Procédures d'Escalade</h4>
+                            <p class="text-text-muted text-sm">Détailler les procédures d'escalade et la collecte de données pour N3.</p>
+                        </div>
+                        <div class="card-glass p-5">
+                            <h4 class="text-lg font-semibold mb-2 text-text-light-gray">Scripts PowerShell N1/N2</h4>
+                            <p class="text-text-muted text-sm">Créer des scripts PowerShell spécifiques pour les tâches N1/N2.</p>
+                        </div>
+                        <div class="card-glass p-5">
+                            <h4 class="text-lg font-semibold mb-2 text-text-light-gray">Dépannage Scénarios Hybrides</h4>
+                            <p class="text-text-muted text-sm">Élaborer des guides de dépannage pour les scénarios hybrides.</p>
+                        </div>
+                        <div class="card-glass p-5">
+                            <h4 class="text-lg font-semibold mb-2 text-text-light-gray">Sécurité Opérationnelle</h4>
+                            <p class="text-text-muted text-sm">Intégrer les meilleures pratiques de sécurité opérationnelle pour N1/N2.</p>
+                        </div>
+                        <div class="card-glass p-5">
+                            <h4 class="text-lg font-semibold mb-2 text-text-light-gray">Formation Utilisateurs</h4>
+                            <p class="text-text-muted text-sm">Fournir une meilleure formation utilisateur et des guides d'auto-service.</p>
+                        </div>
+                        <div class="card-glass p-5">
+                            <h4 class="text-lg font-semibold mb-2 text-text-light-gray">Gestion des Mises à Jour</h4>
+                            <p class="text-text-muted text-sm">Spécifier les processus de gestion des mises à jour et correctifs.</p>
+                        </div>
+                        <div class="card-glass p-5">
+                            <h4 class="text-lg font-semibold mb-2 text-text-light-gray">MDM/Intune Basique</h4>
+                            <p class="text-text-muted text-sm">Introduire le dépannage de base pour MDM/Intune.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-glass p-6 md:p-8 lg:p-10 mt-12">
+                    <h3 class="text-2xl font-semibold mb-4 text-accent-teal">Références et Contexte</h3>
+                    <p class="text-text-muted mb-4">
+                        Ce rapport s'appuie sur une analyse approfondie des ressources existantes et des tendances émergentes.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
+                        <div class="flex items-center space-x-2 text-sm text-text-light-gray">
+                            <span class="text-accent-teal">✔️</span>
+                            <span>Certainty Levels: <strong class="text-white">Élevée</strong></span>
+                        </div>
+                        <div class="flex items-center space-x-2 text-sm text-text-light-gray">
+                            <span class="text-accent-teal">⏰</span>
+                            <span>Time-Sensitivity: <strong class="text-white">Oui (2026)</strong></span>
+                        </div>
+                    </div>
+                    <p class="text-text-muted mb-2">
+                        <strong class="text-text-light-gray">Domaines Concurrents Analysés:</strong>
+                    </p>
+                    <div class="flex flex-wrap gap-2 text-sm">
+                        <a href="https://i-techsolutions.ca" target="_blank" rel="noopener noreferrer" class="bg-primary-dark-blue px-3 py-1 rounded-full text-text-light-gray border border-border-subtle hover:border-accent-teal link-hover-glow transition-all">i-techsolutions.ca</a>
+                        <a href="https://ion247.com" target="_blank" rel="noopener noreferrer" class="bg-primary-dark-blue px-3 py-1 rounded-full text-text-light-gray border border-border-subtle hover:border-accent-teal link-hover-glow transition-all">ion247.com</a>
+                        <a href="https://microsoft.com" target="_blank" rel="noopener noreferrer" class="bg-primary-dark-blue px-3 py-1 rounded-full text-text-light-gray border border-border-subtle hover:border-accent-teal link-hover-glow transition-all">microsoft.com</a>
+                        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="bg-primary-dark-blue px-3 py-1 rounded-full text-text-light-gray border border-border-subtle hover:border-accent-teal link-hover-glow transition-all">youtube.com</a>
+                        <a href="https://syd.fr" target="_blank" rel="noopener noreferrer" class="bg-primary-dark-blue px-3 py-1 rounded-full text-text-light-gray border border-border-subtle hover:border-accent-teal link-hover-glow transition-all">syd.fr</a>
+                        <a href="https://spanishpoint.ie" target="_blank" rel="noopener noreferrer" class="bg-primary-dark-blue px-3 py-1 rounded-full text-text-light-gray border border-border-subtle hover:border-accent-teal link-hover-glow transition-all">spanishpoint.ie</a>
+                        <a href="https://it-connect.fr" target="_blank" rel="noopener noreferrer" class="bg-primary-dark-blue px-3 py-1 rounded-full text-text-light-gray border border-border-subtle hover:border-accent-teal link-hover-glow transition-all">it-connect.fr</a>
+                        <a href="https://noovo.info" target="_blank" rel="noopener noreferrer" class="bg-primary-dark-blue px-3 py-1 rounded-full text-text-light-gray border border-border-subtle hover:border-accent-teal link-hover-glow transition-all">noovo.info</a>
+                        <a href="https://apog.net" target="_blank" rel="noopener noreferrer" class="bg-primary-dark-blue px-3 py-1 rounded-full text-text-light-gray border border-border-subtle hover:border-accent-teal link-hover-glow transition-all">apog.net</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Proposed Content Structure Section -->
+            <section id="content-structure" class="space-y-8 mt-24 animate-fade-in">
+                <h2 class="text-3xl lg:text-4xl font-bold section-title mb-6 px-4">Structure de Contenu Proposée</h2>
+                <div class="card-glass p-6 md:p-8 lg:p-10 text-center">
+                    <h3 class="text-2xl font-semibold mb-4 text-accent-teal">Page Pilier</h3>
+                    <p class="text-xl font-medium text-text-light-gray">
+                        "Migration et Dépannage Full Cloud (Azure/Microsoft 365) pour Techniciens N1/N2 en 2026"
+                    </p>
+                    <p class="text-text-muted mt-2">
+                        Ce hub central offrira un guide complet pour les défis actuels et futurs.
+                    </p>
+                </div>
+
+                <div class="mt-12 px-4">
+                    <h3 class="text-2xl font-semibold mb-6 text-accent-teal">Pages Silo & Détails Associés</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div class="card-glass p-5">
+                            <h4 class="text-lg font-semibold mb-3 text-text-light-gray">1. Planification et Prévention des Erreurs de Migration Cloud</h4>
+                            <ul class="list-disc list-inside space-y-2 text-sm text-text-muted pl-4">
+                                <li>Planification stratégique</li>
+                                <li>Outils essentiels (Azure Migrate, Mover)</li>
+                                <li>Erreurs courantes M365</li>
+                                <li>Défis migration de données (Exchange, SharePoint, OneDrive)</li>
+                                <li>Scénarios hybrides</li>
+                            </ul>
+                        </div>
+                        <div class="card-glass p-5">
+                            <h4 class="text-lg font-semibold mb-3 text-text-light-gray">2. Gestion des Identités et Accès (Azure AD/Entra ID) pour N1/N2</h4>
+                            <ul class="list-disc list-inside space-y-2 text-sm text-text-muted pl-4">
+                                <li>Dépannage Azure AD Connect sync</li>
+                                <li>MFA et RBAC</li>
+                                <li>Gestion des identités utilisateurs</li>
+                            </ul>
+                        </div>
+                        <div class="card-glass p-5">
+                            <h4 class="text-lg font-semibold mb-3 text-text-light-gray">3. Dépannage des Services Microsoft 365 et Connectivité Réseau</h4>
+                            <ul class="list-disc list-inside space-y-2 text-sm text-text-muted pl-4">
+                                <li>Problèmes réseau/DNS</li>
+                                <li>Surveillance intégrité service (M365/Azure)</li>
+                                <li>Dépannage Teams/SharePoint</li>
+                                <li>Flux de messagerie/Exchange Online</li>
+                                <li>Microsoft Support and Recovery Assistant (SaRA)</li>
+                            </ul>
+                        </div>
+                        <div class="card-glass p-5">
+                            <h4 class="text-lg font-semibold mb-3 text-text-light-gray">4. Optimisation, Licences et Suivi des Coûts Cloud pour N1/N2</h4>
+                            <ul class="list-disc list-inside space-y-2 text-sm text-text-muted pl-4">
+                                <li>Problèmes de licences M365</li>
+                                <li>Activation des applications Office</li>
+                                <li>Optimisation des performances Azure</li>
+                                <li>Principes de base gestion des coûts Azure</li>
+                            </ul>
+                        </div>
+                        <div class="card-glass p-5">
+                            <h4 class="text-lg font-semibold mb-3 text-text-light-gray">5. Outils Avancés et Pratiques Proactives pour N1/N2</h4>
+                            <ul class="list-disc list-inside space-y-2 text-sm text-text-muted pl-4">
+                                <li>Dépannage proactif</li>
+                                <li>PowerShell pour N1/N2</li>
+                                <li>Procédures d'escalade</li>
+                                <li>Sécurité opérationnelle de base</li>
+                                <li>Gestion des mises à jour</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Social Media Posts Section -->
+            <section id="social-media" class="space-y-8 mt-24 animate-fade-in">
+                <h2 class="text-3xl lg:text-4xl font-bold section-title mb-6 px-4">Publications Réseaux Sociaux</h2>
+                <div class="card-glass p-6 md:p-8 lg:p-10 text-center max-w-2xl mx-auto">
+                    <div class="flex items-center justify-center mb-4 text-accent-teal text-4xl">
+                        🚀
+                    </div>
+                    <p class="text-lg leading-relaxed mb-4">
+                        Techniciens N1/N2, prêts à maîtriser le Full Cloud en 2026 ? Notre guide ultime sur la <span class="font-bold text-accent-teal">#MigrationCloud</span> et le <span class="font-bold text-accent-teal">#DépannageAzure</span> et <span class="font-bold text-accent-teal">#Microsoft365</span> est là ! Fini les galères, découvrez les solutions, astuces et meilleures pratiques pour exceller. Un hub complet pour vos défis quotidiens !
+                    </p>
+                    <div class="flex flex-wrap justify-center gap-2 text-sm">
+                        <span class="bg-primary-dark-blue px-3 py-1 rounded-full text-accent-teal border border-accent-teal">#ITPro</span>
+                        <span class="bg-primary-dark-blue px-3 py-1 rounded-full text-accent-teal border border-accent-teal">#TechSupport</span>
+                        <span class="bg-primary-dark-blue px-3 py-1 rounded-full text-accent-teal border border-accent-teal">#CloudComputing</span>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+</body>
+</html>

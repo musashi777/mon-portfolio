@@ -1,33 +1,55 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ if .IsHome }}Le Technicien Marseillais - Dépannage Informatique à Domicile{{ else }}{{ .Title }} - Portfolio Stéphan Uniatowitz{{ end }}</title>
-    <meta name="description" content="{{ .Params.description | default "Expert en dépannage et assistance informatique à Marseille. Réparation PC/Mac, suppression de virus, optimisation système et formation pour particuliers et professionnels." }}">
-    <meta name="keywords" content="{{ delimit (.Params.keywords | default (slice "dépannage informatique" "assistance informatique" "réparation PC" "suppression virus" "optimisation système" "technicien informatique" "Marseille" "support technique" "réseaux" "systèmes")) ", " }}">
+    <title>{{ if .IsHome }}Le Technicien Marseillais - Dépannage Informatique à Domicile{{ else }}{{ .Title }} -
+        Portfolio Stéphan Uniatowitz{{ end }}</title>
+    <meta name="description"
+        content="{{ .Params.description | default `Expert en dépannage et assistance informatique à Marseille. Réparation PC/Mac, suppression de virus, optimisation système et formation pour particuliers et professionnels.` }}">
+    <meta name="keywords"
+        content="{{ delimit (.Params.keywords | default (slice `dépannage informatique` `assistance informatique` `réparation PC` `suppression virus` `optimisation système` `technicien informatique` `Marseille` `support technique` `réseaux` `systèmes`)) `, ` }}">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
     <meta property="og:url" content="{{ .Permalink | absURL }}">
-    <meta property="og:title" content="{{ if .IsHome }}Le Technicien Marseillais - Dépannage Informatique à Domicile{{ else }}{{ .Title }} - Portfolio Stéphan Uniatowitz{{ end }}">
-    <meta property="og:description" content="{{ .Params.description | default "Expert en dépannage et assistance informatique à Marseille. Réparation PC/Mac, suppression de virus, optimisation système et formation pour particuliers et professionnels." }}">
-    <meta property="og:image" content="{{ .Params.image | default "/images/steph_profile_optimized.jpg" | absURL }}">
+    <meta property="og:title"
+        content="{{ if .IsHome }}Le Technicien Marseillais - Dépannage Informatique à Domicile{{ else }}{{ .Title }} - Portfolio Stéphan Uniatowitz{{ end }}">
+    <meta property="og:description"
+        content="{{ .Params.description | default `Expert en dépannage et assistance informatique à Marseille. Réparation PC/Mac, suppression de virus, optimisation système et formation pour particuliers et professionnels.` }}">
+    <meta property="og:image" content="{{ .Params.image | default `/images/steph_profile_optimized.jpg` | absURL }}">
     <meta property="og:site_name" content="Portfolio Stéphan Uniatowitz">
     <meta property="og:locale" content="fr_FR">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="{{ .Permalink | absURL }}">
-    <meta property="twitter:title" content="{{ if .IsHome }}Le Technicien Marseillais - Dépannage Informatique à Domicile{{ else }}{{ .Title }} - Portfolio Stéphan Uniatowitz{{ end }}">
-    <meta property="twitter:description" content="{{ .Params.description | default "Expert en dépannage et assistance informatique à Marseille. Réparation PC/Mac, suppression de virus, optimisation système et formation pour particuliers et professionnels." }}">
-    <meta property="twitter:image" content="{{ .Params.image | default "/images/steph_profile_optimized.jpg" | absURL }}">
+    <meta property="twitter:title"
+        content="{{ if .IsHome }}Le Technicien Marseillais - Dépannage Informatique à Domicile{{ else }}{{ .Title }} - Portfolio Stéphan Uniatowitz{{ end }}">
+    <meta property="twitter:description"
+        content="{{ .Params.description | default `Expert en dépannage et assistance informatique à Marseille. Réparation PC/Mac, suppression de virus, optimisation système et formation pour particuliers et professionnels.` }}">
+    <meta property="twitter:image"
+        content="{{ .Params.image | default `/images/steph_profile_optimized.jpg` | absURL }}">
     <meta property="twitter:site" content="@stephan_uniatowitz">
     <meta property="twitter:creator" content="@stephan_uniatowitz">
 
     <!-- Additional SEO -->
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <link rel="canonical" href="{{ .Permalink | absURL }}">
+
+    <!-- Geo Tags pour SEO Local -->
+    <meta name="geo.region" content="FR-13">
+    <meta name="geo.placename" content="Marseille">
+    <meta name="geo.position" content="43.296482;5.36978">
+    <meta name="ICBM" content="43.296482, 5.36978">
+
+    <!-- Schema.org Structured Data -->
+    {{ partial "seo/schema-breadcrumb.html" . }}
+    {{ partial "seo/schema-article.html" . }}
+    {{ partial "seo/schema-howto.html" . }}
+    {{ partial "seo/schema-faq.html" . }}
+    {{ partial "seo/schema-local-business.html" . }}
 
     <!-- Tailwind CSS CDN pour un design moderne -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -61,20 +83,25 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <style>
         body {
             font-family: 'Inter', sans-serif;
         }
+
         .font-heading {
             font-family: 'Playfair Display', serif;
         }
+
         .gradient-bg {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             position: relative;
             overflow: hidden;
         }
+
         .gradient-bg::before {
             content: '';
             position: absolute;
@@ -82,22 +109,33 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, transparent 50%);
+            background: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
             animation: shimmer 8s ease-in-out infinite;
         }
+
         @keyframes shimmer {
-            0%, 100% { transform: translateX(-100%); }
-            50% { transform: translateX(100%); }
+
+            0%,
+            100% {
+                transform: translateX(-100%);
+            }
+
+            50% {
+                transform: translateX(100%);
+            }
         }
+
         .card-hover {
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             position: relative;
             overflow: hidden;
         }
+
         .card-hover:hover {
             transform: translateY(-8px) scale(1.02);
             box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
         }
+
         .card-hover::before {
             content: '';
             position: absolute;
@@ -105,16 +143,19 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
             transition: left 0.6s;
         }
+
         .card-hover:hover::before {
             left: 100%;
         }
+
         .nav-link {
             position: relative;
             transition: color 0.3s ease;
         }
+
         .nav-link::after {
             content: '';
             position: absolute;
@@ -125,19 +166,23 @@
             background: linear-gradient(90deg, #3b82f6, #8b5cf6);
             transition: width 0.3s ease;
         }
+
         .nav-link:hover::after {
             width: 100%;
         }
+
         .btn-primary {
             background: linear-gradient(135deg, #3b82f6, #8b5cf6);
             transition: all 0.3s ease;
             position: relative;
             overflow: hidden;
         }
+
         .btn-primary:hover {
             transform: translateY(-2px);
             box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
         }
+
         .btn-primary::before {
             content: '';
             position: absolute;
@@ -145,66 +190,88 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
             transition: left 0.6s;
         }
+
         .btn-primary:hover::before {
             left: 100%;
         }
+
         .fade-in-up {
             animation: fadeInUp 0.8s ease-out;
         }
+
         @keyframes fadeInUp {
             from {
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
-        .stagger-animation > * {
+
+        .stagger-animation>* {
             opacity: 0;
             animation: fadeInUp 0.6s ease-out forwards;
         }
-    .stagger-animation > *:nth-child(1) { animation-delay: 0.1s; }
-    .stagger-animation > *:nth-child(2) { animation-delay: 0.2s; }
-    .stagger-animation > *:nth-child(3) { animation-delay: 0.3s; }
-    .stagger-animation > *:nth-child(4) { animation-delay: 0.4s; }
-    .stagger-animation > *:nth-child(5) { animation-delay: 0.5s; }
 
-    /* Styles pour les blocs de code avec défilement horizontal */
-    pre {
-        overflow-x: auto;
-        max-width: 100%;
-    }
-
-    /* Pour les écrans mobiles */
-    @media (max-width: 768px) {
-        pre {
-            font-size: 0.875rem;
+        .stagger-animation>*:nth-child(1) {
+            animation-delay: 0.1s;
         }
-    }
 
-    /* Classes d'accessibilité */
-    .sr-only {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        margin: -1px;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
-        border: 0;
-    }
+        .stagger-animation>*:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .stagger-animation>*:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+
+        .stagger-animation>*:nth-child(4) {
+            animation-delay: 0.4s;
+        }
+
+        .stagger-animation>*:nth-child(5) {
+            animation-delay: 0.5s;
+        }
+
+        /* Styles pour les blocs de code avec défilement horizontal */
+        pre {
+            overflow-x: auto;
+            max-width: 100%;
+        }
+
+        /* Pour les écrans mobiles */
+        @media (max-width: 768px) {
+            pre {
+                font-size: 0.875rem;
+            }
+        }
+
+        /* Classes d'accessibilité */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
     </style>
 </head>
+
 <body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
     <!-- Header avec navigation sémantique -->
     <header>
-        <nav class="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50" aria-label="Navigation principale">
+        <nav class="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700 sticky top-0 z-50"
+            aria-label="Navigation principale">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between items-center h-16">
                     <!-- Logo -->
@@ -217,7 +284,8 @@
                     <!-- Menu Desktop -->
                     <div class="hidden md:flex items-center space-x-8">
                         {{ range .Site.Menus.main }}
-                        <a href="{{ .URL }}" class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
+                        <a href="{{ .URL }}"
+                            class="nav-link text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium">
                             {{ .Name }}
                         </a>
                         {{ end }}
@@ -225,15 +293,21 @@
 
                     <!-- Mobile menu button and menu -->
                     <div class="md:hidden">
-                        <button type="button" class="text-gray-500 dark:text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 mobile-menu-button" aria-label="Menu mobile" aria-expanded="false" aria-controls="mobile-menu">
+                        <button type="button"
+                            class="text-gray-500 dark:text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 mobile-menu-button"
+                            aria-label="Menu mobile" aria-expanded="false" aria-controls="mobile-menu">
                             <i class="fas fa-bars text-xl"></i>
                         </button>
 
                         <!-- Mobile menu (hidden by default) -->
-                        <div id="mobile-menu" class="mobile-menu hidden absolute top-16 left-0 right-0 bg-white dark:bg-gray-800 shadow-lg border-t border-gray-200 dark:border-gray-700 z-50" role="menu">
+                        <div id="mobile-menu"
+                            class="mobile-menu hidden absolute top-16 left-0 right-0 bg-white dark:bg-gray-800 shadow-lg border-t border-gray-200 dark:border-gray-700 z-50"
+                            role="menu">
                             <div class="px-4 py-4 space-y-4">
                                 {{ range .Site.Menus.main }}
-                                <a href="{{ .URL }}" class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700" role="menuitem">
+                                <a href="{{ .URL }}"
+                                    class="block text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 border-b border-gray-100 dark:border-gray-700"
+                                    role="menuitem">
                                     {{ .Name }}
                                 </a>
                                 {{ end }}
@@ -286,16 +360,12 @@
                         <a href="/contact" class="block text-gray-300 hover:text-white transition-colors">
                             <i class="fas fa-envelope mr-2" aria-hidden="true"></i>Formulaire de contact
                         </a>
-                        <a href="https://www.linkedin.com/in/stephan-uniatowitz-259360101"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           class="block text-gray-300 hover:text-white transition-colors">
+                        <a href="https://www.linkedin.com/in/stephan-uniatowitz-259360101" target="_blank"
+                            rel="noopener noreferrer" class="block text-gray-300 hover:text-white transition-colors">
                             <i class="fab fa-linkedin mr-2" aria-hidden="true"></i>LinkedIn
                         </a>
-                        <a href="https://github.com/stephan-uniatowitz"
-                           target="_blank"
-                           rel="noopener noreferrer"
-                           class="block text-gray-300 hover:text-white transition-colors">
+                        <a href="https://github.com/stephan-uniatowitz" target="_blank" rel="noopener noreferrer"
+                            class="block text-gray-300 hover:text-white transition-colors">
                             <i class="fab fa-github mr-2" aria-hidden="true"></i>GitHub
                         </a>
                     </div>
@@ -323,7 +393,7 @@
         // Mobile menu toggle
         const mobileMenuButton = document.querySelector('.mobile-menu-button');
         if (mobileMenuButton) {
-            mobileMenuButton.addEventListener('click', function() {
+            mobileMenuButton.addEventListener('click', function () {
                 const mobileMenu = document.querySelector('.mobile-menu');
                 if (mobileMenu) {
                     mobileMenu.classList.toggle('hidden');
@@ -388,7 +458,7 @@
         const buttons = document.querySelectorAll('.btn-primary, .btn-secondary');
         if (buttons.length > 0) {
             buttons.forEach(button => {
-                button.addEventListener('click', function(e) {
+                button.addEventListener('click', function (e) {
                     if (!this.href || this.href.startsWith('#')) return;
 
                     const originalText = this.innerHTML;
@@ -407,11 +477,11 @@
         const cards = document.querySelectorAll('.card-hover');
         if (cards.length > 0) {
             cards.forEach(card => {
-                card.addEventListener('mouseenter', function() {
+                card.addEventListener('mouseenter', function () {
                     this.style.transform = 'translateY(-8px) scale(1.02)';
                 });
 
-                card.addEventListener('mouseleave', function() {
+                card.addEventListener('mouseleave', function () {
                     this.style.transform = 'translateY(0) scale(1)';
                 });
             });
@@ -443,4 +513,5 @@
         });
     </script>
 </body>
+
 </html>

@@ -1,0 +1,65 @@
+{{ define "main" }}
+<article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <!-- Header -->
+    <header class="mb-12">
+        <div
+            class="inline-block bg-gradient-to-r from-orange-100 to-red-100 dark:from-orange-900 dark:to-red-900 text-orange-800 dark:text-orange-200 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+            <i class="fas fa-map-marker-alt mr-2"></i>Marseille Tech
+        </div>
+
+        <h1 class="text-4xl md:text-5xl font-heading font-bold text-gray-900 dark:text-white mb-4">
+            {{ .Title }}
+        </h1>
+
+        {{ if .Date }}
+        <div class="flex items-center text-gray-600 dark:text-gray-400 mb-6">
+            <i class="fas fa-calendar mr-2"></i>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">
+                {{ .Date.Format "2 January 2006" }}
+            </time>
+            {{ if .Params.quartier }}
+            <span class="mx-3">•</span>
+            <i class="fas fa-location-dot mr-2"></i>
+            <span>{{ delimit .Params.quartier ", " }}</span>
+            {{ end }}
+        </div>
+        {{ end }}
+
+        {{ if .Params.description }}
+        <p class="text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
+            {{ .Params.description }}
+        </p>
+        {{ end }}
+
+        <!-- Alerte si urgente -->
+        {{ if .Params.urgent }}
+        <div class="mt-6 bg-red-50 dark:bg-red-900/30 border-l-4 border-red-500 p-4 rounded">
+            <div class="flex items-center">
+                <i class="fas fa-exclamation-triangle text-red-500 mr-3"></i>
+                <span class="font-semibold text-red-800 dark:text-red-300">Information en cours - Mise à jour
+                    régulière</span>
+            </div>
+        </div>
+        {{ end }}
+    </header>
+
+    <!-- Content -->
+    <div class="prose prose-lg dark:prose-invert max-w-none">
+        {{ .Content }}
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
+        <div class="flex justify-between items-center">
+            <a href="/marseille"
+                class="text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium">
+                <i class="fas fa-arrow-left mr-2"></i>Retour aux actualités
+            </a>
+
+            <div class="text-sm text-gray-600 dark:text-gray-400">
+                <i class="fas fa-user mr-2"></i>Stéphan Uniatowitz - Technicien IT Marseille
+            </div>
+        </div>
+    </footer>
+</article>
+{{ end }}
