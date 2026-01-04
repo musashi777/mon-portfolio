@@ -2,20 +2,27 @@
 {{ $address := dict "@type" "PostalAddress" "addressLocality" "Marseille" "addressRegion" "Bouches-du-Rhône"
 "postalCode" "13000" "addressCountry" "FR" }}
 {{ $geo := dict "@type" "GeoCoordinates" "latitude" 43.296482 "longitude" 5.36978 }}
+{{ $desc1 := `Diagnostic et réparation PC/Mac, suppression virus, optimisation système` }}
 {{ $off1 := (dict "@type" "Offer" "itemOffered" (dict "@type" "Service" "name" "Dépannage Informatique" "description"
-"Diagnostic et réparation PC/Mac, suppression virus, optimisation système")) }}
-{{ $off2 := (dict "@type" "Offer" "itemOffered" (dict "@type" "Service" "name" "Support Réseau" "description"
-"Installation et configuration réseaux WiFi, routeurs, NAS")) }}
+$desc1)) }}
+{{ $desc2 := `Installation et configuration réseaux WiFi, routeurs, NAS` }}
+{{ $off2 := (dict "@type" "Offer" "itemOffered" (dict "@type" "Service" "name" "Support Réseau" "description" $desc2))
+}}
+{{ $desc3 := `Automatisation de tâches répétitives, scripts Python, intégrations Cloud` }}
 {{ $off3 := (dict "@type" "Offer" "itemOffered" (dict "@type" "Service" "name" "Automatisation & Scripts" "description"
-"Automatisation de tâches répétitives, scripts Python, intégrations Cloud")) }}
+$desc3)) }}
 {{ $offers := slice $off1 $off2 $off3 }}
-{{ $schema := dict "@context" "https://schema.org" "@type" "LocalBusiness" "name" "Stéphan Uniatowitz - Technicien
-Informatique Marseille" "image" ("images/steph_profile_optimized.jpg" | absURL) "description" "Expert en dépannage
-informatique, réseaux et systèmes à Marseille. Support technique N2/N3 pour particuliers et professionnels." "url"
-(.Site.BaseURL | absURL) "telephone" "+33-X-XX-XX-XX-XX" "priceRange" "€€" "address" $address "geo" $geo "areaServed"
-(slice "Marseille" "Aix-en-Provence" "Aubagne" "Allauch") "sameAs" (slice
-"https://www.linkedin.com/in/stephan-uniatowitz-259360101" "https://github.com/stephan-uniatowitz") "hasOfferCatalog"
-(dict "@type" "OfferCatalog" "name" "Services Informatiques" "itemListElement" $offers) }}
+{{ $imgUrl := "images/steph_profile_optimized.jpg" | absURL }}
+{{ $descMain := `Expert en dépannage informatique, réseaux et systèmes à Marseille. Support technique N2/N3 pour
+particuliers et professionnels.` }}
+{{ $areas := slice "Marseille" "Aix-en-Provence" "Aubagne" "Allauch" }}
+{{ $socials := slice "https://www.linkedin.com/in/stephan-uniatowitz-259360101" "https://github.com/stephan-uniatowitz"
+}}
+{{ $catalog := dict "@type" "OfferCatalog" "name" "Services Informatiques" "itemListElement" $offers }}
+{{ $title := `Stéphan Uniatowitz - Technicien Informatique Marseille` }}
+{{ $schema := dict "@context" "https://schema.org" "@type" "LocalBusiness" "name" $title "image" $imgUrl "description"
+$descMain "url" (.Site.BaseURL | absURL) "telephone" "+33-X-XX-XX-XX-XX" "priceRange" "€€" "address" $address "geo" $geo
+"areaServed" $areas "sameAs" $socials "hasOfferCatalog" $catalog }}
 <script type="application/ld+json">
     {{ $schema | jsonify | safeJS }}
   </script>
