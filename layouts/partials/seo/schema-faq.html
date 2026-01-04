@@ -5,11 +5,7 @@
 "text" (.answer | markdownify | plainify))) }}
 {{ end }}
 
-{{ $schema := dict
-"@context" "https://schema.org"
-"@type" "FAQPage"
-"mainEntity" $questions
-}}
+{{ $schema := dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $questions }}
 
 <script type="application/ld+json">
     {{ $schema | jsonify | safeJS }}

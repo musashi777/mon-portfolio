@@ -1,12 +1,12 @@
 {{ if and (eq .Section "depannage") (.IsPage) }}
-{{ $step1 := (dict "@type" "HowToStep" "name" `Diagnostic` "text" `Identifier la cause précise du problème informatique
-en suivant les tests décrits dans l'article.` "url" (printf "%s#diagnostic" .Permalink)) }}
-{{ $step2 := (dict "@type" "HowToStep" "name" `Analyse` "text" `Vérifier les composants matériels et les journaux
-système (logs) pour confirmer la panne.` "url" (printf "%s#analyse" .Permalink)) }}
-{{ $step3 := (dict "@type" "HowToStep" "name" `Résolution` "text" `Appliquer la solution technique étape par étape pour
-rétablir le fonctionnement normal.` "url" (printf "%s#resolution" .Permalink)) }}
+{{ $step1 := (dict "@type" "HowToStep" "name" "Diagnostic" "text" "Identifier la cause précise du problème informatique
+en suivant les tests décrits dans l'article." "url" (printf "%s#diagnostic" .Permalink)) }}
+{{ $step2 := (dict "@type" "HowToStep" "name" "Analyse" "text" "Vérifier les composants matériels et les journaux
+système (logs) pour confirmer la panne." "url" (printf "%s#analyse" .Permalink)) }}
+{{ $step3 := (dict "@type" "HowToStep" "name" "Résolution" "text" "Appliquer la solution technique étape par étape pour
+rétablir le fonctionnement normal." "url" (printf "%s#resolution" .Permalink)) }}
 {{ $steps := slice $step1 $step2 $step3 }}
-{{ $schema := dict "@context" `https://schema.org` "@type" `HowTo` "name" .Title "description" (.Params.description |
+{{ $schema := dict "@context" "https://schema.org" "@type" "HowTo" "name" .Title "description" (.Params.description |
 default .Summary) "image" (dict "@type" "ImageObject" "url" (.Params.image | default "/images/default-depannage.jpg" |
 absURL)) "totalTime" (printf "PT%dM" .ReadingTime) "estimatedCost" (dict "@type" "MonetaryAmount" "currency" "EUR"
 "value" "0") "step" $steps }}
