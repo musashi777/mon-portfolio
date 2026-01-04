@@ -8,9 +8,7 @@
 {{ $pubDate := "" }}{{ if .PublishDate }}{{ $pubDate = .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}{{ end }}
 {{ $modDate := "" }}{{ if .Lastmod }}{{ $modDate = .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}{{ end }}
 {{ $pageId := dict "@type" "WebPage" "@id" .Permalink }}
-{{ $schema := dict "@context" "https://schema.org" "@type" "Article" "headline" .Title "description" $desc "author"
-$author "publisher" $publisher "datePublished" $pubDate "dateModified" $modDate "mainEntityOfPage" $pageId "inLanguage"
-"fr-FR" "articleSection" .Section }}
+{{ $schema := dict "@context" "https://schema.org" "@type" "Article" "headline" .Title "description" $desc "author" $author "publisher" $publisher "datePublished" $pubDate "dateModified" $modDate "mainEntityOfPage" $pageId "inLanguage" "fr-FR" "articleSection" .Section }}
 {{ if .Params.image }}{{ $schema = merge $schema (dict "image" (.Params.image | absURL)) }}{{ end }}
 {{ if .Params.tags }}{{ $schema = merge $schema (dict "keywords" (delimit .Params.tags ", ")) }}{{ end }}
 <script type="application/ld+json">
