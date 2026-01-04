@@ -1,5 +1,9 @@
 {
-  "installCommand": "npm install",
   "buildCommand": "hugo --gc --minify",
-  "outputDirectory": "public"
+  "outputDirectory": "public",
+  "installCommand": "curl -L https://github.com/gohugoio/hugo/releases/download/v0.151.0/hugo_extended_0.151.0_linux-amd64.tar.gz | tar -xz && chmod +x hugo && mv hugo .hugo",
+  "framework": "hugo",
+  "env": {
+    "PATH": "/vercel/path0/.hugo:$PATH"
+  }
 }
