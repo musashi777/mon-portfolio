@@ -8,7 +8,17 @@ ignoreLogs = ['warning-goldmark-raw-html']
 [params]
   description = "Expert dépannage informatique Marseille : PC, Mac, réseaux, automation. Support technique N2/N3 pour particuliers et professionnels. Intervention rapide."
   keywords = ["dépannage informatique marseille", "technicien it marseille", "réparation pc marseille", "support technique", "automatisation", "réseaux"]
-  author = "Stéphan Uniatowitz"
+  [params.author]
+    name = "Stéphan Uniatowitz"
+    email = "contact@mon-portfolio.fr" # Requis pour RSS
+    image = "images/steph_profile_optimized.jpg"
+    headline = "Technicien IT & Expert Support Technique"
+    bio = "Expert dépannage informatique Marseille : PC, Mac, réseaux, automation."
+    links = [
+      { email = "mailto:contact@mon-portfolio.fr" },
+      { linkedin = "https://www.linkedin.com/in/stephan-uniatowitz-259360101" },
+      { github = "https://github.com/stephan-uniatowitz" }
+    ]
   
   # SEO Local
   city = "Marseille"
